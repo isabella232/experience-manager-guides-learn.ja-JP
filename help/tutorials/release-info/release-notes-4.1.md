@@ -1,9 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.1 リリース
-description: 'Adobe Experience Managerガイドの最新リリース '
-source-git-commit: 714d335d95c54fb02b0fe02ad112fa36719dc970
+description: Adobe Experience Managerガイドの最新リリース
+exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
+source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2973'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 3%
 * バージョン 3.8.5 を使用している場合は、4.1 にアップグレードする前にバージョン 4.0.x にアップグレードする必要があります。
 * 3.8.5 より前のバージョンを使用している場合は、製品固有のインストールガイドのアップグレードに関する節を参照してください。
 
-詳しくは、 [アップグレードの手順](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+詳しくは、 [アップグレードの手順](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
 
 ## 互換性マトリックス
 
@@ -289,4 +290,3 @@ AEMガイドは、FrameMaker ドキュメントの DITA 出力形式の生成を
 * XML Editor のオーサーモードで正しくレンダリングされないSVG画像。 (9426)
 * Salesforce 経由で公開する際、ベースラインが受け入れられません。 (8953)
 * ユーザーの環境設定からルートマップをクリアする機能が存在しません。 (8534)
-
