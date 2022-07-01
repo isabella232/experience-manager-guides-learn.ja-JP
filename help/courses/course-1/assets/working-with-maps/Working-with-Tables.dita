@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "technicalContent/dtd/concept.dtd">
+<concept id="concept.dita_708fd5f5-1b79-4a12-ba5a-24aeb2b34ae1">
+    <title>Working with Tables</title>
+    <shortdesc>Tables can add value to a document by representing content in columns and rows, and provide a structure for
+        some types of information.</shortdesc>
+    <conbody>
+        <p>You may have detailed information that is best detailed in a table that outlines information with main headers and
+            related details in the body of the table. This structure allows content to be organized and provides a quick
+            lookup for readers to scan and find important information.</p>
+        <table id="table_3">
+            <title>Supported image formats</title>
+            <tgroup cols="3">
+                <colspec colwidth="1*" colname="col_1"/>
+                <colspec colwidth="1*" colname="col_2"/>
+                <colspec colwidth="1*" colname="col_3"/>
+                <thead>
+                    <row>
+                        <entry>Graphic type</entry>
+                        <entry>Extension</entry>
+                        <entry>General purpose</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry namest="col_1" nameend="col_1" morerows="3">Raster </entry>
+                        <entry>psd</entry>
+                        <entry>Adobe Photoshop document, great source format for editing.</entry>
+                    </row>
+                    <row>
+                        <entry>jpg</entry>
+                        <entry>Great for images with a lot of color variations (for example, a photograph of trees, lakes, or
+                            mountains).</entry>
+                    </row>
+                    <row>
+                        <entry>png</entry>
+                        <entry>Useful when images need to have a transparency or with sharp contrasts like company
+                            logos.</entry>
+                    </row>
+                    <row>
+                        <entry>gif</entry>
+                        <entry>Excellent way to create quick animations.</entry>
+                    </row>
+                    <row>
+                        <entry namest="col_1" nameend="col_1" morerows="1">Vector </entry>
+                        <entry>ai</entry>
+                        <entry>Adobe Illustrator document, great source format for editing. </entry>
+                    </row>
+                    <row>
+                        <entry>svg</entry>
+                        <entry>Vector standard on the internet.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>
