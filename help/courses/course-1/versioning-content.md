@@ -2,7 +2,7 @@
 title: でのコンテンツのバージョン管理 [!DNL AEM Guides]
 description: でのコンテンツのバージョン管理 [!DNL Adobe Experience Manager Guides]
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 97254946f5ee732fe3b93ff60dd9ef51a379b9f4
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 1%
@@ -29,8 +29,9 @@ ht-degree: 1%
    ラベルを使用すると、公開時に含めるバージョンを指定できます。
 
    >[!NOTE]
-   > 
-   > プログラムに事前定義済みのラベルが設定されている場合は、ラベル付けの一貫性を保つために、これらのラベルから選択できます。
+   >
+   >プログラムに事前定義済みのラベルが設定されている場合は、ラベル付けの一貫性を保つために、これらのラベルから選択できます。
+
 1. 「**保存**」を選択します。
 
    トピックの新しいバージョンが作成され、バージョン番号が更新されました。 ドキュメントの最初のバージョンは、バージョン 1.0 になります。

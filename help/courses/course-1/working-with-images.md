@@ -2,7 +2,7 @@
 title: AEMガイドでの画像の操作
 description: Adobe Experience Managerガイドでの画像の操作
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -27,10 +27,10 @@ ht-degree: 0%
 
    ![アセットをアップロード](images/lesson-4/upload-assets.png)
 
-
 1. ローカルシステムからアップロードする画像を選択し、「 」を選択します。 **開く**.
 
    この [!UICONTROL アセットをアップロード] ダイアログボックスが表示されます。
+
 1. 選択 **アップロード**.
 
 ## トピックへの画像の挿入
@@ -52,7 +52,6 @@ ht-degree: 0%
 1. を選択します。 **画像を挿入** アイコン
 
    ![画像挿入アイコン](images/lesson-4/insert-image.png)
-
 
    [ イメージの挿入 ] ダイアログボックスが表示されます。
 
@@ -88,9 +87,11 @@ ht-degree: 0%
 1. 「バージョンラベル」フィールドに、関連するラベルを入力します。
 
    ラベルを使用すると、公開時に含めるバージョンを指定できます。
+
    >[!NOTE]
    > 
    > プログラムに事前定義済みのラベルが設定されている場合は、ラベル付けの一貫性を保つために、これらのラベルから選択できます。
+
 1. 「**保存**」を選択します。
 
    トピックの新しいバージョンが作成され、バージョン番号が更新されました。

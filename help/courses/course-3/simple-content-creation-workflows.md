@@ -2,7 +2,7 @@
 title: シンプルなコンテンツ作成ワークフロー
 description: AEMガイドでのコンテンツの作成
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 3%
@@ -37,13 +37,13 @@ AEM Guides Editor には、コンテンツ作成ワークフローを簡略化�
 
 3. 用途 **コンテンツプロパティ** 画像を変更するための右側のパネル
 
-   ・尺度
+   - スケール
 
-   • position
+   - position
 
-   ・整列、または
+   - 整列、または
 
-   ・その他の属性。
+   - その他の属性。
 
    ![コンテンツのプロパティ](images/lesson-15/content-properties.png)
 
@@ -98,7 +98,6 @@ AEM Guides Editor には、コンテンツ作成ワークフローを簡略化�
 3. 選択 **場所**.
 
 4. 次のいずれかを選択 **リポジトリ** または **マップ** をクリックして、目的のトピックの場所に移動します。
-
 
 ## トピックのバージョン化
 
@@ -183,7 +182,6 @@ AEM Guides Editor には、コンテンツ作成ワークフローを簡略化�
    - ラベル付きのバージョン履歴が左側に表示されます。
 
    ![バージョン履歴](images/lesson-15/version-history.png)
-
 
 4. バージョンをクリックして、次のようなオプションにアクセスします。 **このバージョンに戻る** および **バージョンをプレビュー**.
 

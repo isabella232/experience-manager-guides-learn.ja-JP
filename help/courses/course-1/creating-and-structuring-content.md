@@ -2,7 +2,7 @@
 title: でのコンテンツの作成 [!DNL AEM Guides]
 description: でのコンテンツの作成 [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,6 +24,7 @@ ht-degree: 1%
 1. を選択します。 **+** アイコンと **フォルダー**.
 
    ![+ icon](images/lesson-3/+-icon.png)
+
 1. フォルダーにタイトルを付けます。
 1. 「**作成**」を選択します。新しいフォルダーを作成し、リポジトリに表示します。 このフォルダは、すべてのコースコンテンツのホームになります。
 
@@ -36,6 +37,7 @@ ht-degree: 1%
    ![省略記号アイコン](images/lesson-3/ellipses-icon.png)
 
    オプションメニューが表示されます。
+
 1. 選択 **\> フォルダーを作成**.
    ![サブフォルダーの作成](images/lesson-3/create-subfolder-with-markings.png)
 
@@ -48,6 +50,7 @@ ht-degree: 1%
    ![省略記号アイコン](images/lesson-3/ellipses-icon.png)
 
    オプションメニューが表示されます。
+
 1. 選択 **\> トピックを作成**.
 
    ![新しいトピックの作成](images/lesson-3/create-topic-with-markings.png)
@@ -92,6 +95,7 @@ ht-degree: 1%
    >[!NOTE]
    > 
    > プログラムに事前定義済みのラベルが設定されている場合は、ラベル付けの一貫性を保つために、これらのラベルから選択できます。
+
 1. 「**保存**」を選択します。
 
    トピックの新しいバージョンが作成され、バージョン番号が更新されました。
