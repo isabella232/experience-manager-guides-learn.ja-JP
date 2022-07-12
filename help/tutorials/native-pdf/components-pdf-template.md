@@ -1,7 +1,9 @@
 ---
 title: ネイティブPDF公開機能 |テンプレートテンプレートのPDFコンポーネント
 description: テンプレートテンプレートの様々なコンポーネントと、PDFをカスタマイズおよび設定する方法について説明します。
-source-git-commit: 4665e861ddae7c62fdddf67c7adde543bc1f642d
+hide: true
+hidefromtoc: true
+source-git-commit: 698469293e41558753ff6aada92f050f45be867a
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 0%
