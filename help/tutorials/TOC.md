@@ -1,11 +1,11 @@
 ---
-user-guide-title: AEMガイドのTutorials
-user-guide-description: Adobe Experience Managerガイドのチュートリアルのコレクションをお読みください。
-breadcrumb-title: AEM Guides のTutorials
-source-git-commit: 0502ab60d45ebac97415b4ae44afc2763380a7cd
+user-guide-title: AEM Guides のチュートリアル
+user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
+breadcrumb-title: AEM Guides チュートリアル
+source-git-commit: be04e01add023cbfeb1319ee946cea053bf6294b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 11%
+source-wordcount: '108'
+ht-degree: 26%
 
 ---
 
@@ -38,3 +38,4 @@ ht-degree: 11%
    + [PDF出力の公開](./web-editor/native-pdf-web-editor.md)
    + [追加の特殊文字の設定](./web-editor/configure-additional-special-characters.md)
 + バージョン管理 {#versioning}
+   + [テンプレートテンプレートのPDF](./native-pdf/pdf-template.md)
