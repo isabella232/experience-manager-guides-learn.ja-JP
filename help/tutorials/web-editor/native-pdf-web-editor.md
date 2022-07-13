@@ -2,14 +2,14 @@
 title: ネイティブPDF |PDF出力生成
 description: Adobe Experience ManagerガイドでのPDF出力の生成as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1b46f5e496e6c974abeba019a9d3174d5bc5315c
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
 
-# PDF出力の公開
+# 公開PDF出力
 
 AEM Guides ソリューションを使用すると、個々のトピックのPDFまたはマップファイル全体を生成できます。 次の 3 つの方法のいずれかを使用して、PDF形式でコンテンツを公開できます。
 
