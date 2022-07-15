@@ -1,11 +1,11 @@
 ---
 user-guide-title: Adobe Experience Manager Guides ビデオ
-user-guide-description: Adobe Experience Managerガイド用のビデオのコレクションです。
+user-guide-description: Adobe Experience Manager Guides のビデオコレクションです。
 breadcrumb-title: AEM Guides ビデオ
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
