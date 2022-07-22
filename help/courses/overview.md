@@ -2,16 +2,14 @@
 title: のビデオベースの学習コース [!DNL Adobe Experience Manager Guides]
 description: 次のビデオチュートリアルを視聴する： [!DNL Adobe Experience Manager Guides]、AEM XML アドオン、AEM XML Plugin、AEM DoX、およびAEM Dox。
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
 
 # のビデオコース [!DNL Adobe Experience Manager Guides] {#overview}
-
-Adobe Experience Managerガイド ( [!DNL AEM Guides] この領域の後半のソリューション ) は、強力でエンタープライズグレードのコンポーネントコンテンツ管理ソリューション (CCMS) です。
 
 次のビデオベースのコースの場合は、このスペースをご覧ください。 [!DNL Adobe Experience Manager Guides].
 
