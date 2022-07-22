@@ -2,10 +2,10 @@
 user-guide-title: AEMガイドのTutorialsとビデオコース
 user-guide-description: Adobe Experience Managerガイドのチュートリアルとビデオのコレクションをご覧ください。
 breadcrumb-title: AEMガイドのTutorialsとビデオ
-source-git-commit: f08fe1a96f0a0bcb9a50e316bd0b6c9ff2670104
+source-git-commit: d8ffc09abc0a79d21d2d1df1832f75a34130a65e
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 7%
+source-wordcount: '228'
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,8 @@ ht-degree: 7%
    + WIP ネイティブPDF記事 {#hidden}
       + [非表示のPDFテンプレート](./tutorials/native-pdf/pdf-template.md)
       + [テンプレートテンプレートの非表示のコンポーネントPDF](./tutorials/native-pdf/components-pdf-template.md)
-+ [ビデオ](./courses/overview.md)
++ ビデオ {#videos}
+   + [概要](./courses/overview.md)
    + 使用の手引き [!DNL AEM Guides] {#getting-started}
       + [コースの概要](./courses/course-1/overview.md)
       + [AEMユーザーインターフェイスについて](./courses/course-1/understanding-the-aem-user-interface.md)
