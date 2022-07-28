@@ -4,7 +4,7 @@ description: PDF出力の様々なセクションに情報を表示するため�
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 2607a02867765b8f78134ab4e37012e8b08e222c
+source-git-commit: 651409beb88468bfb5ab35e45028b01fccd91cd5
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
@@ -137,7 +137,7 @@ PDFドキュメントには通常、次のセクションが含まれます。
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -173,8 +173,9 @@ PDFドキュメントには通常、次のセクションが含まれます。
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| デベロッパーコーナー： | <img src="./assets/developer-corner-icon.svg" width="25"> |
-|--- |--- |
+| _デベロッパーコーナー_: <img src="./assets/developer-corner-icon.svg" width="25"> |
+|---|
+
 CSS とHTMLコードを直接操作する場合は、ページレイアウトのソースビューに移動してコードを変更することで、これを実現することもできます。 次のコードスニペットに、コード全体でおこなわれたのと同じフッター設定を示します。
 
 ```md
@@ -206,7 +207,7 @@ CSS とHTMLコードを直接操作する場合は、ページレイアウトの
    初期設定のチャプター目次がコンテンツ領域に挿入されます。
 
    <img src="./assets/chapter-toc-default.png" width="400">
-    <img src="./assets/transparent-background.png" width="30">
+    <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -222,7 +223,7 @@ CSS とHTMLコードを直接操作する場合は、ページレイアウトの
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -266,7 +267,7 @@ CSS とHTMLコードを直接操作する場合は、ページレイアウトの
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!IMPORTANT]
    任意の DITA 要素に Span Column プロパティを適用できます。
