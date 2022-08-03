@@ -4,8 +4,8 @@ user-guide-description: Adobe Experience Manager Guides のチュートリアル
 breadcrumb-title: AEM Guides チュートリアル
 source-git-commit: cb066f0e09aec000f216c11c774c8da111b2a7f7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '121'
+ht-degree: 23%
 
 ---
 
