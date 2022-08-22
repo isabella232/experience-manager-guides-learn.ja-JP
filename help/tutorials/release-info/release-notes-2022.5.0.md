@@ -1,22 +1,22 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2022 年 5 月リリース
-description: Adobe Experience Manager Guides の最新リリースのas a Cloud Service
+description: Adobe Experience Manager Guides の 5 月リリースas a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 0f5c1cabdbda9fa2606f67faedbf9a38ca1ec0aa
 workflow-type: tm+mt
 source-wordcount: '1874'
 ht-degree: 4%
 
 ---
 
-# Adobe Experience Manager Guides の最新リリースのas a Cloud Service
+# Adobe Experience Manager Guides の 5 月リリースas a Cloud Service
 
-## 最新リリースへのアップグレード
+## 5 月のリリースにアップグレード
 
 現在のAdobe Experience Managerガイドをas a Cloud Service的にアップグレード ( 後で *AEMガイドas a Cloud Service*) を設定する必要があります。
 1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
 2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2022.5.144 に変更します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの最新リリースにアップグレードします。
+3. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの 5 月のリリースにアップグレードします。
 
 ## 互換性マトリックス
 
@@ -41,7 +41,7 @@ ht-degree: 4%
 
 ## 新機能および機能強化
 
-AEMガイドas a Cloud Serviceは、最新リリースの様々な機能強化と新機能を提供します。
+AEMガイドas a Cloud Serviceは、5 月のリリースで多くの機能強化と新機能を提供します。
 
 ### Web エディターの強化
 
