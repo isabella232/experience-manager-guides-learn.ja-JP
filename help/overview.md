@@ -1,15 +1,15 @@
 ---
-title: TutorialsガイドのExperience Manager
+title: Experience Managerガイドのチュートリアル
 description: Experience Managerガイド ( 旧称XML Documentation for Adobe Experience Manager) 用のチュートリアルのコレクションです。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
+source-git-commit: 0ab4c1590507b38cd3dbeb385a2200dc169fc36a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Tutorialsとビデオコース [!DNL Adobe Experience Manager Guides] {#overview}
+# [!DNL Adobe Experience Manager Guides] チュートリアル {#overview}
 
 [!DNL Adobe Experience Manager Guides] ( [!DNL AEM Guides] このガイドの後半のソリューション ) は、強力でエンタープライズグレードのコンポーネントコンテンツ管理ソリューション (CCMS) です。 Adobe Experience Managerでのネイティブ DITA サポートが可能になり、AEMで DITA ベースのコンテンツの作成と配信を処理できるようになります。 作成者は、Adobe FrameMakerや使いやすい組み込み Web エディターなど、任意のオフライン DITA オーサリングツールを使用してコンテンツを作成できます。
 
@@ -30,6 +30,10 @@ ht-degree: 3%
 * **[[!DNL AEM Guides] 入門コース](course-1/overview.md)**
 
    *でコンテンツを作成、整理、オーサリングおよび公開する方法について説明します。 [!DNL Adobe Experience Manager Guides].*
+
+* **[組み込み Web エディターでのオーサリング](course-3/overview.md)**
+
+   *ネイティブの Web エディターを使用してコンテンツを作成する方法については、Experience Managerガイドを参照してください。 ユーザーの環境設定、エディターの設定、設定、ツールバーなどを完全に理解できます。*
 
 * **[次を使用した出力の生成 [!DNL AEM Guides]](course-2/overview.md)**
 
