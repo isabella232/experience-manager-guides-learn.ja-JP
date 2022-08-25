@@ -1,17 +1,17 @@
 ---
 title: TutorialsガイドのExperience Manager
-description: Experience Managerガイド ( 旧称XML Documentation for Adobe Experience Manager) 用のチュートリアルのコレクションです。
+description: Experience Managerガイド ( 旧称XML Documentation for Adobe Experience Manager) のチュートリアルビデオを見つけます。 ネイティブの DITA サポートと、構造化されたオーサリングのExperience Manager。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 8a0049d737dd4d80cf42f8b9d4ffa8adc349682f
+source-git-commit: fff5c163bc8551bea298cd8da320c2abf9b9be3b
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 3%
 
 ---
 
 # Tutorials [!DNL Adobe Experience Manager Guides] {#overview}
 
-[!DNL Adobe Experience Manager Guides] ( [!DNL AEM Guides] このガイドの後半のソリューション ) は、強力でエンタープライズグレードのコンポーネントコンテンツ管理ソリューション (CCMS) です。 Adobe Experience Managerでのネイティブ DITA サポートが可能になり、AEMで DITA ベースのコンテンツの作成と配信を処理できるようになります。 作成者は、Adobe FrameMakerや使いやすい組み込み Web エディターなど、任意のオフライン DITA オーサリングツールを使用してコンテンツを作成できます。
+[!DNL Experience Manager Guides] ( _[!DNL AEM Guides]_以降 ) は、エンタープライズクラスの強力なコンポーネントコンテンツ管理ソリューション (CCMS) です。 Experience Managerでのネイティブ DITA サポートが可能になり、AEMで DITA ベースのコンテンツの作成と配信を処理できます。 作成者は、Adobe FrameMakerや使いやすい組み込み Web エディターなど、任意のオフライン DITA オーサリングツールを使用してコンテンツを作成できます。
 
 [!DNL AEM Guides] ソリューションは、DITA コンテンツのコラボレーション、レビュー、翻訳、検索、レポートなどのすべてのコア CCMS 機能を提供し、効率的なコンテンツ再利用と強力なワークフローにより、作成者はより短時間でより多くの作業を実行できます。 また、クラス最高のシングルクリック公開機能を活用して、Experience Manager Sites、PDF、HTML5、EPUB、DITA-OT を使用したカスタム出力など、最も一般的な形式向けの DITA ベースの出力を生成できます。
 
@@ -19,17 +19,17 @@ ht-degree: 3%
 
 >[!NOTE]
 > 
-> Adobe Experience Managerガイドは、以前は「XML Documentation for Adobe Experience Manager」というブランド名でした。 ドキュメント内の特定の参照は、以前のブランディングを引き続き参照する場合がありますが、現在のオファーにはまだ適用できます。
+> Adobe Experience Managerガイドは、以前は次のブランド名を付けました。 _XML Documentation for Adobe Experience Manager_. ドキュメント内の特定の参照は、以前のブランディングを引き続き参照する場合がありますが、現在のオファーにはまだ適用できます。
 
 ## 新機能
 
 * **[[!DNL AEM Guides] 入門コース](../courses/course-1/overview.md)**
 
-   *でコンテンツを作成、整理、オーサリングおよび公開する方法について説明します。 [!DNL Adobe Experience Manager Guides].*
+   _でコンテンツを作成、整理、オーサリングおよび公開する方法について説明します。 [!DNL Adobe Experience Manager Guides]._
 
 * **[次を使用した出力の生成 [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
-   *を使用して出力を生成する方法を説明します。 [!DNL Adobe Experience Manager Guides]. レポート、ベースライン、条件、トラブルシューティング、一括公開、アクティベーションなど、出力生成に使用できる様々な機能について説明します。*
+   _を使用して出力を生成する方法を説明します。 [!DNL Adobe Experience Manager Guides]. レポート、ベースライン、条件、トラブルシューティング、一括公開、アクティベーションなど、出力生成に使用できる様々な機能について説明します。_
 
 
 <!--
