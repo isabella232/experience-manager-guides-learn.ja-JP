@@ -2,10 +2,10 @@
 title: TutorialsガイドのExperience Manager
 description: Experience Managerガイド ( 旧称XML Documentation for Adobe Experience Manager) のチュートリアルビデオを見つけます。 ネイティブの DITA サポートと、構造化されたオーサリングのExperience Manager。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: fff5c163bc8551bea298cd8da320c2abf9b9be3b
+source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 3%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,11 @@ ht-degree: 3%
 * **[[!DNL AEM Guides] 入門コース](../courses/course-1/overview.md)**
 
    _でコンテンツを作成、整理、オーサリングおよび公開する方法について説明します。 [!DNL Adobe Experience Manager Guides]._
+
+
+* **[[!DNL AEM Guides] 組み込み Web エディターでのオーサリング](../courses/course-3/overview.md)**
+
+   _ネイティブの Web エディターを使用してコンテンツを作成する方法について説明します。  [!DNL Adobe Experience Manager Guides]. ユーザーの環境設定、エディターの設定、設定、ツールバーなどを完全に理解できます。_
 
 * **[次を使用した出力の生成 [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
