@@ -2,7 +2,7 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 3c4ae9f5c00fa4918130df98cd42d7dd06e88543
+source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 23%
@@ -43,4 +43,4 @@ ht-degree: 23%
    + [非表示のPDFテンプレート](./native-pdf/pdf-template.md)
    + [テンプレートテンプレートの非表示のコンポーネントPDF](./native-pdf/components-pdf-template.md)
    + [非表示のページレイアウトのデザイン](./native-pdf/design-page-layout.md)
-   + [非表示のスタイルシート](./native-pdf/Stylesheet.md)
+   + [非表示のスタイルシート](./native-pdf/stylesheet.md)
