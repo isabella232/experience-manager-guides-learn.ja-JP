@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 23%
+source-wordcount: '127'
+ht-degree: 22%
 
 ---
 
@@ -32,15 +32,15 @@ ht-degree: 23%
    + [条件付き出力の操作](./content-architecture/create-and-use-conditions.md)
    + [グローバルキーの作成](./content-architecture/create-global-keys.md)
 + 設定 {#configuring}
+   + ネイティブPDF公開機能の設定 {#config-native-pdf-publish}
+      + [PDFテンプレート](./native-pdf/pdf-template.md)
+      + [テンプレートテンプレートのPDF](./native-pdf/components-pdf-template.md)
+      + [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
+      + [共通のコンテンツスタイルの使用](./native-pdf/stylesheet.md)
    + [カスタム DITA-OT の設定](./configuring/setup-a-custom-dita-ot.md)
 + 翻訳 {#translation}
    + [翻訳から段落を除外](./translation/exclude-paragraphs-from-translation.md)
 + Web エディター {#web-editor}
-   + [PDF出力の公開](./web-editor/native-pdf-web-editor.md)
+   + [公開PDF出力](./web-editor/native-pdf-web-editor.md)
    + [追加の特殊文字の設定](./web-editor/configure-additional-special-characters.md)
 + バージョン管理 {#versioning}
-+ WIP ネイティブPDF記事 {#hidden}
-   + [非表示のPDFテンプレート](./native-pdf/pdf-template.md)
-   + [テンプレートテンプレートの非表示のコンポーネントPDF](./native-pdf/components-pdf-template.md)
-   + [非表示のページレイアウトのデザイン](./native-pdf/design-page-layout.md)
-   + [非表示のスタイルシート](./native-pdf/stylesheet.md)
