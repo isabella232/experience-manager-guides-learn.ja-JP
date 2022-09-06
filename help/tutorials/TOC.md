@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: cf0ccd878ec25cb9eadd2cc5fa6f63eeec8a442c
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 22%
+source-wordcount: '125'
+ht-degree: 23%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 22%
    + [条件付き出力の操作](./content-architecture/create-and-use-conditions.md)
    + [グローバルキーの作成](./content-architecture/create-global-keys.md)
 + 設定 {#configuring}
-   + ネイティブPDF公開機能の設定 {#config-native-pdf-publish}
+   + ネイティブPDFの公開 {#config-native-pdf-publish}
       + [PDFテンプレート](./native-pdf/pdf-template.md)
       + [テンプレートテンプレートのPDF](./native-pdf/components-pdf-template.md)
       + [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
