@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: cf0ccd878ec25cb9eadd2cc5fa6f63eeec8a442c
+source-git-commit: e3dfbe036758bc4357b474a35e44d12296ac4a52
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 23%
+source-wordcount: '128'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 23%
    + リリースノート {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
-         + [最新のリリースノート](./release-info/release-notes-2022.8.0.md)
+         + [最新のリリースノート](./release-info/release-notes-2022.9.0.md)
+         + [8 月のリリースノート](./release-info/release-notes-2022.8.0.md)
          + [5 月のリリースノート](./release-info/release-notes-2022.5.0.md)
          + [4 月のリリースノート](./release-info/release-notes-2022.4.0.md)
          + [3 月のリリースノート](./release-info/release-notes-2022.3.0.md)
