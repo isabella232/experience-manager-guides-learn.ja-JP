@@ -1,7 +1,7 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2022 年 9 月リリース
 description: Adobe Experience Manager Guides の最新リリースのas a Cloud Service
-source-git-commit: f2ad6e920c47fff61dd85e3aeafb558c7fd6cfea
+source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%
@@ -58,7 +58,7 @@ AEMガイドas a Cloud Serviceは、最新リリースの様々な機能強化�
 現在のAEMガイドでは、ラベルに基づいて動的ベースラインを作成する機能が提供されています。 ベースラインを生成、ベースラインをダウンロード、またはベースラインを使用して翻訳プロジェクトを作成する場合、ファイルは更新されたラベルに基づいて動的に選択されます。 この機能は便利です。ラベルの更新時にベースラインを変更する必要がないからです。
 また、ベースラインのスナップショットを CSV として書き出すこともできます。
 
-![ベースラインの作成](assets/preset-metadata.png)
+![ベースラインの作成](assets/dynamic-baseline.png)
 
 ### マップレベルでテキストを検索および置換
 
