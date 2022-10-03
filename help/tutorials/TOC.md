@@ -2,17 +2,17 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: e3dfbe036758bc4357b474a35e44d12296ac4a52
+source-git-commit: e65bad1487c957894fd206f7e42a998c15497905
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 22%
+source-wordcount: '126'
+ht-degree: 23%
 
 ---
 
 
 # Tutorials [!DNL Adobe Experience Manager Guides] {#tutorials}
 
-+ [Tutorials [!DNL AEM Guides] (AEMの場合 )](overview.md)
++ [Tutorials [!DNL AEM Guides]](overview.md)
 + リリース情報 {#release-info}
    + [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
    + リリースノート {#release-notes}
