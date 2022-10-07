@@ -26,7 +26,6 @@ ht-degree: 22%
          + [2 月のリリースノート](./release-info/release-notes-2022.2.0.md)
          + [1 月のリリースノート](./release-info/release-notes-2022.1.0.md)
       + オンプレミス/Managed Services {#on-prem-release-notes}
-+
          + [4.1.x リリースノート](./release-info/release-notes-4.1.md)
          + [4.0.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
