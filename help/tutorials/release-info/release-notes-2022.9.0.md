@@ -1,21 +1,21 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2022 年 9 月リリース
-description: Adobe Experience Manager Guides の最新リリースのas a Cloud Service
-source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
+description: Adobe Experience Manager Guides の 9 月リリースas a Cloud Service
+source-git-commit: 28712c3f2057d7553ed2fe955db0dfe278c8a9b9
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1285'
 ht-degree: 3%
 
 ---
 
-# Adobe Experience Manager Guides の最新リリースのas a Cloud Service
+# Adobe Experience Manager Guides の 9 月リリースas a Cloud Service
 
-## 最新リリースへのアップグレード
+## 9 月リリースへのアップグレード
 
 現在のAdobe Experience Managerガイドをas a Cloud Service的にアップグレード ( 後で *AEMガイドas a Cloud Service*) を設定する必要があります。
 1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
 2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2022.9.178 に変更します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの最新リリースにアップグレードします。
+3. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの 9 月リリースにアップグレードします。
 
 ## 既存のコンテンツのインデックスを作成する手順
 
@@ -50,7 +50,7 @@ ht-degree: 3%
 
 ## 新機能および機能強化
 
-AEMガイドas a Cloud Serviceは、最新リリースの様々な機能強化と新機能を提供します。
+AEMガイドas a Cloud Serviceは、9 月リリースで多くの機能強化と新機能を提供します。
 
 
 ### ラベルに基づく動的ベースラインの作成
