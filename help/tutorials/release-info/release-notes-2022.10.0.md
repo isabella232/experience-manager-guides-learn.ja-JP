@@ -1,21 +1,22 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2022 年 10 月リリース
-description: Adobe Experience Manager Guides の最新リリースのas a Cloud Service
-source-git-commit: f673d53a1f3c76e1089e0a0c633c402722f99d00
+description: 10 月リリースのAdobe Experience Manager Guides as a Cloud Service
+exl-id: 38638080-625c-49c3-9e54-56cc23831546
+source-git-commit: 4183162142f5f6291fdb6e832e10b46a3c0da73a
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 4%
 
 ---
 
-# Adobe Experience Manager Guides の最新リリースのas a Cloud Service
+# 10 月リリースのAdobe Experience Manager Guides as a Cloud Service
 
-## 最新リリースへのアップグレード
+## 10 月リリースへのアップグレード
 
 現在のAdobe Experience Managerガイドをas a Cloud Service的にアップグレード ( 後で *AEMガイドas a Cloud Service*) を設定する必要があります。
 1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
 2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを2022.10.183に保存します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの最新リリースにアップグレードします。
+3. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの 10 月リリースにアップグレードします。
 
 ## 互換性マトリックス
 
@@ -40,7 +41,7 @@ ht-degree: 4%
 
 ## 新機能および機能強化
 
-AEMガイドas a Cloud Serviceは、最新リリースの機能強化と新機能を提供します。
+10 月のリリースで、AEMガイドas a Cloud Serviceで機能強化と新機能が提供されます。
 
 
 ### クイック生成パネル
