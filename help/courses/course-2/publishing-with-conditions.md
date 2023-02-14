@@ -2,7 +2,7 @@
 title: 条件付きパブリッシュ
 description: Adobe Experience Managerガイドを使用した条件の公開
 exl-id: ea94824a-884b-447f-9562-e6c629b8133b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 条件付き公開を使用すると、1 つ以上のオーディエンス、製品、プラットフォームに対して 1 つのコンテンツソースを書き込むことができます。 この情報は、動的に公開でき、出力に含める必要なコンテンツのみを具体的に指定できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/339041)
+>[!VIDEO](https://video.tv.adobe.com/v/339041?quality=12&learn=on)
 
 ## 練習の準備
 

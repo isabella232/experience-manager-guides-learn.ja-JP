@@ -2,7 +2,7 @@
 title: マップとブックマップ
 description: AEMガイドでのマップおよびブックマップの作成と編集
 exl-id: 9c717e4b-017b-4f2b-b93e-f2c0e7525c55
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 Adobe Experience Managerガイドのマップエディタを使用すると、マップファイルを作成および編集できます。 マップエディタを使用して、DITA マップとブックマップの 2 種類のファイルを編集できます。 私たちの目的では、これらを大きく取り替え可能な概念と考えてください。
 [ マップエディタ ] には、[ 基本マップエディタ ] と [ 高度なマップエディタ ] の 2 つのモードがあります。
 
->[!VIDEO](https://video.tv.adobe.com/v/342766)
+>[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
 
 ## マップを作成する
 

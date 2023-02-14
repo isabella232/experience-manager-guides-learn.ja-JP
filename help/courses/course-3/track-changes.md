@@ -2,7 +2,7 @@
 title: 変更の追跡
 description: AEMガイドでの変更の追跡
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 変更を追跡モードを有効にすると、ドキュメントに対して行われたすべての更新を追跡できます。 このモードを使用すると、ドキュメントのレビュープロセス中に、すべての挿入と削除をキャプチャできます。
 
->[!VIDEO](https://video.tv.adobe.com/v/342763)
+>[!VIDEO](https://video.tv.adobe.com/v/342763?quality=12&learn=on)
 
 ## 変更追跡機能の使用
 

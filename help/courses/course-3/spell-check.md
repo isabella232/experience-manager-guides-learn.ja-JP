@@ -2,7 +2,7 @@
 title: スペルチェックと検索/置換
 description: AEMガイドでのスペルチェックと検索/置換の使用
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 AEM Guides Editor には、強力なスペルチェック機能と検索および置換機能が備わっています。
 
->[!VIDEO](https://video.tv.adobe.com/v/342768)
+>[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
 スペルミスを修正する
 

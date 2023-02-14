@@ -2,7 +2,7 @@
 title: 用語集
 description: AEMガイドの用語集パネルの使用
 exl-id: 509880b1-852f-44f0-b4a9-09fee8bcb954
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 このレッスンで使用するサンプルファイルは、ファイルに記載されています [glossary.zip](assets/glossary.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342765)
+>[!VIDEO](https://video.tv.adobe.com/v/342765?quality=12&learn=on)
 
 ## トピックに用語集エントリを追加する
 

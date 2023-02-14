@@ -2,7 +2,7 @@
 title: 一括公開
 description: での一括公開 [!DNL Adobe Experience Manager Guides]
 exl-id: b277e846-ef71-47ec-a66c-ac9d392d53e0
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 公開時には、多くの場合、複数のタイプのドキュメントが必要です。 Map コレクションを使用して、アセンブルして生成し、一括公開を開始する出力の数と種類を制御できます。 公開ダッシュボードを使用すると、アクティブな公開ジョブを表示できます。 一括公開ダッシュボードを使用すると、コレクションを一括でアクティブ化できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/338985)
+>[!VIDEO](https://video.tv.adobe.com/v/338985?quality=12&learn=on)
 
 ## マップコレクションの操作
 

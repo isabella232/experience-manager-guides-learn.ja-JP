@@ -2,7 +2,7 @@
 title: レポートの操作
 description: でのレポートの操作 [!DNL Adobe Experience Manager Guides]
 exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 マップダッシュボードの「レポート」タブでは、壊れたリンク、参照して再利用 (conref) されたコンテンツ、相互参照、または他の欠落している情報を特定して解決できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/339039)
+>[!VIDEO](https://video.tv.adobe.com/v/339039?quality=12&learn=on)
 
 ## 練習の準備
 

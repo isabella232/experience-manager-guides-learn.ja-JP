@@ -2,7 +2,7 @@
 title: シンプルなコンテンツ作成ワークフロー
 description: AEMガイドでのコンテンツの作成
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 AEM Guides Editor には、コンテンツ作成ワークフローを簡略化する複数のショートカットが用意されています。 これらのショートカットを使用すると、画像の追加と変更、複数のトピックの同時操作、エラーの修正、トピックPDFのダウンロード、バージョンとラベルの操作を迅速におこなうことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/342770)
+>[!VIDEO](https://video.tv.adobe.com/v/342770?quality=12&learn=on)
 
 ## 画像を追加
 

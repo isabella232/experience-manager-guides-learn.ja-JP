@@ -2,7 +2,7 @@
 title: コンテンツの再利用
 description: AEMガイドでの機能の繰り返し使用
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 DITA の主な機能の 1 つは、コンテンツの再利用機能です。 小さなフレーズからトピックやマップ全体にコンテンツを再利用できます。  ただし、コンテンツを効果的に再利用するには、適切に管理する必要があります。 再利用可能な情報を使用する際は、効果的なコンテンツ戦略を策定していることを確認します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342757)
+>[!VIDEO](https://video.tv.adobe.com/v/342757?quality=12&learn=on)
 
 ## 再利用可能なトピックの作成
 

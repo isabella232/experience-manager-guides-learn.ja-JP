@@ -2,7 +2,7 @@
 title: キー
 description: キーを使用すると、AEMガイドで DITA を使用する際にに変数情報を含めることができます
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 このレッスンで使用するサンプルファイルは、ファイルに記載されています [keys.zip](assets/keys.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342756)
+>[!VIDEO](https://video.tv.adobe.com/v/342756?quality=12&learn=on)
 
 ## キーを有効にする
 

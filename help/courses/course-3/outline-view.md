@@ -2,7 +2,7 @@
 title: アウトライン表示
 description: AEMガイドでのアウトライン・ビューの使用
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 アウトラインビューでは、構造化ドキュメントを使用する場合に幅広いサポートを提供します。 ビューを展開および折りたたみ、構造をナビゲートし、属性を使用して（例えば、新しい ID を作成する）、ボタンをクリックすると、要素の再編成、展開、再構築をおこないます。
 
->[!VIDEO](https://video.tv.adobe.com/v/342767)
+>[!VIDEO](https://video.tv.adobe.com/v/342767?quality=12&learn=on)
 
 ## アウトライン・ビューの展開と折りたたみ
 

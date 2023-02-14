@@ -2,7 +2,7 @@
 title: 出力プリセット
 description: 出力プリセットは、マップに割り当てられた公開プロパティのコレクションです
 exl-id: b0c64737-48a0-4337-8a7f-35d1deb03366
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 出力プリセットは、マップに割り当てられたパブリッシュプロパティのコレクションです。 必要に応じて、これらを作成または変更できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/338989)
+>[!VIDEO](https://video.tv.adobe.com/v/338989?quality=12&learn=on)
 
 ## 出力プリセットへのアクセス
 
