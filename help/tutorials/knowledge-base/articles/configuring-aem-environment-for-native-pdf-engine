@@ -1,0 +1,154 @@
+# **Configuring AEM environment for Native PDF engine**
+
+AEM Guides includes a native PDF publishing engine that enables users to design, develop and publish the content in PDF format.
+
+It provides the ability to create different page layouts, CSS templates and design the PDF templates in conjunction with the page layouts and CSS.
+
+The steps for configuring this Native PDF in AEM Guides differ depending on the operating system. Use the configuration steps below based on the operating system on which AEM is installed.
+
+**Prerequisites:**
+
+Minimum requirements for setting up Native PDF:
+
+- Installed Java Platform, Standard Edition 8 or 11 JDK (Java SE Development Kit) and JRE (Java SE Runtime Environment)
+- AEM 6.5 SP13, SP12, SP11, or SP10
+- Guides 4.1 and above versions (Non-UUID or UUID)
+
+Native PDF publishing engine needs JDK to generate the node modules in the AEM crx-quickstart folder. It supports the following operating systems:
+
+- Windows 10, windows 2019 server and above.
+- Linux – (RHEL 7 and above, CentOS 7 and above, Ubuntu 18 and above versions)
+- Mac OS (Intel-based)
+
+**Configuration steps for Windows Server (JAVA 11/8)**
+
+1. Ensure that AEM server is down.
+2. On the Windows taskbar, right-click the Windows icon and select System.
+3. In the Settings window, under Related Settings, click Advanced system settings.
+4. On the Advanced tab, click Environment Variables.
+5. In system variables section, click  **New**  to create a new environment variable.
+6. Enter variable name as JAVA\_HOME.
+7. In the value field, provide the Java Installation path and click Ok.
+
+
+For example:
+
+  JAVA 11:
+   1. C:\Program Files\JAVA\jdk-11.0.15.1
+  
+  JAVA 8: 
+   1. C:\Program Files\JAVA\ jdk1.8.0\_144
+  
+8. Add select **Path** from system variables and click **Edit**.
+9. Now, inside Path variables provide the value of Server path and click Ok.
+
+For example:
+
+  JAVA 11: 
+   1. %JAVA\_HOME%\bin\server\
+
+  JAVA 8: 
+   2. %JAVA\_HOME%\jre\bin\server\
+
+10. Click 'OK' again on Environment variables dialog.
+11. Click 'OK' again on System Properties dialog.
+12. Now, start the AEM server.
+13. Generate native PDF from presets in web editor.
+
+**Configuration steps for Linux Server (RHEL7/centOS 7)**
+
+1. Ensure that AEM server is down
+2. Verify the JAVA\_HOME variable by doing echo $JAVA\_HOME
+3. If JAVA\_HOME variable is not set, then follow step 4. Otherwise, move to step 5 directly.
+4. Set JAVA\_HOME variable using the below commands based on the installed java version
+
+For example:
+
+  JAVA 11:
+
+    1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
+    2. export PATH=$PATH: $JAVA\_HOME/bin
+    3. export LD\_LIBRARY\_PATH=/usr/lib/jvm/jdk-11.0.15.1/lib/server:/usr/java/jdk-11.0.15.1/lib/server
+
+  JAVA 8:
+
+    1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
+    2. export PATH=$PATH: $JAVA\_HOME/bin
+
+5. Restart AEM Server
+6. Copy the **node\_modules.zip** attached in the bottom of this article to the crx-quickstart/profiles/nodejs--b1aad0a7-9079-e56c-1ed8-6fcababe8166/ directory.
+7. Open terminal in crx-quickstart/profiles/nodejs--b1aad0a7-9079-e56c-1ed8-6fcababe8166/ location.
+8. Delete node\_modules directory using below command
+
+     **rm -rf node\_modules**
+
+9. Unzip node\_modules.zip using below command
+
+    **unzip node\_modules.zip**
+
+10. If unzip command is not installed/recognized, it can be installed using following command
+
+     **yum install unzip**
+
+11. Install fontconfig package.
+    Command: yum install fontconfig
+12. Generate native PDF from presets in web editor.
+
+**NOTE** : node\_modules.zip package can be downloaded [here](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+
+Manually importing the downloaded node modules for Linux operating system is a workaround, and the fix will be released in January.
+
+**Configuration steps for Mac machine (JAVA 11/8)**
+
+1. Install Oracle JAVA 11 or Oracle JAVA 8.
+2. Set JAVA\_HOME environment variable to the installed JAVA directory.
+3. Open a Unix shell.
+(Bash is used here for setting up the configuration)
+
+Command: nano ~/.bashrc
+
+4. Set JAVA\_HOME variable using the below commands based on the installed java version
+
+For example:
+
+  JAVA 11:
+  
+     export JAVA\_HOME= /Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home
+
+5. Reload bashrc
+
+Command: source ~/.bashrc.
+
+6. Verify JAVA\_HOME is set using command echo $JAVA\_HOME
+
+7. Execute the below three commands from AEM installation path
+
+C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs--b1aad0a7-9079-e56c-1ed8-6fcababe8166
+
+  i) find . -type d -exec chmod 0755 {} \;
+ ii) find . -type f -exec chmod 0755 {} \;
+iii) ./node-darwin/bin/node node-darwin/lib/node\_modules/npm/bin/npm-cli.js --prefix . install --unsafe-perm --scripts-prepend-node-path
+
+8. Verify if Java is installed using the below command
+
+  i) Run **./node-darwin/bin/node** command from /crx-quickstart/profiles/nodejs--b1aad0a7-9079-e56c-1ed8-6fcababe8166 folder
+
+![](RackMultipart20230110-1-6ykr1d_html_f619573a536446c5.png)
+
+ii) a = require('java')
+
+9. Generate native PDF from presets in web editor.
+
+**Troubleshooting:**
+
+Below are the common errors that may occur during PDF Generation when environment variables are not set properly.
+
+1. Null pointer Exception in Windows/Mac OS:
+
+![](RackMultipart20230110-1-6ykr1d_html_355c22bb0f210a49.png)
+
+1. Missing Libraries in RHEL 7 Linux OS:
+
+![](RackMultipart20230110-1-6ykr1d_html_1f8e1c8a17c637cf.png)
+
+If you encounter any issues while performing any of the above steps, post your question on the AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) for assistance.
