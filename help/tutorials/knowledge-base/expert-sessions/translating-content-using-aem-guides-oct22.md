@@ -1,10 +1,11 @@
 ---
 title: コンテンツの翻訳
 description: コンテンツを複数の言語に翻訳する方法を説明します。
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '195'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +19,7 @@ AEMガイドは、堅牢な翻訳機能を備えた多言語コンテンツ作�
 
 ## セッションの記録
 
->記録された [ビデオ](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on) セッション。
+>[video](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## ハイライト
 
@@ -50,11 +51,11 @@ AEMガイドは、堅牢な翻訳機能を備えた多言語コンテンツ作�
 > - Cloud Services2207 以降
 
 
-## その他のエキスパートセッション
+## 次のエキスパートセッション
 
 - **トピック** - [ベースラインを使用したコンテンツの管理](baselines-dec22.md)
 - **スケジュール日** - 2022 年 12 月 8 日
 
 ## お問い合わせ
 
-ご不明な点は、techcomm@adobe.comまでお問い合わせください。
+ご不明な点は、 <techcomm@adobe.com>

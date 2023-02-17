@@ -1,13 +1,13 @@
 ---
 title: Web ベースのコンテンツの作成
 description: Web エディターを使用して構造化コンテンツを作成する方法を説明します。
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
-
 
 # Web ベースのコンテンツの作成
 
@@ -19,7 +19,7 @@ AEMガイドには、構造化コンテンツを作成するための組み込�
 
 ## セッションの記録
 
->記録された [ビデオ](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on) セッション。
+>[video](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## ハイライト
 
@@ -51,11 +51,11 @@ AEMガイドには、構造化コンテンツを作成するための組み込�
 > - Cloud Services2211 以降
 
 
-## その他のエキスパートセッション
+## 次のエキスパートセッション
 
 - **トピック**  — ネイティブPDFの公開 *（調査結果に基づく）*
 - **スケジュール日** - 2023 年 2 月 23 日
 
 ## お問い合わせ
 
-ご不明な点は、techcomm@adobe.comまでお問い合わせください。
+ご不明な点は、 <techcomm@adobe.com>
