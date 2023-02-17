@@ -2,10 +2,10 @@
 title: コンテンツの翻訳
 description: コンテンツを複数の言語に翻訳する方法を説明します。
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 4%
+source-wordcount: '194'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ AEMガイドは、堅牢な翻訳機能を備えた多言語コンテンツ作�
 
 ## セッションの記録
 
->[video](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## ハイライト
 
