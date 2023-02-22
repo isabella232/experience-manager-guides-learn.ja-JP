@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 638bc7daa3bccfdb0334927ac277c4052cf2becb
+source-git-commit: ae85e78b428f1962945d3212f1b42839dbbe3096
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 22%
          + [2 月のリリースノート](./release-info/release-notes-2022.2.0.md)
          + [1 月のリリースノート](./release-info/release-notes-2022.1.0.md)
       + オンプレミス/Managed Services {#on-prem-release-notes}
+         + [4.2 リリースノート](./release-info/release-notes-4.2.md)
          + [4.1.x リリースノート](./release-info/release-notes-4.1.md)
          + [4.0.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -40,6 +41,9 @@ ht-degree: 22%
       + [テンプレートテンプレートのPDF](./native-pdf/components-pdf-template.md)
       + [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
       + [共通のコンテンツスタイルの使用](./native-pdf/stylesheet.md)
+      + [TOC エントリとトピックコンテンツにカスタムスタイルを適用](./native-pdf/custom-style-toc.md)
+      + [カスタムブックマークをPDF出力に追加](./native-pdf/add-custom-bookmark.md)
+      + [JavaScript を使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
    + [カスタム DITA-OT の設定](./configuring/setup-a-custom-dita-ot.md)
 + 翻訳 {#translation}
    + [翻訳から段落を除外](./translation/exclude-paragraphs-from-translation.md)

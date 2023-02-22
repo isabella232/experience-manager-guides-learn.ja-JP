@@ -1,9 +1,9 @@
 ---
-title: ネイティブPDF公開機能 | TOC エントリとトピックコンテンツにカスタムスタイルを適用
+title: ネイティブPDF公開機能 |カスタムブックマークをPDF出力に追加
 description: スタイルシートを作成し、コンテンツのスタイルを作成する方法を説明します。
-source-git-commit: fbb81704ea8d9d2793b066fa159b405460fa1dcf
+source-git-commit: fb7ffbaefcdca4302e43d8369bc056c1f08a3ed6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 `bookmark-level: 3`
 
 ここで、 `bookmark-level` は属性と数値です `3` には、ブックマークが追加されるブックマーク階層のレベルを示す値を指定します。 次の例では、第 1 レベルのトピック「連絡先」に、 `outputclass` 属性は `custom-bookmark`.
+
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
@@ -33,3 +34,8 @@ ht-degree: 0%
 PDF出力で、 *連絡先リスト* 次に示すように、PDFのブックマークリストの第 2 レベルに表が追加されます。
 
 <img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
+
+>[!NOTE]
+>
+>カスタムブックマークを追加する正しいレベルを選択する必要があります。 親トピックのブックマークより小さい数値を指定すると、親ブックマークの位置がカスタムブックマークに設定され、その他すべてのブックマークが子として表示されます。 これは、予期しないブックマーク構造になる可能性があります。
+
