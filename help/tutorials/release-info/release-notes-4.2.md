@@ -1,9 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.2 リリース
 description: Adobe Experience Managerガイドの最新リリース
-source-git-commit: 2fb46bdfb7f42fd9b3ef19343700009818c5b4f2
+exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
+source-git-commit: 890d64aed5f4005e3f4d3143bc35804e39036ad3
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3668'
 ht-degree: 2%
 
 ---
@@ -251,12 +252,12 @@ DITA マップの出力プリセットからメタデータを設定できます
 ### ネイティブPDF |出力パスとPDFファイル名の変数のサポート
 
 次の標準の変数を使用して、出力パスとPDFファイルを定義することもできます。 変数の 1 つまたは組み合わせを使用して、これらのオプションを定義できます。
-* ${map_filename}
-* ${map_title}
-* ${preset_name}
-* ${language_code}
-* ${map_parentpath} （出力パスのみ）
-* ${path_after_langfolder} （出力パスのみ）
+* `${map_filename}`
+* `${map_title}`
+* `${preset_name}`
+* `${language_code}`
+* `${map_parentpath}` （出力パスの場合のみ）
+* `${path_after_langfolder}` （出力パスの場合のみ）
 
 ### ネイティブPDF | DITA マップ用に目次を生成し、ページレイアウトを並べ替えます
 
