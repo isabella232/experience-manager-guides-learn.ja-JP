@@ -2,10 +2,10 @@
 title: Web ベースのコンテンツの作成
 description: Web エディターを使用して構造化コンテンツを作成する方法を説明します。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ AEMガイドには、構造化コンテンツを作成するための組み込�
 
 ## 次のエキスパートセッション
 
-- **トピック**  — ネイティブPDFの公開 *（調査結果に基づく）*
+- **トピック** - [ネイティブPDFの公開の基本事項](native-pdf-publishing-essentials-feb23.md)
 - **スケジュール日** - 2023 年 2 月 23 日
 
 ## お問い合わせ

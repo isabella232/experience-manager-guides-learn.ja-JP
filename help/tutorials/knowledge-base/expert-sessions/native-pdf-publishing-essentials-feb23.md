@@ -1,10 +1,10 @@
 ---
 title: ネイティブPDFの公開の基本事項
 description: AEMガイドでネイティブの PDF エンジンを使用してPDFを公開する方法を説明します。
-source-git-commit: b79e7287cdf7eaff0a6fa47d94e12c8928a44b49
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ AEMガイドは、組み込みのPDF発行エンジンを備えており、ユ�
 
 - **特集ビデオ** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **ユーザーガイド** - [コンテンツの作成](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **ユーザーガイド** - [ネイティブPDFの公開](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **コミュニティフォーラム**  — セッション固有のコミュニティでのExperience League操作については、  [AEM Guides フォーラム](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
@@ -53,7 +53,7 @@ AEMガイドは、組み込みのPDF発行エンジンを備えており、ユ�
 
 ## 次のエキスパートセッション
 
-- **トピック**  — 公開とレポート *（調査結果に基づく）*
+- **トピック**  — 未定 *（調査結果待ち）*
 - **スケジュール日** - 2023 年 3 月 30 日
 
 ## お問い合わせ
