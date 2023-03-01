@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: d13a04448be357f37290dbd37317d82b5a8ea736
+source-git-commit: 2144508d9e7b4cb3de3e4f55ab160bfa26cd5f52
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 18%
+source-wordcount: '196'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 18%
       + [Web ベースのコンテンツの作成](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [ネイティブPDFの公開の基本事項](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
    + 公開{#publishing}
-      + [AEMガイド用の新しいマイクロサービスベースの公開の設定をas a Cloud Service](./knowledge-base/publishing/configure-microservices.md)
+      + [マイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
    + 記事 {#kb-articles}
       + オーサリング {#authoring}
          + Webeditor {#webeditor}
