@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 9eb44211684c8a3af036acf12390dafb617fd24a
+source-git-commit: d13a04448be357f37290dbd37317d82b5a8ea736
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 19%
+source-wordcount: '204'
+ht-degree: 18%
 
 ---
 
@@ -14,11 +14,12 @@ ht-degree: 19%
 
 + [Tutorials [!DNL AEM Guides]](overview.md)
 + リリース情報 {#release-info}
-   + [[!DNL AEM Guides] リリース](./release-info/latest-release-info.md)
+   + [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
    + リリースノート {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
-         + [最新のリリースノート](./release-info/release-notes-2022.11.0.md)
+         + [最新のリリースノート](./release-info/release-notes-2023.2.0.md)
+         + [11 月のリリースノート](./release-info/release-notes-2022.11.0.md)
          + [10 月のリリースノート](./release-info/release-notes-2022.10.0.md)
          + [9 月のリリースノート](./release-info/release-notes-2022.9.0.md)
          + [8 月のリリースノート](./release-info/release-notes-2022.8.0.md)
@@ -58,6 +59,8 @@ ht-degree: 19%
       + [ベースラインを使用したコンテンツの管理](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [Web ベースのコンテンツの作成](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [ネイティブPDFの公開の基本事項](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+   + 公開{#publishing}
+      + [AEMガイド用の新しいマイクロサービスベースの公開の設定をas a Cloud Service](./knowledge-base/publishing/configure-microservices.md)
    + 記事 {#kb-articles}
       + オーサリング {#authoring}
          + Webeditor {#webeditor}
