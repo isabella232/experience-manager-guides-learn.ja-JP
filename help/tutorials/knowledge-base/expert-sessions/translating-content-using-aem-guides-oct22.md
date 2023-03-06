@@ -2,9 +2,9 @@
 title: コンテンツの翻訳
 description: コンテンツを複数の言語に翻訳する方法を説明します。
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '183'
 ht-degree: 3%
 
 ---
@@ -50,11 +50,6 @@ AEMガイドは、堅牢な翻訳機能を備えた多言語コンテンツ作�
 > - オンプレミス 4.1 以降
 > - Cloud Services2207 以降
 
-
-## 次のエキスパートセッション
-
-- **トピック** - [ベースラインを使用したコンテンツの管理](baselines-dec22.md)
-- **スケジュール日** - 2022 年 12 月 8 日
 
 ## お問い合わせ
 

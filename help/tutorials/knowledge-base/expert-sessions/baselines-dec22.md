@@ -2,9 +2,9 @@
 title: ベースラインを使用したコンテンツの管理
 description: ベースラインを使用してコンテンツを効果的に管理する方法を説明します。
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 1%
 
 ---
@@ -50,11 +50,6 @@ AEMガイドのリリース管理は、トピックとアセットのバージ�
 > - オンプレミス 4.1 以降
 > - Cloud Services2211 以降
 
-
-## 次のエキスパートセッション
-
-- **トピック** - [Web ベースのコンテンツの作成](webbased-authoring-jan2023.md)
-- **スケジュール日** - 2023 年 1 月 20 日
 
 ## お問い合わせ
 
