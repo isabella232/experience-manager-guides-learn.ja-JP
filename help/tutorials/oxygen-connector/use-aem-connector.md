@@ -1,5 +1,5 @@
 ---
-source-git-commit: f79a387de64a31dc62455992c54fc82dc6235ebc
+source-git-commit: 2e1f1644e5f22fc928ad813f46137a3f284df022
 workflow-type: tm+mt
 source-wordcount: '5800'
 ht-degree: 1%
@@ -644,21 +644,21 @@ AEMガイドを使用すると、関連する DITA 属性を使用して条件�
 
     1.  Oxygen XML 作成者のインストール場所を参照します。
     
-    2.  toxenAuthor19.1.vmoptions ファイルをテキストエディタで開きます。
+    1.  toxenAuthor19.1.vmoptions ファイルをテキストエディタで開きます。
     
     **注意：**
     
     ファイルのバージョン番号は、システムにインストールされているアプリケーションのバージョン番号によって異なる場合があります。
     
-     3. ファイルに次の行を追加します。
+    1.  ファイルに次の行を追加します。
     
     &quot;&#39;
     -Djava.util.logging.config.file=./log.properties
     &quot;&#39;
     
-    4.  ファイルを保存して閉じます。
+    1.  ファイルを保存して閉じます。
     
-    5.同じ場所に、次の内容を含む log.properties という名前のファイルを作成します。
+    1.  同じ場所に、次の内容を含む log.properties という名前のファイルを作成します。
     
     &quot;&#39;
     handlers=java.util.logging.FileHandler
@@ -670,9 +670,9 @@ AEMガイドを使用すると、関連する DITA 属性を使用して条件�
     java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
     &quot;&#39;
     
-    6.  ファイルを保存して閉じます。
+    1.  ファイルを保存して閉じます。
     
-    7.  Oxygen XML Author を起動します。
+    1.  Oxygen XML Author を起動します。
     
     
     このプラグインは、ユーザーのホームディレクトリに、ファイル名が aem-pluginX.log のログを作成するようになりました（X はローテーション番号を表します*\）。
