@@ -1,7 +1,7 @@
 ---
 title: FMPS およびAEMガイド
 description: AEMガイドを使用した FMPS による公開
-source-git-commit: 5c53f89a811571c2193769bb4821657df3212dc0
+source-git-commit: 82f010a97d0ed0e3c6351e6411e5955c79e0b01f
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -47,7 +47,7 @@ FMPS を使用して、自動的にパブリッシュできます **PDF、レス
 ユーザーは、「settings File(.sts)」と「ditaval」を指定できます。 フィルタリングは、指定した条件に基づいて、ditaval を使用しておこなわれます。
 
 - **設定ファイル**:FrameMaker /FMPS 発行時に FMPS が受け入れるすべての設定を含む発行設定例：カスタマイズしたPDFを使用して出力を生成する、マークとブリード (PDF) を生成する、TOC を使用したテンプレートを生成する、インデックスなど
-- **FMPS が存在する場合：** Ditaval と設定ファイルの事前定義済みの組み合わせ。Ditaval と設定ファイルを別々に指定する代わりに、FMPS プリセットを事前に作成して、公開ニーズに合わせて再利用できます。
+- **FMPS プリセット：** Ditaval と設定ファイルの事前定義済みの組み合わせ。Ditaval と設定ファイルを別々に指定する代わりに、FMPS プリセットを事前に作成して、公開ニーズに合わせて再利用できます。
 
 **注意：** 設定または FMPS プリセットを選択しない場合、FMPS はデフォルトのシステム設定で発行されます。
 
