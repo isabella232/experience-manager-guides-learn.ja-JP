@@ -1,7 +1,7 @@
 ---
 title: FMPS およびAEMガイド
 description: AEMガイドを使用した FMPS による公開
-source-git-commit: 75e4d308f5298660a2d9006b43daf82416eb0822
+source-git-commit: abf6b9502615e5029ce51f860e05cadc8d94edc2
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -92,10 +92,10 @@ UUID を使用している場合は、FrameMaker EditPreferences で「Use UUID 
 
 ## その他のリソース:
 
-### [FMPS のラーニングとサポート](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[FMPS のラーニングとサポート](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
-### [AEMのラーニングとサポート](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+[AEMのラーニングとサポート](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-### [FrameMaker と FMPS コミュニティ](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[FrameMaker と FMPS コミュニティ](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
 
-### [AEM Guides コミュニティ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[AEM Guides コミュニティ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
