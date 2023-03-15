@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 53a4917328626f589f2a9e8243d169fa10a6efff
+source-git-commit: f5591818f3b9479678026a578b29d7e56e55f506
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 19%
+source-wordcount: '214'
+ht-degree: 18%
 
 ---
 
@@ -41,10 +41,13 @@ ht-degree: 19%
       + [PDFテンプレート](./native-pdf/pdf-template.md)
       + [テンプレートテンプレートのPDF](./native-pdf/components-pdf-template.md)
       + [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
-      + [共通のコンテンツスタイルの使用](./native-pdf/stylesheet.md)
-      + [TOC エントリとトピックコンテンツにカスタムスタイルを適用](./native-pdf/custom-style-toc.md)
-      + [カスタムブックマークをPDF出力に追加](./native-pdf/add-custom-bookmark.md)
-      + [JavaScript を使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
+      + 共通のコンテンツスタイル {#content-styles}
+         + [共通のコンテンツスタイルの使用](./native-pdf/stylesheet.md)
+         + [カスタムの変更バースタイルの使用](./native-pdf/change-bar-style.md)
+         + [TOC エントリとトピックコンテンツにカスタムスタイルを適用](./native-pdf/custom-style-toc.md)
+         + [カスタムブックマークをPDF出力に追加](./native-pdf/add-custom-bookmark.md)
+         + [JavaScript を使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
+         + [脚注でのカスタムスタイルの使用](./native-pdf/footnote-number-style.md)
    + [カスタム DITA-OT の設定](./configuring/setup-a-custom-dita-ot.md)
 + 翻訳 {#translation}
    + [翻訳から段落を除外](./translation/exclude-paragraphs-from-translation.md)
