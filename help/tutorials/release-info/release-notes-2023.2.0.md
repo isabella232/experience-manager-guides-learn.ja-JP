@@ -1,21 +1,22 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 2 月リリース
-description: Adobe Experience Manager Guides の最新リリースのas a Cloud Service
-source-git-commit: d56855bf9078482ec1676b0eeb7a13df05475d5c
+description: Adobe Experience Managerガイドの 2 月リリースas a Cloud Service
+exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
+source-git-commit: ee520ab86ea41df7556a1f40d7bfc5e3617b34ae
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 2%
 
 ---
 
-# Adobe Experience Manager Guides の最新リリースのas a Cloud Service
+# Adobe Experience Managerガイドの 2 月リリースas a Cloud Service
 
-## 最新リリースへのアップグレード
+## 2 月リリースへのアップグレード
 
 現在のAdobe Experience Managerガイドをas a Cloud Service的にアップグレード ( 後で *AEMガイドas a Cloud Service*) を設定する必要があります。
 1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
 2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2023.2.235 に変更します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの最新リリースにアップグレードします。
+3. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの 2 月リリースにアップグレードします。
 
 ## 既存のコンテンツのインデックスを作成する手順 (AEMガイドas a Cloud Serviceの 9 月リリースより前のバージョンを使用している場合のみ )
 
@@ -53,7 +54,7 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 ## 新機能および機能強化
 
-AEMガイドas a Cloud Serviceは、最新リリースの機能強化と新機能を提供します。
+AEMガイドas a Cloud Serviceでは、2 月のリリースで強化された機能と新機能が提供されます。
 
 ### Web エディターからレポートを生成する
 

@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: f5591818f3b9479678026a578b29d7e56e55f506
+source-git-commit: ee520ab86ea41df7556a1f40d7bfc5e3617b34ae
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 18%
+source-wordcount: '219'
+ht-degree: 16%
 
 ---
 
@@ -18,16 +18,19 @@ ht-degree: 18%
    + リリースノート {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
-         + [最新のリリースノート](./release-info/release-notes-2023.2.0.md)
-         + [11 月のリリースノート](./release-info/release-notes-2022.11.0.md)
-         + [10 月のリリースノート](./release-info/release-notes-2022.10.0.md)
-         + [9 月のリリースノート](./release-info/release-notes-2022.9.0.md)
-         + [8 月のリリースノート](./release-info/release-notes-2022.8.0.md)
-         + [5 月のリリースノート](./release-info/release-notes-2022.5.0.md)
-         + [4 月のリリースノート](./release-info/release-notes-2022.4.0.md)
-         + [3 月のリリースノート](./release-info/release-notes-2022.3.0.md)
-         + [2 月のリリースノート](./release-info/release-notes-2022.2.0.md)
-         + [1 月のリリースノート](./release-info/release-notes-2022.1.0.md)
+         + 2023 年リリース{#2023-releases}
+            + [最新のリリースノート](./release-info/release-notes-2023.3.0.md)
+            + [2 月のリリースノート](./release-info/release-notes-2023.2.0.md)
+         + 2022 年リリース {#2022-releases}
+            + [11 月のリリースノート](./release-info/release-notes-2022.11.0.md)
+            + [10 月のリリースノート](./release-info/release-notes-2022.10.0.md)
+            + [9 月のリリースノート](./release-info/release-notes-2022.9.0.md)
+            + [8 月のリリースノート](./release-info/release-notes-2022.8.0.md)
+            + [5 月のリリースノート](./release-info/release-notes-2022.5.0.md)
+            + [4 月のリリースノート](./release-info/release-notes-2022.4.0.md)
+            + [3 月のリリースノート](./release-info/release-notes-2022.3.0.md)
+            + [2 月のリリースノート](./release-info/release-notes-2022.2.0.md)
+            + [1 月のリリースノート](./release-info/release-notes-2022.1.0.md)
       + オンプレミス/Managed Services {#on-prem-release-notes}
          + [4.2 リリースノート](./release-info/release-notes-4.2.md)
          + [4.1.x リリースノート](./release-info/release-notes-4.1.md)
