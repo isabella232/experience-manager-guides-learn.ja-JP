@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
+source-git-commit: f26b8f94e1d7a3c9dd0aaab2eb196a77119e47ac
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '230'
 ht-degree: 16%
 
 ---
@@ -74,6 +74,7 @@ ht-degree: 16%
             + Schematron {#schematron}
                + [Schematron 検証](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 公開 {#publishing}
+         + [ネイティブAEM公開用のPDF環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       + ワークフロー {#workflows}
          + [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
