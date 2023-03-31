@@ -1,26 +1,26 @@
 ---
 title: AEMガイドのレポート
 description: ユーザーがコンテンツの品質を向上できるように、AEMで使用できるすべてのレポートについて説明します。
-source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
+source-git-commit: aa5cbe2b8a8be8d7aa8b57d27f71e4a319dd5ccf
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
 
-# Web ベースのコンテンツの作成
+# AEMガイドのレポート
 
 組織の設定では、エンドユーザーが使用するようにドキュメントをプッシュする前に、コンテンツの全体的な完全性を検証する必要があります。 このようなニーズは、異なるコンテキストでコンテンツを再利用できるマルチユーザー環境や大規模環境ではさらに重要になり、コンテンツやドキュメントの検証が必要になります。 構造化コンテンツのコンテキストでは、一般的に必要なレポートのタイプがいくつかあります。
 
 
 ## セッションの概要
 
-このセッションでは、ユーザーが標準で使用できるレポートを共有します。 次のタイプのレポートを幅広く扱います。
-- AEM assets レポート機能
+このセッションでは、ユーザーが標準で使用できるレポートを表示しました。 概して次のように説明します。
 - ドキュメント（マップ）とトピックレポート
 - メタデータレポートと一括メタデータ管理オプション
-- コンテンツ再利用統計の表示
-- コンテンツのインポートの完了
+- コンテンツ再利用レポート
+- コンテンツのインポートの正確性
+- AEM Assetsレポート機能の活用
 
 
 ## セッションの記録
@@ -40,14 +40,13 @@ ht-degree: 1%
 
 このセッションでは、次の事項について学びました。
 - CCMS におけるレポートの重要性
-- 標準で使用できるレポートはどれですか？
-- レポート機能を拡張するにはどうすればよいですか。
+- すぐに使用できるレポート
 - コンテンツに関するレポートの例
 
 
 ## 関連リソース
 
-- このセッションでは、いくつかのレポートをデモしました。 類似したレポートを作成するには、添付のドキュメントの手順を参照してください。 [PDF ダウンロードボタン](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- [ダウンロードPDF](./assets/aem-guides-expert-session-reports-documentation.pdf) を使用して、セッションで実証された使用例に類似したレポートを作成します。
 
 - **特集ビデオ** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
@@ -58,8 +57,8 @@ ht-degree: 1%
 >[!NOTE]
 >
 > このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
-> - オンプレミス 4.2 以降
-> - Cloud Services2302 以降
+> - オンプレミス：4.2 以降
+> - Cloud Services:2302 以降
 
 
 
