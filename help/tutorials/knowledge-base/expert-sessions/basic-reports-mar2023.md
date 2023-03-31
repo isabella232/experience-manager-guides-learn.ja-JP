@@ -1,9 +1,9 @@
 ---
 title: AEMガイドのレポート
 description: ユーザーがコンテンツの品質を向上できるように、AEMで使用できるすべてのレポートについて説明します。
-source-git-commit: aa5cbe2b8a8be8d7aa8b57d27f71e4a319dd5ccf
+source-git-commit: 98c81b20a5ae6347d7c06a98112564d5a5b3d81b
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ## 関連リソース
 
-- [ダウンロードPDF](./assets/aem-guides-expert-session-reports-documentation.pdf) を使用して、セッションで実証された使用例に類似したレポートを作成します。
+- **[ダウンロードPDF](./assets/aem-guides-expert-session-reports-documentation.pdf)** を参照して、セッションで示されたレポートの詳細を理解してください。
 
 - **特集ビデオ** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
