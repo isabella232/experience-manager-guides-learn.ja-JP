@@ -1,7 +1,8 @@
 ---
 title: AEMガイドのレポート
 description: ユーザーがコンテンツの品質を向上できるように、AEMで使用できるすべてのレポートについて説明します。
-source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
+exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
+source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 1%
@@ -64,7 +65,7 @@ ht-degree: 1%
 
 ## 次のエキスパートセッション
 
-- **トピック**  — 未定 *（調査結果待ち）*
+- **トピック**  — コンテンツとテンプレートの設定
 - **スケジュール日** - 2023 年 4 月 28 日
 
 
