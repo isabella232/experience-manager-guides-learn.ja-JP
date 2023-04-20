@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: f26b8f94e1d7a3c9dd0aaab2eb196a77119e47ac
+source-git-commit: 6351465954bc9ce38151cd0bec339cd0653027f2
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 16%
+source-wordcount: '240'
+ht-degree: 15%
 
 ---
 
@@ -66,15 +66,17 @@ ht-degree: 16%
       + [Web ベースのコンテンツの作成](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [ネイティブPDFの公開の基本事項](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
       + [AEMガイドのレポート](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
-   + 公開{#publishing}
-      + [マイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
    + 記事 {#kb-articles}
       + オーサリング {#authoring}
          + Webeditor {#webeditor}
+            + カスタマイズ {#customizing}
+               + [ツールバーにカスタムボタンを追加](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+               + [Webeditor にカスタムスタイルを追加する](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + Schematron {#schematron}
                + [Schematron 検証](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 公開 {#publishing}
          + [ネイティブAEM公開用のPDF環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         + [マイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
       + ワークフロー {#workflows}
          + [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
