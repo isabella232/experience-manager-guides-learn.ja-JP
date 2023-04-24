@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="24" id="S_TextParagraph_24_N" viewBox="0 0 24 24" width="24">
+  <defs>
+    <style>
+      .fill {
+        fill: #707070;
+      }
+
+      
+    </style>
+  </defs>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="24" height="24" /><path class="fill" d="M9.206,2A6.138,6.138,0,0,0,3.05,7.213,6.006,6.006,0,0,0,9,14c.7,0,2-.05,2-.05V21.5a.5.5,0,0,0,.5.5h1a.5.5,0,0,0,.5-.5V4h4V21.5a.5.5,0,0,0,.5.5h1a.5.5,0,0,0,.5-.5V3a1,1,0,0,0-1-1Z" />
+  </svg>

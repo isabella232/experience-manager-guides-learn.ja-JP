@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" data-name="S_TextSpaceBefore_24_N@1x" height="24" id="S_TextSpaceBefore_24_N_1x" viewBox="0 0 24 24" width="24">
+  <defs>
+    <style>
+	.fill {
+        fill: #707070;
+      }</style>
+  </defs>
+  <title>S_TextSpaceBefore_24_N@1x</title>
+  <rect id="ToDelete" fill="#ff13dc" opacity="0" width="24" height="24" /><rect class="fill" height="2" rx="0.5" ry="0.5" width="14" x="8" y="20" />
+  <rect class="fill" height="2" rx="0.5" ry="0.5" width="14" x="8" y="16" />
+  <rect class="fill" height="2" rx="0.5" ry="0.5" width="14" x="8" y="12" />
+  <path class="fill" d="M21.5,2H8.5a.5.5,0,0,0-.5.5v7a.5.5,0,0,0,.5.5h13a.5.5,0,0,0,.5-.5v-7A.5.5,0,0,0,21.5,2ZM20,8H10V4H20Z" />
+  <path class="fill" d="M2.432,1.158A.25.25,0,0,0,2,1.329v9.341a.25.25,0,0,0,.432.172L7,6Z" />
+  </svg>

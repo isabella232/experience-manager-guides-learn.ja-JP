@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Group_174404" data-name="Group 174404" transform="translate(-15 -331)">
+    <g id="Single_icon" data-name="Single icon" transform="translate(15 331)">
+      <g id="Placement_Area" data-name="Placement Area" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+        <rect width="18" height="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+      </g>
+      <g id="Icon">
+        <g id="Canvas" fill="#747474" stroke="#747474" stroke-width="1" opacity="0">
+          <rect width="18" height="18" stroke="none"/>
+          <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+        </g>
+        <path id="Path_94268" data-name="Path 94268" d="M10.724,1.714,9.9,1.147a.5.5,0,0,0-.7.129h0L4.843,7.62,2.514,5.291a.5.5,0,0,0-.707,0h0L1.1,6a.5.5,0,0,0,0,.707l3.6,3.6a.5.5,0,0,0,.766-.07l5.384-7.83a.5.5,0,0,0-.129-.7Z" fill="#747474"/>
+        <path id="Path_94269" data-name="Path 94269" d="M13.914,12.5l2.439-2.439a.5.5,0,0,0,0-.707l-.707-.707a.5.5,0,0,0-.707,0L12.5,11.086,10.061,8.646a.5.5,0,0,0-.707,0l-.707.707a.5.5,0,0,0,0,.707L11.086,12.5,8.646,14.939a.5.5,0,0,0,0,.707l.707.707a.5.5,0,0,0,.707,0h0L12.5,13.914l2.439,2.439a.5.5,0,0,0,.707,0h0l.707-.707a.5.5,0,0,0,0-.707Z" fill="#747474"/>
+      </g>
+    </g>
+  </g>
+</svg>

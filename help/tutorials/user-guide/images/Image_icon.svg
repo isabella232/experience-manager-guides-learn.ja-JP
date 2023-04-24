@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="24" id="S_Image_24_N" viewBox="0 0 24 24" width="24">
+  <defs>
+    <style>
+      .fill {
+        fill: #707070;
+      }
+
+      
+    </style>
+  </defs>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="24" height="24" /><path class="fill" d="M22,3H2A1,1,0,0,0,1,4V20a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1V4A1,1,0,0,0,22,3ZM21,17.267,17.523,13.79a1.319,1.319,0,0,0-1.865,0l-2.026,2.026L8.649,10.832a1.32,1.32,0,0,0-1.866,0L3,14.615V5H21Z" />
+  <path class="fill" d="M17.561,10.413a1.851,1.851,0,1,0-1.85-1.851A1.851,1.851,0,0,0,17.561,10.413Z" />
+  </svg>

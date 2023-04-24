@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="24" id="S_Table_24_N" viewBox="0 0 24 24" width="24">
+  <defs>
+    <style>
+      .fill {
+        fill: #707070;
+      }
+
+      
+    </style>
+  </defs>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="24" height="24" /><path class="fill" d="M21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM8,20H4V18H8Zm0-4H4V14H8Zm0-4H4V10H8Zm12,8H10V18H20Zm0-4H10V14H20Zm0-4H10V10H20Zm0-4H4V4H20Z" />
+  </svg>

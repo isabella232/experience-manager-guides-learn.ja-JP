@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="24" id="S_ViewList_24_N" viewBox="0 0 24 24" width="24">
+  <defs>
+    <style>
+      .fill {
+        fill: #707070;
+      }
+
+      
+    </style>
+  </defs>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="24" height="24" /><rect class="fill" height="5" rx="1" ry="1" width="5" x="2" y="3" />
+  <rect class="fill" height="5" rx="1" ry="1" width="5" x="2" y="10" />
+  <rect class="fill" height="5" rx="1" ry="1" width="5" x="2" y="17" />
+  <rect class="fill" height="3" rx="0.5" ry="0.5" width="12" x="9" y="4" />
+  <rect class="fill" height="3" rx="0.5" ry="0.5" width="12" x="9" y="11" />
+  <rect class="fill" height="3" rx="0.5" ry="0.5" width="12" x="9" y="18" />
+  </svg>

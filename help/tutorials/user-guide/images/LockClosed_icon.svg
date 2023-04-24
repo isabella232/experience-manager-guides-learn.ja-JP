@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="24" id="S_LockClosed_24_N" viewBox="0 0 24 24" width="24">
+  <defs>
+    <style>
+      .fill {
+        fill: #707070;
+      }
+
+      
+    </style>
+  </defs>
+  <rect id="Canvas" fill="#ff13dc" opacity="0" width="24" height="24" /><path class="fill" d="M19,10H18V9A6,6,0,0,0,6,9v1H5a1,1,0,0,0-1,1V21a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1V11A1,1,0,0,0,19,10Zm-6,6.723V18.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5V16.723a2,2,0,1,1,2,0ZM16,10H8V9a4,4,0,0,1,8,0Z" />
+  </svg>
