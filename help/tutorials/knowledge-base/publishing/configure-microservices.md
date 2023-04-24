@@ -1,9 +1,10 @@
 ---
 title: AEMガイド用の新しいマイクロサービスベースの公開の設定をas a Cloud Service
 description: AEMガイド用の新しいマイクロサービスベースの公開を設定する方法について説明します。
-source-git-commit: c2981b5635353eb84c9e46a03de1b1ed07aa5bf3
+exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
+source-git-commit: 95c89acd02b798d42c817b52f6f8e0710a0abb76
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -13,6 +14,10 @@ ht-degree: 0%
 新しい公開マイクロサービスを使用すると、as a Cloud ServiceのAEMガイドで大規模な公開ワークロードを同時に実行し、業界をリードするAdobe I/O Runtimeのサーバレスプラットフォームを活用できます。
 
 発行リクエストごとに、AEMガイドはas a Cloud Service的に個別のコンテナを実行し、ユーザーのリクエストに従って水平方向に拡大/縮小します。 これにより、ユーザーは、複数の公開リクエストを実行し、大規模なオンプレミスのAEMサーバーよりも高いパフォーマンスを得ることができます。
+
+>[!NOTE]
+>
+> 現在、AEMガイドのマイクロサービスベースの公開で、ネイティブPDFの公開または DITA-OT を使用したPDF出力のみがサポートされています。 今後のリリースで、より多くの出力タイプに対して、マイクロサービスベースの公開サポートが追加される予定です。
 
 新しいクラウド公開サービスはAdobe IMSJWT ベースの認証で保護されるので、お客様は以下の手順に従って、Adobeのセキュアなトークンベースの認証ワークフローと環境を統合し、新しいクラウドベースのスケーラブル公開ソリューションの使用を開始する必要があります。
 
@@ -102,6 +107,8 @@ IMS 設定を環境に追加したら、次の手順を実行して、OSGi を�
 **ファイル**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **コンテンツ**:
+* `dxml.use.publish.microservice`:DITA-OT を使用したマイクロサービスベースのPDF公開の有効化に切り替えます
+* `dxml.use.publish.microservice.native.pdf`:マイクロサービスベースのネイティブPDF公開を有効に切り替え
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -109,5 +116,6 @@ IMS 設定を環境に追加したら、次の手順を実行して、OSGi を�
           jcr:primaryType="sling:OsgiConfig"
           dxml.publish.microservice.url="https://adobeioruntime.net/api/v1/web/543112-guidespublisher/default/publishercaller.json"
           dxml.use.publish.microservice="{Boolean}true"
+          dxml.use.publish.microservice.native.pdf="{Boolean}true"
 />
 ```
