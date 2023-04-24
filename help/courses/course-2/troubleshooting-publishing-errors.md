@@ -2,7 +2,7 @@
 title: 公開エラーのトラブルシューティング
 description: での公開エラーのトラブルシューティング [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## エラーの公開の一般的な原因
 
-ソースコンテンツにエラーが含まれる場合があります。 次に例を示します。
+ソースコンテンツにエラーが含まれる場合があります。 例：
 
 * ファイルパス参照の名前が正しくありません
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![error-log](images/error-log.png)
 
-2. エラーログをスクロールします。
+1. エラーログをスクロールします。
 
 ## エラータイプの表示と非表示
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. **選択** または **選択解除** ハイライトの表示/非表示を切り替える任意のエラータイプ。
 
-2. 次を使用してエラーをナビゲートする **次へ** または **前** ボタン（矢印）
+1. 次を使用してエラーをナビゲートする **次へ** または **前** ボタン（矢印）
 
 ## エラーの解決
 

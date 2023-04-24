@@ -2,7 +2,7 @@
 title: のAEMユーザーインターフェイスについて [!DNL AEM Guides]
 description: のAEMユーザーインターフェイスについて [!DNL Adobe Experience Manager Guides]
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -18,7 +18,7 @@ XML Editor での管理に関するアセット、ファイル、フォルダー
 ## XML Editor へのアクセス
 
 1. ログイン画面で、ユーザー名とパスワードを入力し、「 」を選択します。 **[!UICONTROL ログイン]**.
-2. 選択 **[!UICONTROL XML Editor]** をAEMナビゲーションページから開きます。
+1. 選択 **[!UICONTROL XML Editor]** をAEMナビゲーションページから開きます。
 
 ## XML エディタビュー
 
@@ -81,7 +81,7 @@ Assets UI の任意のビューから XML エディターに戻ることがで�
 
 1. リストから編集するトピックを選択します。
 このトピックは Assets UI に表示されます。
-2. 選択 **編集** をクリックします。
+1. 選択 **編集** をクリックします。
 XML エディタに戻ります。
 
 ### カード表示からの戻り

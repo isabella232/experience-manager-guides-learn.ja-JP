@@ -2,7 +2,7 @@
 title: リリースノート： [!DNL AEM Guides]（2022 年 3 月リリース）
 description: の 3 月リリース [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 2%
@@ -15,8 +15,8 @@ ht-degree: 2%
 
 現在の [!DNL Adobe Experience Manager Guides] as a Cloud Service *[!DNL AEM Guides]as a Cloud Service*) を設定する必要があります。
 1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
-2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2022.3.123 に設定します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、の 3 月のリリースにアップグレードします。 [!DNL AEM Guides] as a Cloud Service。
+1. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2022.3.123 に設定します。
+1. 変更をコミットし、Cloud Servicesパイプラインを実行して、の 3 月のリリースにアップグレードします。 [!DNL AEM Guides] as a Cloud Service。
 
 ## 互換性マトリックス
 

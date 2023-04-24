@@ -2,7 +2,7 @@
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2022 年 4 月リリース
 description: Adobe Experience Manager Guides の 4 月リリースas a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 現在の [!DNL Adobe Experience Manager Guides] as a Cloud Service *[!DNL AEM Guides]as a Cloud Service*) を設定する必要があります。
 1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
-2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2022.4.133 に設定します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、の 4 月リリースにアップグレードします。 [!DNL AEM Guides] as a Cloud Service。
+1. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2022.4.133 に設定します。
+1. 変更をコミットし、Cloud Servicesパイプラインを実行して、の 4 月リリースにアップグレードします。 [!DNL AEM Guides] as a Cloud Service。
 
 ## 互換性マトリックス
 
@@ -52,8 +52,8 @@ DITA コンテンツキー参照は、あるトピックのコンテンツの一
 これで、キー参照は、次の優先順位で設定されたルートマップに基づいて解決されます。
 
 1. ユーザーの環境設定
-2. マップビューパネル
-3. フォルダープロファイル
+1. マップビューパネル
+1. フォルダープロファイル
 
 詳しくは、 *キー参照の解決* 」の節を参照してください。
 

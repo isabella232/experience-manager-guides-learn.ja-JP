@@ -2,7 +2,7 @@
 title: AEMガイドでのデフォルト出力の公開
 description: でのデフォルト出力の公開 [!DNL Adobe Experience Manager Guides]
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -25,13 +25,13 @@ ht-degree: 0%
 
    別のタブにマップダッシュボードが開きます。
 
-2. 「出力プリセット」タブで、「AEMサイト」と「PDF」を選択します。
+1. 「出力プリセット」タブで、「AEMサイト」と「PDF」を選択します。
 
    ![出力プリセット](images/lesson-9/pdf-aem.png)
 
-3. 選択 **生成。**
+1. 選択 **生成。**
 
-4. 出力ページに移動して、生成された出力のステータスを表示します。
+1. 出力ページに移動して、生成された出力のステータスを表示します。
 
    緑の円は、生成が完了したことを示します。
 

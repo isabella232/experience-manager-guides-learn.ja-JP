@@ -2,7 +2,7 @@
 title: AEM Guides Editor Configuration
 description: AEMガイド用のエディターの設定
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -25,17 +25,17 @@ ht-degree: 0%
 
    ![ツールアイコン](images/reuse/tools-icon.png)
 
-2. 選択 **ガイド** をクリックします。
+1. 選択 **ガイド** をクリックします。
 
-3. 次をクリック： [!UICONTROL **フォルダープロファイル**] タイル。
+1. 次をクリック： [!UICONTROL **フォルダープロファイル**] タイル。
 
    ![フォルダープロファイル](images/reuse/folder-profiles-tile.png)
 
-4. フォルダープロファイルを選択します。
+1. フォルダープロファイルを選択します。
 
-5. 次をクリック： [!UICONTROL **XML エディター設定**] タブをクリックします。
+1. 次をクリック： [!UICONTROL **XML エディター設定**] タブをクリックします。
 
-6. クリック [!UICONTROL **ダウンロード**] デフォルト。
+1. クリック [!UICONTROL **ダウンロード**] デフォルト。
 
    ![デフォルトをダウンロード](images/lesson-4/download-default.png)
 
@@ -47,15 +47,15 @@ UI 設定をカスタマイズした後、アップロードできます。 サ�
 
 1. フォルダープロファイル内で、 [!UICONTROL **XML エディター設定**] タブをクリックします。
 
-2. 「XML Editor UI configuration」で、 [!UICONTROL **アップロード**].
+1. 「XML Editor UI configuration」で、 [!UICONTROL **アップロード**].
 
    ![アップロード](images/lesson-4/upload.png)
 
-3. 変更した UI 設定のファイル（ここで示すサンプルファイル）をダブルクリックします。
+1. 変更した UI 設定のファイル（ここで示すサンプルファイル）をダブルクリックします。
 
    ![設定ファイルのサンプル](images/lesson-4/sample-config-file.png)
 
-4. クリック [!UICONTROL **保存**] をクリックします。
+1. クリック [!UICONTROL **保存**] をクリックします。
 
 変更した UI 設定が正常にアップロードされました。
 
@@ -67,17 +67,17 @@ UI 設定と同様に、CSS テンプレートレイアウトをダウンロー�
 
    ![ツールアイコン](images/reuse/tools-icon.png)
 
-2. 選択 **ガイド** をクリックします。
+1. 選択 **ガイド** をクリックします。
 
-3. 次をクリック： [!UICONTROL **フォルダープロファイル**] タイル。
+1. 次をクリック： [!UICONTROL **フォルダープロファイル**] タイル。
 
    ![フォルダープロファイル](images/reuse/folder-profiles-tile.png)
 
-4. フォルダープロファイルを選択します。
+1. フォルダープロファイルを選択します。
 
-5. 次をクリック： [!UICONTROL **XML エディター設定**] タブをクリックします。
+1. 次をクリック： [!UICONTROL **XML エディター設定**] タブをクリックします。
 
-6. CSS テンプレートレイアウトで、 [!UICONTROL **ダウンロード**].
+1. CSS テンプレートレイアウトで、 [!UICONTROL **ダウンロード**].
 
    ![CSS をダウンロード](images/lesson-4/download-css.png)
 
@@ -89,15 +89,15 @@ CSS テンプレートレイアウトをカスタマイズした後、アップ�
 
 1. フォルダープロファイル内で、 [!UICONTROL **XML エディター設定**] タブをクリックします。
 
-2. CSS テンプレートレイアウトで、 [!UICONTROL **アップロード**].
+1. CSS テンプレートレイアウトで、 [!UICONTROL **アップロード**].
 
    ![CSS をアップロード](images/lesson-4/upload-css.png)
 
-3. 独自のカスタム CSS レイアウトまたは用意されているサンプルファイルのいずれかのファイルをダブルクリックします。
+1. 独自のカスタム CSS レイアウトまたは用意されているサンプルファイルのいずれかのファイルをダブルクリックします。
 
    ![サンプル CSS ファイル](images/lesson-4/sample-css-file.png)
 
-4. クリック [!UICONTROL **保存**] をクリックします。
+1. クリック [!UICONTROL **保存**] をクリックします。
 カスタマイズされた CSS テンプレートレイアウトが正常にアップロードされました。
 
 ## XML エディタースニペットの編集
@@ -108,25 +108,25 @@ CSS テンプレートレイアウトをカスタマイズした後、アップ�
 
    ![ツールアイコン](images/reuse/tools-icon.png)
 
-2. 選択 **ガイド** をクリックします。
+1. 選択 **ガイド** をクリックします。
 
-3. 次をクリック： [!UICONTROL **フォルダープロファイル**] タイル。
+1. 次をクリック： [!UICONTROL **フォルダープロファイル**] タイル。
 
    ![フォルダープロファイル](images/reuse/folder-profiles-tile.png)
 
-4. フォルダープロファイルを選択します。
+1. フォルダープロファイルを選択します。
 
-5. 次をクリック： [!UICONTROL **XML エディター設定**] タブをクリックします。
+1. 次をクリック： [!UICONTROL **XML エディター設定**] タブをクリックします。
 
-6. [XML エディタスニペット ] で、 **アップロード**.
+1. [XML エディタスニペット ] で、 **アップロード**.
 
    ![スニペットをアップロード](images/lesson-4/upload-snippets.png)
 
-7. 独自のスニペットを選択するか、提供されるサンプルを使用します。
+1. 独自のスニペットを選択するか、提供されるサンプルを使用します。
 
    ![サンプルスニペット](images/lesson-4/sample-snippet.png)
 
-8. クリック [!UICONTROL **保存**] をクリックします。
+1. クリック [!UICONTROL **保存**] をクリックします。
 
 新しいスニペットをエディターに正常に追加しました。
 
@@ -138,17 +138,17 @@ CSS テンプレートレイアウトをカスタマイズした後、アップ�
 
    ![ツールアイコン](images/reuse/tools-icon.png)
 
-2. 選択 **ガイド** をクリックします。
+1. 選択 **ガイド** をクリックします。
 
-3. 次をクリック： [!UICONTROL **フォルダープロファイル**] タイル。
+1. 次をクリック： [!UICONTROL **フォルダープロファイル**] タイル。
 
    ![フォルダープロファイル](images/reuse/folder-profiles-tile.png)
 
-4. フォルダープロファイルを選択します。
+1. フォルダープロファイルを選択します。
 
-5. 次をクリック： [!UICONTROL **XML エディター設定**] タブをクリックします。
+1. 次をクリック： [!UICONTROL **XML エディター設定**] タブをクリックします。
 
-6. 「XML Content Version Labels」で、 [!UICONTROL **ダウンロード**].
+1. 「XML Content Version Labels」で、 [!UICONTROL **ダウンロード**].
 
    ![ラベルをダウンロード](images/lesson-4/download-labels.png)
 
@@ -160,14 +160,14 @@ CSS テンプレートレイアウトをカスタマイズした後、アップ�
 
 1. フォルダープロファイル内で、 [!UICONTROL **XML エディター設定**] タブをクリックします。
 
-2. 「XML Content Version Labels」で、 [!UICONTROL **アップロード**].
+1. 「XML Content Version Labels」で、 [!UICONTROL **アップロード**].
 
    ![ラベルをアップロード](images/lesson-4/upload-labels.png)
 
-3. 独自のカスタムラベルまたはここに示すサンプルファイルのファイルをダブルクリックします。
+1. 独自のカスタムラベルまたはここに示すサンプルファイルのファイルをダブルクリックします。
 
    ![サンプルラベルファイル](images/lesson-4/sample-labels-file.png)
 
-4. クリック [!UICONTROL **保存**] をクリックします。
+1. クリック [!UICONTROL **保存**] をクリックします。
 
 カスタム XML コンテンツバージョンラベルを正常にアップロードしました。
