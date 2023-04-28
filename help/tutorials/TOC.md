@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: d6edeaf6b0d309d1e8301b1695edbc5b2f953d7a
+source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '733'
 ht-degree: 8%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 8%
       + [ファイルのアップロード](./user-guide/authoring-upload-existing-files.md)
       + [ファイルとフォルダーの管理](./user-guide/authoring-file-management.md)
       + [ファイルをダウンロード](./user-guide/authoring-download-assets.md)
-   + コンテンツを作成 {#author-content}
+   + 作成者コンテンツ {#author-content}
       + [概要](./user-guide/authoring-content.md)
       + トピックの作成とプレビュー {#create-preview-topics}
          + [トピックの作成とプレビュー](./user-guide/create-preview-topics.md)
@@ -182,15 +182,19 @@ ht-degree: 8%
       + [ベースラインを使用したコンテンツの管理](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [Web ベースのコンテンツの作成](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [ネイティブPDFの公開の基本事項](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-   + 公開{#publishing}
-      + [マイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
+      + [AEMガイドのレポート](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+      + [コンテンツとテンプレートの設定](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
    + 記事 {#kb-articles}
       + オーサリング {#authoring}
          + Webeditor {#webeditor}
+            + カスタマイズ {#customizing}
+               + [ツールバーにカスタムボタンを追加](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+               + [Webeditor にカスタムスタイルを追加する](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + Schematron {#schematron}
                + [Schematron 検証](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 公開 {#publishing}
          + [ネイティブAEM公開用のPDF環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         + [マイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
       + ワークフロー {#workflows}
          + [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
