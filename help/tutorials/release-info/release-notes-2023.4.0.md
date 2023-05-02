@@ -1,7 +1,8 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 4 月リリース
 description: Adobe Experience Manager Guides の最新リリースのas a Cloud Service
-source-git-commit: 77b118655ad8e37e00b0371497e4a2578ddd276e
+exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
+source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 2%
@@ -66,7 +67,7 @@ XMPファイルを読み込むと、AEMガイドはファイルから情報を�
 
 ### 拡張アウトライン表示パネル
 
-AEMガイドは、ドキュメントで使用される要素の階層ビューを取得できる、即興のアウトラインビューパネルを提供します。
+AEMガイドでは、改善されたアウトラインビューパネルを使用して、ドキュメントで使用される要素の階層ビューを取得できます。
 
 <img src="assets/select-element-content-outline-view_cs.png" alt=" ネイティブ pdf メタデータ">
 
@@ -104,4 +105,3 @@ AEMガイドas a Cloud Serviceは、マイクロサービスベースの公開�
 Adobeは、2023 年 4 月のリリースのAEMガイドに関して、次の既知の問題を特定しました。
 
 * ネイティブPDF |古いメタデータは、出力プリセットが明示的に開かれるまで入力されません。
-
