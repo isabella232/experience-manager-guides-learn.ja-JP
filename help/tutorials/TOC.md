@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
+source-git-commit: 954c58e92e3d90b3b45bda573d581f5201d439ae
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 8%
 
 ---
@@ -196,5 +196,6 @@ ht-degree: 8%
          + [ネイティブAEM公開用のPDF環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [マイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
+         + [マイクロサービスのアーキテクチャとパフォーマンス](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
       + ワークフロー {#workflows}
          + [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
