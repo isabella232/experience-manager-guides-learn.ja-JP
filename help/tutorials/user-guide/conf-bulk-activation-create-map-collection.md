@@ -1,13 +1,13 @@
 ---
 title: 一括アクティベーションマップコレクションの作成
 description: 一括アクティベーションマップコレクションを作成する方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # 一括アクティベーションマップコレクションの作成 {#id214GG0E90EV}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    DITA マップファイルが一括アクティベーションマップコレクションに追加されます。
 
-   ![](images/bulk-activation-collection-created.png)
+   ![](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 
 「マップとプリセット」タブには、次の列に情報が表示されます。
@@ -70,4 +70,3 @@ ht-degree: 0%
 - **マップとプリセット** テーブル：「マップとプリセット」(Maps and Presets) テーブルには、以下の列が表示されます。
 
 **親トピック：**[&#x200B;公開済みコンテンツの一括アクティベーション](conf-bulk-activation.md)
-

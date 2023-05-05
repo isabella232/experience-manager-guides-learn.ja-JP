@@ -1,13 +1,13 @@
 ---
 title: AEM Site
 description: サイトのAEM方法
-source-git-commit: 23d6c87b525f0763990166e46f4bd4ac2d6e7cd5
+exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 0%
 
 ---
-
 
 # AEM Site {#id205BE3008SW}
 
@@ -86,7 +86,7 @@ AEM Site の出力では、次のオプションを使用できます。
 
 パブリッシュのコンテキストを使用すると、特定の出力をパブリッシュするためにどのトピックを使用するかを指定できます。 例を使って、次の 4 つのフォルダーがあるとします。サンプル a、サンプル b、サンプル c、サンプル d各フォルダには DITA マップ — DITA マップ A、DITA マップ B、DITA マップ C、DITA マップ D が含まれます。DITA マップ A のトピックが DITA マップ B、C、または D のトピックにリンクすると、クロスマップリンクが発生します。その他の DITA マップ。
 
-![](images/sample-concept-link-to-other.png){width="450" align="left"}
+![](images/sample-concept-link-to-other.png){width="350" align="left"}
 
 このトピックを含むマップファイルに対してAEM Site の公開設定を構成する際に、リンクされたコンテンツの公開コンテキストを、公開時に使用するパブリッシュコンテキストを選択できます。 公開コンテキストは、DITA マップとその出力プリセットを組み合わせたものです。 次に、出力プリセットには、コンテンツの特定のバージョンと条件付きプリセットが含まれます。 DITA マップ、出力プリセット、\(files\) バージョンおよび条件の組み合わせ全体が、リンクされたマップの公開コンテキストを定義します。
 
@@ -143,8 +143,7 @@ AEMガイドは、既存のAEMサイト内での DITA コンテンツの公開�
 
 AEM Site の出力で文字列を検索できます。 デフォルトでは、タイトル内の文字列のみ検索できます。 AEMサイト出力のコンテンツ内または本文内の文字列を検索するには、システム管理者に連絡して flattening.enabled プロパティを有効にしてもらってください。
 
-
-<img src="images/aem-output-search.png" alt="AEM Site 出力を検索" width="800">
+![AEM Site 出力を検索](images/aem-output-search.png){width="650" align="left"}
 
 詳しくは、 *AEM Site ノード構造の統合を設定* 『 Adobe Experience Managerガイドのインストールと設定』の節を参照してください。
 

@@ -1,13 +1,13 @@
 ---
 title: マップダッシュボードからの DITA マップレポート
 description: マップダッシュボードから DITA マップレポートを作成する方法を説明します
-source-git-commit: 8a104cfe17778a71915e3700f49fc6892493ccd0
+exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # マップダッシュボードからの DITA マップレポート {#id205BB800EEN}
 
@@ -23,7 +23,7 @@ AEMガイドは、管理者にレポート機能を提供し、ドキュメン�
 
 1. クリック **レポート**.
 
-   ![](images/reports-page-uuid.png)
+   ![](images/reports-page-uuid.png){width="800" align="left"}
 
    レポートページは、次の 2 つの部分に分かれています。
 
@@ -35,7 +35,7 @@ AEMガイドは、管理者にレポート機能を提供し、ドキュメン�
 
       トピックをクリックすると、選択したトピックの詳細レポートが表示されます。
 
-      ![](images/detailed-report-uuid.png)
+      ![](images/detailed-report-uuid.png){width="800" align="left"}
 
       以下でハイライトされた項目 **A**, **B**, **C** および **D** 以下に説明します。
 
@@ -79,20 +79,19 @@ DITA マップレポートの CSV を生成するには、次の手順を実行�
 
 1. クリック **レポートを生成** をクリックして、DITA マップレポートを生成します。
 
-   ![](images/generate-DITA-map-report.png)
+   ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
 1. レポートをダウンロードする準備が整ったら、通知を受け取ります。 クリック **ダウンロード** をクリックして、生成されたレポートの CSV をダウンロードします。
 
-   ![](images/download-report-dialog.png)
+   ![](images/download-report-dialog.png){width="550" align="left"}
 
 
    後でAEM通知インボックスから、生成されたレポートの CSV をダウンロードすることもできます。
 
    インボックスで生成されたレポートをクリックして、レポートをダウンロードします。
 
-   ![](images/report-inbox--notification.png)
+   ![](images/report-inbox--notification.png){width="300" align="left"}
 
 レポートをインボックスにダウンロードしたら、レポートを選択し、上部の「開く」アイコンを使用して、選択したレポートを開くこともできます。
 
 **親トピック：**[&#x200B;レポート](reports-intro.md)
-

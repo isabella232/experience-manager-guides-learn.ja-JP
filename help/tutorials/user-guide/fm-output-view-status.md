@@ -1,13 +1,13 @@
 ---
 title: 出力生成タスクのステータスの表示
 description: 出力生成タスクのステータスを表示する方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 6fdaa547-8446-4ce5-95c3-a63d9c1f27d2
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
 
 ---
-
 
 # 出力生成タスクのステータスの表示 {#viewing_output_history}
 
@@ -19,7 +19,7 @@ FrameMaker ドキュメントの出力生成タスクを開始すると、AEMガ
 
 1. [ 出力 ] をクリックします。
 
-   ![](images/output-queued-fm.png)
+   ![](images/output-queued-fm.png){width="800" align="left"}
 
 1. 出力ページは、次の 2 つの部分に分かれています。
 
@@ -35,4 +35,3 @@ FrameMaker ドキュメントの出力生成タスクを開始すると、AEMガ
 
 
 **親トピック：**[ FrameMaker ドキュメントの出力を生成](fm-output-generatation.md)
-

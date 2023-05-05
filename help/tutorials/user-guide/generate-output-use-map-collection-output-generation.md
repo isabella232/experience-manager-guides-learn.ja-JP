@@ -1,13 +1,13 @@
 ---
 title: 出力生成にマップコレクションを使用
 description: 出力生成にマップコレクションを使用する方法を説明します。
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 1%
 
 ---
-
 
 # 出力生成にマップコレクションを使用 {#id1723F20G0HS}
 
@@ -25,7 +25,7 @@ Map コレクションを作成し、DITA マップをコレクションに追�
 
    「コレクションをマッピング」リンクが使用できない場合は、 **ナビゲーション** 」オプションを使用して、 **コレクションをマッピング**.
 
-   ![](images/access-map-collection-left-rail.png)
+   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
 1. マップコレクションのタイトルを入力します。
 1. 「**作成**」をクリックします。
@@ -47,8 +47,7 @@ Map コレクションを作成し、DITA マップをコレクションに追�
 
    DITA マップファイルがマップコレクションに追加されます。
 
-
-![](images/maps_presets_62_63.png)
+   ![](images/maps_presets_62_63.png){width="800" align="left"}
 
 次のフィルタリングオプションとマップの詳細がコレクションページに表示されます。
 
@@ -93,7 +92,6 @@ Map コレクションを使用して出力を設定および生成するには�
 
 次の [DITA マップコンソール](generate-output-for-a-dita-map.md#id2061H100T5Z) または [ダッシュボードを公開](generate-output-publish-dashboard.md#)を使用すると、Map Collection から出力生成タスクをキャンセルできます。 マップコレクションの [ 出力 ] タブにアクセスし、キャンセルするパブリッシュタスクに移動して、 **このジョブをキャンセル** アイコンをクリックして、パブリッシュタスクをキャンセルします。
 
-![](images/cancel-publish-task-map-collection.png)
+![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
 **親トピック：**[&#x200B;出力の生成](generate-output.md)
-

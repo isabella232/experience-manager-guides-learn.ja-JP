@@ -1,13 +1,13 @@
 ---
 title: 出力を有効化
 description: 出力を有効にする方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: a3b6cfed-813e-433c-891f-bb0715e7b94a
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 2%
 
 ---
-
 
 # 出力を有効化 {#id214GGF00V5U}
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 1. 公開するコレクションを選択し、 **開く**.
 
-   ![](images/bulk-activation-collection-open.png)
+   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
 1. \(*オプション*\) 左側のレールから必要なフィルターを適用し、変更された\(status\)、出力プリセットまたは言語に基づいてマップをフィルタリングします。
 1. 次のいずれかの操作を行います。
@@ -31,10 +31,9 @@ ht-degree: 2%
    - 選択したマップの出力をアクティブにするには、マップファイルを選択し、 **クイック公開**.
    - 設定済みのプリセットを含むすべての DITA マップの出力を有効にするには、マップ（列）の横にあるチェックボックスをオンにし、 **クイック公開。**
 
-      ![](images/bulk-activation-collection-quick-publish.png)
+      ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
 
 選択したマップファイルの出力が有効になると、「パブリッシュ済み」列が現在の日時に更新されます。
 
 **親トピック：**[&#x200B;公開済みコンテンツの一括アクティベーション](conf-bulk-activation.md)
-

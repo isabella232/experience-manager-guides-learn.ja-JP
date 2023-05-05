@@ -1,13 +1,13 @@
 ---
 title: コンテンツ翻訳のベストプラクティス
 description: コンテンツ翻訳のベストプラクティスを学ぶ
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 2%
 
 ---
-
 
 # コンテンツ翻訳のベストプラクティス {#id1678G0S702F}
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 次の図に、コンテンツと 3 つの言語コピーをグローバルに使用したAEMのフォルダー構造の例を示します。
 
-![](images/aem-directory_structure.png)
+![](images/aem-directory_structure.png){width="800" align="left"}
 
 ## 翻訳サービスの設定
 
@@ -129,4 +129,3 @@ ht-degree: 2%
 > 翻訳ジョブで 1 つ以上のトピックの翻訳を拒否した場合、 **処理中** すべての却下されたトピックの翻訳ステータスは、元のステータスに戻ります。 参照元のトピックのステータスは、最新の翻訳状態に応じてチェックされ、元に戻されます。 また、宛先プロジェクトで作成された翻訳ファイルは、翻訳が拒否されても削除されません。
 
 **親トピック：**[&#x200B;コンテンツを翻訳](translation.md)
-

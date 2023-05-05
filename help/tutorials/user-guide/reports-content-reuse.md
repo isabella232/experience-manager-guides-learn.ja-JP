@@ -1,13 +1,13 @@
 ---
 title: コンテンツ再利用レポート
 description: コンテンツの再利用レポートの方法を説明します
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # コンテンツ再利用レポート {#id205BB900OQD}
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. クリック **レポートを生成** をクリックして、コンテンツ再利用レポートを取得します。
 
-   ![](images/content-reuse-uuid.png)
+   ![](images/content-reuse-uuid.png){width="800" align="left"}
 
    レポートページは、次の 2 つの部分に分かれています。
 
@@ -61,4 +61,3 @@ ht-degree: 0%
 > コンテンツの再利用レポートを CSV 形式で書き出すこともできます。 CSV ファイルを保存するには、画面の左上隅にある「 CSV に書き出し」リンクをクリックし、CSV ファイルを保存する場所を選択します。 その後、この CSV ファイルを任意の CSV エディターで開くことができます。
 
 **親トピック：**[&#x200B;レポート](reports-intro.md)
-

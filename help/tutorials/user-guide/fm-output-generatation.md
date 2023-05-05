@@ -1,13 +1,13 @@
 ---
 title: FrameMaker ドキュメントの出力を生成
 description: FrameMaker ドキュメントの出力を生成する方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 2%
+source-wordcount: '190'
+ht-degree: 1%
 
 ---
-
 
 # FrameMaker ドキュメントの出力を生成 {#id1645H8040HD}
 
@@ -31,17 +31,4 @@ AEMガイド 1.1 以降では、FrameMaker ドキュメントも公開できま�
 >[!IMPORTANT]
 >
 > このトピックで説明する機能は、発行者または管理者権限を持つユーザーのみが使用できます。
-
-- **[出力プリセットの理解](fm-output-understand-presets.md)**
-
-- **[PDF](fm-output-pdf-preset.md)**
-
-- **[HTML5](fm-output-html5-preset.md)**
-
-- **[EPUB](fm-output-epub-preset.md)**
-
-- **[.book または.fm ファイルの出力を生成](fm-output-generate.md)**
-
-- **[出力生成タスクのステータスの表示](fm-output-view-status.md)**
-
 

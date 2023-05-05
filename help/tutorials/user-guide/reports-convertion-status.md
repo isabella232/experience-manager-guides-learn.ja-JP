@@ -1,13 +1,13 @@
 ---
 title: コンバージョンステータスレポート
 description: コンバージョンステータスレポートの作成方法を説明します
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # コンバージョンステータスレポート {#id205BBA00WZZ}
 
@@ -23,7 +23,7 @@ AEMガイドは、様々な形式のドキュメントを DITA に変換する�
 
    コンバージョンステータスレポートは、システムで実行されるすべてのコンバージョンタスクに対して表示されます。
 
-   ![](images/conversion-status-report.png)
+   ![](images/conversion-status-report.png){width="800" align="left"}
 
 1. レポートページは、次の 2 つの部分に分かれています。
 
@@ -33,7 +33,7 @@ AEMガイドは、様々な形式のドキュメントを DITA に変換する�
 
       次のスクリーンショットは、失敗、アクティブ、キューに追加されたコンバージョンタスクのレポートデータを示しています。
 
-      ![](images/conversion-report-failed-active-queued.png)
+      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **レポートデータ：**
 
@@ -55,4 +55,3 @@ AEMガイドは、様々な形式のドキュメントを DITA に変換する�
 
 
 **親トピック：**[&#x200B;レポート](reports-intro.md)
-

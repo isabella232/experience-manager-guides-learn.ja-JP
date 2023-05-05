@@ -1,13 +1,13 @@
 ---
 title: 変更したトピックを翻訳
 description: 変更したトピックを翻訳する方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
 
 ---
-
 
 # 変更したトピックを翻訳 {#id16A5A0B6072}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    矢印をクリックすると、詳細が表示されます。 古い特定の言語コピーを確認できます。
 
-   ![](images/out-of-sync-uuid.png)
+   ![](images/out-of-sync-uuid.png){width="800" align="left"}
 
 1. チェックボックスをクリックして、再翻訳用に送信するトピックを選択します。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. プロジェクトコンソールで翻訳プロジェクトに移動します。 新しい翻訳ジョブカードがフォルダーに作成されます。 フォルダーのアセットを表示するには、省略記号をクリックします。
 
-   ![](images/incremental-job.PNG)
+   ![](images/incremental-job.PNG){width="300" align="left"}
 
 1. 翻訳を開始するには、翻訳ジョブカードの矢印をクリックし、「 **開始** を選択します。 ジョブが開始されたことを示すメッセージが表示されます。
 
@@ -76,4 +76,3 @@ ht-degree: 0%
 
 
 **親トピック：**[&#x200B;コンテンツを翻訳](translation.md)
-

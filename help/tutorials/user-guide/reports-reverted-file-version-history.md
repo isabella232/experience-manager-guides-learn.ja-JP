@@ -1,13 +1,13 @@
 ---
 title: 元に戻したファイルのバージョン履歴レポート
 description: 元に戻したファイルのバージョン履歴レポートの方法を説明します
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: fa90b373-742a-4102-b00f-07e4113fef98
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
 
 ---
-
 
 # 元に戻したファイルのバージョン履歴レポート {#id205BBC00PRK}
 
@@ -19,7 +19,7 @@ AEMガイドでは、個々のファイルまたはフォルダー内のすべ�
 
 - **Assets UI**:ファイルを選択して **バージョン履歴** をクリックします。 この **バージョン履歴** ビューには **バージョンログを元に戻す** リンクをクリックします。 このリンクをクリックすると、選択したファイルの元に戻されたバージョンの履歴が表示されます。
 
-   ![](images/revert-log-from-assets-ui.png)
+   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **トピックのプレビュー**:トピックをプレビューする際に、 **バージョン履歴** パネルを左側のパネルから削除します。 Assets UI に似たパネルが表示され、ここから **バージョンログを元に戻す** 作業中の文書の元に戻されたバージョン履歴にアクセスするためのリンクです。
 
@@ -38,7 +38,7 @@ AEMガイドでは、個々のファイルまたはフォルダー内のすべ�
 
 1. クリック **ログを表示** 選択したファイルまたはフォルダのレポートを生成します。
 
-   ![](images/revert-version-history-report.png)
+   ![](images/revert-version-history-report.png){width="800" align="left"}
 
    レポートには、次の詳細が含まれます。
 
@@ -56,4 +56,3 @@ AEMガイドでは、個々のファイルまたはフォルダー内のすべ�
 
 
 **親トピック：**[&#x200B;レポート](reports-intro.md)
-

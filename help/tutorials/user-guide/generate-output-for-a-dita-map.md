@@ -1,13 +1,13 @@
 ---
 title: マップコンソールから DITA マップの出力を生成します
 description: マップコンソールから DITA マップの出力を生成する方法を説明します。
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
 
 ---
-
 
 # マップコンソールから DITA マップの出力を生成します {#id1825FG00UHT}
 
@@ -19,7 +19,7 @@ DITA マップの出力を生成するには、次の手順を実行します。
 
 1. 出力の生成に使用する 1 つまたは複数の出力プリセットを選択します。
 
-   ![](images/generate-multiple-outputs-uuid.png)
+   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ DITA マップ内の少数のトピックのみを更新し、更新されたト
    >
    > DITA マップに新しいトピックを追加した場合は、ここからこれらの新しいトピックを生成できません。 最初に DITA マップ公開機能を使用して、新しく追加したトピックを公開する必要があります。
 
-   ![](images/regenerate-topics.png)
+   ![](images/regenerate-topics.png){width="800" align="left"}
 
 1. クリック **再生成**.
 
@@ -95,7 +95,7 @@ DITA マップ内の少数のトピックのみを更新し、更新されたト
 
 1. クリック **出力**.
 
-   ![](images/output-queued.png)
+   ![](images/output-queued.png){width="800" align="left"}
 
    出力ページは、次の 2 つの部分に分かれています。
 
@@ -132,17 +132,17 @@ DITA マップコンソールから出力生成タスクを取り消すには、
 
 1. 次をクリック： *このジョブをキャンセル* アイコン
 
-   ![](images/cancel-publish-task-map-console.png)
+   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
 1. クリック **はい** をクリックします。
 
-   ![](images/confirm-cancel-output-map-condole.png)
+   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
 
    タスクがまだ開始されていない場合は、タスクに対して「キャンセル」コマンドが実行されます。 取り消し中のタスクの [ 状態 ] は [ 取り消し中 ] に設定されます。
 
    タスクが正常にキャンセルされると、タスクは **生成された出力** リスト **キャンセル** ステータス。 キャンセルされたタスクの上にマウスポインターを置くと、タスクをキャンセルしたユーザーの名前が表示されます。 次のスクリーンショットでは、 *HTML5* タスクがキャンセルされました。
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 ## DITA マップコンソールからの出力タスクの削除
@@ -159,7 +159,7 @@ DITA マップの複数の出力を生成する場合、一定期間にわたっ
 
 1. 削除アイコンをクリックします。
 
-   ![](images/delete-output-task.png)
+   ![](images/delete-output-task.png){width="800" align="left"}
 
 1. クリック **はい** 「削除の確認」メッセージプロンプトが表示されます。
 
@@ -167,4 +167,3 @@ DITA マップの複数の出力を生成する場合、一定期間にわたっ
 
 
 **親トピック：**[&#x200B;出力の生成](generate-output.md)
-

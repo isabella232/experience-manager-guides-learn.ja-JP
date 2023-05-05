@@ -1,13 +1,13 @@
 ---
 title: JSON
 description: JSON の使用方法を学ぶ
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
-
 
 # JSON {#id231KK0180T4}
 
@@ -38,7 +38,7 @@ JSON プリセットでは、次のオプションを使用できます。
 >
 > Web エディターで JSON ファイルを編集することもできます。
 
-| JSON 出力オプション | 説明 |
+| JSON オプション | 説明 |
 | --- | --- |
 | 出力パス | JSON 出力が保存されるAEMリポジトリ内のパス。 |
 | インデックスファイル | JSON 出力用に作成するインデックスファイルの名前を指定できます。 デフォルトでは、DITA マップのファイル名が選択され、次のようなサフィックスが追加されます。 `map_filename_index.json`) をクリックします。<br><br>また、インデックスファイルの設定時に変数を使用することもできます。 変数の使用について詳しくは、 [変数を使用して、[ 宛先のパス ]、[ サイト名 ]、または [ ファイル名 ] オプションを設定します](generate-output-use-variables.md#id18BUG70K05Z). |
@@ -48,4 +48,3 @@ JSON プリセットでは、次のオプションを使用できます。
 | 生成後のワークフロー | このオプションを選択すると、AEMで設定されたすべてのワークフローを含む、新しい生成後のワークフロードロップダウンリストが表示されます。 出力生成ワークフローの完了後に実行するワークフローを選択する必要があります。<br><br>**注意**:カスタムの出力後生成ワークフローの作成について詳しくは、 _出力後の生成ワークフローのカスタマイズ_ 『 Adobe Experience Manager Guides のインストールと設定』as a Cloud Serviceガイド |
 
 **親トピック：**[&#x200B;出力プリセットの理解](generate-output-understand-presets.md)
-

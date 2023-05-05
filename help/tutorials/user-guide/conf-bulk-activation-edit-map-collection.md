@@ -1,13 +1,13 @@
 ---
 title: 一括アクティベーションマップコレクションの編集
 description: 一括アクティベーションマップコレクションを編集する方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
 
 ---
-
 
 # 一括アクティベーションマップコレクションの編集 {#id214GI40B0XA}
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 1. 「**削除**」をクリックします。
 
-   ![](images/bulk-activation-delete-map.png)
+   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
 
    選択したマップが一括アクティベーションマップコレクションから削除されます。
 
@@ -41,4 +41,3 @@ ht-degree: 2%
 
 
 **親トピック：**[&#x200B;公開済みコンテンツの一括アクティベーション](conf-bulk-activation.md)
-

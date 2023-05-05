@@ -1,13 +1,13 @@
 ---
 title: DITA-OT を使用してメタデータを出力に渡します。
 description: DITA-OT を使用してメタデータを出力に渡す方法を説明します。
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
 
 ---
-
 
 # DITA-OT を使用してメタデータを出力に渡します。 {#id21BJ00QD0XA}
 
@@ -19,7 +19,7 @@ DITA-OT 公開を使用してメタデータを出力に渡すには、次の手
 1. メタデータフィールドを渡す出力プリセットを選択して編集します。 例えば、「PDF出力プリセット」を選択します。
 1. 選択 **DITA-OT** 生成の下 &lt;output> 選択した出力プリセットの「 」オプションを使用します。
 
-   ![](images/custom-meta-data-output-preset.png)
+   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
 
 1. 「プロパティ」ドロップダウンで、DITA-OT 公開に渡すメタデータを選択します。
 
@@ -35,7 +35,7 @@ DITA-OT 公開を使用してメタデータを出力に渡すには、次の手
 
 1. 次の **プロパティ** ドロップダウンで、必要なカスタムプロパティとデフォルトプロパティを選択します。 例えば、「 `author`, `dc:title`、および `dc:description`. これらは標準です `metadata/properties` ファイルを作成すると作成されます。 選択したプロパティがドロップボックスの下に表示されます。
 
-   ![](images/selected-metadata-properties.png)
+   ![](images/selected-metadata-properties.png){width="300" align="left"}
 
 1. クリック **完了** 左上に移動して、変更を保存します。
 1. 出力を生成します。
@@ -43,4 +43,3 @@ DITA-OT 公開を使用してメタデータを出力に渡すには、次の手
 選択したメタデータプロパティは、DITA-OT を使用して生成された出力に渡されます。
 
 **親トピック：**[&#x200B;出力の生成](generate-output.md)
-

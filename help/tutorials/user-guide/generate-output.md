@@ -1,13 +1,13 @@
 ---
 title: 出力の生成
 description: 出力生成の方法を学ぶ
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # 出力の生成 {#id1645H8040HD}
 
@@ -43,29 +43,4 @@ AEMガイドには、様々な業界標準の形式で出力を生成する組�
 >[!IMPORTANT]
 >
 > このトピックで説明する機能は、発行者または管理者権限を持つユーザーのみが使用できます。
-
-- **[出力プリセットの理解](generate-output-understand-presets.md)**
-
-- **[変数を使用して、[ 宛先のパス ]、[ サイト名 ]、または [ ファイル名 ] オプションを設定します](generate-output-use-variables.md)**
-
-- **[出力プリセットの作成、編集、複製、削除](generate-output-create-edit-preset.md)**
-
-- **[DITA-OT を使用してメタデータを出力に渡します。](pass-metadata-dita-ot.md)**
-
-- **[条件付き属性プロファイル](generate-output-conditional-attribute-profiling.md)**
-
-- **[条件プリセットの使用](generate-output-use-condition-presets.md)**
-
-- **[基準計画を使用する](generate-output-use-baseline-for-publishing.md)**
-
-- **[マップコンソールから DITA マップの出力を生成します](generate-output-for-a-dita-map.md)**
-
-- **[出力生成にマップコレクションを使用](generate-output-use-map-collection-output-generation.md)**
-
-- **[公開ダッシュボードを使用して公開タスクを管理](generate-output-publish-dashboard.md)**
-
-- **[基本的なトラブルシューティング](generate-output-basic-troubleshooting.md)**
-
-- **[公開済みコンテンツの一括アクティベーション](conf-bulk-activation.md)**
-
 

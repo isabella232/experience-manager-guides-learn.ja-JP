@@ -1,13 +1,13 @@
 ---
 title: 条件付き属性プロファイル
 description: 条件付き属性プロファイルの方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
 
 ---
-
 
 # 条件付き属性プロファイル {#id1843I0HN0Y4}
 
@@ -43,7 +43,7 @@ AEMガイドを使用すると、関連する DITA 属性を使用して条件�
 
    次のスクリーンショットは、 `platform` 値の属性 `unix` そして、 `Red Hat Linux`.
 
-   ![](images/add-profile.png)
+   ![](images/add-profile.png){width="800" align="left"}
 
 1. 同じ属性の値をさらに追加する場合は、 **+** アイコンをクリックし、追加の値とラベルを入力します。
 
@@ -54,7 +54,6 @@ AEMガイドを使用すると、関連する DITA 属性を使用して条件�
 
 この `platform` 属性はシステムに保存されます。 作成者が `platform` 属性は、フォルダー内の DITA トピックで、Web エディターの「プロパティ」タブに値が表示されます。
 
-![](images/properties-tab.png)
+![](images/properties-tab.png){width="350" align="left"}
 
 **親トピック：**[&#x200B;出力の生成](generate-output.md)
-
