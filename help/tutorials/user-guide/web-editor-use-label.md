@@ -1,13 +1,13 @@
 ---
 title: ラベルを使用
 description: ラベルの使用方法を説明します
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # ラベルを使用 {#id164JBG0M0T1}
 
@@ -33,8 +33,7 @@ AEMガイドを使用すると、ファイルの様々なバージョンにラ�
 
    ラベルは、選択したトピックのバージョン履歴に表示されます。 次のスクリーンショットに、ラベルを示します *x.x リリース* および *ユーザーガイド* をトピックのハイライトされたバージョンに追加しました。
 
-
-![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 >[!NOTE]
 >
@@ -49,12 +48,11 @@ AEMガイドを使用すると、ファイルの様々なバージョンにラ�
 
    バージョン履歴に、トピックのすべてのバージョンと、それらに付加されたラベルが表示されます。 次の図は、1 つのトピックの様々なバージョンの例を示しています。1 つのバージョンにラベルが追加されています。
 
-   ![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 1. 削除ボタン\(**X**\) をクリックしてラベルを削除します。
 
-   ![](images/delete-labels.png)
+   ![](images/delete-labels.png){width="300" align="left"}
 
 
 **親トピック：**[ Web エディターの操作](web-editor.md)
-

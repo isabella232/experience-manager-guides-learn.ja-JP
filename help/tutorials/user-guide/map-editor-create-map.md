@@ -1,13 +1,13 @@
 ---
 title: マップを作成する
 description: マップの作成方法を学ぶ
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # マップを作成する {#id176FEN0D05Z}
 
@@ -25,7 +25,7 @@ AEMガイドには、標準の 2 つのマップテンプレート（DITA マッ
    >
    > マップファイル内でトピックを参照する方法は、マップテンプレートによって異なります。 たとえば、マップテンプレートを選択すると、トピックは\(`topicref`\) は、トピックを参照するために使用されます。 ブックマップの場合、トピック参照は `chapter` DITA のエレメント。
 
-   ![](images/map-template.png)
+   ![](images/map-template.png){width="650" align="left"}
 
 1. プロパティページで、マップを指定します。 **タイトル**.
 
@@ -41,7 +41,7 @@ AEMガイドには、標準の 2 つのマップテンプレート（DITA マッ
 
    Assets UI から作成する新しいすべてのマップファイル **作成** \> **DITA マップ** または Web エディターに一意のマップ ID が割り当てられます。 また、新しいマップは、最新の作業用コピーとして DAM に保存されます。 新しく作成したマップのリビジョンを保存するまで、バージョン履歴にはバージョン番号は表示されません。 マップを編集用に開くと、マップファイルのタブの右上隅にバージョン情報が表示されます。
 
-   ![](images/first-version-map-none.png)
+   ![](images/first-version-map-none.png){width="650" align="left"}
 
    新しく作成されたマップのバージョン情報は、次のように表示されます。 *なし*. 新しいバージョンを保存すると、1.0 というバージョン番号が割り当てられます。新しいバージョンの保存の詳細については、 [新しいバージョンとして保存](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -53,4 +53,3 @@ AEMガイドには、標準の 2 つのマップテンプレート（DITA マッ
 
 
 **親トピック：**[&#x200B;マップエディタを使用する](map-editor.md)
-

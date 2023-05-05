@@ -1,13 +1,13 @@
 ---
 title: スマートタグ
 description: スマートタグの使い方を学ぶ
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # スマートタグ {#id216KH0ID0Y8}
 
@@ -23,12 +23,12 @@ AEMガイドには、スマートタグを追加する機能が付属してい�
 1. トピックをプレビューモードで開き、「 」を選択します。 **アセットを再処理** アイコンをクリックします。
 1. 「 XML キーワードの抽出」を選択して、関連するキーワードを抽出します。
 
-   ![](images/smart-tag-reprocess-asset.png)
+   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
 1. 「後処理を実行」オプションを選択します。 ツールが正常に開始されると、メッセージが表示されます。
 1. タグは自動的に抽出され、選択したトピックのプロパティページに表示されます。
 
-   ![](images/properties-smart-tags.png)
+   ![](images/properties-smart-tags.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -38,4 +38,3 @@ AEMガイドには、スマートタグを追加する機能が付属してい�
 *この機能を環境で有効にするには、カスタマーサクセスチームにお問い合わせください。 これは、標準のサポートの一部としては有効になっていません。*
 
 **親トピック：**[&#x200B;メタデータの管理](manage-metadata.md)
-

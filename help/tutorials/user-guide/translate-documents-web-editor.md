@@ -1,13 +1,13 @@
 ---
 title: Web エディターからドキュメントを翻訳
 description: Web エディターからドキュメントを翻訳する方法を説明します
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 1%
 
 ---
-
 
 # Web エディターからドキュメントを翻訳 {#id21BKF0Z0YZF}
 
@@ -46,7 +46,7 @@ AEMガイドには、コンテンツを複数の言語に翻訳できる、Web �
    >
    > 言語は、言語フォルダーがソース言語と並行して作成される言語のみを表示します。 ソース言語フォルダーから 1 レベル下のレベルなど、他のレベルで作成された言語フォルダーも表示されません。 すべてのターゲット言語フォルダーを、ソース言語フォルダーと同じレベルで作成してください。
 
-   ![](images/translation-languages.png)
+   ![](images/translation-languages.png){width="350" align="left"}
 
 1. また、次のオプションを使用することもできます。
 
@@ -72,11 +72,11 @@ AEMガイドには、コンテンツを複数の言語に翻訳できる、Web �
    - **ターゲットラベル**:ターゲットファイルの選択したバージョンのラベル
 1. クリック **翻訳用に送信** をクリックします。
 
-   ![](images/translation-send.png)
+   ![](images/translation-send.png){width="800" align="left"}
 
 1. ドロップダウンで、「 」を選択します。 **新しい翻訳プロジェクトを作成**.
 
-   ![](images/translation-project-types.png)
+   ![](images/translation-project-types.png){width="350" align="left"}
 
    新しい翻訳プロジェクトに加えて、次のオプションからも選択できます。
 
@@ -107,7 +107,7 @@ AEMガイドを使用すると、ソースファイルのラベルをターゲ�
 
 例えば、バージョンラベルが付いたソースファイルがある場合、 `Release 1.0` これらに適用された場合、ソースラベル\(`Release 1.0`\) を変換済みのファイルに置き換えます。
 
-![](images/translation-pass-source-label.png)
+![](images/translation-pass-source-label.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ AEMガイドを使用すると、ソースファイルのラベルをターゲ�
 
 AEMガイドには、選択したバージョンとトピックの最後に翻訳されたソースバージョンとの違いを確認する機能が用意されています。 を選択して、 **非同期** ファイルを編集します。
 
-![](images/translation-version-diff.png)
+![](images/translation-version-diff.png){width="800" align="left"}
 
 を選択します。 **差異を表示**&#x200B;アイコン\(![](images/show-difference-icon.svg)\) を使用して、選択したファイルの最後の翻訳バージョンと現在のバージョンの違いを確認します。
 
@@ -127,7 +127,7 @@ AEMガイドには、選択したバージョンとトピックの最後に翻�
 
 この **バージョンの違い** ダイアログが表示されます。 これには、 **最終翻訳バージョン** そして **選択したバージョン** 数字を左側に表示します。 プレビューウィンドウに、最後の翻訳バージョンとトピックの選択したバージョンの違いが表示されます。
 
-![](images/version-diff.png)
+![](images/version-diff.png){width="650" align="left"}
 
 ## 非同期アセットを解除
 
@@ -138,7 +138,7 @@ AEMガイドには、選択したバージョンとトピックの最後に翻�
 1. ステータスを変更する非同期アセットを選択します。
 1. を選択します。 **同期済みにマーク** ボタン\(![](images/translation-mark-in-sync-icon.svg)\) を上に置きます。 この **同期済みにマーク** ダイアログが表示されます。
 
-   ![](images/translation-mark-in-sync.png)
+   ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
 1. クリック **同期を強制**. 選択した非同期アセットのステータスを「同期中」に設定します。
 
@@ -156,7 +156,6 @@ AEMガイドには、選択したバージョンとトピックの最後に翻�
 
 ダイアログで参照の名前をクリックして、プレビューモードで開きます。 また、翻訳プロジェクトをクリックして翻訳を開始することもできます。
 
-![](images/translation-in-progress.png)
+![](images/translation-in-progress.png){width="550" align="left"}
 
 **親トピック：**[ Web エディターの操作](web-editor.md)
-

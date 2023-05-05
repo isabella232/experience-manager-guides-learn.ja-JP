@@ -1,13 +1,13 @@
 ---
 title: リポジトリパネルから出力を生成
 description: リポジトリパネルから出力を生成する方法を説明します
-source-git-commit: a78a775406c07c1ec12665cdb00f65ca91f03f95
+exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
 
 ---
-
 
 # [ リポジトリ ] パネルまたは [ マップビュー ] パネルから出力を生成する {#id218CL6010AE}
 
@@ -28,16 +28,16 @@ DITA マップ内の 1 つ以上のトピックの出力を生成するには、
 1. 内 **作成者** 」タブで、公開する DITA マップ内のトピックを選択します。
 
 1. 選択 **クイック生成** を選択します。
-   ![](images/select-topic-options-menu_cs.png)
+   ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
 1. 単一の DITA マップで使用するトピックを公開するには、公開に使用するマップの出力プリセットを選択し、「 **生成**.
-   ![](images/select-preset_cs.png)
+   ![](images/select-preset_cs.png){width="350" align="left"}
 
 1. 出力生成プロセスのステータスが表示されます。 出力を表示するには、トピックにマウスポインターを置き、「出力を表示」をクリックします。
 
 1. 複数のトピックで使用される共通のトピックがある場合は、様々な DITA マップと、公開に使用する出力プリセットを選択し、「 **生成。**
 
-   ![](images/select-preset-multiple-maps_cs.png)
+   ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
 
 1. 出力生成プロセスのステータスが表示されます。
 
@@ -46,7 +46,7 @@ DITA マップ内の 1 つ以上のトピックの出力を生成するには、
    - **マップ**:選択したトピックを含む DITA マップをリストします。
    - **ステータス**:各トピックの公開ステータスを表示します。
 出力を表示するには、トピックにマウスポインターを置き、「出力を表示」をクリックします。
-      ![](images/output-multiple-maps_cs.png)
+      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
 ## Web エディターから DITA マップの出力を生成
@@ -57,7 +57,7 @@ DITA マップ全体の出力を生成するには、次の手順を実行しま
 
 1. 選択 **クイック生成** をクリックします。
 
-   ![](images/select-map-options-menu_cs.png)
+   ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
 1. 公開に使用する DITA マップの出力プリセットを選択し、「 **生成。**
 
@@ -78,10 +78,9 @@ DITA マップの複数のトピックの出力をマップ表示パネルから
    >
    > 現在の DITA マップの出力プリセットのみが表示され、選択したトピックがすべて含まれます。
 
-   ![](images/generate-output-multiple-topics_cs.png)
+   ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
 1. 出力生成プロセスのステータスが表示されます。出力を表示するには、トピックの上にマウスポインターを置き、「出力を表示」をクリックします。
 
 
 **親トピック：**[ Web エディターからの記事ベースの公開](web-editor-article-publishing.md)
-

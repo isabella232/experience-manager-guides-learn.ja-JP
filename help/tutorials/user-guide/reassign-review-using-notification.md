@@ -1,13 +1,13 @@
 ---
 title: 通知を使用してレビュータスクを再割り当てする
 description: 通知を使用してレビュータスクを再割り当てする方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # 通知を使用してレビュータスクを再割り当てする {#id21BNH03M0KS}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
    >
    > レビュー担当者は、再割り当てをおこなう権限を持ち、ユーザー管理者グループに属している必要があります。
 
-   ![](images/reassign-user-inbox.png)
+   ![](images/reassign-user-inbox.png){width="800" align="left"}
 
 1. 選択 **再割り当て**.
 
@@ -37,4 +37,3 @@ ht-degree: 0%
 割り当てられたレビュー担当者に、再割り当てされたレビュータスクに関する通知がインボックスに届きます。
 
 **親トピック：**[&#x200B;トピックまたはマップのレビュー](review.md)
-

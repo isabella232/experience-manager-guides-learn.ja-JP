@@ -1,13 +1,13 @@
 ---
 title: 完了したレビュータスクを表示
 description: 完了したレビュータスクを表示する方法を説明します
-source-git-commit: 176aee433300ce8d4d9cfbab2edb007acae4de87
+exl-id: 37f10fc3-e4ca-4e73-a887-65c7e9496f5e
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
-
 
 # 完了したレビュータスクを表示
 
@@ -19,8 +19,7 @@ ht-degree: 0%
 
 ただし、任意のコメントを検索またはフィルターできます。 また、条件の表示と非表示を切り替えたり、条件付きコンテンツをそれに応じて表示したりすることもできます。 添付ファイルはダウンロードできますが、コメントの添付ファイルをアップロードまたは削除することはできません。
 
-<img src="images/complete-task-reviewer.png" alt="完了したレビュータスクのレビュー担当者" width="800">
-
+![](images/complete-task-reviewer.png){width="800" align="left"}
 
 
 ## 作成者として
@@ -29,7 +28,6 @@ ht-degree: 0%
 
 ただし、任意のコメントを検索またはフィルターできます。 添付ファイルはダウンロードできますが、コメントの添付ファイルをアップロードまたは削除することはできません。
 
-<img src="images/completed-task-author.png" alt=" 完了したレビュータスク作成者" width="800">
+![](images/completed-task-author.png){width="800" align="left"}
 
 レビュー担当者または作成者として、レビュー済みの内容をコメントと共に表示できますが、完了したレビュータスクに変更を加えることはできません。
-

@@ -1,13 +1,13 @@
 ---
 title: レビューダッシュボードを使用したレビュータスクの管理
 description: レビューダッシュボードを使用してレビュータスクを管理する方法について説明します
-source-git-commit: f3d747082103c73a365ee400cbd4dcdabd36eabf
+exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 0%
 
 ---
-
 
 # レビューダッシュボードを使用したレビュータスクの管理 {#id2056B0Y70X4}
 
@@ -23,13 +23,13 @@ ht-degree: 0%
 
    タスクタイルを含むプロジェクトパネルが表示されます。
 
-   ![](images/review-management.png)
+   ![](images/review-management.png){width="800" align="left"}
 
 1. 内の 3 つのドットをクリックします。 **レビュー** タイル。
 
    「レビュー」ダッシュボードが表示されます。 ダッシュボードには、作成したすべてのレビュータスクが表示されます。
 
-   ![](images/review-dashboard.png)
+   ![](images/review-dashboard.png){width="800" align="left"}
 
    レビューダッシュボードには、レビューを開始したタスク名、レビューを開始した日付、期限、ステータス、作成者が承認または却下しなかった新しいコメントの数、レビュー担当者名など、レビュータスクに関する詳細が表示されます。 タスクは、新しく作成されたタスクから古いタスクの順に表示されます。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## 「タスク」タブ
 
-![](images/review-task-page.png)
+![](images/review-task-page.png){width="800" align="left"}
 
 以下の操作を、 **タスク** タブ：
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 「コンテンツ」タブ
 
-![](images/review-content-page.png)
+![](images/review-content-page.png){width="800" align="left"}
 
 以下の操作を、 **コンテンツ** タブ：
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## 「レビュー担当者」タブ {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png)
+![](images/reviewers-tab.png){width="800" align="left"}
 
 以下の操作を、 **レビュー担当者** タブ：
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 レビュータスクを選択し、「 **ステータス**&#x200B;に設定すると、レビュータスクのステータスレポートが表示されます。
 
-![](images/review-status-report.png)
+![](images/review-status-report.png){width="800" align="left"}
 
 レビュータスクのステータスレポートには、次の詳細が含まれます。
 
@@ -123,4 +123,3 @@ ht-degree: 0%
 - レビュー担当者がトピックに最後にアクセスした日付。
 
 **親トピック：**[&#x200B;トピックまたはマップのレビュー](review.md)
-

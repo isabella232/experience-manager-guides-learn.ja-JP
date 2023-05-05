@@ -1,13 +1,13 @@
 ---
 title: カスタマイズしたテンプレートに基づいてマップを作成
 description: カスタマイズしたテンプレートに基づいてマップを作成する方法を説明します
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: 02513148-3876-4549-962a-9984f619030f
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
-
 
 # カスタマイズしたテンプレートに基づいてマップを作成 {#id225VF0808MP}
 
@@ -33,7 +33,7 @@ AEMガイドを使用すると、dita-templates フォルダーからカスタ�
 
 1. 内 **Assets UI**&#x200B;をクリックし、dita-templates フォルダーに移動します。
 
-   ![](images/dita-templates.png)
+   ![](images/dita-templates.png){width="800" align="left"}
 
 1. クリック **トピック** フォルダを開いて開きます。 **\> DITA テンプレートの作成**.
 1. ブループリントページで、「 」を選択します。 **トピック** 次に、 **次へ**
@@ -55,7 +55,7 @@ AEMガイドを使用すると、dita-templates フォルダーからカスタ�
 1. クリック **マップ** フォルダーで開きます。
 1. クリック **\> DITA テンプレートを作成します。**
 
-   ![](images/create-dita-template.png)
+   ![](images/create-dita-template.png){width="300" align="left"}
 
 1. ブループリントページで、「 」を選択します。 **マップ** をクリックし、 **次へ**.
 1. プロパティページで、マップテンプレートを指定します。 **タイトル**.
@@ -104,7 +104,11 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 例
 
 ```XML
-<title>	<sub>		<b>{title}</b>	</sub></title>
+<title>    
+    <sub>        
+        <b>{title}</b>    
+    </sub>
+</title>
 ```
 
 ## マップテンプレートを使用して新しいマップを作成する
@@ -144,4 +148,3 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 - フォルダー内の同じレベルに別のマップまたはトピックが作成されている場合、新しく作成されたアセットの名前には 0、1、2 などが追加されます。 マップを開いて編集したり、リポジトリにマップファイルを保存したりできます。
 
 **親トピック：**[&#x200B;マップエディタを使用する](map-editor.md)
-

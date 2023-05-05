@@ -1,13 +1,13 @@
 ---
 title: トピックを確認
 description: トピックのレビュー方法を学ぶ
-source-git-commit: 849985574a4d21334ac73be3e664ff5ea9a898c4
+exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2271'
 ht-degree: 0%
 
 ---
-
 
 # トピックを確認 {#id2056B0W0FBI}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    レビューワークフローの開始に DITA マップを使用すると、次の画面が表示されます。
 
-   ![](images/multiple-topics-review.png)
+   ![](images/multiple-topics-review.png){width="800" align="left"}
 
    この画面では、次のオプションを使用できます。
 
@@ -57,13 +57,13 @@ ht-degree: 0%
 
    マップ内のすべてのトピックは、1 つの複合ドキュメントとして表示されます。 レビュー担当者がレビューを許可するトピックは、通常どおり表示されます。 レビューできないトピックは表示されません。
 
-   ![](images/review-read-only.png)
+   ![](images/review-read-only.png){width="800" align="left"}
 
    上記のスクリーンショットでは、「一般的な説明」トピックが現在のレビュー担当者向けに共有されますが、通常はこのトピックが表示されます。 ただし、次のトピック「フライトコンテンツの履歴」はレビュー用に共有されず、読み取り専用モードで表示されます。 現在フォーカスされているトピックも目次でハイライト表示されます。
 
    1 つまたは複数のトピックを選択してレビュー用に共有すると、次の画面が表示されます。
 
-   ![](images/review-composite-view.png)
+   ![](images/review-composite-view.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -85,15 +85,15 @@ ht-degree: 0%
 
 1 つのトピックを表示すると、ドキュメント表示に戻すための追加のオプションが表示されます。 次のスクリーンショットでは、マップファイルの特定のトピックがレビュー用に開かれます。 ハイライト表示されたオプション — **ドキュメントビューを表示** を使用すると、マップファイルのドキュメントビューに戻ることができます。
 
-![](images/switch-document-view.png)
+![](images/switch-document-view.png){width="800" align="left"}
 
 **異なる種類のコメントツールの使用**  — インラインコメントを追加するには、テキストをハイライト表示する、テキストを打つ、テキストを挿入する、またはコメントメモを追加します。 コメントツールバーに用意されている様々な種類のコメントツールを以下に示します。
 
-![](images/comments-toolbar.png)
+![](images/comments-toolbar.png){width="350" align="left"}
 
 - **ハイライト** \(![](images/review-highlight-icon.svg)\):ハイライトコメントを追加するには、テキストを選択し、ハイライトアイコンをクリックします。 または、ハイライトアイコンをクリックして、目的のテキストを選択します。
 
-   ![](images/highlight-comment.png)
+   ![](images/highlight-comment.png){width="650" align="left"}
 
    コメントパネルにポップアップが表示され、ハイライト表示されたコンテンツのコメントを追加できます。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 1. ハイライト表示または取り消し線を引くテキストを選択します。 コンテキストツールバーが表示されます。
 
-   ![](images/review-quick-launch-toolbar.png)
+   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
 
 1. 次をクリック： **ハイライト**&#x200B;または **打ち消し線** アイコン
 1. ハイライトまたは取り消し線の操作用のコメントパネルにコメントを追加できます。
@@ -128,7 +128,7 @@ ht-degree: 0%
 - コメントパネルでコメント付きのテキストをクリックし、「 」を選択すると、自分のコメントを編集できます **編集** を選択します。
 - コメントパネルでコメントをクリックし、「 **削除** オプションを選択します。
 
-   ![](images/review-comment-options-menu.png)
+   ![](images/review-comment-options-menu.png){width="300" align="left"}
 
    >[!NOTE]
    >
@@ -142,17 +142,17 @@ ht-degree: 0%
 
 - 次のスクリーンショットは、 *レビュー* モード：
 
-![](images/review-author-mode.png)
+![](images/review-author-mode.png){width="550" align="left"}
 
 次のスクリーンショットは、 *プレビュー* モード：
 
-![](images/review-preview-mode.png)
+![](images/review-preview-mode.png){width="550" align="left"}
 
 **コメントに添付ファイルを追加**  — 他のファイルで入手可能な追加情報を提供することでコメントを補足したい場合は、コメントを添付して追加できます。 レビュー担当者は、1 つ以上のファイルをローカルシステムから簡単にコメントに追加できます。 サポートされているすべての形式のコメント（ハイライト、取り消し線、テキストの挿入、コメント）にファイルを追加できます。
 
 任意のコメントを挿入すると、コメントポップアップが表示されます。 ポップアップに追加のコメントや情報を入力した後、Enter キーを押して送信します。 コメントを追加したら、そのコメントに添付ファイルを追加するオプションが表示されます。
 
-![](images/comment-pop-up-panel.png)
+![](images/comment-pop-up-panel.png){width="800" align="left"}
 
 上のスクリーンショットでは、ドキュメントにハイライトコメントのポップアップが含まれ、コメントもコメントパネルに追加されます。 添付ファイルアイコン ![](images/file-attach-review.svg)は、コメントと共に両方の場所で利用できます。
 
@@ -177,21 +177,21 @@ ht-degree: 0%
 
 - デフォルトでは、コメントが付いた 2 つのファイルのみが表示されます。 他のファイルがある場合は、 **添付ファイルを表示** 右側のボタンは、コメントに関連付けられているすべての添付ファイル（2 つ以上）の数を示します。 数字をクリックすると、すべての添付ファイルが表示されます。 例えば、コメント付きの添付ファイルが 4 つある場合、ボタンに+2 が表示されます。
 
-![](images/review-view-attachment.png)
+![](images/review-view-attachment.png){width="550" align="left"}
 
 - 添付ファイルの上にマウスポインターを置くと、添付ファイルをダウンロードまたは削除するオプションが表示されます。 添付ファイルの削除は、次のスクリーンショットに示すように、現在のレビュー担当者がコメントを追加した場合にのみ使用できます。
 
-![](images/current-user-comment-options.png)
+![](images/current-user-comment-options.png){width="550" align="left"}
 
 他のレビュー担当者や作成者は、添付ファイルをダウンロードするオプションのみを使用できます。
 
-![](images/other-reviewer-download.png)
+![](images/other-reviewer-download.png){width="550" align="left"}
 
 - コメントに関連付けられているすべての添付ファイルは、 **添付ファイルを表示** ダイアログ。 添付ファイルを選択し、 **ダウンロード** アイコンをクリックします。
 
 - コメントに関連付けられた添付ファイルを **添付ファイルを表示** ダイアログ。 添付ファイルを選択し、 **削除** アイコン
 
-![](images/attach-files-comments-panel.png)
+![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
 **条件パネル**  — トピックに条件付きコンテンツがある場合、 **条件** \(![](images/conditions-icon.svg)\) アイコンを右にクリックします。 クリック **条件** アイコンをクリックすると、条件パネルが開き、トピック内の使用可能な条件に従ってコンテンツをハイライト表示できます。
@@ -200,7 +200,7 @@ ht-degree: 0%
 
 :無効にできます **すべての条件をハイライト** 」オプションを選択し、トピック内に存在するすべてのコンテンツを、ハイライトのない通常のテキストとして表示します。
 
-![](images/review-conditions-panel.png)
+![](images/review-conditions-panel.png){width="350" align="left"}
 
 特定の条件の表示と非表示を切り替えることができます。
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 - 条件の条件付きコンテンツを表示する場合、レビューモードでハイライト表示されます。 例えば、次のスクリーンショットでは、コンテンツは 2 つの条件を使用します。 `win` および `mac` がハイライト表示されます。
 
 
-![](images/review-condition-normal-mode.png)
+![](images/review-condition-normal-mode.png){width="650" align="left"}
 
 プレビューモードでは、条件付きでないコンテンツと、次の 2 つの条件を使用する条件付きコンテンツが表示されます。 `win` および `mac` が表示されます。 条件が非表示になっている残りの条件付きコンテンツは表示されません。
 
@@ -220,7 +220,7 @@ ht-degree: 0%
 
 - 古いコメントアイコンをクリックする\(![](images/outdated-comment-icon.svg)\) は、ドキュメントの最新バージョンとコメント付きバージョンの違いを表示します。 バージョン番号（比較するバージョンの）がドキュメントの先頭に表示されます。
 
-   ![](images/comments-page-review-mode.png)
+   ![](images/comments-page-review-mode.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -244,4 +244,3 @@ ht-degree: 0%
 フィルターを削除してすべてのコメントを表示するには、 **フィルタータイプ** ダイアログとクリック **適用**.
 
 **親トピック：**[&#x200B;トピックまたはマップのレビュー](review.md)
-

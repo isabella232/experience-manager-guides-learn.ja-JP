@@ -1,13 +1,13 @@
 ---
 title: DITA コンテンツの一括タグ付け
 description: DITA コンテンツの一括タグ付けの方法を説明します
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # DITA コンテンツの一括タグ付け {#id179SG0TN05Z}
 
@@ -31,7 +31,7 @@ AEMガイドを使用すると、数回のクリックで DITA コンテンツ�
 
 1. タグを適用するトピックまたはサブマップを選択します。
 
-   ![](images/apply-tags-uuid.png)
+   ![](images/apply-tags-uuid.png){width="650" align="left"}
 
 
    >[!NOTE]
@@ -106,4 +106,3 @@ AEMガイドを使用すると、数回のクリックで DITA コンテンツ�
 トピックに適用されているタグの長いリストがある場合は、ナビゲーションが少し面倒な場合があります。 「タグを非表示」アイコンをクリックすると、DITA マップコンソールビューでタグを簡単に非表示にできます。 同様に、タグが表示されていない場合は、「タグを表示」をクリックすると、すべてのタグが表示されます。
 
 **親トピック：**[&#x200B;メタデータの管理](manage-metadata.md)
-

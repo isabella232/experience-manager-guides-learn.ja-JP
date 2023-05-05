@@ -1,13 +1,13 @@
 ---
 title: ドキュメントの状態
 description: 状態をドキュメント化する方法を説明します
-source-git-commit: 13106cd1c7f6d38fecb67dd93eef66263eb29bae
+exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
 
 ---
-
 
 # ドキュメントの状態 {#id1821HC00URO}
 
@@ -69,11 +69,11 @@ AEMガイドは、ドキュメント開発プロセスのライフサイクル�
 
 1. ドキュメントが承認済みとマークされる状態の場合、次のダイアログが表示されます。
 
-   ![](images/mark-approved-correct-state.png){width="550" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300" align="left"}
 
    ドキュメントを承認済みとマークできない場合は、次のメッセージが表示されます。
 
-   ![](images/mark-approved-incorrect-state.png){width="550" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
 
 1. ドキュメントを承認済みとしてマークする準備が整ったら、ドロップダウンリストからラベルを選択し、 **承認**.
 
@@ -102,4 +102,3 @@ AEMガイドは、ドキュメント開発プロセスのライフサイクル�
 
 
 **親トピック：**[ Web エディターの操作](web-editor.md)
-

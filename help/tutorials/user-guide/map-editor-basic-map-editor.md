@@ -1,13 +1,13 @@
 ---
 title: 基本マップエディタを使用する
 description: 基本マップエディタの操作方法を学ぶ
-source-git-commit: af5c64312a608affe95fd552b3dd1b2e05ea2b8e
+exl-id: 85194806-db3f-442b-a551-540d148d26ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 0%
 
 ---
-
 
 # 基本マップエディタを使用する {#id1942CM005Y4}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    マップファイルがマップエディタで編集用に開きます。 マップエディタを使用して、参照レールに表示されている現在使用可能なトピックを使用してマップを作成します。
 
-   ![](images/dita-map-01.png)
+   ![](images/dita-map-01.png){width="800" align="left"}
 
 1. の使用 **参照** パネルを開き、追加するトピックまたはサブマップを含むフォルダに移動します。
 
@@ -66,13 +66,13 @@ ht-degree: 0%
 
 [ 基本マップエディタ ] のメインツールバーでは、次のタスクを実行できます。
 
-![](images/ditamap-toolbar-actions.png)
+![](images/ditamap-toolbar-actions.png){width="800" align="left"}
 
 **回答：検索**
 
 DAM から必要なトピックを検索し、含めることができます。 このアイコンをクリックすると、検索ダイアログが表示されます。
 
-![](images/search-dita-map.png)
+![](images/search-dita-map.png){width="800" align="left"}
 
 検索するキーワードを入力します。これらのキーワードはトピックのファイル名、コンテンツ、および属性値で一致します。 検索結果が利用可能になったら、目的のトピックを選択し、「チェック」ボタンをクリックして、選択したファイルをマップ構造の最後に追加します。 Modify Date パラメータを指定すると、検索結果をフィルタリングできます。
 
@@ -100,19 +100,19 @@ DAM から必要なトピックを検索し、含めることができます。 
 **注意：** デフォルトモードでは、キーボードショートカットを使用して\(`Ctrl+z`\) または\(`Ctrl+y`\) 最後のアクション。
 
 
-![](images/dita-map-invalid-source.png)
+![](images/dita-map-invalid-source.png){width="650" align="left"}
 
 **G:マップのプロパティ**
 
 マップの属性とメタデータ情報を設定できる [ マップのプロパティ ] ダイアログボックスを表示します。 属性を追加するには、 **追加** ダイアログの左下隅にあるボタンで、 **属性** 」ドロップダウンリストから選択できます。 リストから、追加する属性を選択します。 選択した属性に DTD で事前定義値が指定されている場合、それらの値は新しいドロップダウンリストに表示されます。 目的の値をドロップダウンリストから選択できます。 定義済みの値がない場合は、選択した属性の値を入力するテキストボックスが表示されます。
 
-![](images/map-properties.png)
+![](images/map-properties.png){width="300" align="left"}
 
 ## 基本マップエディタのトピックレベルで使用できる機能
 
 基本マップエディタでトピックまたはサブマップファイルにマウスポインタを合わせると、次のタスクを実行できます。
 
-![](images/ditamap-actions.png)
+![](images/ditamap-actions.png){width="650" align="left"}
 
 **回答：[ 左に移動 ] または [ 右に移動 ]**
 
@@ -123,7 +123,7 @@ DAM から必要なトピックを検索し、含めることができます。 
 「プロパティ」アイコンをクリックして、Topicref の「プロパティ」ダイアログを開きます。 このダイアログを使用して、トピックの属性とメタデータ情報を設定できます。 標準のトピックの属性とメタデータについて詳しくは、 [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) OASIS DITA 言語仕様のドキュメント。
 
 
-![](images/map-properties-metadata.png)
+![](images/map-properties-metadata.png){width="350" align="left"}
 
 **C:新しい参照を追加**
 
@@ -155,7 +155,7 @@ AEM Guides のマップエディターには、DITA マップで関係テーブ�
 
 1. 選択 **変更可能** をクリックします。
 
-   ![](images/reltable.png)
+   ![](images/reltable.png){width="650" align="left"}
 
 1. トピックリストから関連付け可能なエディタにトピックをドラッグ&amp;ドロップします。
 
@@ -163,13 +163,13 @@ AEM Guides のマップエディターには、DITA マップで関係テーブ�
    >
    > 参照レールの任意のフォルダーからトピックを追加できます。
 
-   ![](images/create-reltable.png)
+   ![](images/create-reltable.png){width="550" align="left"}
 
 1. 関係テーブルにヘッダーを追加するには、 **Releheader を追加**.
 
 1. 関係テーブルに列を追加するには、 **列を追加**.
 
-   ![](images/complete-reltable.png)
+   ![](images/complete-reltable.png){width="550" align="left"}
 
 1. 「**保存**」をクリックします。
 
@@ -189,4 +189,3 @@ AEM Guides のマップエディターには、DITA マップで関係テーブ�
 関係テーブルを削除する場合は、関係テーブルの外側の任意の場所をクリックし、「削除」をクリックします。
 
 **親トピック：**[&#x200B;マップエディタを使用する](map-editor.md)
-

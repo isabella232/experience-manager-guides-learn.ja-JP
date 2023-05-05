@@ -1,13 +1,13 @@
 ---
 title: クイック生成パネルを使用する
 description: クイック生成パネルの使用方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d48803d9-470c-4679-8def-72b45a85917b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
 
 ---
-
 
 # クイック生成パネルを使用して出力を生成および表示する {#id22AKE050F5L}
 
@@ -17,7 +17,7 @@ AEMガイドには、 **クイック生成** パネルが Web エディター内
 >
 > この **クイック生成** 「マップ表示」パネルで開いた DITA マップ用のパネルが表示されます。
 
-![](images/quick-generate-map-view.png)
+![](images/quick-generate-map-view.png){width="800" align="left"}
 
 次の手順を実行して、 **クイック生成** パネル：
 
@@ -28,4 +28,3 @@ AEMガイドには、 **クイック生成** パネルが Web エディター内
 1. クリック **出力を表示** \( ![](images/view-output-icon.svg)\) 特定のプリセットのアイコンを使用して、そのプリセット用に生成された出力を表示します。
 
 **親トピック：**[ Web エディターの操作](web-editor.md)
-

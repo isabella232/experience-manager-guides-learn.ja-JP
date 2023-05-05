@@ -1,5 +1,5 @@
 ---
-source-git-commit: 09a77f4acac6902935c587af9a0568cd8761810f
+source-git-commit: 834e67fa1f015b86082b42c4213976ee24a403d5
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 4%
@@ -43,7 +43,7 @@ ht-degree: 4%
          - [[ 高度なマップエディタ ] を使用する](map-editor-advanced-map-editor.md)
          - [基本マップエディタを使用する](map-editor-basic-map-editor.md)
          - [マップエディタのその他の機能](map-editor-other-features.md)
-      - [DITAVAL エディタ](id17C5E0U0OQE.md#id17C5E0U0OQE)
+      - [DITAVAL エディタ](ditaval-editor.md#ditaval-editor)
    - [デスクトップツールを使用したコンテンツのオーサリング](author-desktop-tools.md)
       - [FrameMaker の操作](author-desktop-framemaker.md)
       - [酸素を使用する](author-desktop-oxygen.md)

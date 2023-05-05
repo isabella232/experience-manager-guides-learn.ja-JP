@@ -1,13 +1,13 @@
 ---
 title: Web エディターからの出力プリセットの作成
 description: Web エディターから出力プリセットを作成する方法を説明します。
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
-
 
 # Web エディターからの出力プリセットの作成 {#id218CL400JW3}
 
@@ -27,7 +27,7 @@ DITA マップの出力プリセットを作成するには、次の手順を実
 
 1. 内 **出力** 「 」タブで「 + 」アイコンを選択し、DITA マップの出力プリセットを作成します。
 
-   ![](images/output-tab-preset_cs.png)
+   ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
 1. プリセットを追加ダイアログでプリセットの名前を入力し、「 **追加**.
 
@@ -43,20 +43,19 @@ DITA マップの出力プリセットを作成するには、次の手順を実
    1. 次の **記事** タブで、出力を生成するトピックを選択します。
 1. を選択します。 **プリセットを生成** 上部のアイコンをクリックして、出力を生成します。
 
-   ![](images/add-preset-articles-tab_cs.png)
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
 1. 出力生成プロセスのステータスが表示されます。 この **トピック** 列には、 **ステータス** 列には、各トピックの公開ステータスが表示されます。
 
    出力を表示するには、トピックにマウスポインターを置き、「出力を表示」をクリックします。
 
-   ![](images/add-preset-output-generated_cs.png)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
 > オプションメニューから、既存の出力プリセットの編集、名前変更、複製または削除を行うこともできます。
 
-![](images/edit-preset_cs.png)
+![](images/edit-preset_cs.png){width="550" align="left"}
 
 **親トピック：**[ Web エディターからの記事ベースの公開](web-editor-article-publishing.md)
-

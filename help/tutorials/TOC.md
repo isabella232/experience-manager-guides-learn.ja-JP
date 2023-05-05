@@ -2,7 +2,7 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 01c84074bc31898d2a1481d0ed5ddda0a8dba2c0
+source-git-commit: 0cc1e12382fb90784ea78cb500bf0a24d6ec50df
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 8%
@@ -86,7 +86,7 @@ ht-degree: 8%
                + [基本マップエディタを使用する](./user-guide/map-editor-basic-map-editor.md)
                + [マップエディタのその他の機能](./user-guide/map-editor-other-features.md)
             + DITAVAL エディタ {#ditaval-editor}
-               + [DITAVAL エディタを使用する](./user-guide/id17C5E0U0OQE.md)
+               + [DITAVAL エディタを使用する](./user-guide/ditaval-editor.md)
          + コンテンツをオーサリングするためのデスクトップツール {#author-using-desktop-tools}
             + [デスクトップツールを使用したコンテンツのオーサリング](./user-guide/author-desktop-tools.md)
             + [FrameMaker の操作](./user-guide/author-desktop-framemaker.md)

@@ -1,13 +1,13 @@
 ---
 title: DITA プロジェクトの作成
 description: DITA プロジェクトの作成方法を説明します
-source-git-commit: 101766d51d43eb728f0316155acffd19548f83be
+exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # DITA プロジェクトの作成 {#id1645HA00NM6}
 
@@ -33,7 +33,7 @@ DITA プロジェクトを作成するには、次の手順を実行します。
 
 1. クリック **作成** \> **プロジェクト** をクリックして、「プロジェクトを作成」ウィザードを起動します。
 
-   ![](images/project-console-63.png)
+   ![](images/project-console-63.png){width="650" align="left"}
 
 1. プロジェクトを作成ページで、 **DITA プロジェクト** テンプレートを選択し、 **次へ**.
 
@@ -41,7 +41,7 @@ DITA プロジェクトを作成するには、次の手順を実行します。
 
    情報 **基本** タブ：
 
-   ![](images/create-project.png)
+   ![](images/create-project.png){width="650" align="left"}
 
    - プロジェクトの **タイトル**, **説明**、および **期限**.
 
@@ -75,4 +75,3 @@ DITA プロジェクトを作成するには、次の手順を実行します。
 
 
 **親トピック：**[&#x200B;トピックまたはマップのレビュー](review.md)
-
