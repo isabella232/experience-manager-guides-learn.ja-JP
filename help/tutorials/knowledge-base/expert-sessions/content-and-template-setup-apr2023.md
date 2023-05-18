@@ -1,9 +1,9 @@
 ---
 title: コンテンツとテンプレートの設定
 description: コンテンツとテンプレートを設定する際に考慮すべき事項については、AEMガイドを参照してください。
-source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
+source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -64,8 +64,8 @@ ht-degree: 1%
 
 ## 次のエキスパートセッション
 
-- **トピック**  — 未定
-- **スケジュール日** - 2023 年 5 月 26 日
+- **トピック**  — ネイティブPDFパブリッシング — 例による学習（第 1 部）
+- **スケジュール日** - 2023 年 6 月 1 日
 
 
 ## お問い合わせ
