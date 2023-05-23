@@ -1,9 +1,9 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.2.1 リリースの新機能
 description: Adobe Experience Managerガイドの 4.2.1 リリースの新機能と拡張機能について説明します
-source-git-commit: 66b83f940457c64dadc5b319e1274960ac0f6da8
+source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 
 * 次をクリック： **ガイド** アイコン (![](assets/aem-guides-icon.png) ) をクリックし、AEMナビゲーションページに戻ります。
 
+
+詳しくは、 [AEM Navigation ページ](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
 
 ## PDF公開での高度なメタデータのサポート
 
@@ -45,7 +47,7 @@ AEMガイドでは、改善されたアウトラインビューパネルを使�
 
 * 検索機能を使用すると、名前、ID、テキストまたは属性値で要素を検索できます。
 
-詳細については、「アウトライン・ビュー機能の説明」を参照してください。 [左パネル](../user-guide/web-editor-features.md) 」セクションに入力します。
+詳細については、「アウトライン・ビュー機能の説明」を参照してください。 [左パネル](../user-guide/web-editor-features.md#id2051EA0M0HS) 」セクションに入力します。
 
 ## Web エディターからマルチメディアレポートを生成
 
@@ -80,4 +82,4 @@ AEMガイドで、Web エディターでオーディオまたはビデオファ�
 
 <img src="assets/video-web-editor.png" alt="ビデオを再生" width="600">
 
-詳しくは、 [左パネル](../user-guide/web-editor-features.md) 」セクションに入力します。
+詳しくは、 [左パネル](../user-guide/web-editor-features.md#id2051EA0M0HS) 」セクションに入力します。
