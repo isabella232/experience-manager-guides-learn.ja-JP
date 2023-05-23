@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 0cc1e12382fb90784ea78cb500bf0a24d6ec50df
+source-git-commit: 6982737881d7dcf314d28a69060db7031e156c76
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 8%
+source-wordcount: '1012'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,13 @@ ht-degree: 8%
             + [2 月のリリースノート](./release-info/release-notes-2022.2.0.md)
             + [1 月のリリースノート](./release-info/release-notes-2022.1.0.md)
       + オンプレミス/Managed Services {#on-prem-release-notes}
-         + [4.2 リリースノート](./release-info/release-notes-4.2.md)
+         + 4.2 リリース {#42-release}
+            + 新機能 {#42-whats-new}
+               + [4.2.1 新機能](./release-info/whats-new-4.2.1-release.md)
+               + [4.2 新機能](./release-info/whats-new-4.2-release.md)
+            + リリースノート {#42-release-notes}
+               + [4.2.1 リリースノート](./release-info/release-notes-4.2.1.md)
+               + [4.2 リリースノート](./release-info/release-notes-4.2.md)
          + [4.1.x リリースノート](./release-info/release-notes-4.1.md)
          + [4.0.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -156,6 +162,64 @@ ht-degree: 8%
       + [コンテンツ再利用レポート](./user-guide/reports-content-reuse.md)
       + [コンバージョンステータスレポート](./user-guide/reports-convertion-status.md)
       + [元に戻したファイルのバージョン履歴レポート](./user-guide/reports-reverted-file-version-history.md)
++ インストールおよび設定ガイド {#install-guide}
+   + オンプレミス {#on-prem-ig}
+      + [免責事項](./install-guide/rebranding-disclaimer.md)
+      + [このガイドについて](./install-guide/introduction.md)
+      + ダウンロードとインストール {#download-install-aemg}
+         + [概要](./install-guide/download-install.md)
+         + [技術要件](./install-guide/download-install-technical-requirements.md)
+         + [Adobe Experience Managerのインストール](./install-guide/download-install-aem.md)
+         + [AEMガイドを初めてダウンロードしてインストールする](./install-guide/download-install-aemg-first-time.md)
+         + [Dispatcher の設定](./install-guide/download-install-configure-dispatcher.md)
+         + [AEM Guide のインストールの確認](./install-guide/download-install-verify-aemg-installation.md)
+         + [Adobe Experience Managerガイドのアップグレード](./install-guide/upgrade-xml-documentation.md)
+         + [AEM Guides のアンインストール](./install-guide/download-install-unistall-aemg.md)
+         + [Recommendations （パフォーマンス最適化）](./install-guide/download-install-recommend-perf-optimiz.md)
+      + [非 UUID から UUID へのコンテンツの移行](./install-guide/migrate-uuid-non-uuid.md)
+      + [ユーザー管理とセキュリティ](./install-guide/user-admin-sec.md)
+      + [カスタム DITA-OT および DITA 特殊化の使用](./install-guide/dita-ot-specialization.md)
+      + [ドキュメントの状態の設定](./install-guide/customize-doc-state.md)
+      + コンテンツの移行 {#content-migration}
+         + [既存のコンテンツを移行](./install-guide/migrate-content.md)
+         + [既存の DITA コンテンツのアップロード](./install-guide/migrate-content-upload-existing-dita-content.md)
+         + [DITA 以外のコンテンツの移行](./install-guide/migrate-content-non-dita.md)
+      + UUID および非 UUID ベースのファイル名の設定 {#conf-non-uuid-filename}
+         + [ファイル名を設定](./install-guide/conf-file-names.md)
+         + [UUID に基づく自動ファイル名の設定](./install-guide/conf-auto-uuid-filenames.md)
+         + [有効なファイル名文字の正規表現を設定する](./install-guide/conf-file-names-valid-regx.md)
+         + [AEM Site 出力用の有効なファイル名の設定](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      + トピックとマップのテンプレートの使用 {#topic-map-template}
+         + [トピックとマップのテンプレートの設定](./install-guide/conf-template-tags.md)
+         + [カスタム DITA トピックテンプレートの設定](./install-guide/conf-template-tags-custom-dita-topic-template.md)
+         + [カスタム DITA マップテンプレートの設定](./install-guide/conf-template-tags-custom-dita-map-templates.md)
+      + Web エディターの設定の操作 {#web-editor-configs}
+      + [Web エディタのカスタマイズ](./install-guide/conf-web-editor.md)
+      + [ツールバーのカスタマイズ](./install-guide/conf-web-editor-customize-toolbar.md)
+      + [タグ表示のデフォルト値の設定](./install-guide/configure-default-value-tags-view.md)
+      + [UUID ベースのリンクの表示の設定](./install-guide/conf-uuid-based-links.md)
+      + [同じタブで DITA トピックまたはマップファイルを開く](./install-guide/open-dita-files-same-tab.md)
+      + [左側のパネルでカスタムパネルを設定する](./install-guide/configure-custom-panel.md)
+      + [Web エディターでのファイルの自動保存の設定](./install-guide/auto-save-in-editor.md)
+      + [ファイル参照ダイアログのフィルターを設定する](./install-guide/conf-custom-file-filters.md)
+      + [閉じるときに新しいバージョンとして保存するようにプロンプトを設定する](./install-guide/conf-save-as-new-version-close.md)
+      + [閉じるときにファイルをチェックインするプロンプトを設定する](./install-guide/conf-checkin-file-close.md)
+      + [許可される特殊文字の設定](./install-guide/conf-special-chars.md)
+      + [要素 ID を自動生成](./install-guide/auto-generate-ids.md)
+      + [AEMのデフォルト辞書をカスタマイズ](./install-guide/customize-aem-custom-dictionary.md)
+      + [テキストフィルターの設定](./install-guide/config-text-filters.md)
+      + [クエリの LimitReads 数の設定](./install-guide/conf-query-limitreads.md)
+      + [記事ベースの公開用パッケージのインストール](./install-guide/configure-article-based-publishing.md)
+      + [[ 詳細マップエディタ ] を既定に設定する](./install-guide/conf-map-editor.md)
+      + [デフォルトで@navtitle属性を含める](./install-guide/auto-add-navtitle.md)
+      + [グローバルまたはフォルダーレベルのプロファイルの設定](./install-guide/conf-folder-level.md)
+      + [バージョン管理](./install-guide/version-management.md)
+      + [デスクトップベースの XML エディターの統合](./install-guide/integrate-desktop-editors.md)
+      + [出力生成設定の指定](./install-guide/conf-output-generation.md)
+      + [ワークフローの設定とカスタマイズ](./install-guide/customize-workflows.md)
+      + [コンテンツの翻訳](./install-guide/translation.md)
+      + [AEM Assets UI の検索の設定](./install-guide/conf-dita-search.md)
+      + [付録](./install-guide/appendix.md)
 + コンテンツのアーキテクチャと使用例 {#content-arch}
    + [条件付き出力の操作](./content-architecture/create-and-use-conditions.md)
    + [グローバルキーの作成](./content-architecture/create-global-keys.md)

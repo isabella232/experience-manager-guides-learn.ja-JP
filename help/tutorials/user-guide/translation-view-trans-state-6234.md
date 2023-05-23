@@ -2,9 +2,9 @@
 title: 翻訳ステータスを表示
 description: 翻訳ステータスの表示方法を説明します
 exl-id: 2662d86e-5ebd-4f41-a1e9-5bf4c96ffce2
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,5 @@ DITA マップの翻訳ステータスを表示するには、次の手順を実
    >[!NOTE]
    >
    > コンテンツは、翻訳ステータス（「不同」のコピー、処理中、または同期中」）、ソースタイプ（「すべて」、「DITA」、「DITA マップ」または「リソース」）、変更日に基づいて、さらにフィルタリングできます。 キーワードを入力して、特定のトピックを検索することもできます。
-
-   ![](images/status-translation-uuid.png){width="800" align="left"}
-
-
-「翻訳」タブには、次のセクションがあります。
-
-- **概要**:参照されるトピックとソース言語の数をコードと共に表示します。
-- **詳細**:トピックのタイトル、トピックの種類、トピックの言語コード、ソース言語、ソーストピックのバージョン、トピックに追加されたラベル、翻訳ステータスを表示します。
 
 **親トピック：**[&#x200B;コンテンツを翻訳](translation.md)

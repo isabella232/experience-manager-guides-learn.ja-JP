@@ -1,13 +1,13 @@
 ---
 title: Web エディターを起動します。
 description: Web エディターを起動する方法を説明します。
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
+source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
-
 
 # Web エディターを起動します。 {#id2056B0140HS}
 
@@ -23,13 +23,34 @@ Web エディターは、次の場所から起動できます。
 
 AEMにログインすると、ナビゲーションページが表示されます。
 
-![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-をクリックして、 **XML Editor** 「 」リンクをクリックすると、Web エディターに直接移動します。
+クリック **ガイド** 「 」リンクをクリックすると、Web エディターに直接移動します。
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 ファイルを選択せずに Web エディタを起動した場合は、空白の Web エディタ画面が表示されます。 AEMリポジトリまたはお気に入りコレクションから、編集用にファイルを開くことができます。
+
+- 次をクリック： **ガイド** アイコン (![](images/aem-guides-icon.png) ) をクリックし、AEMナビゲーションページに戻ります。
+
+- この **閉じる** ボタンをクリックすると、設定に基づいて宛先に移動します。
+
+
+
+   <details>
+
+   <summary> Cloud Services </summary>
+
+   Cloud Services **閉じる** ボタンをクリックして、AEMナビゲーションページに戻ります。
+   </details>
+
+   <details>
+
+   <summary> オンプレミスソフトウェア</summary>
+
+   AEM Guides On-premise Software（4.2.1 以降）を使用している場合、 **閉じる** ボタンをクリックして、Assets UI の現在のファイルパスに戻ります。
+
+   </details>
 
 ## AEM Assets UI {#id2056BG0307U}
 
@@ -53,7 +74,7 @@ Web エディターを起動できる場所として、AEM Assets UI からも�
 
    >[!IMPORTANT]
    >
-   > 管理者が **チェックアウトなしで編集を無効にする** 」オプションを選択した場合は、編集する前にファイルをチェックアウトする必要があります。 このファイルをチェックアウトしない場合、編集オプションは表示されません。
+   > 管理者が **チェックアウトなしで編集を無効にする** 」オプションを選択した場合は、編集する前にファイルをチェックアウトする必要があります。 ファイルをチェックアウトしない場合は、編集オプションを表示できません。
 
 1. アセット選択モードを閉じ、編集するトピックをクリックします。
 
@@ -102,4 +123,3 @@ DITA マップコンソールから Web エディターを開くには、次の�
 
 
 **親トピック：**[ Web エディターの操作](web-editor.md)
-
