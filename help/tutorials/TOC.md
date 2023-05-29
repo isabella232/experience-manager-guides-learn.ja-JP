@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 6982737881d7dcf314d28a69060db7031e156c76
+source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 7%
 
 ---
@@ -220,9 +220,6 @@ ht-degree: 7%
       + [コンテンツの翻訳](./install-guide/translation.md)
       + [AEM Assets UI の検索の設定](./install-guide/conf-dita-search.md)
       + [付録](./install-guide/appendix.md)
-+ コンテンツのアーキテクチャと使用例 {#content-arch}
-   + [条件付き出力の操作](./content-architecture/create-and-use-conditions.md)
-   + [グローバルキーの作成](./content-architecture/create-global-keys.md)
 + 設定 {#configuring}
    + ネイティブPDFの公開 {#config-native-pdf-publish}
       + [PDFテンプレート](./native-pdf/pdf-template.md)
@@ -235,9 +232,6 @@ ht-degree: 7%
          + [カスタムブックマークをPDF出力に追加](./native-pdf/add-custom-bookmark.md)
          + [JavaScript を使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
          + [脚注でのカスタムスタイルの使用](./native-pdf/footnote-number-style.md)
-   + [カスタム DITA-OT の設定](./configuring/setup-a-custom-dita-ot.md)
-+ 翻訳 {#translation}
-   + [翻訳から段落を除外](./translation/exclude-paragraphs-from-translation.md)
 + バージョン管理 {#versioning}
 + ナレッジベース {#knowledge-base}
    + エキスパートセッション {#expert-session}
@@ -261,5 +255,11 @@ ht-degree: 7%
          + [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [マイクロサービスのアーキテクチャとパフォーマンス](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [マイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
+         + [カスタム DITA-OT の設定](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + ワークフロー {#workflows}
          + [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+      + 翻訳 {#translation}
+         + [翻訳から段落を除外](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+      + ユースケース {#use-cases}
+         + [条件付きコンテンツの使用](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+         + [キーの操作](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
