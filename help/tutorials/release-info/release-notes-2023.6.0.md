@@ -1,7 +1,7 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド（2023 年 6 月リリース）のアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 2023 年 6 月リリースへのアップグレード方法について説明します。as a Cloud Service
-source-git-commit: 5e1d1cef82c409a6404934d5c28a94c5b9230233
+source-git-commit: 03d90157f7169373a287f24ab666bfea634e0ca4
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
@@ -103,7 +103,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 | AEM Guides as a Cloud リリース | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.05.0 | 互換性がありません | 2022 以降 |
+| 2023.06.0 | 互換性がありません | 2022 以降 |
 |  |  |  |
 
 
@@ -111,7 +111,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 | AEM Guides as a Cloud リリース | Oxygen Connector ウィンドウ | Oxygen Connector Mac | Oxygen Windows で編集 | Oxen Macで編集 |
 | --- | --- | --- | --- | --- |
-| 2023.05.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
