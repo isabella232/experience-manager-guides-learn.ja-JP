@@ -1,21 +1,26 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 3 月リリース
 description: Adobe Experience Manager Guides の 3 月リリースas a Cloud Service
-source-git-commit: d762cccc4a8f89eb91a1a8eb2c1410a7e0358b85
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# Adobe Experience Manager Guides の 3 月リリースas a Cloud Service
 
-## 3 月のリリースにアップグレード
+# 2023 年 3 月リリースのAdobe Experience Manager Guidesas a Cloud Service
 
-現在のAdobe Experience Managerガイドをas a Cloud Service的にアップグレード ( 後で *AEMガイドas a Cloud Service*) を設定する必要があります。
+このリリースノートでは、アップグレードの手順、互換性マトリックス、Adobe Experience Managerガイドの 2023 年 3 月に修正された問題 ( 後で *AEMガイドas a Cloud Service*) をクリックします。
+
+新機能および機能強化について詳しくは、 [2023 年 3 月リリースのAEMガイドas a Cloud Serviceの新機能](whats-new-2023.3.0.md).
+
+## 2023 年 3 月リリースにアップグレード
+
+次の手順に従って、現在のAEM Guidesas a Cloud Service設定をアップグレードします。
 1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
 2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2023.3.242 に設定します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの 3 月のリリースにアップグレードします。
+3. 変更をコミットし、Cloud Servicesパイプラインを実行して、2023 年 3 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
 
 ## 既存のコンテンツのインデックスを作成する手順 (AEMガイドas a Cloud Serviceの 9 月リリースより前のバージョンを使用している場合のみ )
 
@@ -49,36 +54,4 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 | 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
-
-## 新機能および機能強化
-
-AEMガイドas a Cloud Serviceは、2023 年 3 月リリースの機能強化と新機能を提供します。
-
-### Web エディターでビデオまたはオーディオファイルを開いて再生します。
-
-AEMガイドで、Web エディターでオーディオまたはビデオファイルを開いて再生する機能が提供されるようになりました。 ビデオのボリュームまたはビューを変更できます。 ショートカットメニューには、次のオプションもあります。 **ダウンロード**，変更 **再生速度**&#x200B;または表示 **ピクチャーインピクチャー**.
-
-<img src="assets/video-web-editor.png" alt="ビデオを再生" width="600">
-
-
-## 修正された問題
-
-様々な領域で修正されたバグを以下に示します。
-
-* ダウンロードPDFプロセスが Web エディタで適切に動作していません。 (11496)
-* JSON 出力 |プロパティ値が次の値を持つマップメタデータ `"value in spaces and double quotes"` 公開エラーにつながります。 (11438)
-* オーディオおよびビデオマルチメディアファイルの挿入が、YouTube形式で **マルチメディアの挿入** アイコン (11320)
-* 検証エラーは、特殊なタイトル要素を持つテンプレートを使用してマップを作成した場合に発生します。 (11212)
-* ネイティブPDF |テーブルヘッダーに存在する脚注は、PDF出力内の対応するページフッターで、太字および中央揃えのテキストになります。 (10610)
->[!NOTE]
->
->ネイティブPDFの変更を反映するには、/content/dam/dita-templates にあるPDFフォルダーを削除し、最新のビルドにアップグレードします。 (10610)
-
-### 回避策に関する既知の問題
-
-Adobeは、2023 年 3 月のリリースのAEMガイドに関して、次の既知の問題を特定しました。
-
-* ユーザーが、重複したアセットのバージョンを保存または作成できない。
-
-**回避策**:重複アセットに変更を加える前に、Assets UI から再処理します。
 

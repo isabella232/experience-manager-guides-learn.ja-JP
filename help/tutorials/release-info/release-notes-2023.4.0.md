@@ -1,23 +1,27 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 4 月リリース
-description: Adobe Experience Manager Guides の最新リリースのas a Cloud Service
+description: 2023 年 4 月リリースのAdobe Experience Manager Guides as a Cloud Service
 exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
-source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '579'
 ht-degree: 2%
 
 ---
 
-# Adobe Experience Manager Guides の 4 月リリースas a Cloud Service
+# 2023 年 4 月リリースのAdobe Experience Manager Guides as a Cloud Service
 
-## 最新リリースへのアップグレード
+このリリースノートでは、Adobe Experience Managerガイドの 2023 年 4 月バージョンで修正されたアップグレード手順、互換性マトリックス、問題について説明します ( 後で *AEMガイドas a Cloud Service*) をクリックします。
 
-現在のAdobe Experience Managerガイドをas a Cloud Service的にアップグレード ( 後で *AEMガイドas a Cloud Service*) を設定する必要があります。
+新機能および機能強化について詳しくは、 [2023 年 4 月リリースのAEMガイドas a Cloud Serviceの新機能](whats-new-2023.4.0.md).
+
+## 2023 年 4 月リリースへのアップグレード
+
+次の手順に従って、現在のAEM Guidesas a Cloud Service設定をアップグレードします。
 
 1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
 2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2023.4.249 に変更します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの最新リリースにアップグレードします。
+3. 変更をコミットし、Cloud Servicesパイプラインを実行して、2023 年 4 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
 
 ## 既存のコンテンツのインデックスを作成する手順 (AEMガイドas a Cloud Serviceの 9 月リリースより前のバージョンを使用している場合のみ )
 
@@ -51,39 +55,6 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 | 2023.04.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
-
-## 新機能および機能強化
-
-AEMガイドas a Cloud Serviceは、最新リリースの機能強化と新機能を提供します。
-
-### PDF公開での高度なメタデータのサポート
-
-AEMガイドで、PDF出力のメタデータにマッピングされるメタデータに対する高度なサポートを提供するようになりました。 メタデータオプションには、作成者名、ドキュメントのタイトル、キーワード、著作権情報、その他のデータフィールドなど、ドキュメントとその内容に関する情報が含まれます。
-
-<img src="assets/pdf-metadata.png" alt=" ネイティブ pdf メタデータ">
-
-XMPファイルを読み込むと、AEMガイドはファイルから情報を選択できます。 また、ドロップダウンを使用してメタデータの名前と値を指定することもできます。 また、名前フィールドに直接入力して、カスタムメタデータを追加することもできます。
-
-
-### 拡張アウトライン表示パネル
-
-AEMガイドでは、改善されたアウトラインビューパネルを使用して、ドキュメントで使用される要素の階層ビューを取得できます。
-
-<img src="assets/select-element-content-outline-view_cs.png" alt=" ネイティブ pdf メタデータ">
-
-アウトライン・ビューには、次の機能強化が含まれます。
-
-* 「表示オプション」ドロップダウンが「アウトライン・ビュー」パネルの上部に表示されます。 要素に ID、属性、テキストが含まれている場合は、ドロップダウンからそれらを選択して、要素と共に表示できます。 アウトライン・ビュー・パネルに表示できる属性は、管理者が **エディター設定**.
-
-* 検索機能を使用すると、名前、ID、テキストまたは属性値で要素を検索できます。
-
-
-### AEMガイド用のマイクロサービスベースの公開のas a Cloud Service
-
-AEMガイドas a Cloud Serviceは、マイクロサービスベースの公開と同時に大規模な公開ワークロードを実行し、業界をリードするAdobe I/O Runtimeのサーバレスプラットフォームを活用する機能を提供します。
-
-4 月のリリースでは、複数の公開リクエストを同時に実行し、マイクロサービスベースのネイティブPDF公開を使用して、一括PDF出力を非常に効率的に生成できます。
-詳しくは、 [AEMガイド用の新しいマイクロサービスベースの公開の設定をas a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
 
 
 ## 修正された問題

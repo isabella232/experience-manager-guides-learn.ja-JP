@@ -2,7 +2,7 @@
 title: リリースノート | Adobe Experience Managerガイド 4.2 リリース
 description: バグ修正とAdobe Experience Managerガイドの 4.2 リリースにアップグレードする方法について説明します
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: a54ada55dad4ff8da8eee3dccb5ad9028b4cdc9e
+source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 6%
@@ -11,7 +11,7 @@ ht-degree: 6%
 
 # 4.2 Adobe Experience Managerガイドのリリース（2023 年 2 月）
 
-このリリースノートでは、アップグレード手順、互換性マトリックス、およびAdobe Experience Managerガイドのバージョン 4.2 リリース ( 後で *AEMガイド*) をクリックします。
+このリリースノートでは、アップグレード手順、互換性マトリックス、Adobe Experience Managerガイドのバージョン 4.2 で修正された問題 ( 後で *AEMガイド*) をクリックします。
 
 新機能および機能強化について詳しくは、 [Adobe Experience Managerガイドの 4.2 リリースの新機能](whats-new-4.2-release.md).
 

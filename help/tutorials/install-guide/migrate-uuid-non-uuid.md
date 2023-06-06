@@ -1,13 +1,13 @@
 ---
 title: 非 UUID から UUID へのコンテンツの移行
-description: 非 UUID から UUID コンテンツへの移行方法を説明します。
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: 非 UUID を UUID コンテンツに移行する方法を説明します
+exl-id: 093b380e-9a8b-4e60-aeaa-3458e8c257f2
+source-git-commit: 21edbb2f8a49213ea95fac8a957056711219e7e4
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
 
 ---
-
 
 # 非 UUID から UUID へのコンテンツの移行 {#id226TI0U20XA}
 
@@ -57,6 +57,7 @@ UUID 以外のコンテンツを移行するには、次の手順を実行しま
     - &#39;doBaselines&#39;:true/false \( ベースラインをアップグレードする必要があるかどうか。 デフォルト値は true です。\)
     - &#39;processLevel&#39;:-1\（復元なしで失敗しました\）、0\（復元で失敗しました\）、1\（エラーで失敗しました\）、2\（正常にアップグレードされました\）\( 失敗後にスクリプトを再試行すると、「fmUpgradeStatus」 &lt;= processLevel を持つファイルのみが再処理され、それ以外は無視されます。 デフォルト値は 1 です。\)
     - &#39;ignoreImageVersions&#39;:true/false \( 画像のバージョンの処理を無視します。 デフォルト値は false です。\)
+    
     >[！注意 ]
     >
     > フォルダーレベルまたは完全なコンテンツ/dam 上で、または同じフォルダー上で、コンテンツの移行を実行できます（移行を再実行）。
@@ -69,4 +70,3 @@ UUID 以外のコンテンツを移行するには、次の手順を実行しま
 >[!NOTE]
 >
 > 移行前に処理されないファイルや破損したファイルがある場合、移行後も破損したままになります。
-

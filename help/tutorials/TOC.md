@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 12b37bd34dd066b92d932967c755480092935016
+source-git-commit: fa8b9cf3af0443ff8a830b0393c66f5804593deb
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 7%
+source-wordcount: '1067'
+ht-degree: 8%
 
 ---
 
@@ -18,10 +18,19 @@ ht-degree: 7%
    + リリースノート {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
-         + 2023 年リリース{#2023-releases}
-            + [最新のリリースノート](./release-info/release-notes-2023.4.0.md)
-            + [3 月のリリースノート](./release-info/release-notes-2023.3.0.md)
-            + [2 月のリリースノート](./release-info/release-notes-2023.2.0.md)
+         + 2023 年リリース {#2023-releases}
+            + 6 月リリース {#2306-release}
+               + [新機能](./release-info/whats-new-2023.6.0.md)
+               + [リリースノート](./release-info/release-notes-2023.6.0.md)
+            + 4 月リリース {#2304-release}
+               + [新機能](./release-info/whats-new-2023.4.0.md)
+               + [リリースノート](./release-info/release-notes-2023.4.0.md)
+            + 3 月リリース {#2303-release}
+               + [新機能](./release-info/whats-new-2023.3.0.md)
+               + [リリースノート](./release-info/release-notes-2023.3.0.md)
+            + 2 月リリース {#2302-release}
+               + [新機能](./release-info/whats-new-2023.2.0.md)
+               + [リリースノート](./release-info/release-notes-2023.2.0.md)
          + 2022 年リリース {#2022-releases}
             + [11 月のリリースノート](./release-info/release-notes-2022.11.0.md)
             + [10 月のリリースノート](./release-info/release-notes-2022.10.0.md)
@@ -43,15 +52,13 @@ ht-degree: 7%
          + [4.1.x リリースノート](./release-info/release-notes-4.1.md)
          + [4.0.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x リリースノート](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-+ 非表示の記事 {#hidden}
-   + [酸素コネクタを使用](./oxygen-connector/use-aem-connector.md)
 + ユーザーガイド {#user-guide}
    + [免責事項](./user-guide/rebranding-disclaimer.md)
    + 概要 {#about-aem-guide}
-      + [Adobe Experience Managerガイドについて](./user-guide/intro.md)
-      + AEMガイドの作業と主な機能 {#aemg-works-features}
-         + [AEMガイドの仕組み](./user-guide/intro-how-dxml-works.md)
-         + [主要なAEMガイドの機能](./user-guide/intro-dxml-features.md)
+      + [ [!DNL Adobe Experience Manager Guides] について](./user-guide/intro.md)
+      + [!DNL AEM Guides] 作業および主な機能 {#aemg-works-features}
+         + [方法 [!DNL AEM Guides] 動作](./user-guide/intro-how-dxml-works.md)
+         + [キー [!DNL AEM Guides] 機能](./user-guide/intro-dxml-features.md)
    + コンテンツを管理 {#manage-content}
       + [主要な概念、役割と権限、前提条件](./user-guide/authoring.md)
       + [ファイルのアップロード](./user-guide/authoring-upload-existing-files.md)
@@ -73,6 +80,7 @@ ht-degree: 7%
                + [Web エディターでのキーボードショートカット](./user-guide/web-editor-keyboard-shortcuts.md)
                + [Web エディターのその他の機能](./user-guide/web-editor-other-features.md)
                + [Web エディターの表示](./user-guide/web-editor-views.md)
+               + [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
                + [Web エディターから Markdown ドキュメントを作成する](./user-guide/web-editor-markdown-topic.md)
                + [グローバルおよびフォルダープロファイルの出力プリセットの管理](./user-guide/web-editor-manage-output-presets.md)
                + 記事ベースの投稿 {#article-based-pub}
@@ -166,24 +174,25 @@ ht-degree: 7%
    + オンプレミス {#on-prem-ig}
       + [免責事項](./install-guide/rebranding-disclaimer.md)
       + [このガイドについて](./install-guide/introduction.md)
-      + ダウンロードとインストール {#download-install-aemg}
+      + ダウンロード、インストール、アップグレード {#download-install-upgrade-aemg}
          + [概要](./install-guide/download-install.md)
          + [技術要件](./install-guide/download-install-technical-requirements.md)
          + [Adobe Experience Managerのインストール](./install-guide/download-install-aem.md)
          + [AEMガイドを初めてダウンロードしてインストールする](./install-guide/download-install-aemg-first-time.md)
          + [Dispatcher の設定](./install-guide/download-install-configure-dispatcher.md)
          + [AEM Guide のインストールの確認](./install-guide/download-install-verify-aemg-installation.md)
-         + [Adobe Experience Managerガイドのアップグレード](./install-guide/upgrade-xml-documentation.md)
+         + [アップグレードAEMガイド](./install-guide/upgrade-xml-documentation.md)
          + [AEM Guides のアンインストール](./install-guide/download-install-unistall-aemg.md)
          + [Recommendations （パフォーマンス最適化）](./install-guide/download-install-recommend-perf-optimiz.md)
-      + [非 UUID から UUID へのコンテンツの移行](./install-guide/migrate-uuid-non-uuid.md)
-      + [ユーザー管理とセキュリティ](./install-guide/user-admin-sec.md)
-      + [カスタム DITA-OT および DITA 特殊化の使用](./install-guide/dita-ot-specialization.md)
-      + [ドキュメントの状態の設定](./install-guide/customize-doc-state.md)
+      + ユーザーグループとセキュリティの使用 {#user-group-sec}
+         + [ユーザー管理とセキュリティ](./install-guide/user-admin-sec.md)
       + コンテンツの移行 {#content-migration}
+         + [非 UUID から UUID へのコンテンツの移行](./install-guide/migrate-uuid-non-uuid.md)
          + [既存のコンテンツを移行](./install-guide/migrate-content.md)
          + [既存の DITA コンテンツのアップロード](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [DITA 以外のコンテンツの移行](./install-guide/migrate-content-non-dita.md)
+      + カスタム DITA-OT および特殊化の使用 {#custom-dita-ot-spec}
+         + [カスタム DITA-OT および DITA 特殊化の使用](./install-guide/dita-ot-specialization.md)
       + UUID および非 UUID ベースのファイル名の設定 {#conf-non-uuid-filename}
          + [ファイル名を設定](./install-guide/conf-file-names.md)
          + [UUID に基づく自動ファイル名の設定](./install-guide/conf-auto-uuid-filenames.md)
@@ -193,46 +202,53 @@ ht-degree: 7%
          + [トピックとマップのテンプレートの設定](./install-guide/conf-template-tags.md)
          + [カスタム DITA トピックテンプレートの設定](./install-guide/conf-template-tags-custom-dita-topic-template.md)
          + [カスタム DITA マップテンプレートの設定](./install-guide/conf-template-tags-custom-dita-map-templates.md)
+      + ドキュメントの状態の操作 {#doc-state}
+         + [ドキュメントの状態の設定](./install-guide/customize-doc-state.md)
       + Web エディターの設定の操作 {#web-editor-configs}
-      + [Web エディタのカスタマイズ](./install-guide/conf-web-editor.md)
-      + [ツールバーのカスタマイズ](./install-guide/conf-web-editor-customize-toolbar.md)
-      + [タグ表示のデフォルト値の設定](./install-guide/configure-default-value-tags-view.md)
-      + [UUID ベースのリンクの表示の設定](./install-guide/conf-uuid-based-links.md)
-      + [同じタブで DITA トピックまたはマップファイルを開く](./install-guide/open-dita-files-same-tab.md)
-      + [左側のパネルでカスタムパネルを設定する](./install-guide/configure-custom-panel.md)
-      + [Web エディターでのファイルの自動保存の設定](./install-guide/auto-save-in-editor.md)
-      + [ファイル参照ダイアログのフィルターを設定する](./install-guide/conf-custom-file-filters.md)
-      + [閉じるときに新しいバージョンとして保存するようにプロンプトを設定する](./install-guide/conf-save-as-new-version-close.md)
-      + [閉じるときにファイルをチェックインするプロンプトを設定する](./install-guide/conf-checkin-file-close.md)
-      + [許可される特殊文字の設定](./install-guide/conf-special-chars.md)
-      + [要素 ID を自動生成](./install-guide/auto-generate-ids.md)
-      + [AEMのデフォルト辞書をカスタマイズ](./install-guide/customize-aem-custom-dictionary.md)
-      + [テキストフィルターの設定](./install-guide/config-text-filters.md)
-      + [クエリの LimitReads 数の設定](./install-guide/conf-query-limitreads.md)
-      + [記事ベースの公開用パッケージのインストール](./install-guide/configure-article-based-publishing.md)
-      + [[ 詳細マップエディタ ] を既定に設定する](./install-guide/conf-map-editor.md)
-      + [デフォルトで@navtitle属性を含める](./install-guide/auto-add-navtitle.md)
-      + [グローバルまたはフォルダーレベルのプロファイルの設定](./install-guide/conf-folder-level.md)
-      + [バージョン管理](./install-guide/version-management.md)
-      + [デスクトップベースの XML エディターの統合](./install-guide/integrate-desktop-editors.md)
-      + [出力生成設定の指定](./install-guide/conf-output-generation.md)
-      + [ワークフローの設定とカスタマイズ](./install-guide/customize-workflows.md)
-      + [コンテンツの翻訳](./install-guide/translation.md)
-      + [AEM Assets UI の検索の設定](./install-guide/conf-dita-search.md)
+         + [Web エディタのカスタマイズ](./install-guide/conf-web-editor.md)
+         + [ツールバーのカスタマイズ](./install-guide/conf-web-editor-customize-toolbar.md)
+         + [タグ表示のデフォルト値の設定](./install-guide/configure-default-value-tags-view.md)
+         + [UUID ベースのリンクの表示の設定](./install-guide/conf-uuid-based-links.md)
+         + [同じタブで DITA トピックまたはマップファイルを開く](./install-guide/open-dita-files-same-tab.md)
+         + [左側のパネルでカスタムパネルを設定する](./install-guide/configure-custom-panel.md)
+         + [Web エディターでのファイルの自動保存の設定](./install-guide/auto-save-in-editor.md)
+         + [ファイル参照ダイアログのフィルターを設定する](./install-guide/conf-custom-file-filters.md)
+         + [閉じるときに新しいバージョンとして保存するようにプロンプトを設定する](./install-guide/conf-save-as-new-version-close.md)
+         + [閉じるときにファイルをチェックインするプロンプトを設定する](./install-guide/conf-checkin-file-close.md)
+         + [許可される特殊文字の設定](./install-guide/conf-special-chars.md)
+         + [要素 ID を自動生成](./install-guide/auto-generate-ids.md)
+         + [AEMのデフォルト辞書をカスタマイズ](./install-guide/customize-aem-custom-dictionary.md)
+         + [テキストフィルターの設定](./install-guide/config-text-filters.md)
+         + [クエリの LimitReads 数の設定](./install-guide/conf-query-limitreads.md)
+         + [記事ベースの公開用パッケージのインストール](./install-guide/configure-article-based-publishing.md)
+         + [[ 詳細マップエディタ ] を既定に設定する](./install-guide/conf-map-editor.md)
+         + [デフォルトで@navtitle属性を含める](./install-guide/auto-add-navtitle.md)
+      + グローバルプロファイルとフォルダーレベルプロファイルの操作 {#global-folder-profiles}
+         + [グローバルまたはフォルダーレベルのプロファイルの設定](./install-guide/conf-folder-level.md)
+      + バージョンの設定 {#version-mgt}
+         + [バージョン管理](./install-guide/version-management.md)
+      + デスクトップベースの XML エディターの操作 {#desktop-xml-editor}
+         + [デスクトップベースの XML エディターの統合](./install-guide/integrate-desktop-editors.md)
+      + 出力生成設定の使用 {#output-gen-config}
+         + [出力生成設定の指定](./install-guide/conf-output-generation.md)
+         + ネイティブPDFの公開 {#config-native-pdf-publish}
+            + [PDFテンプレート](./native-pdf/pdf-template.md)
+            + [テンプレートテンプレートのPDF](./native-pdf/components-pdf-template.md)
+            + [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
+            + 共通のコンテンツスタイル {#content-styles}
+               + [共通のコンテンツスタイルの使用](./native-pdf/stylesheet.md)
+               + [カスタムの変更バースタイルの使用](./native-pdf/change-bar-style.md)
+               + [TOC エントリとトピックコンテンツにカスタムスタイルを適用](./native-pdf/custom-style-toc.md)
+               + [カスタムブックマークをPDF出力に追加](./native-pdf/add-custom-bookmark.md)
+               + [JavaScript を使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
+               + [脚注でのカスタムスタイルの使用](./native-pdf/footnote-number-style.md)
+      + カスタムワークフローの操作 {#custom-workflow}
+         + [ワークフローの設定とカスタマイズ](./install-guide/customize-workflows.md)
+      + 翻訳設定の操作 {#translate-config}
+         + [コンテンツの翻訳](./install-guide/translation.md)
+      + AEM Assets検索の操作 {#aem-asset-search}
+         + [AEM Assets UI の検索の設定](./install-guide/conf-dita-search.md)
       + [付録](./install-guide/appendix.md)
-+ 設定 {#configuring}
-   + ネイティブPDFの公開 {#config-native-pdf-publish}
-      + [PDFテンプレート](./native-pdf/pdf-template.md)
-      + [テンプレートテンプレートのPDF](./native-pdf/components-pdf-template.md)
-      + [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
-      + 共通のコンテンツスタイル {#content-styles}
-         + [共通のコンテンツスタイルの使用](./native-pdf/stylesheet.md)
-         + [カスタムの変更バースタイルの使用](./native-pdf/change-bar-style.md)
-         + [TOC エントリとトピックコンテンツにカスタムスタイルを適用](./native-pdf/custom-style-toc.md)
-         + [カスタムブックマークをPDF出力に追加](./native-pdf/add-custom-bookmark.md)
-         + [JavaScript を使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
-         + [脚注でのカスタムスタイルの使用](./native-pdf/footnote-number-style.md)
-+ バージョン管理 {#versioning}
 + ナレッジベース {#knowledge-base}
    + エキスパートセッション {#expert-session}
       + [エキスパートセッションの概要](./knowledge-base/expert-sessions/expert-session.md)
@@ -264,3 +280,5 @@ ht-degree: 7%
       + ユースケース {#use-cases}
          + [条件付きコンテンツの使用](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [キーの操作](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
++ 非表示の記事 {#hidden}
+   + [酸素コネクタを使用](./oxygen-connector/use-aem-connector.md)

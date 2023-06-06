@@ -2,9 +2,9 @@
 title: Web エディターの機能について
 description: Web エディターの機能を理解する方法について説明します。
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
+source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
 workflow-type: tm+mt
-source-wordcount: '14387'
+source-wordcount: '14919'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,7 @@ ht-degree: 0%
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **デバイステーマを使用**:このチェックボックスをオンにすると、AEMガイドはデバイスのテーマに基づいて、明るいテーマと暗いテーマを自動的に切り替えることができます。
 - **テーマ**:エディターの「明」、「明」、「暗」、「暗」の中から選択できます。 最も明るいテーマの場合、ツールバーとパネルはより明るいグレーの背景を使用します。 ライトテーマの場合、ツールバーとパネルはライトグレーの背景を使用します。 最も暗いテーマの場合、ツールバーとパネルはより暗い黒の背景を使用します。 暗いテーマの場合、ツールバーとパネルは黒い背景色を使用します。 すべてのテーマで、コンテンツ編集領域が白の背景で表示されます。
 
 - **フォルダープロファイル**:フォルダープロファイルは、条件付き属性、オーサリングテンプレート、出力プリセットおよび Web エディターの設定に関連する様々な設定を制御します。 デフォルトでは、グローバルプロファイルが表示されます。 また、管理者がシステムでフォルダープロファイルを設定している場合は、それらのフォルダープロファイルも「フォルダープロファイル」リストに表示されます。
@@ -671,9 +672,20 @@ Web エディターからトピックにラベルを追加するには、次の�
    ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+**お気に入りコレクションのオプションメニュー**\
+また、[ お気に入り ] コレクションの [ オプション ] メニューを使用して、次の操作を実行することもできます。
+
+![](images/favorites-options.png){width="400" align="left"}
+- **名前を変更**:選択したコレクションの名前を変更します。
+- **削除**:選択したファイルを削除します。
+- **更新**:リポジトリからファイルとフォルダの新しいリストを取得します。
+- **Assets UI で表示**:Assets UI にファイルまたはフォルダーのコンテンツを表示します。
+
+
 >[!NOTE]
 >
-> お気に入りの一覧から項目を削除するには、お気に入りの一覧でファイルまたはフォルダの横にあるオプションアイコンをクリックし、 **お気に入りから削除**.
+> 上部の更新アイコンを使用してリストを更新することもできます。
+
 
 **リポジトリ表示** - ![](images/Repository_icon.svg)
 
@@ -761,6 +773,8 @@ Web エディターには、テキスト検索用のフィルター機能が強�
 - 複製
 - チェックアウト/チェックイン
 - プレビュー
+- 移動先
+- 名前を変更
 - 削除
 - コピー
 - すべて折りたたむ
@@ -784,6 +798,41 @@ Web エディターには、テキスト検索用のフィルター機能が強�
 - **プレビュー**:ファイルを開かずに\(.dita/.xml\) のプレビューを簡単に表示します。
 
    ![](images/quick-preview_cs.png){width="800" align="left"}
+
+- **名前を変更**:このオプションを使用して、選択したファイルの名前を変更します。 新しいファイルの名前を **アセット名を変更** ダイアログ。
+   - 任意のタイプのファイルの名前を変更できます。
+   - ファイルの拡張子は変更できません。
+   - 2 つのファイルに同じ名前を付けることはできません。 したがって、ファイル名を既に存在する名前に変更することはできません。 エラーが表示されます。
+
+- **移動先**:選択したファイルを別のフォルダーに移動するには、このオプションを使用します。
+   - 保存先フォルダーの名前を入力するか、 **パスを選択** をクリックして、保存先フォルダーを選択します。
+   - 任意のタイプのファイルを Content フォルダー内の任意の宛先に移動できます。
+   - 2 つのファイルに同じ名前を付けることはできません。 したがって、同じ名前のファイルが既に存在するフォルダにファイルを移動することはできません。
+
+   同じ名前で異なるタイトルのファイルが存在するフォルダにファイルを移動しようとすると、[ ファイル名を変更して移動 ] ダイアログボックスが表示され、ファイルを移動する前にファイル名を変更する必要があります。 移動先のフォルダ内の移動後のファイルには、新しいファイル名が付けられます。
+
+   ![](images/rename-move-asset.png){width="550" align="left"}
+
+   >[!NOTE]
+   > 別の保存先フォルダーにファイルをドラッグ&amp;ドロップすることもできます。
+
+   **除外シナリオ**
+
+   AEMガイドでは、次のシナリオではファイルの名前を変更または移動できません。
+
+   - レビューまたは翻訳ワークフローの一部である場合、ファイルの移動や名前の変更はできません。
+
+   - 他のユーザーがファイルをチェックアウトした場合、ファイルの名前を変更したり、移動したりできない場合は、そのファイルの [ 名前の変更 ] または [ 移動先 ] オプションは表示されません。
+   >[!NOTE]
+   > 管理者からフォルダーに対する権限が与えられている場合は、 **名前を変更** または **移動先** オプションが表示されます。
+
+   <details>
+    <summary> Cloud Services </summary>
+
+   ファイルごとに一意の UUID が割り当てられるので、ファイルの名前を変更したり、ファイルを移動したりしても、ファイル間の既存の参照は壊れません。
+   </details>
+
+
 
 - **削除**:選択したファイルを削除するには、このオプションを使用します。 ファイルを削除する前に、確認プロンプトが表示されます。
 
@@ -1202,32 +1251,86 @@ AEMガイドはネストされたレベルサブジェクトスキームマッ�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
+   **サブジェクト定義と列挙の階層定義の処理**
 
-**属性ドロップダウン**
+   AEMガイドは、同じマップに存在する列挙とサブジェクト定義を処理する以外に、2 つの異なるマップで列挙とサブジェクト定義を定義する機能も提供します。 マップで件名の定義を定義し、別のマップで列挙の定義を定義して、マップ参照を追加できます。 例えば、次の XML コードは、2 つの異なるマップで件名定義と列挙定義を作成します。
 
-作成者ビューのコンテンツプロパティパネルの「属性」ドロップダウンを使用して、サブジェクトスキームの値を変更することもできます。 値を変更するには、「属性」ドロップダウンから値を選択します。
+   件名の定義は、 `subject_scheme_map_1.ditamap`
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-また、ドロップダウンから複数の値を選択して、属性に値を適用することもできます。
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
 
-**ソース表示**
+   列挙の定義は subject_scheme_map_2.ditamap に存在します
 
-また、ソースビューの属性のドロップダウンから値を変更することもできます。 また、ソースビューでは、誤った値を追加できません。
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+   次に、件名の定義を示します。 `subject_scheme_map_1.ditamap`  列挙 def が `subject_scheme_map_2.ditamap`. への参照 `subject_scheme_map_1.ditamap` も `subject_scheme_map_2.ditamap`.
 
-**条件パネルから件名スキームを表示して適用する**
+   >[!NOTE]
+   >
+   > を `subject_scheme_map_1.ditamap` および `subject_scheme_map_2.ditamap` が互いに参照されているので、件名のスキームは解決されます。
 
-また、条件パネルから件名スキームを表示して適用することもできます。
+   件名列挙の参照は、次の優先順位で解決されます。
 
-条件パネルから件名スキームを表示するには、システム管理者がオプションを選択する必要があります **条件パネルに件名スキームを表示** エディター設定の「条件」タブで、以下の操作を行います。 詳しくは、 [「条件」タブ](#id21BMNE0602V).
+   1. 同じマップ
+   1. 参照マップ
 
-[ 条件 ] パネルには、件名スキーム内の件名定義のフラットな垂直構造が表示されます。
+   同じマップと参照先のマップに列挙が見つからない場合、参照は解決されません。
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-コンテンツに条件をドラッグ&amp;ドロップして、コンテンツに条件を追加できます。 条件に対して定義された色を使用して、条件付きコンテンツがハイライト表示されます。
+   **属性ドロップダウン**
+
+   作成者ビューのコンテンツプロパティパネルの「属性」ドロップダウンを使用して、サブジェクトスキームの値を変更することもできます。 値を変更するには、「属性」ドロップダウンから値を選択します。
+
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+   また、ドロップダウンから複数の値を選択して、属性に値を適用することもできます。
+
+   **ソース表示**
+
+   また、ソースビューの属性のドロップダウンから値を変更することもできます。 また、ソースビューでは、誤った値を追加できません。
+
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+   **条件パネルから件名スキームを表示して適用する**
+
+   また、条件パネルから件名スキームを表示して適用することもできます。
+
+   条件パネルから件名スキームを表示するには、システム管理者がオプションを選択する必要があります **条件パネルに件名スキームを表示** エディター設定の「条件」タブで、以下の操作を行います。 詳しくは、 [「条件」タブ](#id21BMNE0602V).
+
+   [ 条件 ] パネルには、件名スキーム内の件名定義のフラットな垂直構造が表示されます。
+
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+   コンテンツに条件をドラッグ&amp;ドロップして、コンテンツに条件を追加できます。 条件に対して定義された色を使用して、条件付きコンテンツがハイライト表示されます。
 
 **スニペット** -  ![](images/insert-snippet-icon.svg)
 

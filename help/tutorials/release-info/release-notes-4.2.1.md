@@ -1,7 +1,8 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.2.1 リリースのアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 4.2.1 リリースにアップグレードする方法について説明します
-source-git-commit: 7fdbf99a1224124d63acaebc626e3b09475f3096
+exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
+source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 5%
@@ -10,7 +11,7 @@ ht-degree: 5%
 
 # 4.2.1 Adobe Experience Managerガイド（2023 年 5 月）
 
-このリリースノートでは、アップグレード手順、互換性マトリックス、Adobe Experience Managerガイドのバージョン 4.2.1 リリース ( 後で *AEMガイド*) をクリックします。
+このリリースノートでは、アップグレード手順、互換性マトリックス、Adobe Experience Managerガイドのバージョン 4.2.1 で修正された問題 ( 後で *AEMガイド*) をクリックします。
 
 新機能および機能強化について詳しくは、 [Adobe Experience Managerガイドの 4.2.1 リリースの新機能](whats-new-4.2.1-release.md).
 
@@ -110,5 +111,3 @@ ht-degree: 5%
 ### レビュー
 
 * 完了したレビューは、読み取り専用モードで開きません。 (11387)
-
-

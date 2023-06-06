@@ -1,13 +1,13 @@
 ---
 title: ネイティブPDF公開機能 | JavaScript を使用してコンテンツやスタイルを操作
 description: スタイルシートを作成し、コンテンツのスタイルを作成する方法を説明します。
-source-git-commit: 09918abbdade934468dea1c55d0ca2cd60622b35
+exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 1%
+source-wordcount: '519'
+ht-degree: 0%
 
 ---
-
 
 # JavaScript を使用したコンテンツやスタイルの操作
 
@@ -24,7 +24,7 @@ JavaScript の実行をサポートするために、ネイティブPDF公開機
 
 実行するコンテンツのタイプまたはスタイルの変更に基づいて、使用するコールバック関数を選択できます。 例えば、コンテンツを追加する場合は、目次が生成される前にコンテンツを追加することをお勧めします。 同様に、スタイル設定を更新する場合は、ページネーションの前または後に更新を行うことができます。
 
-次の例では、図タイトルの位置が、画像の上から下に変更されます。 この場合は、プリセットで「 JavaScript 実行」オプションを有効にする必要があります。 これには、次の手順を実行します。
+次の例では、図タイトルの位置が、画像の上から下に変更されます。 この場合は、プリセットで「 JavaScript 実行」オプションを有効にする必要があります。 これをおこなうには、次の手順を実行します。
 
 1. 編集するプリセットを開きます。
 1. 次に移動： **詳細** タブをクリックします。
@@ -69,3 +69,35 @@ window.addEventListener('DOMContentLoaded', function () {
 このコードを使用して生成された出力と、テンプレートには画像の下の図タイトルが表示されます。
 
 <img src="./assets/fig-title-below-image.png" width="500">
+
+## ドラフトドキュメントのPDF出力に透かしを追加する {#watermark-draft-document}
+
+また、JavaScript を使用して、条件付き透かしを追加することもできます。 これらの透かしは、定義された条件が満たされると、ドキュメントに追加されます。\
+例えば、次のコードを含む JavaScript ファイルを作成して、まだ承認されていないドキュメントのPDF出力への透かしを作成できます。 ドキュメントのPDFを「承認済み」ドキュメント状態で生成した場合、この透かしは表示されません。
+
+```css
+...
+/*
+* This file can be used to add a watermark to the PDF output
+* */
+
+window.addEventListener('DOMContentLoaded', function () {
+    var watermark = 'Draft'
+    var metaTag = document.getElementsByTagName('meta')
+    css = "@page {\n  @left-middle {\n    content: \"".concat(watermark, "\";\n    z-index: 100;\n    font-family: sans-serif;\n    font-size: 80pt;\n    font-weight: bold;\n    color: gray(0, 0.3);\n    text-align: center;\n    transform: rotate(-54.7deg);\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n  }\n}")
+    head = document.head || document.getElementsByTagName('head')[0], style = document.createElement('style');
+    style.appendChild(document.createTextNode(css));
+    window.pdfLayout.onBeforePagination(function () {
+        for (let i = 0; i < metaTag.length; i++) {
+            if (metaTag[i].getAttribute('name') === 'docstate' && metaTag[i].getAttribute('value') !== 'Approved') {
+                head.appendChild(style);
+            }
+        }
+    })
+});
+...
+```
+
+このコードを使用して生成されたPDF出力には透かしが表示されます *ドラフト* ドキュメントの表紙で、以下の操作を行います。
+
+<img src="./assets/draft-watermark.png" width="500">
