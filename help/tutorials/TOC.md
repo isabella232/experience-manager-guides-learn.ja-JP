@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: fa8b9cf3af0443ff8a830b0393c66f5804593deb
+source-git-commit: ce65f05c61b81115d9032e429419265e4b4574fd
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1072'
 ht-degree: 8%
 
 ---
@@ -272,6 +272,7 @@ ht-degree: 8%
          + [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [マイクロサービスのアーキテクチャとパフォーマンス](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [マイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
+         + [AEM Cloud でのベンチマークの公開](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          + [カスタム DITA-OT の設定](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + ワークフロー {#workflows}
          + [生成後のワークフロー](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
