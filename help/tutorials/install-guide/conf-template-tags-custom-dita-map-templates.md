@@ -1,13 +1,13 @@
 ---
 title: カスタム DITA マップテンプレートの設定
 description: カスタム DITA マップテンプレートの設定方法を説明します
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
+source-git-commit: 0dea2f1d17e7d9b12d07b459a10a00c1dd7460a5
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
-
 
 # カスタム DITA マップテンプレートの設定 {#id1774F04F05Z}
 
@@ -50,7 +50,6 @@ AEMガイドには、すぐに使用できる 2 つのマップテンプレー�
 
 >[!TIP]
 >
-> 詳しくは、 [appendix.md\#](appendix.md#)の *カスタムテンプレート* の節で、カスタムマップテンプレートの使用に関するベストプラクティスを参照してください。
+> 詳しくは、 *カスタムテンプレート* の節で、カスタムマップテンプレートの使用に関するベストプラクティスを参照してください。
 
-**親トピック：**[&#x200B;トピックとマップのテンプレートの設定](conf-template-tags.md)
-
+**親トピック：** [トピックとマップのテンプレートの設定](conf-template-tags.md)
