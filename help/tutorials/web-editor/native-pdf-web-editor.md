@@ -2,9 +2,9 @@
 title: ネイティブPDF |PDF出力生成
 description: Adobe Experience ManagerガイドでのPDF出力の生成as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
+source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
 workflow-type: tm+mt
-source-wordcount: '2904'
+source-wordcount: '2903'
 ht-degree: 1%
 
 ---
@@ -179,6 +179,6 @@ PDFをProtectします。 不正なアクセスを避けるには、次のオプ
 次を選択した場合、 **一時ファイルをダウンロード** 「詳細設定」オプションでは、「ネイティブHTML」出力の生成時に作成された中間PDFファイルをダウンロードすることもできます。 出力を生成したら、 **一時ファイルをダウンロード** ![一時ファイルをダウンロード](assets/native-pdf-download-temporary-files-icon.svg)アイコンをクリックします。 この機能は、中間HTMLのスタイルとレイアウトを表示するのに役立ち、必要に応じて CSS スタイルを修正または変更するのに役立ちます。
 
 
->メモ
+>[!NOTE]
 >
 > この **一時ファイルをダウンロード**  ![一時ファイルをダウンロード](assets/native-pdf-download-temporary-files-icon.svg) アイコンは、 **詳細** タブをクリックします。
