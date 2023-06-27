@@ -3,13 +3,13 @@ title: Oxygen Plugin for Adobe Experience Manager Guides
 description: Oxygen Plugin を使用して、Adobe Experience Managerガイドのコンテンツを作成および管理する方法を説明します。
 hide: true
 hidefromtoc: true
-source-git-commit: 96347fed96979eb735dc55c32fcda90cc70ddcb4
+exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
+source-git-commit: ee4722ed92d1b1a59e8baea583517a4470f558c9
 workflow-type: tm+mt
-source-wordcount: '5762'
+source-wordcount: '5885'
 ht-degree: 1%
 
 ---
-
 
 # Oxygen Plugin for Adobe Experience Manager Guides {#id1645H6010Q5}
 
@@ -17,7 +17,7 @@ Oxigen Plugin for Adobe Experience Manager Guides \( 後述の『AEMガイド』
 
 ## ダウンロードとインストール {#id1826M0L0PUI}
 
-AEM Guides 用 Oxygen Plugin は、Adobeソフトウェア配布ポータルから入手できます。 「Experience Manager」タブで「酸素」を検索し、次に [Adobeソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+AEM Guides 用 Oxygen Plugin は、Adobeソフトウェア配布ポータルから入手できます。 「Experience Manager」タブで「酸素」を検索し、次に [Adobeソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/jp/general.html).
 
 >[!NOTE]
 >
@@ -212,19 +212,19 @@ oxenAuthor.bat に次の行を追加します。
 1. 次の詳細を指定します。
    - **サーバー URL**:AEMサーバーの URL。次に例を示します。
 
-      ```http
-      http[s]://<host>:<port>
-      ```
+     ```http
+     http[s]://<host>:<port>
+     ```
 
-      上記の URL で、AEMサーバーがデプロイされているサーバーのホスト名とポートを指定します。
+     上記の URL で、AEMサーバーがデプロイされているサーバーのホスト名とポートを指定します。
 
-      >[!IMPORTANT]
-      >
-      >AEMサーバーがポート 80 または 443 にデプロイされている場合は、URL で指定する必要はありません。
+     >[!IMPORTANT]
+     >
+     >AEMサーバーがポート 80 または 443 にデプロイされている場合は、URL で指定する必要はありません。
 
    - **認証：** 次から選択： **基本\（ユーザー名/パスワード\）** または **Web 認証**. 例えば、 **基本** 認証情報を入力する必要があります **ユーザー名** および **パスワード** 」と入力します。
 
-      「 Web 認証」を選択すると、「AEMログイン」画面が表示されます。 ログイン資格情報を入力し、 **ログイン** 」ボタンをクリックします。 ログインに成功すると、AEMログイン画面が閉じ、AEMガイドパネルにAEMサーバーのファイルリストが表示されます。
+     「 Web 認証」を選択すると、「AEMログイン」画面が表示されます。 ログイン資格情報を入力し、 **ログイン** 」ボタンをクリックします。 ログインに成功すると、AEMログイン画面が閉じ、AEMガイドパネルにAEMサーバーのファイルリストが表示されます。
 
    - **接続タイムアウト**:クライアントがAEMサーバーからの応答を待機する時間（秒）を指定します。 指定された時間内にサーバからの応答を受信しなかった場合、リクエストは終了します。 デフォルト値は 20 秒です。
 
@@ -255,7 +255,7 @@ AEMリポジトリ内の DITA トピックに関連付けられたプロファ�
    - クリック **選択** の横 **オーサー拡張機能の状態リスナー** under **個々の拡張機能** で「 CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn 」を選択します。 **クラス** リスト。 「**OK**」をクリックします。
 - クリック **選択** の横 **作成者のカスタム属性値エディタ** under **個々の拡張機能** 「 CustomValueEditor - com.adobe.o2.framework.extn 」を選択し、 **クラス** リスト。 「**OK**」をクリックします。次のスクリーンショットは、設定済みの **拡張** DITA トピックのタブ：
 
-   ![](images/dita-topic-extension-tab.png)
+  ![](images/dita-topic-extension-tab.png)
 
 1. クリック **OK** をクリックして、変更を保存します。
 
@@ -274,11 +274,11 @@ AEM Web インターフェイスから直接 Oxygen XML Author でマップフ�
 - クリック **選択** の横 **作成者のカスタム属性値エディタ** under **個々の拡張機能** 「 CustomValueEditor - com.adobe.o2.framework.extn 」を選択し、 **クラス** リスト。 「**OK**」をクリックします。
 - *\（オプション\）* マップファイルを開いたときに参照を解決しない場合は、次の追加設定を実行する必要があります。
 
-   クリック **選択** の横 **参照リゾルバー** under **個々の拡張機能** 「CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn 」を選択し、 **クラス** リスト。 「**OK**」をクリックします。
+  クリック **選択** の横 **参照リゾルバー** under **個々の拡張機能** 「CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn 」を選択し、 **クラス** リスト。 「**OK**」をクリックします。
 
-   次のスクリーンショットは、設定済みの **拡張** タブ：
+  次のスクリーンショットは、設定済みの **拡張** タブ：
 
-   ![](images/dita-map-extension-tab.png)
+  ![](images/dita-map-extension-tab.png)
 
 1. クリック **OK** をクリックして、変更を保存します。
 
@@ -301,9 +301,9 @@ AEM Web インターフェイスから直接 Oxygen XML Author でマップフ�
 - **接続**:AEMサーバーに接続するには、このオプションを選択します。 このオプションは、Oxygen XML Author がAEM Server に接続されている場合は無効になります。
 - **更新**:AEMリポジトリからファイルおよびフォルダーの最新のステータスを取得するには、このオプションを選択します。
 
-   >[!NOTE]
-   >
-   >ファイルを更新する前に、必ずファイルを保存してください。 次を選択した場合： **更新** オプションを選択すると、ファイルを更新する前にファイルを保存する警告が表示されます。 ファイルを保存していない場合は、 **キャンセル** そしてそれらを保存します。
+  >[!NOTE]
+  >
+  >ファイルを更新する前に、必ずファイルを保存してください。 次を選択した場合： **更新** オプションを選択すると、ファイルを更新する前にファイルを保存する警告が表示されます。 ファイルを保存していない場合は、 **キャンセル** そしてそれらを保存します。
 
 - **設定**:このオプションを使用して、プラグインの一般的な環境設定ダイアログを開くことができます。
 - **ログアウト**:AEMサーバー接続を閉じるには、このオプションを選択します。 このオプションは、Web 認証モードを使用している場合にのみ使用できます。
@@ -417,6 +417,16 @@ AEMガイドで利用可能なエディターを使用する場合は、コン�
    >[!NOTE]
    >
    >このコメントは、ファイルのAEMバージョン履歴に表示されます。
+1. ラベルを **ラベル** テキストボックス ラベルを入力し、Enter キーを押します。 例： *2307 リリース*.
+管理者がラベルのリストを事前に定義し、それらを `label.json` ファイルが生成された場合、これらのラベルはドロップダウンとして表示されます。 ドロップダウンから 1 つ以上のラベルを選択できます。
+   ![](images/checkin-dropdown-labels.png){width="300" align="left"}
+複数のラベルを（コンマで区切って）同じトピックバージョンに追加できます。  例： *Adobe*, *AEM*,*ガイド*
+ただし、1 つのトピックの異なるバージョンに同じラベルを追加することはできません。 以前のバージョンに既に追加しているラベルを追加すると、最新のバージョンに追加され、以前のバージョンから削除されます。
+
+   >[!NOTE]
+   > 
+   > これらのラベルは、ファイルのAEMバージョン履歴に表示されます。
+
 
 1. 「**OK**」をクリックします。
 

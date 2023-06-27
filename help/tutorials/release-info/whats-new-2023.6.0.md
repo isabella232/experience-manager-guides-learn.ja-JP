@@ -1,16 +1,17 @@
 ---
 title: リリースノート | 2023 年 6 月リリースのAdobe Experience Managerガイドの新機能
 description: 2023 年 6 月リリースのAdobe Experience Managerガイドの新機能と拡張機能をas a Cloud Service
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 # 2023 年 6 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能
 
-この記事では、2023 年 6 月バージョンのAdobe Experience Managerガイド ( 後で *AEMガイドas a Cloud Service*) をクリックします。
+この記事では、Adobe Experience Managerガイド ( 後で *AEMガイドas a Cloud Service*) をクリックします。
 
 アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、 [リリースノート](release-notes-2023.6.0.md) 記事。
 
@@ -41,7 +42,13 @@ AEMガイドを使用すると、技術ドキュメントが完全に完全で�
 
 ### DITA 要素での言語変数のサポート
 
-AEMガイドは、言語変数をサポートしています。 これらの変数は、注意、ヒント、警告、注意などの要素に対してローカライズされた文字列を生成する場合に非常に役立ちます。 例えば、次の方法でメモをPDF出力に表示できます。ドイツ語：スペイン語に通知：野田
+AEMガイドは、言語変数をサポートしています。 これらの変数は、注意、ヒント、警告、注意などの要素に対してローカライズされた文字列を生成する場合に非常に役立ちます。
+例えば、次の方法でメモをPDF出力に表示できます。
+
+ドイツ語：通知
+
+スペイン語：野田
+
 
 ### ページフッターでの言語変数のサポート
 
@@ -51,10 +58,13 @@ AEMガイドは、言語変数をサポートしています。 これらの変�
 ### TOC のローカライズされたプレフィックス
 
 また、見出しにプレフィックスを表示するために使用するローカライズされた用語を表示する機能もあります。
-例えば、次の方法でPDF出力に「Chapter」プレフィックスを表示できます。ドイツ語：カピテルスペイン語：カピトロ
+例えば、次の方法でPDF出力に「Chapter」プレフィックスを表示できます。
+
+ドイツ語：カピテル
+
+スペイン語：カピトロ
 
 ### レイアウトでのAEMメタデータのPDF機能
-
 
 メタデータは、コンテンツの説明または定義です。 このメタデータは、ソース DITA マップコンテンツに保存されます。
 
@@ -76,7 +86,7 @@ AEMガイドは、言語変数をサポートしています。 これらの変�
 
 AEMガイドで、Schematron のレポート文もサポートされるようになりました。 テストステートメントが true と評価されると、レポートステートメントはメッセージを生成します。 例えば、短い説明を 150 文字以下にしたい場合、レポート文を定義して、短い説明が 150 文字を超えるトピックを確認できます。
 
-詳しくは、 [Assert ステートメントと Report ステートメントを使用して、ルールを確認する](../user-guide/support-schematron-file.md#schematron-assert-report).
+詳しくは、 [assert ステートメントと report ステートメントを使用して、ルールを確認する](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### 正規表現の使用
 

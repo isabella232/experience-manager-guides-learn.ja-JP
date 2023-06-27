@@ -1,13 +1,13 @@
 ---
 title: Schematron ファイルのサポート
 description: スキーマトロンを使用してトピックを検証する方法を説明します
-source-git-commit: 5ad78d32cbfa1c913866fae5dafe97dc8f01139c
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
 
 ---
-
 
 # Schematron ファイルのサポート
 
@@ -55,7 +55,7 @@ Web エディタでトピックを開くと、右側に「スキーマの検証�
 
 Web エディタでの Schematron のサポートにより、一連のルールに対してファイルを検証し、トピック全体で一貫性と正確性を維持できます。
 
-## Assert ステートメントと Report ステートメントを使用して、ルールを確認する{#schematron-assert-report}
+## assert ステートメントと report ステートメントを使用して、ルールを確認する{#schematron-assert-report}
 
 AEMガイドでは、Schematron の assert 文と report 文もサポートしています。 これらの文は、DITA トピックを検証するのに役立ちます。
 
@@ -146,10 +146,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
-
-
-
-
-
-
-

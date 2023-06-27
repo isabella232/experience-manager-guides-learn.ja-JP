@@ -2,9 +2,9 @@
 title: ネイティブPDF |PDF出力生成
 description: Adobe Experience ManagerガイドでのPDF出力の生成as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
+source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2904'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ AEMガイドを使用すると、個々のトピックのPDFまたはマップ�
 
 DITA-OT メソッドを使用したPDFの生成について詳しくは、 [DITA-OT を使用してPDFを生成](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
-* **FrameMaker Publishing Server (FMPS)**
+* **FrameMaker Publishing Server(FMPS)**
 
-この方法を使用して、AEMリポジトリで使用できる DITA コンテンツだけでなく、FrameMaker ドキュメント（.book および.fm）からもPDF出力を生成します。 このPDFは、FrameMaker Publishing Server(FMPS) を使用して出力プリセットを設定し、公開することで作成できます。 PDFやその他の形式の出力のデザインとルックアンドフィールを設定し、設定ファイル (.sts) に保存することができます。 この設定ファイルは、FMPS で DITA マップまたは.book ファイルの出力を生成するために使用されます。 出力プリセットを作成または編集するには、  *出力プリセットの理解* セクション [AEMガイドas a Cloud Serviceユーザーガイド](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+この方法を使用して、DITA コンテンツだけでなく、AEMリポジトリで使用可能なFrameMakerドキュメント（.book および.fm）からもPDF出力を生成します。 PDFは、出力プリセットを設定し、FrameMaker Publishing Server(FMPS) を使用して公開することで作成できます。 PDFやその他の形式の出力のデザインとルックアンドフィールを設定し、設定ファイル (.sts) に保存することができます。 この設定ファイルは、FMPS で DITA マップまたは.book ファイルの出力を生成するために使用されます。 出力プリセットを作成または編集するには、  *出力プリセットの理解* セクション [AEMガイドas a Cloud Serviceユーザーガイド](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-FMPS の設定の詳細は、 [FrameMaker ドキュメントから出力を生成](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
+FMPS の設定の詳細は、 [出力をFrameMaker文書から生成](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
 * **ネイティブPDFの公開**
 
@@ -56,7 +56,6 @@ PDF出力プリセットを作成または設定するには：
 
 1. 「出力」タブで、 **プリセット** 左側のサイドバーに表示されます。
 プリセットパネルが開きます。 <br>
-
 <img src="assets/preset-panel.png" alt="プリセットパネル" width="600">
 
 1. 出力内 **プリセット** パネルで、次のいずれかの操作を行います。
@@ -74,7 +73,7 @@ PDF出力プリセットを作成または設定するには：
 | 設定 | 説明 |
 | --- | --- |
 | **出力パス** | AEMリポジトリ内のパス。PDF出力が格納されます。 出力パスがプロジェクトフォルダー内にないことを確認します。 空白の場合、出力はデフォルトの DITA マップ出力場所に生成されます。<br>次の標準の変数を使用して、出力パスを定義することもできます。 このオプションは、1 つの変数または変数の組み合わせを使用して定義できます。 <br> `${map_filename}`:DITA マップファイル名を使用して、宛先のパスを作成します。 <br> `${map_title}`:DITA マップタイトルを使用して、宛先パスを作成します。 <br>`${preset_name}`:出力プリセット名を使用して、宛先のパスを作成します。 <br> `${language_code}`:マップファイルの場所にある言語コードを使用して、宛先のパスを作成します。 <br> `${map_parentpath}`:マップファイルの完全パスを使用して、宛先パスを作成します。  <br>`${path_after_langfolder}`:言語フォルダーの後のマップファイルのパスを使用して、宛先のパスを作成します。 |
-| **PDFファイル** | ファイル名を指定して、PDFを保存します。 デフォルトでは、PDFファイル名は、DITA マップ名とプリセット名を追加します。 例えば、ditamap は「TestMap」、プリセットの名前は「preset1」です。PDF のデフォルト名は「TestMap_preset1.pdf」です。 <br>また、次の標準の変数を使用して、PDFファイルを定義できます。 このオプションは、1 つの変数または変数の組み合わせを使用して定義できます。 <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}` |
+| **PDFファイル** | ファイル名を指定して、PDFを保存します。 デフォルトでは、PDFファイル名は、DITA マップ名とプリセット名を追加します。 例えば、ditamap は「TestMap」、プリセットの名前は「preset1」です。PDF のデフォルト名は「TestMap_preset1.pdf」です。 <br>また、次の標準の変数を使用して、PDFファイルを定義できます。 このオプションは、1 つの変数または変数の組み合わせを使用して定義できます。 <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`。 |
 | **次を使用して条件を適用** | 条件付きコンテンツの場合、次のオプションから選択して、これらの条件に基づいてPDF出力を生成します。 <br><ul> <li> **未適用** マップおよびソースコンテンツに条件を適用しない場合は、このオプションを選択します。 <br><li> **Ditaval ファイル** 条件付きコンテンツを生成するには、DITAVAL ファイルを選択します。 選択するには、「条件プリセット」をクリックし、ファイルを見つけます。 <br> <li> **条件プリセット** 出力の公開時に条件を適用するには、ドロップダウンから条件プリセットを選択します。 このオプションは、DITA マップファイルに条件を追加した場合に表示されます。 条件設定は、DITA マップコンソールの「条件プリセット」タブで使用できます。 条件プリセットについて詳しくは、 [条件プリセットの使用](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
 | **ベースラインを使用** | 選択した DITA マップのベースラインを作成した場合は、このオプションを選択して、公開するバージョンを指定します。 詳しくは、 [基準計画を使用する](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) を参照してください。 |
 | **公開済みPDF間の変更バーを使用したバージョンの作成** | 次のオプションを使用して、変更バーを使用して 2 つのPDF間のコンテンツの違いを示すバージョンを作成します。   <br><ul><li> **以前のバージョンのベースライン** 現在のバージョンまたは別のベースラインと比較するベースラインバージョンを選択します。 変更されたコンテンツを示す変更バーがPDFに表示されます。 変更バーは、新しいコンテンツや改訂されたコンテンツを視覚的に識別する縦線です。 変更バーは、挿入、変更または削除されたコンテンツの左側に表示されます。 <br> **注意**:次を選択した場合、 **ベースラインを使用** およびは、公開するベースラインを選択します。選択した 2 つのベースラインバージョンの間で比較が実行されます。 例えば、の下に「ベースラインバージョン 1.3」を選択した場合、 **ベースラインを使用**、およびの下のバージョン 1.1 **以前のバージョンのベースライン**&#x200B;の場合、ベースラインバージョン 1.1 とベースラインバージョン 1.3 の間で比較がおこなわれます。 <br><li> **追加したテキストを表示** 挿入したテキストを緑色で表示し、下線を付けます。 このオプションはデフォルトで選択されています。<br> <li> **削除されたテキストを表示** 削除したテキストを赤い色で、取り消し線付きで表示する場合に選択します。 このオプションはデフォルトで選択されています。<br>**注意** スタイルシートを使用して、変更バー、挿入されたコンテンツ、または削除されたコンテンツのスタイル設定をカスタマイズすることもできます。<br></ul> |
@@ -95,17 +94,17 @@ PDF出力プリセットを作成または設定するには：
 出力プリセットから、 **選択PDF** > **メタデータ** メタデータオプションを追加してカスタマイズするには：
 * **XMPファイルを指定**
 
-   メタデータフィールドは、 [XMP](https://www.adobe.com/products/xmp.html) （拡張可能なメタデータプラットフォーム）ファイル。 サンプルのXMPファイルは、こちらからダウンロードできます。
+  メタデータフィールドは、 [XMP](https://www.adobe.com/products/xmp.html) （拡張可能なメタデータプラットフォーム）ファイル。 サンプルのXMPファイルは、こちらからダウンロードできます。
 
 [ダウンロード](assets/SampleXMP.xmp)
 
-   または、Adobe Acrobatを使用してXMPファイルを生成できます。
+  または、Adobe Acrobatを使用してXMPファイルを生成できます。
    1. クリック **ファイル** > **プロパティ** Acrobat
    1. の下 **説明**&#x200B;をクリックし、 **追加のメタデータ**.
    1. 左のパネルから、「 」を選択します。 **詳細**.
    1. 「**保存**」をクリックします。
 
-   XMPファイルがデバイスに保存されます。
+  XMPファイルがデバイスに保存されます。
 
 * **メタデータの名前と値を指定します**
 
@@ -152,6 +151,7 @@ PDFをProtectします。 不正なアクセスを避けるには、次のオプ
 | **透かしを表示** | コンテンツに存在する MathML 式をレンダリングするには、このオプションを選択します。 式は、それ以外の場合は無視されます。 |
 | **MathML 式を有効にする** | コンテンツに存在する MathML 式をレンダリングするには、このオプションを選択します。 式は、それ以外の場合はデフォルトで無視されます。 |
 | **PDF適合** | これは、PDFが準拠していることを確認するために保存する標準です。 ドロップダウンから「 」を選択して、使用可能なPDF標準のリストから選択します。 サポートされる標準の詳細については、 [PDF標準について](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **一時ファイルをダウンロード** | ネイティブHTML出力の生成時に作成された中間PDFファイルをダウンロードする場合は、このオプションを選択します。 出力の生成後に、後で一時ファイルをダウンロードすることができます。 |
 
 ## PDF出力の生成 {#generate-pdf-output}
 
@@ -173,3 +173,12 @@ PDFをProtectします。 不正なアクセスを避けるには、次のオプ
 <img src="assets/error-log.png" alt="エラーログ" width="250">
 
 エラーログを表示するには、 **解除**&#x200B;をクリックし、選択した「プリセット」タブにマウスポインターを置いて、 ![options](assets/options.svg) **オプション** > **ログを表示**.
+
+### ネイティブファイル出力の生成後に一時ファイルをPDFする
+
+次を選択した場合、 **一時ファイルをダウンロード** 「詳細設定」オプションでは、「ネイティブHTML」出力の生成時に作成された中間PDFファイルをダウンロードすることもできます。 出力を生成したら、 **一時ファイルをダウンロード** ![一時ファイルをダウンロード](assets/native-pdf-download-temporary-files-icon.svg)アイコンをクリックします。 この機能は、中間HTMLのスタイルとレイアウトを表示するのに役立ち、必要に応じて CSS スタイルを修正または変更するのに役立ちます。
+
+
+>メモ
+>
+> この **一時ファイルをダウンロード**  ![一時ファイルをダウンロード](assets/native-pdf-download-temporary-files-icon.svg) アイコンは、 **詳細** タブをクリックします。

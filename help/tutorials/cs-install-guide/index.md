@@ -1,24 +1,21 @@
 ---
 source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '230'
 ht-degree: 2%
 
 ---
-# Adobe Experience Manager Guides 4.2 のインストールと設定
+# Adobe Experience Manager Guides のインストールと設定をas a Cloud Service
 
 - [免責事項](rebranding-disclaimer.md)
 - [このガイドについて](introduction.md)
 - [ダウンロードとインストール](download-install.md)
-   - [技術要件](download-install-technical-requirements.md)
-   - [Adobe Experience Managerのインストール](download-install-AEM.md)
-   - [AEMガイドを初めてダウンロードしてインストールする](download-install-aemg-first-time.md)
+   - [AEM Guide モジュールのデプロイ](download-install-dxml-first-time.md)
    - [Dispatcher の設定](download-install-configure-dispatcher.md)
-   - [AEM Guide のインストールの確認](download-install-verify-aemg-installation.md)
-   - [Adobe Experience Managerガイドのアップグレード](upgrade-xml-documentation.md)
-   - [AEM Guides のアンインストール](download-install-unistall-aemg.md)
+   - [AEM Guide のインストールの確認](download-install-verify-dxml-installation.md)
+   - [アップグレードAEMガイド](download-install-upgrade-dxml.md)
+   - [設定の上書き](download-install-additional-config-override.md)
    - [Recommendations （パフォーマンス最適化）](download-install-recommend-perf-optimiz.md)
-- [非 UUID から UUID へのコンテンツの移行](migrate-uuid-non-uuid.md)
 - [ユーザー管理とセキュリティ](user-admin-sec.md)
 - [カスタム DITA-OT および DITA 特殊化の使用](dita-ot-specialization.md)
 - [ドキュメントの状態の設定](customize-doc-state.md)
@@ -45,13 +42,14 @@ ht-degree: 2%
    - [要素 ID を自動生成](auto-generate-ids.md)
    - [AEMのデフォルト辞書をカスタマイズ](customize-aem-custom-dictionary.md)
    - [テキストフィルターの設定](config-text-filters.md)
-   - [クエリの LimitReads 数の設定](conf-query-limitreads.md)
+   - [ファイル参照ダイアログのフィルターを設定する](conf-custom-file-filters.md)
    - [記事ベースの公開用パッケージのインストール](configure-article-based-publishing.md)
-- [[ 詳細マップエディタ ] を既定に設定する](conf-map-editor.md)
-- [デフォルトで@navtitle属性を含める](auto-add-navtitle.md)
+   - [単一トピックのPDF生成を設定](conf-pdf-generation-dita-ot.md)
+   - [Web エディターでの翻訳機能の設定](conf-translation-web-editor.md)
+   - [[ 詳細マップエディタ ] を既定に設定する](conf-map-editor.md)
+   - [デフォルトで@navtitle属性を含める](auto-add-navtitle.md)
 - [グローバルまたはフォルダーレベルのプロファイルの設定](conf-folder-level.md)
 - [バージョン管理](version-management.md)
-- [デスクトップベースの XML エディターの統合](integrate-desktop-editors.md)
 - [出力生成設定の指定](conf-output-generation.md)
 - [ワークフローの設定とカスタマイズ](customize-workflows.md)
 - [コンテンツの翻訳](translation.md)
