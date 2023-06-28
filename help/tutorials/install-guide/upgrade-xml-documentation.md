@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Managerガイドのアップグレード
 description: Adobe Experience Managerガイドのアップグレード方法を説明します
-source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
+exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
+source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Experience Managerガイドのアップグレード {#id224MBE0M0XA}
 
@@ -214,11 +214,10 @@ AEMガイドをインストールした後、新しくインストールされ�
 
    - &#39;excludeList&#39;には `"event-user-data:changedByWorkflowProcess"`.
    - 「 」のランチャー&#x200B;*変更されたノード*」 **DAM アセットの更新ワークフロー —** 条件&quot;`jcr:content/jcr:mimeType!=video`&quot;,
-   - 
-      - 「グロビング」の値は次のようにする必要があります。
+   - 「グロビング」の値は次のようにする必要があります。
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39;には `"event-user-data:changedByWorkflowProcess"`.
@@ -388,11 +387,10 @@ AEMガイドをインストールした後、新しくインストールされ�
    - 「 」のランチャー&#x200B;*変更されたノード*」 **DAM アセットの更新ワークフロー —** 条件&quot;`jcr:content/jcr:mimeType!=video`&quot;、「グロビング」の値は次のようにする必要があります。
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - `excludeList` は、 `"event-user-data:changedByWorkflowProcess"`.
-
 
 1. アップグレードが完了したら、カスタマイズ/オーバーレイが検証され、新しいアプリケーションコードに合わせて更新されることを確認します。 以下に例を示します。
    - /libs/fmditaor/libs からオーバーレイされたコンポーネントは、新しい製品コードと比較する必要があります。また、/apps の下のオーバーレイされたファイルで更新を行う必要があります。
@@ -408,7 +406,7 @@ AEMガイドをインストールした後、新しくインストールされ�
 既存のコンテンツのインデックスを作成し、マップレベルで新しい検索と置換テキストを使用するには、次の手順を実行します。
 
 - 次を確認します。 `damAssetLucene` インデックス作成が完了しました。 サーバー上に存在するデータの量に応じて、最大で数時間かかる場合があります。 インデックス再作成の完了を確認するには、で、再インデックスフィールドが false に設定されていることを確認します。
-   `http://<server:port>/oak:index/damAssetLucene`.  また、 `damAssetLucene`の場合は、再度適用する必要が生じる場合があります。
+  `http://<server:port>/oak:index/damAssetLucene`.  また、 `damAssetLucene`の場合は、再度適用する必要が生じる場合があります。
 
 - POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. ( オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが付けられます\|\|例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
@@ -420,4 +418,3 @@ AEMガイドをインストールした後、新しくインストールされ�
 - ジョブが完了すると、上記のGETリクエストは成功と共に応答し、マップが失敗した場合はメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
-
