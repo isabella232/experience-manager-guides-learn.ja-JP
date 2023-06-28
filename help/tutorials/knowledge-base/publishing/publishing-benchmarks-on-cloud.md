@@ -1,21 +1,22 @@
 ---
 title: AEMaaCS でのベンチマークの公開に関するガイド
 description: AEM Cloud での公開に関するシステム制限について理解します。
-source-git-commit: e64430bb968b18090c3981cc2d21ebe6593ba933
+exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
+source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '233'
+ht-degree: 8%
 
 ---
-
 
 # AEM Guides AEMaaCS でのベンチマークの公開
 
 現在、AEM Guides Cloud Service では、Guides チームが積極的に解決に取り組んでいるマップの公開サイズにいくつかの制限があります。
 
-ガイドチームは既に拡張性の高い [公開マイクロサービス](publish-microservice-architecture-and-performance.md) ：大きなマップと複数の同時公開をサポートします。 現時点では、このマイクロサービスは出力タイプのサブセットをサポートし、他のタイプのサポートは現在アクティブな開発中です。
+ガイドチームは、大きなマップと複数の同時公開をサポートするために、スケーラブルな公開マイクロサービスを導入しました。 新しいパブリッシュマイクロサービスについて詳しくは、を参照してください。 [公開マイクロサービスアーキテクチャ](publish-microservice-architecture-and-performance.md)
 
 AEMクラウド環境用に新しいパブリッシュサービスを設定するには、以下を参照してください。 [新しいマイクロサービスベースの公開の設定](configure-microservices.md)
+
 
 ## 実行環境
 
