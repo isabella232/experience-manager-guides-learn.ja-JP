@@ -2,9 +2,9 @@
 title: Cloud Publishing Microservice のアーキテクチャとパフォーマンス
 description: 新しいマイクロサービスが AEMaaCS でスケーラブルに公開を可能にする仕組みを理解します。
 exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
-source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
+source-git-commit: 4185c31ae45c7b6fd0d394a15fbca0753d5e0463
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEMガイドの Microservice ベースの公開では、PDF（ネイティブと DITA-OT の両方）、HTML5 およびカスタムの出力プリセットタイプをサポートしています。
+> AEMガイドの Microservice ベースの公開では、PDF（ネイティブと DITA-OT の両方）、HTML5 およびカスタムタイプの出力プリセットがサポートされます。
 
 ## クラウド上の既存の公開ワークフローに関する問題
 
