@@ -1,14 +1,14 @@
 ---
-title: リリースノート | Adobe Experience Managerガイド（2023 年 6 月リリース）のアップグレード手順と修正された問題
+title: リリースノート | Adobe Experience Managerガイド（2023 年 7 月）リリースのアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 2023 年 7 月リリースへのアップグレード方法について説明します。as a Cloud Service
-source-git-commit: 4ba47a803eec7bcbb106c34a1ad6a7fbed9934be
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
 
 ---
 
-# 2023 年 6 月リリースのAdobe Experience Manager Guidesas a Cloud Service
+# 2023 年 7 月リリースのAdobe Experience Manager Guidesas a Cloud Service
 
 このリリースノートでは、Adobe Experience Managerガイドのバージョン 2023 年 7 月 ( 後で *AEMガイドas a Cloud Service*) をクリックします。
 
@@ -100,7 +100,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 この節では、AEMガイド (as a Cloud Service) の 2023 年 7 月リリースでサポートされるソフトウェアアプリケーションの互換性マトリックスを示します。
 
-### FrameMaker と FrameMaker Publishing Server
+### FrameMakerとFrameMaker Publishing Server
 
 | AEM Guides as a Cloud リリース | FMPS | FrameMaker |
 | --- | --- | --- |
