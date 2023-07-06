@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1394'
 ht-degree: 7%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 7%
                + [DITAVAL エディタを使用する](./user-guide/ditaval-editor.md)
          + コンテンツをオーサリングするためのデスクトップツール {#author-using-desktop-tools}
             + [デスクトップツールを使用したコンテンツのオーサリング](./user-guide/author-desktop-tools.md)
-            + [FrameMaker](./user-guide/author-desktop-framemaker.md)
+            + [FrameMaker の操作](./user-guide/author-desktop-framemaker.md)
             + [酸素を使用する](./user-guide/author-desktop-oxygen.md)
    + コンテンツを確認 {#review-topic-maps}
       + [トピックまたはマップのレビュー](./user-guide/review.md)
@@ -120,7 +120,7 @@ ht-degree: 7%
       + [レビューダッシュボードを使用したレビュータスクの管理](./user-guide/review-manage-tasks-review-dashboard.md)
       + [完了したレビュータスクを表示](./user-guide/review-view-completed-task.md)
    + AEMガイドのメタデータ {#manaege-metadata}
-      + [メタデータの管理](./user-guide/manage-metadata.md)
+      + [メタデータを管理](./user-guide/manage-metadata.md)
       + [AEMでのメタデータの操作](./user-guide/metadata-dita.md)
       + [スマートタグ](./user-guide/web-editor-smart-tagging.md)
       + [DITA コンテンツの一括タグ付け](./user-guide/map-editor-bulk-tagging.md)
@@ -238,6 +238,7 @@ ht-degree: 7%
             + [PDFテンプレート](./native-pdf/pdf-template.md)
             + [テンプレートテンプレートのPDF](./native-pdf/components-pdf-template.md)
             + [ページレイアウトのデザイン](./native-pdf/design-page-layout.md)
+            + [言語変数のサポート](./native-pdf/native-pdf-language-variables.md)
             + 共通のコンテンツスタイル {#content-styles}
                + [共通のコンテンツスタイルの使用](./native-pdf/stylesheet.md)
                + [カスタムの変更バースタイルの使用](./native-pdf/change-bar-style.md)

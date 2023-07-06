@@ -2,9 +2,9 @@
 title: ネイティブPDF |PDF出力生成
 description: Adobe Experience ManagerガイドでのPDF出力の生成as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
+source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2951'
 ht-degree: 1%
 
 ---
@@ -182,3 +182,10 @@ PDFをProtectします。 不正なアクセスを避けるには、次のオプ
 >[!NOTE]
 >
 > この **一時ファイルをダウンロード**  ![一時ファイルをダウンロード](assets/native-pdf-download-temporary-files-icon.svg) アイコンは、 **詳細** タブをクリックします。
+
+
+
+### 言語変数を使用
+
+AEMガイドでは、言語変数もサポートしています。 選択 **言語変数** <img src="./assets/language-variables.svg" width="25">  左側のパネルで、標準ラベルのローカライズ版（「注意」、「注意」、「警告」、「静的テキスト」など）をPDF出力に定義します。 詳しくは、 [言語変数のサポート](../native-pdf/native-pdf-language-variables.md).
+

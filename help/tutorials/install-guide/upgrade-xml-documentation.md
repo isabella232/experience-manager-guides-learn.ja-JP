@@ -2,9 +2,9 @@
 title: Adobe Experience Managerガイドのアップグレード
 description: Adobe Experience Managerガイドのアップグレード方法を説明します
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
+source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
 workflow-type: tm+mt
-source-wordcount: '2750'
+source-wordcount: '2896'
 ht-degree: 1%
 
 ---
@@ -236,9 +236,51 @@ AEMガイドをインストールした後、新しくインストールされ�
 
 - POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. \( オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが付けられます\|\|例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。
+
+`http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 - ジョブが完了すると、上記のGETリクエストは成功と共に応答し、マップが失敗した場合はメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。
+
+アップグレードジョブが失敗し、エラーログに次のエラーが表示される場合：
+
+「 *クエリ* より多くを読む、または横断する *100000ノード*. 他のタスクへの影響を回避するため、処理は停止しました。」
+
+これは、アップグレードで使用されるクエリに対してインデックスが適切に設定されていないために発生する可能性があります。 次の回避策を試すことができます。
+
+1. damAssetLucene oak インデックスに、ブールプロパティを追加します。 `indexNodeName` as `true` ノード内に配置されます。
+   `/oak:index/damAssetLucene/indexRules/dam:Asset`
+1. ノードの下に、名前抜粋を含む新しいノードを追加します。
+
+   `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
+ノードで次のプロパティを設定します。
+
+   ```
+   name - rep:excerpt
+   propertyIndex - {Boolean}true
+   notNullCheckEnabled - {Boolean}true
+   ```
+
+   の構造 `damAssetLucene` は次のようになります。
+
+   ```
+   <damAssetLucene compatVersion="{Long}2" async="async, nrt" jcr:primaryType="oak:QueryIndexDefinition" evaluatePathRestrictions="{Boolean}true" type="lucene">
+   <indexRules jcr:primaryType="nt:unstructured">
+     <dam:Asset indexNodeName="{Boolean}true" jcr:primaryType="nt:unstructured">
+       <properties jcr:primaryType="nt:unstructured">
+         <excerpt name="rep:excerpt" propertyIndex="{Boolean}true" jcr:primaryType="nt:unstructured" notNullCheckEnabled="{Boolean}true"/>
+       </properties>
+       </dam:Asset>
+     </indexRules>
+   </damAssetLucene>    
+   ```
+
+
+   （他の既存のノードおよびプロパティと共に）
+
+1. インデックスの再作成 `damAssetLucene` index (reindex フラグを `true` それが `false` 再び（これは、インデックス再作成が完了したことを示します）。 インデックスのサイズによっては、数時間かかる場合があります。
+1. 前の手順を実行して、インデックス作成スクリプトを再実行します。
+
 
 ## バージョン 4.2.1 へのアップグレード {#upgrade-version-4-2-1}
 
