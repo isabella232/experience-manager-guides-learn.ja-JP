@@ -1,7 +1,7 @@
 ---
 title: ネイティブPDF |言語変数のサポート
 description: 言語の出力および出力PDFでの言語変数の使用
-source-git-commit: 7c7381d2d5a218de9c4ca1fbc0363eacd43947cd
+source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -105,18 +105,18 @@ AEMガイドには、事前定義済みまたは標準のアプリケーショ�
 
 1. 必要なページレイアウトを編集用に開きます。
 
->[!NOTE]
->
-> 表示 [ページレイアウトのカスタマイズ](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) ページレイアウトを開いてカスタマイズまたは編集するためのセクション：
+   >[!NOTE]
+   >
+   > 表示 [ページレイアウトのカスタマイズ](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) ページレイアウトを開いてカスタマイズまたは編集するためのセクション
 
 1. 変数の挿入をアクティブにするには、ヘッダーを選択します。
 1. 選択 **変数を挿入**  <img src="./assets/insert-language-variable.svg" width="25"> 」と入力します。
 1. 内 **変数を挿入** ポップアップで、挿入する言語変数の名前を選択し、 **挿入** をクリックして、ヘッダー領域に挿入します。
 
->[!NOTE]
->
-> また、テキストボックスに検索文字列を入力することもできます。 指定された文字列を含む変数名がフィルタリングされ、リストに表示されます。
-> 選択した言語変数がヘッダー領域に挿入されます。
+   >[!NOTE]
+   >
+   > また、テキストボックスに検索文字列を入力することもできます。 指定された文字列を含む変数名がフィルタリングされ、リストに表示されます。
+   > 選択した言語変数がヘッダー領域に挿入されます。
 
 次のスクリーンショットは、 `copyright-label` をヘッダー領域に追加しました。
 
