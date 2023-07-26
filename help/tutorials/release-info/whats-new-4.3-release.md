@@ -1,9 +1,9 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.3.0 リリースの新機能
 description: Adobe Experience Managerガイドの 4.3.0 リリースの新機能と拡張機能について説明します。
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 この記事では、Adobe Experience Managerガイド ( 後で *AEMガイド*) をクリックします。
 
-アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題の詳細については、  [リリースノート](./release-notes-4.3.md).
+アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、 [リリースノート](./release-notes-4.3.md).
 
 
 ## データソースに接続してトピックにデータを挿入する

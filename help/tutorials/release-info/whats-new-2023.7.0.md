@@ -1,18 +1,18 @@
 ---
 title: リリースノート | 2023 年 7 月リリースのAdobe Experience Managerガイドの新機能
-description: 2023 年 7 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能と機能強化について説明します
-source-git-commit: 06bff798d2e745fae1c666353045cb4c6b040207
+description: 2023 年 7 月リリースのAdobe Experience Managerガイドの新機能と拡張機能をas a Cloud Service
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
-# 2023 年 7 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能
+# 2023 年 7 月リリースのAdobe Experience Managerガイドの新機能as a Cloud Service
 
 この記事では、Adobe Experience Managerガイド ( 後で *AEMガイドas a Cloud Service*) をクリックします。
 
-アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題の詳細については、 [リリースノート](release-notes-2023.7.0.md) 記事。
+アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、 [リリースノート](release-notes-2023.7.0.md).
 
 ## データソースに接続してトピックにデータを挿入する
 
@@ -50,7 +50,7 @@ AEMガイドにより、レビューがよりシームレスになりました�
 
 詳しくは、 [出力生成にマップコレクションを使用](../user-guide/generate-output-use-map-collection-output-generation.md).
 
-## ネイティブHTML出力を生成しながら、一時PDFファイルにアクセス
+## ネイティブHTML出力を生成しながら、一時的なPDFファイルにアクセス
 
 これで、AEMガイドでは、ネイティブHTML出力の生成中に作成された一時PDFファイルをダウンロードできます。 出力プリセット設定で、一時ファイルをダウンロードするオプションを選択します。  AEMガイドを使用すると、そのプリセットを使用して出力を生成する際に作成された一時ファイルをダウンロードできます。
 
@@ -66,8 +66,8 @@ AEMガイドにより、レビューがよりシームレスになりました�
 複数の発行リクエストを実行して、パフォーマンスを向上させ、これらの出力形式を生成できます。
 詳しくは、 [AEMガイド用のマイクロサービスベースの公開の設定as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
 
-## AEM Guides のバージョンの詳細を「About」情報で表示
+## AEM Guides のバージョンの詳細を「About」情報で表示します
 
-AEM **について** また、AEM Guide のバージョンの詳細も表示できます。 現在のバージョンの詳細は、 **について** オプション **ヘルプ** (AEMナビゲーションページ )
+AEM **について** また、AEM Guide のバージョンの詳細も表示できます。 現在のバージョンの詳細は、 **について** オプション **ヘルプ** (AEMナビゲーションページ ) をクリックします。
 
 ![](assets/about-aem-help.png)(width=&quot;800&quot; align=&quot;left&quot;)

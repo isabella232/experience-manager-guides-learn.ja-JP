@@ -1,9 +1,9 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.3.0 リリースのアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 4.3.0 リリースにアップグレードする方法について説明します
-source-git-commit: 756ba69360e1796e36f6cc1ef410443ef8cb4acb
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '998'
 ht-degree: 5%
 
 ---
@@ -81,7 +81,6 @@ ht-degree: 5%
 - 検索したファイルを 1 つ開くと、[ 検索と置換 ] パネルで検索結果が無効になります。 (12142)
 - AEM Guides エディターで、サイドキーボードの「8」番号キーが機能しない。 (12106)
 - Web エディターのレイアウトビューには、インライン/表示属性が表示されません。 (12498)
-- AEMガイド用 Oxygen Plugin でファイルをアップロードするが、クラウドサービスでは動作しない。 をクリックします。 (12207)
 - グローバルプロファイル UI 設定がフォルダープロファイルと一致しません。 (11970)
 - DITA ファイルをコピーして貼り付けると、コンテンツ参照が壊れます。 (11959)
 - AEM Guides がインストールされている場合、列表示でコンテンツフラグメントを編集できない。 (7342)
@@ -93,7 +92,7 @@ ht-degree: 5%
 - `conref` ph タグで |表示される参照ダイアログが正しくありません。 (9481)
 - 他の要素へのローカルリンクは、Web エディターで解決されません。 (8790)
 - Matches() 関数は schematron 機能では動作しません。 (11224)
-- AEMガイド用の Oxigen Plugin で、Web DITA マップエディターで DITA マップを開くオプションが古い UI に移動します。 (12633)
+
 
 
 ### 管理
