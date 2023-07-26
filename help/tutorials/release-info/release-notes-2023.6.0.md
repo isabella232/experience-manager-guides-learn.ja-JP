@@ -2,7 +2,7 @@
 title: リリースノート | Adobe Experience Managerガイド（2023 年 6 月リリース）のアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 2023 年 6 月リリースへのアップグレード方法について説明します。as a Cloud Service
 exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: 4359d857f3662ae29a55420c0fafc4a244258389
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 次の手順に従って、現在のAEM Guidesas a Cloud Service設定をアップグレードします。
 
 1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
-2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2023.6.297 に変更します。
+2. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2023.6.297 に変更します。
 3. 変更をコミットし、Cloud Servicesパイプラインを実行して、2023 年 6 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
 
 ## サーブレットを介したスクリプトのトリガーを有効にする手順
@@ -43,7 +43,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 }
 ```
 
-前の応答 JSON では、キー `lockNodePath` は、送信されたジョブを指す、リポジトリで作成されたノードのパスを保持します。 ジョブが完了すると自動的に削除され、それまでは、このノードを参照してジョブの現在のステータスを確認できます。
+前の応答 JSON では、キー `lockNodePath` は、送信されたジョブを指す、リポジトリで作成されたノードへのパスを保持します。 ジョブが完了すると自動的に削除され、それまでは、このノードを参照してジョブの現在のステータスを確認できます。
 
 このジョブが完了するまで待ってから、次の手順に進みます。
 
@@ -80,13 +80,13 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. のデフォルト値または以前の既存の値に戻す `queryLimitReads` 手順 1 で変更した場合。
 
-## 「レポート」タブの新しい検索と置換、およびトピックリストを使用して既存のコンテンツをインデックス化する手順は次のとおりです。
+## 「レポート」タブの新しい検索と置換、およびトピックリストを使用するために既存のコンテンツをインデックス化する手順は次のとおりです。
 
 (2022 年 9 月リリースより前のバージョンのAEMガイドas a Cloud Service版の場合のみ )
 
 既存のコンテンツのインデックス作成に関する次の手順を実行し、「レポート」タブのマップレベルおよびトピックリストで新しい検索と置換テキストを使用します。
 
-1. POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. ( オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが付けられます\|\|例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. （オプション）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 （例：`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`）。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
 
@@ -99,7 +99,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 この節では、2023 年 6 月のリリースでas a Cloud ServiceするAEMガイドでサポートされているソフトウェアアプリケーションの互換性マトリックスを示します。
 
-### FrameMaker と FrameMaker Publishing Server
+### FrameMakerとFrameMaker Publishing Server
 
 | AEM Guides as a Cloud リリース | FMPS | FrameMaker |
 | --- | --- | --- |
@@ -152,7 +152,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - ネイティブPDF |テンプレート設定を保存できません。PDFテンプレート設定を保存できません。 (10751)
 - ネイティブPDF |複数の外部参照を含めると、列幅を超えてテキストが拡張されます。 (10876)
 - ネイティブPDF | `<note>``</note>` 要素は、そのタイプの余分な span タイトルを生成しません。 (10549)
-- ネイティブPDF | WCAG 2.0 に準拠するために、生成されたPDFに言語メタデータを設定することはできません。 (12407)
+- ネイティブPDF | WCAG 2.0 に準拠するために、生成されたPDFに言語メタデータを設定することはできません。 (12296)
 
 
 

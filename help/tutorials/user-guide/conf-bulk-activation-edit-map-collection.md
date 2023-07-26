@@ -2,10 +2,10 @@
 title: 一括アクティベーションマップコレクションの編集
 description: 一括アクティベーションマップコレクションを編集する方法を説明します
 exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 25641f5c3207d98228d406e3b553c06d2bad1e10
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 2%
+source-wordcount: '218'
+ht-degree: 1%
 
 ---
 
@@ -21,11 +21,17 @@ ht-degree: 2%
 
    一括アクティベーションマップコレクションのリストが表示されます。
 
-1. 編集するコレクションを選択し、「 **開く**.
+1. 編集するコレクションを選択し、「 」をクリックします **開く**.
 
 1. クリック **編集**.
 
    一括アクティベーションマップコレクションページが表示され、使用可能な各ロケールの事前設定済みプリセットと共にマップが表示されます。
+様々な種類の出力プリセットを、AEMサイト、PDF、ネイティブPDF、HTML5、カスタム、JSON 出力などのアイコンと共に表示できます。
+
+   >[!NOTE]
+   >
+   > 小さい ![](images/global-preset-icon.svg) アイコンは、フォルダープロファイルレベルのプリセットを示します。
+
 
 1. スライダーを使用して、アクティブ化または非アクティブ化する出力プリセットをオフにします。
 
@@ -33,7 +39,7 @@ ht-degree: 2%
 
 1. 「**削除**」をクリックします。
 
-   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    選択したマップが一括アクティベーションマップコレクションから削除されます。
 

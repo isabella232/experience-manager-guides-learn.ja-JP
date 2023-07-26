@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
+source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 7%
+source-wordcount: '1429'
+ht-degree: 6%
 
 ---
 
@@ -46,6 +46,11 @@ ht-degree: 7%
             + [2 月のリリースノート](./release-info/release-notes-2022.2.0.md)
             + [1 月のリリースノート](./release-info/release-notes-2022.1.0.md)
       + オンプレミス/Managed Services {#on-prem-release-notes}
+         + 4.3.0 リリース {#43-release}
+            + 新機能 {#43-whats-new}
+               + [4.3.0 新機能](./release-info/whats-new-4.3-release.md)
+            + リリースノート {#43-release-notes}
+               + [4.3.0 リリースノート](./release-info/release-notes-4.3.md)
          + 4.2 リリース {#42-release}
             + 新機能 {#42-whats-new}
                + [4.2.1 新機能](./release-info/whats-new-4.2.1-release.md)
@@ -78,28 +83,29 @@ ht-degree: 7%
             + Web エディター {#work-with-web-editor}
                + [Web エディターの操作](./user-guide/web-editor.md)
                + [Web エディターを起動します。](./user-guide/web-editor-launch-editor.md)
-               + [Web エディタでトピックを編集](./user-guide/web-editor-edit-topics.md)
+               + [Web エディターでトピックを編集](./user-guide/web-editor-edit-topics.md)
                + [Web エディターの機能について](./user-guide/web-editor-features.md)
                + [Web エディターでのキーボードショートカット](./user-guide/web-editor-keyboard-shortcuts.md)
                + [Web エディターのその他の機能](./user-guide/web-editor-other-features.md)
                + [Web エディターの表示](./user-guide/web-editor-views.md)
                + [Schematron ファイルのサポート](./user-guide/support-schematron-file.md)
                + [Web エディターから Markdown ドキュメントを作成する](./user-guide/web-editor-markdown-topic.md)
-               + [データソースからコンテンツスニペットを挿入する](./user-guide/web-editor-content-snippet.md)
+               + [コンテンツに引用を追加する](./user-guide/web-editor-apply-citations.md)
+               + [データソースからのデータを使用する](./user-guide/web-editor-content-snippet.md)
                + [グローバルおよびフォルダープロファイルの出力プリセットの管理](./user-guide/web-editor-manage-output-presets.md)
                + 記事ベースの投稿 {#article-based-pub}
                   + [Web エディターからの記事ベースの公開](./user-guide/web-editor-article-publishing.md)
                   + [Web エディターからの出力プリセットの作成](./user-guide/web-editor-article-publishing-presets.md)
                   + [[ リポジトリ ] パネルまたは [ マップビュー ] パネルから出力を生成する](./user-guide/web-editor-article-publishing-output.md)
                   + [クイック生成パネルを使用して出力を生成および表示する](./user-guide/web-editor-quick-generate-panel.md)
-               + [Web エディターからドキュメントを翻訳](./user-guide/translate-documents-web-editor.md)
+               + [Web エディターからのドキュメントの翻訳](./user-guide/translate-documents-web-editor.md)
                + [Web エディタからのベースラインの作成と管理](./user-guide/web-editor-baseline.md)
                + [ドキュメントの状態](./user-guide/web-editor-document-states.md)
                + [ラベルを使用](./user-guide/web-editor-use-label.md)
             + マップエディタ {#work-with-map-editor}
                + [マップエディタを使用する](./user-guide/map-editor.md)
                + [マップを作成する](./user-guide/map-editor-create-map.md)
-               + [カスタマイズしたテンプレートに基づいてマップを作成](./user-guide/create-maps-customized-templates.md)
+               + [カスタマイズしたテンプレートに基づいてマップを作成する](./user-guide/create-maps-customized-templates.md)
                + [[ 高度なマップエディタ ] を使用する](./user-guide/map-editor-advanced-map-editor.md)
                + [基本マップエディタを使用する](./user-guide/map-editor-basic-map-editor.md)
                + [マップエディタのその他の機能](./user-guide/map-editor-other-features.md)
@@ -107,7 +113,7 @@ ht-degree: 7%
                + [DITAVAL エディタを使用する](./user-guide/ditaval-editor.md)
          + コンテンツをオーサリングするためのデスクトップツール {#author-using-desktop-tools}
             + [デスクトップツールを使用したコンテンツのオーサリング](./user-guide/author-desktop-tools.md)
-            + [FrameMaker の操作](./user-guide/author-desktop-framemaker.md)
+            + [FrameMakerの操作](./user-guide/author-desktop-framemaker.md)
             + [酸素を使用する](./user-guide/author-desktop-oxygen.md)
    + コンテンツを確認 {#review-topic-maps}
       + [トピックまたはマップのレビュー](./user-guide/review.md)
@@ -139,7 +145,7 @@ ht-degree: 7%
          + [EPUB](./user-guide/generate-output-epub.md)
          + [カスタム](./user-guide/generate-output-custom.md)
          + [JSON](./user-guide/generate-output-json.md)
-      + [変数を使用して、[ 宛先のパス ]、[ サイト名 ]、または [ ファイル名 ] オプションを設定します](./user-guide/generate-output-use-variables.md)
+      + [変数を使用して、[ 宛先のパス ]、[ サイト名 ]、または [ ファイル名 ] オプションを設定します。](./user-guide/generate-output-use-variables.md)
       + [出力プリセットの作成、編集、複製、削除](./user-guide/generate-output-create-edit-preset.md)
       + [DITA-OT を使用してメタデータを出力に渡します。](./user-guide/pass-metadata-dita-ot.md)
       + [条件付き属性プロファイル](./user-guide/generate-output-conditional-attribute-profiling.md)
@@ -150,7 +156,7 @@ ht-degree: 7%
       + ネイティブPDF公開機能の使用 {#web-editor}
          + [公開PDF出力](./web-editor/native-pdf-web-editor.md)
          + [追加の特殊文字の設定](./web-editor/configure-additional-special-characters.md)
-      + [公開ダッシュボードを使用して公開タスクを管理](./user-guide/generate-output-publish-dashboard.md)
+      + [公開ダッシュボードを使用して公開タスクを管理する](./user-guide/generate-output-publish-dashboard.md)
       + [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
       + コンテンツの一括アクティベーション {#bulk-activation}
          + [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
@@ -159,9 +165,9 @@ ht-degree: 7%
          + [一括アクティベーションマップコレクションの編集](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [一括アクティベーションマップコレクションの削除](./user-guide/conf-bulk-activation-delete-map-collection.md)
    + 出力生成FrameMaker文書 {#generate-fm-output}
-      + [FrameMaker ドキュメントの出力を生成](./user-guide/fm-output-generatation.md)
+      + [FrameMaker文書の出力を生成](./user-guide/fm-output-generatation.md)
       + サポートされるプリセット {#fm-docs-generating-presets}
-         + [FrameMaker ドキュメントを生成するためのプリセット](./user-guide/fm-output-understand-presets.md)
+         + [プリセット (FrameMakerドキュメントを生成するため )](./user-guide/fm-output-understand-presets.md)
          + [PDF](./user-guide/fm-output-pdf-preset.md)
          + [HTML 5](./user-guide/fm-output-html5-preset.md)
          + [EPUB](./user-guide/fm-output-epub-preset.md)
@@ -199,10 +205,10 @@ ht-degree: 7%
       + UUID および非 UUID ベースのファイル名の設定 {#conf-non-uuid-filename}
          + [ファイル名を設定](./install-guide/conf-file-names.md)
          + [UUID に基づく自動ファイル名の設定](./install-guide/conf-auto-uuid-filenames.md)
-         + [有効なファイル名文字の正規表現を設定する](./install-guide/conf-file-names-valid-regx.md)
+         + [有効なファイル名文字に対して Regx を設定します](./install-guide/conf-file-names-valid-regx.md)
          + [AEM Site 出力用の有効なファイル名の設定](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       + トピックとマップのテンプレートの使用 {#topic-map-template}
-         + [トピックとマップのテンプレートの設定](./install-guide/conf-template-tags.md)
+         + [トピックおよびマップテンプレートの設定](./install-guide/conf-template-tags.md)
          + [カスタム DITA トピックテンプレートの設定](./install-guide/conf-template-tags-custom-dita-topic-template.md)
          + [カスタム DITA マップテンプレートの設定](./install-guide/conf-template-tags-custom-dita-map-templates.md)
       + ドキュメントの状態の操作 {#doc-state}
@@ -211,6 +217,7 @@ ht-degree: 7%
          + [Web エディタのカスタマイズ](./install-guide/conf-web-editor.md)
          + [ツールバーのカスタマイズ](./install-guide/conf-web-editor-customize-toolbar.md)
          + [タグ表示のデフォルト値の設定](./install-guide/configure-default-value-tags-view.md)
+         + [チェックインアイコンとチェックアウトアイコンのタイトルを設定します。](./install-guide/conf-checkin-checkout-title.md)
          + [UUID ベースのリンクの表示の設定](./install-guide/conf-uuid-based-links.md)
          + [同じタブで DITA トピックまたはマップファイルを開く](./install-guide/open-dita-files-same-tab.md)
          + [左側のパネルでカスタムパネルを設定する](./install-guide/configure-custom-panel.md)
@@ -224,6 +231,7 @@ ht-degree: 7%
          + [テキストフィルターの設定](./install-guide/config-text-filters.md)
          + [クエリの LimitReads 数の設定](./install-guide/conf-query-limitreads.md)
          + [記事ベースの公開用パッケージのインストール](./install-guide/configure-article-based-publishing.md)
+         + [データソースコネクタの設定](./install-guide/conf-data-source-connector.md)
          + [[ 詳細マップエディタ ] を既定に設定する](./install-guide/conf-map-editor.md)
          + [デフォルトで@navtitle属性を含める](./install-guide/auto-add-navtitle.md)
       + グローバルプロファイルとフォルダーレベルプロファイルの操作 {#global-folder-profiles}
@@ -241,11 +249,12 @@ ht-degree: 7%
             + [言語変数のサポート](./native-pdf/native-pdf-language-variables.md)
             + 共通のコンテンツスタイル {#content-styles}
                + [共通のコンテンツスタイルの使用](./native-pdf/stylesheet.md)
-               + [カスタムの変更バースタイルの使用](./native-pdf/change-bar-style.md)
+               + [カスタムの変更バースタイルを使用する](./native-pdf/change-bar-style.md)
                + [TOC エントリとトピックコンテンツにカスタムスタイルを適用](./native-pdf/custom-style-toc.md)
                + [カスタムブックマークをPDF出力に追加](./native-pdf/add-custom-bookmark.md)
                + [JavaScript を使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
                + [脚注でのカスタムスタイルの使用](./native-pdf/footnote-number-style.md)
+            + [ネイティブPDF公開用の JVM フラグの設定](./native-pdf/configure-jvm-flags.md)
       + カスタムワークフローの操作 {#custom-workflow}
          + [ワークフローの設定とカスタマイズ](./install-guide/customize-workflows.md)
       + 翻訳設定の操作 {#translate-config}
@@ -274,10 +283,10 @@ ht-degree: 7%
       + UUID および非 UUID ベースのファイル名の設定 {#conf-non-uuid-filename-cs}
          + [ファイル名を設定](./cs-install-guide/conf-file-names.md)
          + [UUID に基づく自動ファイル名の設定](./cs-install-guide/conf-auto-uuid-filenames.md)
-         + [有効なファイル名文字の正規表現を設定する](./cs-install-guide/conf-file-names-valid-regx.md)
+         + [有効なファイル名文字に対して Regx を設定します](./cs-install-guide/conf-file-names-valid-regx.md)
          + [AEM Site 出力用の有効なファイル名の設定](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
       + トピックとマップのテンプレートの使用 {#topic-map-template-cs}
-         + [トピックとマップのテンプレートの設定](./cs-install-guide/conf-template-tags.md)
+         + [トピックおよびマップテンプレートの設定](./cs-install-guide/conf-template-tags.md)
          + [カスタム DITA トピックテンプレートの設定](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
          + [カスタム DITA マップテンプレートの設定](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       + ドキュメントの状態の操作 {#doc-state-cs}
@@ -309,6 +318,7 @@ ht-degree: 7%
          + [バージョン管理](./cs-install-guide/version-management.md)
       + 出力生成設定の使用 {#output-gen-config-cs}
          + [出力生成設定の指定](./cs-install-guide/conf-output-generation.md)
+         + [ネイティブPDFの公開](./cs-install-guide/native-pdf-publishing.md)
       + カスタムワークフローの操作 {#custom-workflow-cs}
          + [ワークフローの設定とカスタマイズ](./cs-install-guide/customize-workflows.md)
       + 翻訳設定の操作 {#translate-config-cs}
@@ -335,9 +345,9 @@ ht-degree: 7%
                + [ツールバーにカスタムボタンを追加](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                + [Web エディターにカスタムスタイルを追加](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + Schematron {#schematron}
-               + [Schematron 検証](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+               + [Schematron の検証](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 公開 {#publishing}
-         + [ネイティブAEM公開用のPDF環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+         + [ネイティブAEMパブリッシング用のPDF環境の設定](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS とガイド](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [マイクロサービスのアーキテクチャとパフォーマンス](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [マイクロサービスベースの公開の設定](./knowledge-base/publishing/configure-microservices.md)
@@ -351,3 +361,4 @@ ht-degree: 7%
          + [条件付きコンテンツの使用](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [キーの操作](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [酸素コネクタを使用](./oxygen-connector/use-aem-connector.md)
+
