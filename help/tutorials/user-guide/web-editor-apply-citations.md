@@ -1,7 +1,7 @@
 ---
 title: コンテンツの引用文書を追加および管理します。
 description: コンテンツに引用を追加して適用することで、参照を実装する方法を説明します。
-source-git-commit: f59ed1ffe8567bef48c6772a68361eacb1c7c15f
+source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -45,7 +45,7 @@ The **引用を追加** ダイアログボックスが開きます。
 
 1. 次のフィールドに入力します。 **引用を追加** ダイアログボックス。
 
-   >
+   >[!NOTE]
    >
    >また、ISBN、DOI、PubMed ID を追加することもできます。 AEMガイドは他のフィールドに自動的に入力します。
 

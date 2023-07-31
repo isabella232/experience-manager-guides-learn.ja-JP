@@ -2,9 +2,9 @@
 title: Adobe Experience Managerガイドのアップグレード
 description: Adobe Experience Managerガイドのアップグレード方法を説明します。
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: bb7e9ae6f02021354285aa4ca6b435bbea2e4cc0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3270'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,9 @@ ht-degree: 1%
 > ライセンス版の製品に固有のアップグレード手順に従ってください。
 
 現在のバージョンのAEMガイドをバージョン 4.3.0 にアップグレードできます
+
 - バージョン 4.2 または 4.2.x を使用している場合は、直接バージョン 4.3.0 にアップグレードできます。
-- バージョン 4.1、4.1.x または 4.2 を使用している場合は、バージョン 4.3.0 にアップグレードする前に、バージョン 4.2.1 にアップグレードする必要があります。
+- バージョン 4.1 または 4.1.x を使用している場合は、バージョン 4.3.0 にアップグレードする前に、バージョン 4.2 または 4.2.x にアップグレードする必要があります。
 - バージョン 4.0 を使用している場合は、バージョン 4.3.0 にアップグレードする前に、バージョン 4.2 にアップグレードする必要があります。
 - バージョン 3.8.5 を使用している場合は、バージョン 4.2 にアップグレードする前に、バージョン 4.0 にアップグレードする必要があります。
 - 3.8.5 より前のバージョンを使用している場合は、製品固有のインストールガイドの「 AEMガイドのアップグレード」の節を参照してください。
@@ -503,12 +504,19 @@ AEMガイドをインストールした後、新しくインストールされ�
    |---|---|---|
    | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | 値：200000 <br> デフォルト値：100000 |
 
-1. サーバーに対してPOSTリクエストを実行します（正しい認証を使用） - `http://<server:port>//bin/guides/reports/upgrade`.
+1. 次の API を実行して、すべてのファイルの後処理を実行します。
 
-1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+   | 終点 | /bin/guides/reports/upgrade |
+   |---|---|
+   | リクエストタイプ | **POST**  このスクリプトはPOSTリクエストなので、Postmanなどのエージェントを介して実行する必要があります。 |
+   | 予想される応答 | API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。<br> サンプル URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
-1. ジョブが完了すると、以前のGETリクエストが成功して応答します。 何らかの理由でジョブが失敗した場合は、サーバーログから失敗を確認できます。
+   | 終点 | /bin/guides/reports/upgrade |
+   |---|---|
+   | リクエストタイプ | **GET** |
+   | パラメーター | jobId：前の post リクエストから受け取った jobId を渡します。 |
+   | 予想される応答 |  — ジョブが完了すると、GETリクエストへの応答が成功します。 <br>  — エラーが発生した場合は、エラーログと API 出力を顧客成功チームと共有します。  <br>サンプル URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
 
 1. のデフォルト値または以前の既存の値に戻す `queryLimitReads` 手順 1 で変更した場合。
 
