@@ -2,7 +2,7 @@
 title: カスタム DITA トピックテンプレートの設定
 description: カスタム DITA トピックテンプレートの設定方法を説明します。
 exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
-source-git-commit: 20980cd289a306fc73146ec3550ae31f15e91591
+source-git-commit: ecd5c315da5d450f29ee5d44cb19bc3546a19d1c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -45,7 +45,9 @@ AEMガイドでは、カスタマイズした DITA マップとテンプレー�
 
 `/content/dam/dita-templates/`
 
-トピックおよびマップテンプレートファイルを管理するために、トピックおよびマップテンプレートを保存する専用のフォルダがあります。 デフォルトでは、すべてのトピックテンプレートは、 `/content/dam/dita-templates/topics` フォルダー。 すべてのマップテンプレートは、 `/content/dam/dita-templates/maps` フォルダー。
+トピックおよびマップテンプレートファイルを管理するために、トピックおよびマップテンプレートを保存する専用のフォルダがあります。 デフォルトでは、すべてのトピックテンプレートは、 `/content/dam/dita-templates/topics`
+
+フォルダー。 すべてのマップテンプレートは、 `/content/dam/dita-templates/maps` フォルダー。
 
 管理者は、カスタムマップまたはトピックテンプレートをデフォルトのフォルダに作成するか、独自のフォルダを作成してカスタムテンプレートを保存するかを選択できます。 デフォルトのフォルダを使用する予定がある場合は、このプロセスをスキップできます。
 

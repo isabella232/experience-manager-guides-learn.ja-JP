@@ -2,10 +2,10 @@
 title: カスタマイズしたテンプレートに基づいてマップを作成する
 description: カスタマイズしたテンプレートに基づいてマップを作成する方法を説明します。
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '870'
+ht-degree: 0%
 
 ---
 
@@ -26,14 +26,6 @@ AEMガイドを使用すると、dita-templates フォルダーからカスタ�
 >[!NOTE]
 >
 > をまたいで参照および維持するだけのリソースは、templates フォルダーの外に保持する必要があります。
-
-
-マップおよびトピックテンプレートは、次の方法で作成できます。
-1. Adobe Analytics のテンプレートパネル [左パネル](./web-editor-features.md#left-panel-id2051ea0m0hs)
-1. [Assets UI のテンプレート](#templates-assets-ui)
-1. [オプションメニュー](#templates-in-assets-ui)
-
-### Assets UI のテンプレート {#templates-assets-ui}
 
 **トピックテンプレート**
 
@@ -74,35 +66,6 @@ AEMガイドを使用すると、dita-templates フォルダーからカスタ�
    > ファイル名の拡張子は.ditamap にする必要があります。
 
 1. （オプション）説明を追加します。 **作成**. 作成されたマップテンプレートのメッセージが表示されます。 その後、マップテンプレートを開いて編集できます。 トピックテンプレート、マップテンプレート、およびマップテンプレート内の他のアセットの参照を追加できます。
-
-### オプションメニュー {#options-menu}
-
-マップまたはトピックテンプレートを作成するには、次の手順を実行します。
-
-1. を選択します。 **マップ** または **トピック** 現在のテンプレートフォルダー内のフォルダー。 例：`dita-templates` フォルダー。
-1. 次から： **オプション** メニュー、選択 **マップテンプレートを作成** または **トピックテンプレートを作成**.
-
-   The **新しいマップテンプレートを作成** または **新しいトピックテンプレートの作成** ダイアログが開きます。
-1. 新しいテンプレートのタイトルと名前を入力します。
-1. 作成するテンプレートのタイプを **テンプレート** 」ドロップダウンリストから選択できます。
-
-作成されたマップテンプレートのメッセージが表示されます。 テンプレートは、グローバルプロファイルまたはフォルダーレベルのプロファイルに追加できます。 新しいテンプレートがトピックまたはマップの作成プロセスに表示され、それを使用してマップまたはトピックを作成できます。
-
-
-管理者は、フォルダーを作成して、テンプレートを作成および保存できるフォルダーに設定することもできます。
-
-設定に基づいて、カスタム DITA テンプレートのフォルダーパスを設定する方法を学びます。
-<details>
-    <summary> Cloud Services </summary>
-
-方法を学ぶ [カスタム DITA テンプレートフォルダーパスの設定](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) (『Cloud Serviceのインストールと設定ガイド』) を参照してください。
-</details>
-
-<details>
-    <summary> オンプレミスソフトウェア</summary>
-
-方法を学ぶ [カスタム DITA テンプレートフォルダーパスの設定](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) （『オンプレミスのインストールと設定ガイド』）を参照してください。
-</details>
 
 ## テンプレートで定義されたタイトルを渡します。
 
@@ -147,9 +110,6 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
     </sub>
 </title>
 ```
-
-
-
 
 ## マップテンプレートを使用して新しいマップを作成する
 

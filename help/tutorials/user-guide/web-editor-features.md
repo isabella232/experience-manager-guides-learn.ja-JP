@@ -2,9 +2,9 @@
 title: Web エディターの機能について
 description: Web エディターの機能を理解する方法について説明します。
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
+source-git-commit: 0a01752122d012cff9fb583ae527842714e8f154
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -681,25 +681,20 @@ Web エディターからトピックにラベルを追加するには、次の�
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
-- エディターでファイルのタブを右クリックして、コンテキストメニューを開きます。 選択 **追加先** > **お気に入力** をクリックして、お気に入りリストにファイルを追加します。
+- エディターでファイルのタブを右クリックして、コンテキストメニューを開きます。 選択 **\> お気に入りに追加** をクリックして、お気に入りリストにファイルを追加します。
 
   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
->[!NOTE]
->
-> - お気に入りの一覧から項目を削除するには、[ お気に入り ] コレクションの項目の横にある [ オプション ] アイコンを選択し、 **お気に入りから削除**.
-> - ファイルを開かずにプレビューするには、ファイルを選択し、「 」を選択します。 **プレビュー** を選択します。
 
-
-
-**Favroties コレクションのオプションメニュー**\
+**お気に入りコレクションのオプションメニュー**\
 また、[ お気に入り ] コレクションの [ オプション ] メニューを使用して、次の操作を実行することもできます。
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **名前を変更**：選択したコレクションの名前を変更します。
-- **削除**：選択したコレクションを削除します。
+- **削除**：選択したファイルを削除します。
 - **更新**：リポジトリからファイルおよびフォルダーの新しいリストを取得します。
 - **Assets UI で表示**：ファイルまたはフォルダーのコンテンツを Assets UI に表示します。
+
 
 >[!NOTE]
 >
@@ -815,7 +810,7 @@ Web エディターには、テキスト検索用のフィルター機能が強�
   > - ユーザーがファイルをロックまたはチェックアウトした場合、ロックアイコンの上にマウスポインターを置くと、そのファイルをロックしたユーザー「(name)」が表示されます。
   > - 未保存の変更があるファイルをチェックインすると、変更を保存するよう求めるプロンプトが表示されます。 変更を保存しない場合は、ファイルのみがチェックインされます。
 
-- **プレビュー**：ファイル（.dita、.xml、オーディオ、ビデオまたは画像）を開かずに、すばやくプレビューできます。 プレビューパネルのサイズは変更できます。 コンテンツに次のいずれかが含まれる場合 `<xref>` または `<conref>`を選択すると、新しいタブで開くことができます。 ウィンドウにファイルのタイトルが表示されます。 タイトルが存在しない場合は、ファイル名が表示されます。 を閉じるには、以下を実行します。 **プレビュー** ウィンドウの外側の任意の場所をクリックするか、閉じるアイコンを選択します。
+- **プレビュー**：ファイル (.dita/.xml\) を開かずに、すばやくプレビューします。
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
@@ -1016,7 +1011,7 @@ Adobe Analytics の **新しいマップを作成** ダイアログで、次の�
   > - ユーザーがファイルをロックまたはチェックアウトした場合、ロックアイコンの上にマウスポインターを置くと、そのファイルをロックしたユーザー「(name)」が表示されます。
   > - ファイルをチェックインすると、変更を保存するよう求めるプロンプトが表示されます。 変更を保存しない場合は、ファイルのみがチェックインされます。
 
-- **プレビュー**：ファイル（.dita、.xml、オーディオ、ビデオまたは画像）を開かずに、すばやくプレビューできます。 プレビューパネルのサイズは変更できます。 コンテンツに次のいずれかが含まれる場合 `<xref>` または `<conref>`を選択すると、新しいタブで開くことができます。  ウィンドウにファイルのタイトルが表示されます。 タイトルが存在しない場合は、ファイル名が表示されます。 を閉じるには、以下を実行します。 **プレビュー** ウィンドウの外側の任意の場所をクリックするか、閉じるアイコンを選択します。
+- **プレビュー**：ファイルを開かずに、ファイル (.dita/.xml) のクイックプレビューを表示します。
 - **コピー**：次のオプションから選択できます。
    - **UUID をコピー**：選択したファイルの UUID をクリップボードにコピーします。
    - **パスをコピー**：選択したファイルの完全パスをクリップボードにコピーします。
@@ -1139,12 +1134,9 @@ DITA の主な機能の 1 つは、コンテンツの再利用機能です。 �
 
   >[!NOTE]
   >
-  > ファイルを選択し、 **プレビュー** から **オプション** メニューを使用して、ファイルを開かずにプレビューできます。 トピック内に存在する参照をプレビューすることもできます。 参照 ID がウィンドウに表示されます。
-  >
-  > The **プレビュー** オプションは、 **オプション** 要素のメニュー。要素を挿入する前に、要素のプレビューをすばやく確認できます。
+  > 注意： **プレビュー** オプションは、コンテキストメニューでも使用でき、要素を挿入する前にすばやくプレビューできます。
 
 - 再利用可能なコンテンツ項目をパネルからドキュメント内の目的の場所にドラッグ&amp;ドロップします。
-
 
 
 **用語集** -  ![](images/glossary.svg)
@@ -1280,138 +1272,86 @@ AEMガイドはネストされたレベルサブジェクトスキームマッ�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-**サブジェクト定義と列挙の階層定義の処理**
+   **サブジェクト定義と列挙の階層定義の処理**
 
-AEMガイドは、同じマップに存在する列挙とサブジェクト定義を処理する以外に、2 つの異なるマップで列挙とサブジェクト定義を定義する機能も提供します。 マップ内の 1 つ以上の件名の定義と、別のマップ内の列挙の定義を定義し、マップ参照を追加できます。 例えば、次の XML コードは、2 つの異なるマップで件名の定義と列挙の定義を作成します。
+   AEMガイドは、同じマップに存在する列挙とサブジェクト定義を処理する以外に、2 つの異なるマップで列挙とサブジェクト定義を定義する機能も提供します。 マップで件名の定義を定義し、別のマップで列挙の定義を定義して、マップ参照を追加できます。 例えば、次の XML コードは、2 つの異なるマップで件名の定義と列挙の定義を作成します。
 
-件名の定義は、 `subject_scheme_map_1.ditamap`
-
-
-```XML
-  <?xml version="1.0" encoding="UTF-8"?> 
-    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
-
-    <title>subject_scheme_map_1</title> 
-    
-    <subjectdef keys="os" navtitle="Operating system">
-        <subjectdef keys="linux" navtitle="Linux">
-        <subjectdef keys="redhat" navtitle="RedHat Linux">
-        </subjectdef>
-        <subjectdef keys="suse" navtitle="SuSE Linux">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="windows" navtitle="Windows">
-        </subjectdef>
-        <subjectdef keys="zos" navtitle="z/OS">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="deliveryTargetValues">
-        <subjectdef keys="print">
-        </subjectdef>
-        <subjectdef keys="online">
-        </subjectdef>
-    </subjectdef>
-    <subjectdef keys="mobile" navtitle="Mobile">
-        <subjectdef keys="android" navtitle="Android">
-        </subjectdef>
-        <subjectdef keys="ios" navtitle="iOS">
-    </subjectdef>
-    </subjectdef>
-    <subjectdef keys="cloud" navtitle="Cloud">
-        <subjectdef keys="aws" navtitle="Amazon Web Services">
-        </subjectdef>
-        <subjectdef keys="azure" navtitle="Microsoft Azure">
-        </subjectdef>
-        <subjectdef keys="gcp" navtitle="Google Cloud Platform">
-        </subjectdef>
-    </subjectdef>
-    </subjectScheme>
-```
-
-列挙の定義は subject_scheme_map_2.ditamap にあります。
-
-```XML
-    ?xml version="1.0" encoding="UTF-8"?> 
-        <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-        <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-        <title>subject_scheme_map_2</title> 
-        <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-        </mapref> 
-        <enumerationdef>
-        <attributedef name="platform">
-        </attributedef>
-        <subjectdef keyref="mobile">
-        </subjectdef>
-        <subjectdef keyref="cloud">
-        </subjectdef>
-        </enumerationdef>
-        </subjectScheme>
-```
-
-次に、件名の定義を示します。 `subject_scheme_map_1.ditamap`  列挙 def が `subject_scheme_map_2.ditamap`. への参照 `subject_scheme_map_1.ditamap` も `subject_scheme_map_2.ditamap`.
-
->[!NOTE]
->
-> を `subject_scheme_map_1.ditamap` および `subject_scheme_map_2.ditamap` が互いに参照されているので、件名のスキームは解決されます。
-
-件名列挙の参照は、次の優先順位で解決されます。
-
-1. 同じマップ
-1. 参照マップ
+   件名の定義は、 `subject_scheme_map_1.ditamap`
 
 
-同じマップと参照先のマップに列挙が見つからない場合、参照は解決されません。
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
+
+   列挙の定義は subject_scheme_map_2.ditamap に存在します
+
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
+
+   次に、件名の定義を示します。 `subject_scheme_map_1.ditamap`  列挙 def が `subject_scheme_map_2.ditamap`. への参照 `subject_scheme_map_1.ditamap` も `subject_scheme_map_2.ditamap`.
+
+   >[!NOTE]
+   >
+   > を `subject_scheme_map_1.ditamap` および `subject_scheme_map_2.ditamap` が互いに参照されているので、件名のスキームは解決されます。
+
+   件名列挙の参照は、次の優先順位で解決されます。
+
+   1. 同じマップ
+   1. 参照マップ
 
 
+   同じマップと参照先のマップに列挙が見つからない場合、参照は解決されません。
 
+   **属性ドロップダウン**
 
-**値を特定の要素に制限**
+   作成者ビューのコンテンツプロパティパネルの「属性」ドロップダウンを使用して、サブジェクトスキームの値を変更することもできます。 値を変更するには、「属性」ドロップダウンから値を選択します。
 
-また、トピック内の一部の要素に条件を制限することもできます。 以下を使用します。 `<elementdef>` タグを使用して要素および `<attributedef>` タグを使用して、要素に適用できる条件を定義します。  を追加しない場合、 `<elementdef>` タグを使用すると、すべての要素に条件を適用できます。
-例えば、次の列挙を使用して、 `@platform` 属性 `<shortdesc>` 要素を選択します。  その他の条件は、すべての要素に対して表示されます。
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-```XML
-<enumerationdef>
-    <elementdef name="shortdesc">
-    </elementdef>
-    <attributedef name="platform">
-    </attributedef>
-    <subjectdef keyref="deliveryTargetValues">
-    </subjectdef>
-    <subjectdef keyref="os">
-    </subjectdef>
-  </enumerationdef>
-```
+   また、ドロップダウンから複数の値を選択して、属性に値を適用することもできます。
 
-</details>
+   **ソース表示**
 
+   また、ソースビューの属性のドロップダウンから値を変更することもできます。 また、ソースビューでは、誤った値を追加できません。
 
-**属性ドロップダウン**
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
 
-作成者ビューのコンテンツプロパティパネルの「属性」ドロップダウンを使用して、サブジェクトスキームの値を変更することもできます。 値を変更するには、「属性」ドロップダウンから値を選択します。
+   **条件パネルから件名スキームを表示して適用する**
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+   条件パネルから件名のスキームを表示して適用することもできます。
 
-また、ドロップダウンから複数の値を選択して、属性に値を適用することもできます。
+   条件パネルから件名スキームを表示するには、システム管理者がオプションを選択する必要があります **条件パネルに件名スキームを表示する** エディター設定の「条件」タブで、以下の操作を行います。 詳しくは、を参照してください。 [「条件」タブ](#id21BMNE0602V).
 
-**ソース表示**
+   [ 条件 ] パネルには、件名スキーム内の件名定義のフラットな垂直構造が表示されます。
 
-また、ソースビューの属性のドロップダウンから値を変更することもできます。 また、ソースビューでは、誤った値を追加できません。
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
-
-**条件パネルから件名スキームを表示して適用する**
-
-条件パネルから件名のスキームを表示して適用することもできます。
-
-条件パネルから件名スキームを表示するには、システム管理者がオプションを選択する必要があります **条件パネルに件名スキームを表示する** エディター設定の「条件」タブで、以下の操作を行います。 詳しくは、を参照してください。 [「条件」タブ](#id21BMNE0602V).
-
-[ 条件 ] パネルには、件名スキーム内の件名定義のフラットな垂直構造が表示されます。
-
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
-
-コンテンツに条件をドラッグ&amp;ドロップして、コンテンツに条件を追加できます。 条件に対して定義された色を使用して、条件付きコンテンツがハイライト表示されます。
+   コンテンツに条件をドラッグ&amp;ドロップして、コンテンツに条件を追加できます。 条件に対して定義された色を使用して、条件付きコンテンツがハイライト表示されます。
 
 **スニペット** -  ![](images/insert-snippet-icon.svg)
 
