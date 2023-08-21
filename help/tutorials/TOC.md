@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
+source-git-commit: 49b1876f2e9ac653ced74bddb03a585c5154b8b6
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1444'
 ht-degree: 6%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 6%
          + [追加の特殊文字の設定](./web-editor/configure-additional-special-characters.md)
       + [公開ダッシュボードを使用して公開タスクを管理する](./user-guide/generate-output-publish-dashboard.md)
       + [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
+      + [コンテンツフラグメントに公開](./user-guide/publish-content-fragment.md)
       + コンテンツの一括アクティベーション {#bulk-activation}
          + [公開済みコンテンツの一括アクティベーション](./user-guide/conf-bulk-activation.md)
          + [一括アクティベーションマップコレクションの作成](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -255,6 +256,7 @@ ht-degree: 6%
                + [JavaScript を使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
                + [脚注でのカスタムスタイルの使用](./native-pdf/footnote-number-style.md)
             + [ネイティブPDF公開用の JVM フラグの設定](./native-pdf/configure-jvm-flags.md)
+         + [トピックとコンテンツフラグメントの間のマッピングの作成](./install-guide/conf-content-fragment-mapping.md)
       + カスタムワークフローの操作 {#custom-workflow}
          + [ワークフローの設定とカスタマイズ](./install-guide/customize-workflows.md)
       + 翻訳設定の操作 {#translate-config}
