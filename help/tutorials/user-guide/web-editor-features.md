@@ -2,9 +2,9 @@
 title: Web エディターの機能について
 description: Web エディターの機能を理解する方法について説明します。
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 48845ffcc530baad6689c8bca8847c57bbe9bf5d
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '15745'
 ht-degree: 0%
 
 ---
