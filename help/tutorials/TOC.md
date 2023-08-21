@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 49b1876f2e9ac653ced74bddb03a585c5154b8b6
+source-git-commit: 7ec353bcb943e70e0c40a2c494eaa4729f31880e
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1456'
 ht-degree: 6%
 
 ---
@@ -198,6 +198,9 @@ ht-degree: 6%
          + [ユーザー管理とセキュリティ](./install-guide/user-admin-sec.md)
       + コンテンツの移行 {#content-migration}
          + [非 UUID から UUID へのコンテンツの移行](./install-guide/migrate-uuid-non-uuid.md)
+         + 移行プロセス {#migration-process}
+            + [UUID 以外のコンテンツのバージョンでの移行](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            + [UUID 以外のコンテンツの移行（バージョンを使用しない場合）](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          + [既存のコンテンツを移行](./install-guide/migrate-content.md)
          + [既存の DITA コンテンツのアップロード](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [DITA 以外のコンテンツの移行](./install-guide/migrate-content-non-dita.md)
