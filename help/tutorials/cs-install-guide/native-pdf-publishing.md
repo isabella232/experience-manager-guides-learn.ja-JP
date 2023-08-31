@@ -1,7 +1,7 @@
 ---
 title: ネイティブPDF公開機能のカスタマイズと設定
 description: ネイティブPDF機能の様々なコンポーネントをカスタマイズして設定する方法を説明します。
-source-git-commit: 1757b29820cb45970657b46b54ae99d6099fbc84
+source-git-commit: 7bee42be8975ee25254e185edee67778ff3e1294
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -30,3 +30,4 @@ AEMガイドを使用すると、ネイティブPDF出力生成機能を使用�
    * [カスタムブックマークをPDF出力に追加](../native-pdf/add-custom-bookmark.md)
    * [JavaScript を使用したコンテンツやスタイルの操作](../native-pdf/use-javascript-content-style.md)
    * [脚注でのカスタムスタイルの使用](../native-pdf/footnote-number-style.md)
+

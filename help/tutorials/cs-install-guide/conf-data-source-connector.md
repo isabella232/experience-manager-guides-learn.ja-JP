@@ -1,9 +1,9 @@
 ---
 title: データソースコネクタの設定
 description: データソースコネクタの設定方法を説明します
-source-git-commit: 760d765a364a49aaff8787eea4f067b3f0e25103
+source-git-commit: 2e7f9fb0a5932cc6fa5852ba8d9b9bf13ab12aed
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -11,13 +11,13 @@ ht-degree: 1%
 
 # データソースコネクタの設定
 
-AEMガイドは、JIRA および SQL(MySQL、PostgreSQL、SQL Server、SQLite) データベース用の既製のコネクタを提供します。 既定のインターフェイスを拡張して、他のコネクタを追加することもできます。 次の設定を使用すると、様々なデータソースを簡単に追加できます。 追加したデータソースは、Web エディターで表示できます。
+AEMガイドは、JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce およびElasticsearchデータベース用の既製のコネクタを提供します。 既定のインターフェイスを拡張して、他のコネクタを追加することもできます。 次の設定を使用すると、様々なデータソースを簡単に追加できます。 追加したデータソースは、Web エディターで表示できます。
 
 次の手順を実行して、データソースコネクタを設定し、Web エディターから使用します。
 
 ## コネクタの設定
 
-JSON ファイルをアップロードして、標準コネクタを設定できます。 次のサンプルのセットアップファイルを使用して、Jira および SQL(MySQL、PostgreSQL、SQL Server、SQLite) データベース用のコネクタを設定できます。
+JSON ファイルをアップロードして、標準コネクタを設定できます。 次のサンプル設定ファイルを使用して、JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce およびElasticsearchデータベース用のコネクタを設定できます。
 
 ユーザー名とパスワードを使用した Jira の基本認証のサンプルセットアップファイル：
 
@@ -27,7 +27,7 @@ JSON ファイルをアップロードして、標準コネクタを設定でき
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
 		"configData": {
 			"username": "jirausername",
 			"password": "jirapassword",
@@ -37,7 +37,7 @@ JSON ファイルをアップロードして、標準コネクタを設定でき
 }
 ```
 
-例： `jira.json`.
+例：名前を付けて保存 `jira.json`.
 
 トークンを使用した Jira の基本認証のサンプルセットアップファイル：
 
@@ -47,7 +47,7 @@ JSON ファイルをアップロードして、標準コネクタを設定でき
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
 		"configData": {
 			"token": "jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -56,7 +56,7 @@ JSON ファイルをアップロードして、標準コネクタを設定でき
 }
 ```
 
-例： `jira.json`.
+例：名前を付けて保存 `jira.json`.
 
 「Basic」キーワードが含まれるトークンを使用した Jira の基本認証のサンプルセットアップファイルを次に示します。
 
@@ -66,7 +66,7 @@ JSON ファイルをアップロードして、標準コネクタを設定でき
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
 		"configData": {
 			"token": "Basic jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -75,7 +75,7 @@ JSON ファイルをアップロードして、標準コネクタを設定でき
 }
 ```
 
-例： `jira.json`.
+例：名前を付けて保存 `jira.json`.
 
 MySQL の基本認証用のサンプルセットアップファイル：
 
@@ -96,9 +96,9 @@ MySQL の基本認証用のサンプルセットアップファイル：
 }
 ```
 
-例： `mysql.json`.
+例：名前を付けて保存 `mysql.json`.
 
-PostgreSQL の基本認証用のサンプル設定ファイル：
+PostgreSQL の基本認証用のサンプル設定ファイルを次に示します。
 
 ```
 {
@@ -117,9 +117,9 @@ PostgreSQL の基本認証用のサンプル設定ファイル：
 }
 ```
 
-例： `postgres.json`.
+例：名前を付けて保存 `postgres.json`.
 
-MS SQL Server の基本認証用のサンプルセットアップファイル：
+Microsoft SQL Server の基本認証のサンプルセットアップファイル：
 
 ```
 {
@@ -138,7 +138,7 @@ MS SQL Server の基本認証用のサンプルセットアップファイル：
 }
 ```
 
-例： `mssqlserver.json`.
+例：名前を付けて保存 `mssqlserver.json`.
 
 SQLite の基本認証用のサンプル設定ファイル：
 
@@ -159,7 +159,105 @@ SQLite の基本認証用のサンプル設定ファイル：
 }
 ```
 
-例： `sqqlite.json`.
+例：名前を付けて保存 `sqqlite.json`.
+
+
+
+H2DB 用のサンプル設定ファイル：
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.sql.H2DBConnector",
+	"configName": "H2DBConnector",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",
+			"driver": "org.h2.Driver",
+			"connectionString": "jdbc:h2:file:D:/h2db/db"
+		}
+	}
+}
+```
+
+例：名前を付けて保存 `sqqlite.json`.
+
+
+
+MariaDb の基本認証用のサンプルセットアップファイル：
+
+```
+{
+	"connectorClazz": "com.adobe.guides.sample.konnect.connector.MariaDBConnector",
+	"configName": "SampleMariaDbConnector",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.sql.UserPassSqlConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",
+			"driver": "org.mariadb.jdbc.Driver",
+			"connectionString": "jdbc:mariadb://no1010042073107.corp.adobe.com:3308/mysql"
+		}
+	}
+}
+```
+
+例：名前を付けて保存 `mariadb.json`.
+
+
+Elasticsearchの基本認証用のサンプル設定ファイル：
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.rest.ElasticsearchConnector",
+	"configName": "SampleES",
+	"templateFolders": ["/content/dam/dita-templates/konnect/sql"],
+	"connectionConfig": {
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+		"configData": {
+			"username": "admin",
+			"password": "admin",    	
+			"url": "https://testsearch-1370045986.us-east-1.bonsaisearch.net:443"   }
+	}
+}
+```
+
+例：名前を付けて保存 `ES.json`.
+
+Elastic Search のクエリには、インデックスとクエリを含める必要があります。
+
+```
+{
+"index": "kibana_sample_data_ecommerce",
+"queryString":{
+    "query": {
+        "match_all": {}
+    }
+}
+}
+```
+
+
+
+AdobeCommerce NoAuth のサンプルセットアップファイル：
+
+```
+{
+	"connectorClazz": "com.adobe.guides.konnect.definitions.ootb.connector.graphql.AdobeCommerceConnector",
+	"configName": "SampleCommerce",
+	"templateFolders": ["/content/dam/dita-templates/konnect"],
+	"connectionConfig": {   "configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.NoAuthRestConfig",
+   "configData": {
+   			"url": "http://host/graphql"   
+		}
+	}
+}
+```
+
+例：名前を付けて保存 `commerce.json`.
 
 ### コネクタ設定のカスタマイズ
 

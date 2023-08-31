@@ -2,9 +2,9 @@
 title: ファイルとフォルダーの管理
 description: ファイルとフォルダーを管理する方法を説明します
 exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: d0b3ccb87901c54b86aa7d0dba14dc7201c072e9
+source-git-commit: 8154cfe11f2f032d457671ebca60c1ab3f090385
 workflow-type: tm+mt
-source-wordcount: '3079'
+source-wordcount: '3082'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ AEMガイドには、大量のファイルを含むフォルダーを別の場�
 
    <details>
 
-   <summary> オンプレミスの UUID ベースのファイルシステム </summary>
+   <summary> Cloud Serviceとオンプレミスの UUID ベースのファイルシステム </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 

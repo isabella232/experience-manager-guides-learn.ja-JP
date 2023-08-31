@@ -1,9 +1,9 @@
 ---
 title: トピックをコンテンツフラグメントに公開する
 description: トピックをコンテンツフラグメントに公開する方法を説明します。
-source-git-commit: 6cd7d2ec76f90a192dbcd0ef552789d42c23a4fb
+source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,22 @@ AEMガイドを使用すると、トピックまたはトピック内の要素�
    * **モデル**：コンテンツフラグメントの作成に使用するコンテンツフラグメントモデルを選択します。 モデルは、クラウドサービスで設定したフォルダーから選択されます。
    * **マッピング**：ドロップダウンからマッピングを選択します。 これにより、 *contentFragmentMapping.json* ファイル。
 
-     >[!NOTE]
-     >
-     >管理者は、 *contentFragmentMapping.json* ファイル。  方法の詳細 [トピックとコンテンツフラグメントの間のマッピングの作成](../install-guide/conf-content-fragment-mapping.md) in *オンプレミスインストールおよび設定ガイド*.
 
 
+     設定に基づいて、管理者は *contentFragmentMapping.json* ファイル。
+
+     <details>
+        <summary>Cloud Services</summary>
+
+     方法の詳細 [トピックとコンテンツフラグメントの間のマッピングの作成](../cs-install-guide/conf-content-fragment-mapping-cs.md) (『Cloud Serviceのインストールと設定ガイド』) を参照してください。
+     </details>
+
+     <details>
+        <summary> オンプレミスソフトウェア</summary>
+
+     方法の詳細 [トピックとコンテンツフラグメントの間のマッピングの作成](../install-guide/conf-content-fragment-mapping.md) （『オンプレミスのインストールと設定ガイド』）を参照してください。
+
+     </details>
    * を選択します。 **上書き** チェックボックスをオンにします（コンテンツフラグメントが既に存在し、上書きする場合）。 チェックボックスを選択せずにコンテンツフラグメントが既に存在する場合、AEM Guides はエラーを表示します。
 1. クリック **作成** コンテンツフラグメントを公開します。
 1. トピックのコンテンツフラグメントは、「 **フラグメント** セクション内 **ファイルのプロパティ**.

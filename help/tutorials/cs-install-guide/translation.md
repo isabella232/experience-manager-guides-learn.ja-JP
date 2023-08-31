@@ -1,10 +1,10 @@
 ---
 title: コンテンツの翻訳
 description: コンテンツの翻訳方法を学ぶ
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 7%
 
 1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 作成 [翻訳プロジェクト](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) 翻訳するコンテンツを収集し、翻訳プロセスを準備する場合。
+1. 作成 [翻訳プロジェクト](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) 翻訳するコンテンツを収集し、翻訳プロセスを準備する場合。
 
-1. 翻訳プロジェクトを使用して、 [コンテンツ翻訳を管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) プロセス。
+1. 翻訳プロジェクトを使用して、 [コンテンツ翻訳を管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) プロセス。
 
 
 翻訳サービスプロバイダーがAEMとの統合にコネクタを提供しない場合、AEMは XML 形式での翻訳コンテンツの手動での書き出しと読み込みをサポートします。
@@ -43,12 +43,12 @@ ht-degree: 7%
 
 DITA マップダッシュボードで「翻訳」タブを非表示にするには、次の手順を実行します。
 
-1. に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。
+1. に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。
 1. 設定ファイルで、マップダッシュボードの翻訳タブを設定する次の\（プロパティ\）詳細を指定します。
 
    | PID | プロパティキー | プロパティの値 |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.translation` | ブール値\( true/ false\)<br> **デフォルト値**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | ブール値\( true/ false\)。<br> **デフォルト値**: `true` |
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ DITA マップダッシュボードで「翻訳」タブを非表示にするに
 
 翻訳ベンダーのコネクタが DITA コンテンツをサポートしていない場合は、コンポーネントベースの翻訳ワークフローを有効にする必要があります。 有効にすると、翻訳可能なコンテンツがアセットメタデータとして送信されます。 ただし、このワークフローを機能させるには、コネクタがアセットメタデータの翻訳をサポートする必要があります。
 
-設定で使用した翻訳ワークフローに基づいて、コンポーネントベースの翻訳ワークフローオプションを設定する必要があります。 に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、次の\（プロパティ\）詳細を指定して、コンポーネントベースの翻訳ワークフローを設定します。
+設定で使用した翻訳ワークフローに基づいて、コンポーネントベースの翻訳ワークフローオプションを設定する必要があります。 に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。 設定ファイルで、次の\（プロパティ\）詳細を指定して、コンポーネントベースの翻訳ワークフローを設定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
@@ -77,9 +77,9 @@ DITA マップダッシュボードで「翻訳」タブを非表示にするに
 
 翻訳ワークフローを開始すると、ソースコンテンツの一時的な言語コピーが作成されます。 これらの一時ファイルに対する後処理操作の有効/無効を切り替えることができます。 後処理操作では、ファイルからの受信および送信参照が解決され、ドキュメントの状態が他の操作と共に設定されます。 これらの一時ファイルの後処理を有効にすると、翻訳プロセスの完了に時間がかかる場合があります。 したがって、後処理オプションを無効にしておくことをお勧めします。
 
-に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、一時的な言語コピーの後処理を設定する次の\（プロパティ\）の詳細を指定します。
+に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。 設定ファイルで、一時的な言語コピーの後処理を設定する次の\（プロパティ\）の詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値： <br>  — 一時ファイルに対して後処理操作を実行しない場合は、 *無効にする* \( false\) **後処理の言語コピー** オプション。<br>  — 一時ファイルに対して後処理操作を実行する場合は、 *有効にする* \(true\) **後処理の言語コピー** オプション。<br> **デフォルト値**:false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値： <br>  — 一時ファイルに対して後処理操作を実行しない場合は、 *無効にする* \( false\) **後処理の言語コピー** オプション。<br>  — 一時ファイルに対して後処理操作を実行する場合は、 *有効にする* \(true\) **後処理の言語コピー** オプション。<br> **デフォルト値**: false |
 

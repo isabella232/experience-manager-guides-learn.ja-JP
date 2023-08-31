@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 7ec353bcb943e70e0c40a2c494eaa4729f31880e
+source-git-commit: ca40b77f58b57599353d91cd7ce3002670729322
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 6%
+source-wordcount: '1479'
+ht-degree: 7%
 
 ---
 
@@ -20,6 +20,9 @@ ht-degree: 6%
       + Cloud Services {#cloud-release-notes}
          + [デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 年リリース {#2023-releases}
+            + 9 月リリース {#2309-release}
+               + [新機能](./release-info/whats-new-2023.9.0.md)
+               + [リリースノート](./release-info/release-notes-2023.9.0.md)
             + 7 月リリース {#2307-release}
                + [新機能](./release-info/whats-new-2023.7.0.md)
                + [リリースノート](./release-info/release-notes-2023.7.0.md)
@@ -155,7 +158,7 @@ ht-degree: 6%
       + [出力生成にマップコレクションを使用](./user-guide/generate-output-use-map-collection-output-generation.md)
       + ネイティブPDF公開機能の使用 {#web-editor}
          + [公開PDF出力](./web-editor/native-pdf-web-editor.md)
-         + [追加の特殊文字の設定](./web-editor/configure-additional-special-characters.md)
+      + [追加の特殊文字の設定](./web-editor/configure-additional-special-characters.md)
       + [公開ダッシュボードを使用して公開タスクを管理する](./user-guide/generate-output-publish-dashboard.md)
       + [基本的なトラブルシューティング](./user-guide/generate-output-basic-troubleshooting.md)
       + [コンテンツフラグメントに公開](./user-guide/publish-content-fragment.md)
@@ -258,7 +261,7 @@ ht-degree: 6%
                + [カスタムブックマークをPDF出力に追加](./native-pdf/add-custom-bookmark.md)
                + [JavaScript を使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
                + [脚注でのカスタムスタイルの使用](./native-pdf/footnote-number-style.md)
-            + [ネイティブPDF公開用の JVM フラグの設定](./native-pdf/configure-jvm-flags.md)
+         + [ネイティブPDF公開用の JVM フラグの設定](./native-pdf/configure-jvm-flags.md)
          + [トピックとコンテンツフラグメントの間のマッピングの作成](./install-guide/conf-content-fragment-mapping.md)
       + カスタムワークフローの操作 {#custom-workflow}
          + [ワークフローの設定とカスタマイズ](./install-guide/customize-workflows.md)
@@ -324,6 +327,8 @@ ht-degree: 6%
       + 出力生成設定の使用 {#output-gen-config-cs}
          + [出力生成設定の指定](./cs-install-guide/conf-output-generation.md)
          + [ネイティブPDFの公開](./cs-install-guide/native-pdf-publishing.md)
+         + [ネイティブPDF公開用のノードプロセスの設定](./native-pdf/configure-node-options.md)
+         + [トピックとコンテンツフラグメントの間のマッピングの作成](./cs-install-guide/conf-content-fragment-mapping-cs.md)
       + カスタムワークフローの操作 {#custom-workflow-cs}
          + [ワークフローの設定とカスタマイズ](./cs-install-guide/customize-workflows.md)
       + 翻訳設定の操作 {#translate-config-cs}

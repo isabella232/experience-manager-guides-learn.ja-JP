@@ -1,9 +1,9 @@
 ---
 title: データソースからコンテンツスニペットを挿入する
 description: データソースからコンテンツスニペットを挿入する方法を説明します
-source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
+source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,22 @@ A **データソース** は、組織のデータを保存および管理する�
 
 ## データソースパネル
 
-選択 **データソース** ![](images/data-source-icon.svg) （左側のパネル）に、接続されているデータソースが表示されます。 Data Sources パネルが開き、接続されているすべてのデータソースが表示されます。 詳しくは、 [データソースコネクタの設定](../install-guide/conf-data-source-connector.md).
+選択 **データソース** ![](images/data-source-icon.svg) （左側のパネル）に、接続されているデータソースが表示されます。 Data Sources パネルが開き、接続されているすべてのデータソースが表示されます。
+
+管理者は、設定に基づいてデータソースコネクタを設定できます。
+
+<details>
+<summary> Cloud Services </summary>
+
+方法を学ぶ [データソースコネクタの設定](../cs-install-guide/conf-data-source-connector.md) (『Cloud Serviceのインストールと設定ガイド』) を参照してください。
+</details>
+
+<details>    
+<summary>  オンプレミスソフトウェア </summary>
+
+方法を学ぶ [データソースコネクタの設定](../install-guide/conf-data-source-connector.md)  （『オンプレミスのインストールと設定ガイド』）を参照してください。
+</details>
+
 
 >[!NOTE]
 >
