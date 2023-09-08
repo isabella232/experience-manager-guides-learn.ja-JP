@@ -2,9 +2,9 @@
 title: ネイティブPDF公開機能 |テンプレートテンプレートのPDFコンポーネント
 description: テンプレートテンプレートの様々なコンポーネントと、PDFをカスタマイズして設定する方法について説明します。
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
+source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -224,7 +224,14 @@ CSS ファイルはコンテンツとレイアウト用に提供されていま�
   >
   >CSS 開発者の場合は、リーダーの形式を CSS ファイルに直接定義することもできます。
 
-* **テーブル継続マーカーを使用**：複数のページに広がる長いテーブルのマーカーを定義する場合は、このオプションを選択します。 <!--For more information on using table continuation markers, see Use table continuation markers.-->
+* **テーブル継続マーカーを使用**：複数のページに広がる長いテーブルのマーカーを定義する場合は、このオプションを選択します。
+改行の前後に表示するテキストを定義できます。 例えば、表は 5 ページ目で区切られ、 `<Continued on page %page-num%>` 対象： **改行前のテキスト**.  5 ページの下部に「6 ページ目で続く」と表示されます。
+
+  言語変数を使用して、改行の前後の継続マーカーテキストを定義します。 選択した言語に応じて、ローカライズされた値がPDF出力で自動的に選択されます。 例えば、 `Continued on page %page-num%` 英語のテキストとして、および `Fortsetzung auf Seite %page-num%` ドイツ語で
+
+  カーソルを合わせる <img src="./assets/info-details.svg" alt= "情報アイコン" width="25"> 」をクリックします。
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### ページレイアウト {#page-layouts}
 
@@ -353,13 +360,13 @@ PDF内の以下のセクションの表示/非表示を切り替えたり、最�
 
   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
-### 相互参照 {#cross-references}
+### クロスリファレンス {#cross-references}
 
-「相互参照」タブを使用して、相互参照をPDFに公開する方法を定義します。 トピックタイトル、表、図などの相互参照を書式設定できます。
+以下を使用します。 **相互参照** 「 」タブを使用して、クロスリファレンスの公開方法をPDFします。 トピックタイトル、表、図などの相互参照を書式設定できます。
 
 また、変数を使用して相互参照を定義することもできます。  変数を使用する場合、その値がプロパティから選択されます。 1 つの変数または変数の組み合わせを使用して、相互参照を定義できます。 文字列と変数の組み合わせを使用することもできます。
 
-例えば、次の項目で詳細を表示を使用できます： {chapter}. チャプター名が「一般設定」の場合、出力内の相互参照は「一般設定の詳細を参照」になります。
+例えば、 `View details on {chapter}`. チャプター名が「一般設定」の場合、出力内の相互参照は「一般設定の詳細を参照」になります。
 
 AEMガイドには、次の標準の変数が用意されています。
 
@@ -370,7 +377,7 @@ AEMガイドには、次の標準の変数が用意されています。
 * {bookmarkText}：ブックマークされたテキストへの相互参照を作成します。 例えば、5 ページ目の stop_words を参照してください。
 * {captionText}：トピック内の図または表のキャプションへの相互参照を作成します。 たとえば、「 Aifrow on Page 2 」を参照してください。
 * {figure}：図形番号に相互参照を追加します。 図表番号を、図表番号用に定義した自動番号スタイルから選択します。  例えば、「 {figure} ページ上 {page}&quot;. 出力の相互参照には、自動生成された図番号とそのページ番号（「5 ページの図 1 を参照」）が含まれます。
-* {table}：テーブル番号に相互参照を追加します。 キャプションに定義した自動番号スタイルからテーブル番号を選択します。 例えば、「 {table} ページ上 {page}&quot;. 出力の相互参照には、自動生成された表番号とそのページ番号（「5 ページの表 1 を参照」）が含まれます。
+* {table}：テーブル番号に相互参照を追加します。 キャプションに定義した自動番号スタイルからテーブル番号を選択します。 例えば、「 {table} ページ上 {page}&quot;. 出力内の相互参照には、自動生成された表番号とそのページ番号（「5 ページの表 1 を参照」）が含まれます。
 
 
 
@@ -379,8 +386,25 @@ AEMガイドには、次の標準の変数が用意されています。
   >キャプションとフィグキャプションタグに対して、自動番号スタイルを作成できます。
 
 
+#### クロスリファレンスの言語変数
+
+言語変数を使用して、ローカライズされたクロスリファレンスを定義することもできます。 選択した言語に応じて、ローカライズされた値がPDF出力で自動的に選択されます。
+
+例えば、言語変数「reference-label」を追加し、値を英語とドイツ語で定義できます。
+
+* 英語 — &quot;ページで表示 {page}&quot;
+* ドイツ語 — &quot;Einzelheiten finden Sie auf der Seite {page}&quot;
 
 
+追加する場合 `${lng:<variable name>}` 「段落」セクションに追加すると、出力の段落内の相互参照に、ローカライズされたテキストとページ番号が含まれます。\
+例えば、次のスクリーンショットは、ドイツ語で「View on page 1」と「Einzelheiten finden Sie auf der Seite 1」をクロスリファレンスとして示しています。
 
+<img src="./assets/english-output-corss-reference.png" alt="プラグラ内の相互参照の英語出力" width ="800">
+
+*段落内での相互参照（英語で公開される場合）。*
+
+<img src="./assets/german-output-corss-reference.png" alt="プラグラ内の相互参照のドイツ出力" width ="800">
+
+*段落内の相互参照（ドイツ語で公開される場合）。*
 
 <!--For more information, see *Format cross-references*.-->
