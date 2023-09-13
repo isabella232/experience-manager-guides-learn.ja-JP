@@ -1,25 +1,25 @@
 ---
 title: 技術要件
 description: AEMガイドを使用するための技術要件について説明します。
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+exl-id: 980a2c8b-d1ea-4644-8452-4a3e4b304b51
+source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 9%
 
 ---
 
-
 # 技術要件 {#id213BCG003XA}
 
-AEMガイド 4.0.2 をインストールする前に、お使いのシステムが次の技術要件を満たしていることを確認してください。
+AEMガイド 4.3 をインストールする前に、お使いのシステムが次の技術要件を満たしていることを確認してください。
 
 **Adobe Experience Manager**
 
-- バージョン 6.5 Service Pack 12、11、10 または 9
+- バージョン 6.5 Service Pack 18、17、16、15、または 14
 
 >[!IMPORTANT]
 >
-> AEM Site の出力を生成するには、AEMパブリッシュインスタンスに Service Pack 12、11、10、または 9 が必要です。
+> AEM Site の出力生成の場合、AEMパブリッシュインスタンスには Service Pack 18、17、16、15、14 が必要です。
 
 **オペレーティングシステム**
 
@@ -41,4 +41,3 @@ AEMガイド 4.0.2 をインストールする前に、お使いのシステム�
 
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
-

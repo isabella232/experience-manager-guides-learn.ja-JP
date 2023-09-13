@@ -1,7 +1,7 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.3.0 リリースのアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 4.3.0 リリースにアップグレードする方法について説明します
-source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
+source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 5%
@@ -40,10 +40,10 @@ ht-degree: 5%
 ### Adobe Experience Manager
 
 **4.3.0 非 UUID**
-バージョン 6.5 Service Pack 17、16、15、または 14
+バージョン 6.5 Service Pack 18、17、16、15、または 14
 
 **4.3.0 UUID**
-バージョン 6.5 Service Pack 17、16、15、または 14
+バージョン 6.5 Service Pack 18、17、16、15、または 14
 
 詳しくは、 *技術要件* 『 Adobe Experience Managerガイドのインストールと設定』の節を参照してください。
 
@@ -115,7 +115,7 @@ ht-degree: 5%
 - ネイティブPDF |大きなコンテンツを公開する際に Java OutOfMemoryError が発生します。 (11789)
 - ネイティブPDF |外部参照は、外部参照ラベルの代わりに href トピックタイトルの内容を印刷しています。 (11322)
 - ネイティブPDF |テンプレート設定を保存できません。PDFテンプレート設定を保存できません。 (10751)
-- ネイティブPDF |複数の外部参照を含めると、列幅を超えてテキストが拡張されます。 (10876)
+- ネイティブPDF |複数の外部参照を含めると、列幅を超えた文字列が表示されます。 (10876)
 - ネイティブPDF | `<note>``</note>` 要素は、そのタイプの余分な span タイトルを生成しません。 (10549)
 - JSON 出力 | `fmUuid` JSON の jcr:content ノードのプロパティは、JSON 内の「id」とは異なります。 (11564)
 - JSON 出力 |同じファイル名のマップとトピックが存在する場合、マップの JSON は削除されます。 (11524)
