@@ -1,13 +1,13 @@
 ---
 title: 出力プリセットの理解
-description: 出力プリセットの理解
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: 『AEMガイド』の出力プリセットについて説明します。 AEMサイト、PDF、HTML5、EPUB、カスタム、JSON 形式用の出力プリセットを Web エディターとマップダッシュボードから作成します。
+exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 3%
+source-wordcount: '177'
+ht-degree: 2%
 
 ---
-
 
 # 出力プリセットの理解 {#understanding_output_settings}
 
@@ -17,8 +17,8 @@ AEMガイドは、AEM Site、PDF、HTML5、EPUB、JSON、DITA-OT、ネイティ�
 
 プリセットは次の 2 つの方法で作成できます。
 
-- **Web エディタから**:AEMサイト、PDF、HTML、ナレッジベース、HTML5、カスタム、JSON の各出力プリセットを作成し、それぞれの出力を生成できます。
-- **マップダッシュボードから**:AEM Site、PDF、HTML5、EPUBおよびカスタム出力プリセットを作成し、それぞれの出力を生成できます。
+- **Web エディターから**:AEMサイト、PDF、HTML、ナレッジベース、HTML5、カスタムおよび JSON の出力プリセットを作成し、それぞれの出力を生成できます。
+- **マップダッシュボードから**:AEMサイト、PDF、HTML5、EPUBおよびカスタム出力プリセットを作成し、それぞれの出力を生成できます。
 
 次の節では、サポートされる出力形式で使用できるオプションについて説明します。
 
@@ -36,4 +36,3 @@ AEMガイドは、AEM Site、PDF、HTML5、EPUB、JSON、DITA-OT、ネイティ�
 
 
 **親トピック：**[&#x200B;出力の生成](generate-output.md)
-

@@ -1,10 +1,10 @@
 ---
 title: 翻訳ステータスを表示
-description: 翻訳ステータスの表示方法を説明します
+description: AEMガイドの DITA マップで、各トピックの翻訳ステータスと翻訳言語コピーを表示する方法を説明します。
 exl-id: 2662d86e-5ebd-4f41-a1e9-5bf4c96ffce2
-source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ DITA マップの翻訳ステータスを表示するには、次の手順を実
 
 1. ソース言語コピーの DITA マップファイルに移動します。
 1. 次をクリック： **翻訳** タブをクリックします。
-1. 内 **フィルター** 左側のパネルで、 **言語の翻訳** のステータスを確認し、 **完了**.
+1. Adobe Analytics の **フィルター** 左側のパネルで、 **言語の翻訳** のステータスを確認し、 **完了**.
 
    >[!NOTE]
    >

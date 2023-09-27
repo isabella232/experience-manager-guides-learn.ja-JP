@@ -1,15 +1,15 @@
 ---
-title: Web エディタでトピックを編集
-description: Web エディターでトピックを編集する方法を説明します
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+title: Web エディターでトピックを編集
+description: Web エディターでトピックを編集する方法を説明します。 AEMガイドでトピックファイルを変更する様々な編集機能について説明します。
+exl-id: 9950df78-09bd-433a-891d-0d689bb0c2e4
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
-
-# Web エディタでトピックを編集 {#id2056B040VUI}
+# Web エディターでトピックを編集 {#id2056B040VUI}
 
 Web エディターには、トピックファイルを簡単に作成または変更できる様々な編集機能が用意されています。 Web エディターでトピックを編集するには、次の手順を幅広く実行します。
 
@@ -27,7 +27,7 @@ Web エディターには、トピックファイルを簡単に作成または�
    >
    > また、ツールバーに表示するアイコンを選択するには、 `ui_config.json` 次の場所にあるファイル： `/etc/designs/fmdita/clientlibs/xmleditor/`. 機能のカスタマイズの詳細については、システム管理者に問い合わせてください。
 
-1. ドキュメントの編集が完了したら、 **保存**.
+1. ドキュメントの編集が完了したら、「 **保存**.
 
    >[!NOTE]
    >
@@ -53,4 +53,3 @@ AEMガイドは作業用コピーインジケータを提供し、ファイル�
 
 
 **親トピック：**[ Web エディターの操作](web-editor.md)
-

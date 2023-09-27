@@ -2,9 +2,9 @@
 title: AEMガイド用の新しいマイクロサービスベースの公開の設定をas a Cloud Service
 description: AEMガイド用の新しいマイクロサービスベースの公開を設定する方法について説明します。
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: 92b087c4cb115f0966d20b6b1d9d26839c6e39b7
+source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEMガイドの Microservice ベースの公開では、PDF（ネイティブと DITA-OT の両方）、HTML5 およびカスタムタイプの出力プリセットがサポートされます。
+> AEMガイドの Microservice ベースの公開では、PDF（ネイティブと DITA-OT ベースの両方）、HTML5、JSON およびカスタムタイプの出力プリセットがサポートされます。
 
 新しいクラウド公開サービスはAdobe IMSJWT ベースの認証で保護されるので、お客様は以下の手順に従って、Adobeのセキュアなトークンベースの認証ワークフローと環境を統合し、新しいクラウドベースのスケーラブル公開ソリューションの使用を開始する必要があります。
 
 
 ## Adobe Developer Console での IMS 設定の作成
 
-**統合の作成に必要なロール**:システム管理者
+**統合の作成に必要なロール**：システム管理者
 
 Adobe Developer Console で IMS 設定を作成するには、次の手順を実行します。
 
@@ -44,11 +44,11 @@ Adobe Developer Console で IMS 設定を作成するには、次の手順を実
 
    <img src="assets/io-management-api.png" alt="io 管理" width="500">
 
-1. API の追加時に、新しい秘密鍵と公開鍵のペアを作成します。 これにより、システム上の秘密鍵が自動的にダウンロードされます。
+1. API を追加する際に、新しい秘密鍵と公開鍵のペアを作成します。 これにより、システム上の秘密鍵が自動的にダウンロードされます。
 
    <img src="assets/generate-key-pair.png" alt="キーペアを生成" width="500">
 
-1. 設定した API を保存します。
+1. 設定済みの API を保存します。
 
    <img src="assets/save-api.png" alt="api を保存" width="600">
 
@@ -96,7 +96,7 @@ IMS 設定を環境に追加したら、次の手順を実行して、OSGi を�
    * はい。1 つの秘密鍵を生成し、すべての環境で使用できますが、すべての環境に対して環境変数を設定し、同じ鍵を使用する必要があります。
 1. マイクロサービスを使用する OSGi 設定が有効になっている場合、公開プロセスは同じコードベースを持つローカルAEMサーバー上で動作しますか？
    * いいえ、フラグが `dxml.use.publish.microservice` が `true` その後、常にマイクロサービス設定を探します。 設定 `dxml.use.publish.microservice` から `false` パブリッシュがローカルで動作するようにするために使用します。
-1. マイクロサービスベースの公開を使用する場合、DITA プロセスに割り当てられるメモリ量はどれくらいですか？ これは DITA プロファイル ANT パラメータを介して駆動されますか？
+1. マイクロサービスベースの公開を使用する場合、DITA プロセスに割り当てられるメモリ量はどれくらいですか？ これは DITA プロファイル ANT パラメーターを介して駆動されますか？
    * マイクロサービスベースの公開では、DITA プロファイルの ant パラメーターを使用してメモリ割り当てを実行しません。 サービスコンテナで使用可能な合計メモリは 8 GB で、そのうち 6 GB が DITA-OT プロセスに割り当てられます。
 
 
@@ -117,8 +117,8 @@ IMS 設定を環境に追加したら、次の手順を実行して、OSGi を�
 **ファイル**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **コンテンツ**:
-* `dxml.use.publish.microservice`:DITA-OT を使用したマイクロサービスベースの公開を有効に切り替えます
-* `dxml.use.publish.microservice.native.pdf`:マイクロサービスベースのネイティブPDF公開を有効に切り替え
+* `dxml.use.publish.microservice`:DITA-OT を使用したマイクロサービスベースの公開の有効化に切り替えます
+* `dxml.use.publish.microservice.native.pdf`：マイクロサービスベースのネイティブPDF公開を有効に切り替えます
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

@@ -1,10 +1,10 @@
 ---
 title: Web エディターのその他の機能
-description: Web エディターのその他の機能の使用方法を説明します。
+description: AEMガイドで Web エディターのその他の機能を確認します。 AEMガイドで、これらの機能を使用してオーサリングを改善する方法を説明します。
 exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: dd744a8e5b7d60a0e5b4d0ad8f9201950e3ae1ce
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '2131'
+source-wordcount: '2144'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: 出力プリセットの作成、編集、複製、削除
-description: 出力プリセットを作成、編集、複製または削除する方法を説明します。
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: AEMガイドでカスタム出力プリセットを作成、編集、複製および削除する方法について説明します。
+exl-id: 6ed4f028-da96-4383-9d5c-06b94d6661c0
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
-
 
 # 出力プリセットの作成、編集、複製、削除 {#id205BEH0K09Z}
 
@@ -76,4 +76,3 @@ ht-degree: 0%
 
 
 **親トピック：**[&#x200B;出力の生成](generate-output.md)
-

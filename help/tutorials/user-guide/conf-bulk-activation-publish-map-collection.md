@@ -1,10 +1,10 @@
 ---
 title: 出力を有効化
-description: 出力を有効にする方法を説明します
+description: AEMガイドで DITA マップの出力を有効化します。 パブリッシュインスタンスでコンテンツをアクティベートする方法を説明します。
 exl-id: a3b6cfed-813e-433c-891f-bb0715e7b94a
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 2%
 
    - 選択したマップの出力をアクティブにするには、マップファイルを選択し、 **クイック公開**.
    - 設定済みのプリセットを含むすべての DITA マップの出力を有効にするには、マップ（列）の横にあるチェックボックスをオンにし、 **クイック公開。**
-
-      ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
 
 選択したマップファイルの出力が有効になると、「パブリッシュ済み」列が現在の日時に更新されます。

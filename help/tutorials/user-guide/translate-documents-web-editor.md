@@ -1,10 +1,10 @@
 ---
 title: Web エディターからのドキュメントの翻訳
-description: Web エディターからドキュメントを翻訳する方法を説明します
+description: Web エディターからコンテンツを複数の言語に翻訳します。 AEMガイドで、翻訳プロジェクトを作成し、ルールを追加し、バージョンを表示し、非同期ファイルを閉じる方法について説明します。
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 15ba984275155489d7ac3878d4b1307a6cd076c6
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1904'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ AEMガイドには、コンテンツを複数の言語に翻訳できる、Web �
 >
 > 管理者は、Web エディターで「管理」タブ（翻訳に使用）を設定できます。 詳しくは、 *Web エディターでの翻訳機能の設定* の節を参照してください。Adobe Experience Managerガイドのインストールと設定にas a Cloud Service。
 
-## 始める前に
+## 事前準備
 
 この手順を実行する前に、必要な言語ルートおよびターゲットフォルダーが作成されていることを確認してください
 

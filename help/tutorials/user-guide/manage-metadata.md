@@ -1,15 +1,15 @@
 ---
-title: メタデータの管理
-description: メタデータの管理方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+title: メタデータを管理
+description: メタデータの定義と管理の方法については、AEMガイドを参照してください。 スマートタグと一括タグ付けを使用して、DITA マップ内の関連トピックを簡単に検索できます。
+exl-id: 842f1b41-9146-4de3-bcc0-38c10646a032
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---
 
-
-# メタデータの管理 {#id221EJ0500LI}
+# メタデータを管理 {#id221EJ0500LI}
 
 メタデータは、コンテンツの説明または定義です。 このメタデータは、記事またはマップを定義する際に役立ちます。 例えば、PDFメタデータは、タイトル、作成者、件名、キーワード、言語などのドキュメントのプロパティで構成される場合があります。 AEMガイドは、コンテンツのメタデータを定義するのに役立つ様々なツールを提供します。
 
@@ -20,5 +20,3 @@ Adobe Experience Manager Assets では、アセットのメタデータの追加
 - **[スマートタグ](web-editor-smart-tagging.md)**
 
 - **[DITA コンテンツの一括タグ付け](map-editor-bulk-tagging.md)**
-
-

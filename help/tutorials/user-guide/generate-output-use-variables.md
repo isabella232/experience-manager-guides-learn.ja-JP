@@ -1,10 +1,10 @@
 ---
 title: 変数を使用して、[ 宛先のパス ]、[ サイト名 ]、または [ ファイル名 ] オプションを設定します。
-description: 「宛先パス」、「サイト名」、「ファイル名」の各オプションを設定する変数の使用方法を説明します。
+description: 変数を使用して、「宛先パス」、「サイト名」、「ファイル名」の各オプションを設定する方法を説明します。 AEMガイドでサポートされている既製の変数について説明します。
 exl-id: e8d5b7c7-4f80-4ab6-9ad1-308bf0d4cf74
-source-git-commit: cf45be23a6369de1e510b7e8ee9cd1a2b61721e3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: Web エディターを起動します。
-description: Web エディターを起動する方法を説明します。
+description: AEMガイドのAEMナビゲーションページ、AEM Assets UI および DITA マップコンソールから Web エディターを起動する方法について説明します。
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -33,24 +33,24 @@ AEMにログインすると、ナビゲーションページが表示されま�
 
 - 次をクリック： **ガイド** アイコン (![](images/aem-guides-icon.png) ) をクリックし、AEMナビゲーションページに戻ります。
 
-- この **閉じる** ボタンをクリックすると、設定に基づいて宛先に移動します。
+- The **閉じる** ボタンをクリックすると、設定に基づいて宛先に移動します。
 
 
 
-   <details>
+  <details>
 
-   <summary> Cloud Services </summary>
+  <summary> Cloud Services </summary>
 
-   Cloud Services **閉じる** ボタンをクリックして、AEMナビゲーションページに戻ります。
-   </details>
+  Cloud Serviceを使用する場合、 **閉じる** ボタンをクリックして、AEMナビゲーションページに戻ります。
+  </details>
 
-   <details>
+  <details>
 
-   <summary> オンプレミスソフトウェア</summary>
+  <summary> オンプレミスソフトウェア</summary>
 
-   AEM Guides On-premise Software（4.2.1 以降）を使用している場合、 **閉じる** ボタンをクリックして、Assets UI の現在のファイルパスに戻ります。
+  AEM Guides On-premise Software（4.2.1 以降）を使用している場合、 **閉じる** ボタンをクリックして、Assets UI の現在のファイルパスに戻ります。
 
-   </details>
+  </details>
 
 ## AEM Assets UI {#id2056BG0307U}
 

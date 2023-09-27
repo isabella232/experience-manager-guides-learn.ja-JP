@@ -1,13 +1,13 @@
 ---
 title: Markdown ドキュメントの作成
-description: Markdown ドキュメントを作成する方法を説明します。
-source-git-commit: fa6e9f8b32d191f5b6f7136724d2145d81317767
+description: Web エディターから Markdown ドキュメントを作成します。 AEMガイドで、Markdown トピックを作成、作成およびプレビューする方法について説明します。
+exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
-
 
 # Web エディターから Markdown ドキュメントを作成する {#id223MIE0B079}
 
@@ -19,7 +19,7 @@ Web エディターから Markdown トピックを作成するには、次の手
 
 1. リポジトリビューでフォルダを選択します。
 1. 作成 **Markdown のトピック** 次のいずれかの方法で、
-   1. クリック **DITA ファイルを作成** リポジトリパネルの右上隅にあるアイコンをクリックし、 **Markdown のトピック** をドロップダウンから選択します。
+   1. クリック **DITA ファイルを作成** リポジトリパネルの右上隅にあるアイコンをクリックし、「 **Markdown のトピック** をドロップダウンから選択します。
 
    ![](images/create-markdown-dita-topic.png){width="550" align="left"}
 
@@ -27,7 +27,7 @@ Web エディターから Markdown トピックを作成するには、次の手
 
    ![](images/create-markdown-options-menu.png){width="550" align="left"}
 
-1. Markdown トピックの名前とパスを **新しい Markdown トピックを作成** ダイアログ。
+1. Markdown トピックの名前とパスを、 **新しい Markdown トピックを作成** ダイアログ。
 
 ![](images/create-markdown-dialog.png){width="350" align="left"}
 
@@ -39,7 +39,7 @@ Markdown トピックが選択したパスに作成され、編集用に開き�
 
 Web エディターから Markdown トピックを作成するには、次の手順を実行します。
 
-1. リポジトリ表示で、既存の Markdown トピックを選択します。
+1. リポジトリ表示で、既存の Markdown トピック (.md) を選択します。
 1. トピックをダブルクリックして、編集ウィンドウで開きます。
 
    トピックがソースモードで開きます。
@@ -60,4 +60,3 @@ Web エディターから Markdown トピックを作成するには、次の手
 > 変更を保存していない場合は、ポップアップが表示され、トピックを閉じる前に保存するよう求められます。
 
 **親トピック：**[ Web エディターの操作](web-editor.md)
-

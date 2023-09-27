@@ -1,13 +1,13 @@
 ---
 title: 一括アクティベーションマップコレクションの削除
-description: 一括アクティベーションマップコレクションを削除する方法について説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: 一括アクティベーションマップコレクションを削除する方法については、AEMガイドを参照してください。
+exl-id: f857d60b-bde2-4d71-9243-f71d7ee2f0e9
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
-
 
 # 一括アクティベーションマップコレクションの削除 {#id214GI40B0XA}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
    一括アクティベーションマップコレクションのリストが表示されます。
 
-1. 編集するコレクションを選択し、「 **削除**.
+1. 編集するコレクションを選択し、「 」をクリックします **削除**.
 
    削除の確認メッセージが表示されます。
 
@@ -31,4 +31,3 @@ ht-degree: 0%
 
 
 **親トピック：**[&#x200B;公開済みコンテンツの一括アクティベーション](conf-bulk-activation.md)
-

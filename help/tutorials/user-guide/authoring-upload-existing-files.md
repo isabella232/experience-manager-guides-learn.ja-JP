@@ -1,13 +1,13 @@
 ---
 title: ファイルのアップロード
-description: ファイルのアップロード方法を説明します
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+description: ファイルをAEMリポジトリにアップロードし、エラーを処理する方法を説明します。 アセットコンソールのユーザーインターフェイス、AEMデスクトップアプリケーション、アセット一括取り込みFrameMaker、および一括アップロードに関する知識がある。
+exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '432'
 ht-degree: 4%
 
 ---
-
 
 # ファイルのアップロード {#id176FF000JUI}
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 ## Assets コンソールユーザーインターフェイス
 
-デスクトップ上のコンテンツを選択し、AEMユーザーインターフェイス（Web ブラウザー）上で目的のフォルダーにドラッグできます。 詳しくは、 [アセットのアップロード](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) (AEMドキュメント )
+デスクトップ上のコンテンツを選択し、AEMユーザーインターフェイス（Web ブラウザー）上で目的のフォルダーにドラッグできます。 詳しくは、 [アセットのアップロード](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) (AEMドキュメント )。
 
 ## AEM デスクトップアプリケーション
 
@@ -29,11 +29,11 @@ ht-degree: 4%
 
 大規模な移行や一時的な一括取り込みがある場合は、Asset Bulk Ingestor を使用してコンテンツをアップロードします。 このツールを使用すると、Azure や S3 などのサポートされるデータストアから一括コンテンツをアップロードできます。 詳しくは、 [アセット一括取り込み元](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
-## FrameMaker を使用したバルクアップロード
+## FrameMakerを使用したバルクアップロード
 
-Adobe FrameMakerには、既存の DITA およびその他の FrameMaker ドキュメントを簡単にアップロードできる強力なAEMコネクタが付属しています\(`.book` および `.fm`\) をAEMに変換します。 1 つのファイルのアップロード、依存関係の有無に関わらず\（コンテンツ参照、相互参照、グラフィックなど）完全なフォルダーのアップロードなど、様々なファイルアップロード機能を使用できます。
+Adobe FrameMakerには、既存の DITA およびその他のFrameMakerドキュメントを簡単にアップロードできる強力なAEMコネクタが付属しています\(`.book` および `.fm`\) をAEMに変換します。 1 つのファイルのアップロード、依存関係の有無に関わらず\（コンテンツ参照、相互参照、グラフィックなど）完全なフォルダーのアップロードなど、様々なファイルアップロード機能を使用できます。
 
-FrameMaker でのバルクアップロード機能の使用について詳しくは、 *CRX フォルダーの作成とファイルのアップロード* （FrameMaker ユーザガイド）
+FrameMakerでの一括アップロード機能の使用について詳しくは、 *CRX フォルダーの作成とファイルのアップロード* (FrameMakerユーザガイド )。
 
 ## コンテンツのアップロード中にエラー処理が発生しました {#id201MI0I04Y4}
 
@@ -46,4 +46,3 @@ FrameMaker でのバルクアップロード機能の使用について詳しく
 AEMデスクトップアプリケーションや Asset Bulk Ingestor などのツールを使用する場合、重複ファイルに対して実行するアクションは、AEMサーバーの設定で制御されます。 この設定については、システム管理者にお問い合わせください。
 
 **親トピック：**[&#x200B;コンテンツを管理](authoring.md)
-

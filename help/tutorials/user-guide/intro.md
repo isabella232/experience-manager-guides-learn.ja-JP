@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Managerガイドについて
-description: Adobe Experience Managerガイドのas a Cloud Service方法
-source-git-commit: fac7596f16e5321d708dd251012ac9753eb19ea4
+description: エンタープライズグレードの DITA ベースのコンポーネントコンテンツ管理ソリューション、Adobe Experience Managerガイドについて説明します。 AEMガイドの利点を理解する。
+exl-id: c55429d9-ce2a-4dbf-b780-377b1372b828
+source-git-commit: 0a50a6bd2ae2d2efea50f8ff4d70f614870f5899
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Experience Managerガイドについて {#id1645E0A50MY}
 
@@ -29,7 +29,7 @@ AEM Guide を使用すると、企業はエンドユーザーにシームレス�
 
 - コンテンツの効率的な再利用により、市場投入を迅速化
 
-- 強力なレビュー、共同作業、翻訳ワークフロー
+- 強力なレビュー、コラボレーション、翻訳ワークフロー
 
 - ローカライゼーションに要する時間とコストを削減
 

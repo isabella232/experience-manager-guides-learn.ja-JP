@@ -1,13 +1,13 @@
 ---
 title: Web エディターからの記事ベースの公開
-description: Web エディターから記事ベースの投稿を行う方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: Web エディターから 1 つ以上の記事を公開する方法を説明します。 AEMガイドの DITA マップで、1 つ以上のトピックの出力を生成します。
+exl-id: b827c606-0d4b-4e7b-8a82-75b375dffe1a
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # Web エディターからの記事ベースの公開 {#id218CL05J0M1}
 
@@ -31,4 +31,3 @@ DITA マップ用に作成された出力プリセットを使用して、リポ
 
 
 **親トピック：**[ Web エディターの操作](web-editor.md)
-

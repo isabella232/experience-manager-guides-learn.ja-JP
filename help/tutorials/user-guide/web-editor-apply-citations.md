@@ -1,9 +1,9 @@
 ---
 title: コンテンツの引用文書を追加および管理します。
-description: コンテンツに引用を追加して適用することで、参照を実装する方法を説明します。
-source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
+description: 引用文献の追加と管理については、AEM Guides を参照してください。 引用文の適用、読み込み、フィルタリング、検索、引用文のスタイルの変更、編集、プレビュー、挿入、削除、および引用文と共にコンテンツ出力を生成する方法について説明します。
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1877'
 ht-degree: 1%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: 条件付き属性プロファイル
-description: 条件付き属性プロファイルの方法を説明します
+description: 条件付き属性を作成する方法については、AEMガイドを参照してください。 フォルダー内の条件付き属性とグローバルプロファイルを使用して、コンテンツに条件を付けます。
 exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '481'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ AEMガイドを使用すると、関連する DITA 属性を使用して条件�
 
    属性名のみを含むプロファイルを保存できます。 ただし、属性に値が指定されている場合にのみ、属性を使用できます。 属性に値とラベルの両方を指定した場合、Web エディタにはその属性の値のみが表示されます。 ラベルは、条件プリセットの作成時に発行管理者に表示されます。
 
-   次のスクリーンショットは、 `platform` 値の属性 `unix` そして、 `Red Hat Linux`.
+   次のスクリーンショットは、 `platform` の値を持つ属性 `unix` そして、 `Red Hat Linux`.
 
    ![](images/add-profile.png){width="800" align="left"}
 
@@ -52,7 +52,7 @@ AEMガイドを使用すると、関連する DITA 属性を使用して条件�
 1. 「**保存**」をクリックして、変更を保存します。
 
 
-この `platform` 属性はシステムに保存されます。 作成者が `platform` 属性は、フォルダー内の DITA トピックで、Web エディターの「プロパティ」タブに値が表示されます。
+The `platform` 属性はシステムに保存されます。 作成者が `platform` 属性は、フォルダー内の DITA トピックで、Web エディターの「プロパティ」タブに値が表示されます。
 
 ![](images/properties-tab.png){width="350" align="left"}
 

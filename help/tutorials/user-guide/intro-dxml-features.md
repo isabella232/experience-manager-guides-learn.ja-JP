@@ -1,13 +1,13 @@
 ---
 title: 主要なAEMガイドの機能
-description: 主要なAEMガイドの機能の学習
-source-git-commit: 9fd780707f0757036e5c4ccfacbb2231cd8edadc
+description: AEMガイド、DITA オーサリング、コンテンツ管理、Web ベースのレビュー、翻訳、ローカリゼーション、マルチチャネル公開、およびFrameMakerの統合に関する主な機能を確認します。
+exl-id: f456741a-b504-4686-8230-64fac0ad8939
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # 主要なAEMガイドの機能 {#id167G9I060SI}
 
@@ -52,17 +52,17 @@ Adobe Experience Managerには、主要な翻訳プロバイダー向けの組�
 関連性の高いコンテンツを迅速に見つけて選択し、再利用のたびにコンテンツの ROI を最大化します。 DITA オーサリングツール内のシンプルなインターフェイスを使用して、リポジトリ全体のコンテンツ属性とトピックメタデータを使用して、基本検索と詳細検索を実行します。 結果にはコンテンツ使用状況データがタグ付けされ、適切なコンテンツを容易に特定して選択し、最適な再利用が可能になります。
 
 **公開準備状況レポートの詳細**
-公開する前にコンテンツを簡単に確認して修正することで、エラーを防ぎます。 DITA マップレベルで様々なレポートに簡単にアクセスできるので、システムの正常性を細かく監視してください。 見つからないトピックの数、壊れたリンクまたは参照の数、およびすべてのトピックのレビューと翻訳のステータスを確認できます。 また、レポートを使用して、公開前の最終段階で包括的なサニティチェックを実行することもできます。
+公開する前にコンテンツを簡単に確認して修正することで、エラーを防ぎます。 DITA マップレベルで様々なレポートに簡単にアクセスできるので、システムの正常性を細かく監視してください。 すべてのトピックについて、見つからないトピックの数、壊れたリンクまたは参照の数、レビューのステータス、翻訳のステータスを確認できます。 また、レポートを使用して、公開前の最終段階で包括的なサニティチェックを実行することもできます。
 
 **パーソナライズされた出力に対する広範なタグ管理のサポート**\
 関連性の高いコンテンツエクスペリエンスを通じて、エンドユーザーのエンゲージメントとコンテンツの採用を促進します。 AEMガイドを使用すると、Experience Managerの広範なタグ管理サポートを活用して、DITA ソースコンテンツに関連するタグを適用できます。 これらのタグを使用して、エンドユーザーに高度にパーソナライズされたコンテンツエクスペリエンスを提供します。
 
 **Adobe FrameMakerとのネイティブ統合**
-Experience Managerと FrameMaker（2015 リリース） Update 4 以降を使用しながら、すばやくシームレスな操作をお楽しみください。
+Experience ManagerとFrameMaker（2015 リリース） Update 4 以降を使用しながら、すばやくシームレスな操作をお楽しみください。
 
-組み込みコネクタを通じてExperience Managerと FrameMaker を緊密に統合することで、Experience Managerコンテンツリポジトリとシームレスに連携できます。 コネクタを利用して、DITA コンテンツのオーサリング、レビューおよび検索をすばやく開始できます。
+組み込みのコネクタを通じてExperience ManagerとFrameMakerを緊密に統合することで、Experience Managerコンテンツリポジトリとシームレスに連携できます。 コネクタを利用して、DITA コンテンツのオーサリング、レビューおよび検索をすばやく開始できます。
 
-FrameMaker でAEMコネクタを使用すると、FrameMaker ファイルを管理できます。 AEMコネクタを使用すると、AEMに DITA およびその他の FrameMaker ドキュメント（.book および.fm）を簡単にアップロードできます。 AEMガイドでは、AEMから直接 FrameMaker ドキュメントを公開することもできます。 FrameMaker ブックファイルに DITA ファイルと.fm ファイルの組み合わせが含まれている場合、AEM Guides は、そのようなドキュメントも公開できます。 現在、FrameMakerの.book ファイルと.fm ファイルをPDF、HTML5、およびEPUB形式で公開できます。
+FrameMakerでAEMコネクタを使用すると、FrameMakerファイルを管理できます。 AEMコネクタを使用すると、DITA およびその他のFrameMakerドキュメント（.book および.fm）をAEMに簡単にアップロードできます。 AEMガイドでは、AEMから直接FrameMakerドキュメントを公開することもできます。 FrameMakerブックファイルに DITA ファイルと.fm ファイルの組み合わせが含まれている場合、AEMガイドもそのような文書を公開できます。 現在、FrameMakerの.book ファイルと.fm ファイルを、PDF、HTML5 およびEPUB形式に公開できます。
 
 ## その他のリソース
 
@@ -74,4 +74,3 @@ FrameMaker でAEMコネクタを使用すると、FrameMaker ファイルを管�
 * [ヘルプ*アーカイブページ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) （古いリリースドキュメントにアクセス）
 
 **親トピック：**[ Adobe Experience Managerガイドについてas a Cloud Service](intro.md)
-

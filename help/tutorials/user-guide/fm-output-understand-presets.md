@@ -1,19 +1,18 @@
 ---
 title: 出力プリセットの概要
-description: 出力プリセットの概要
-source-git-commit: 7e6ac1146bf5b60c15f549fa9636850db305479f
+description: FrameMakerドキュメントをAEMガイドで公開します。 PDF、HTML5、およびEPUB形式でFrameMakerドキュメントの出力を生成する方法について説明します。
+exl-id: a084e643-cae6-4263-a498-3ae62228b886
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
-
 # 出力プリセットの理解 {#understanding_output_settings}
 
-AEMガイドは、PDF、HTML5、EPUB形式での FrameMaker ドキュメントの出力の作成をサポートしています。 これらの出力形式を使用して、様々な出力プリセットを設定できます。 出力プリセットは、コンテンツを公開するカスタマイズされた出力形式を表します。
+AEMガイドでは、PDF、HTML5、EPUB形式でのFrameMakerドキュメントの出力の作成をサポートしています。 これらの出力形式を使用して、様々な出力プリセットを設定できます。 出力プリセットは、コンテンツを公開するカスタマイズされた出力形式を表します。
 
 次の節では、サポートされる出力形式で使用できるオプションについて説明します。
 
-**親トピック：**[ FrameMaker ドキュメントの出力を生成](fm-output-generatation.md)
-
+**親トピック：**[ FrameMaker文書の出力を生成](fm-output-generatation.md)

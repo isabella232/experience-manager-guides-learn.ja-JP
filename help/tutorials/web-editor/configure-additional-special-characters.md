@@ -1,12 +1,12 @@
 ---
 title: Web エディターのツールバーで追加の特殊文字を設定する
-description: Web エディターのツールバーで追加の特殊文字を設定する方法
+description: AEMガイドの Web エディターで追加の特殊文字を設定する方法について説明します。
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 + AEMにログインし、CRXDE Liteモードを開きます。
 
-+ 次の場所に symbols.json ファイルを作成します。&#39;/apps/fmdita/xmleditor/&#39; ( デフォルトのコピー元は — &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;の場所です )
++ 次の場所に symbols.json ファイルを作成します： &#39;/apps/fmdita/xmleditor/&#39; ( デフォルトの場所は — &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;からコピーできます )
 
 + symbols.json ファイルに次のように特殊文字定義を追加します。
 
@@ -45,11 +45,11 @@ ht-degree: 0%
 
 symbols.json ファイルの構造を次に示します。
 
-+ &quot;label&quot;:&quot;論理記号&quot;:特殊文字のカテゴリを指定します。 スニペットでは、「論理記号」という名前のカテゴリが定義されます。
++ &quot;label&quot;: &quot;Logical Symbols&quot;：特殊文字のカテゴリを指定します。 スニペットでは、「論理記号」という名前のカテゴリが定義されます。
 
-+ &quot;items&quot;:これは、カテゴリ内の特殊文字のコレクションを定義します。
++ &quot;items&quot;：カテゴリ内の特殊文字のコレクションを定義します。
 
-+ &quot;name&quot;:&quot;≥&quot;, &quot;title&quot;:&quot;次よりも大きいか等しい&quot;:これは特殊文字の定義です。 先頭には「名前」ラベルが付きますが、このラベルは変更しないでください。 名前の後に特殊文字が続きます。 「タイトル」は、その特殊文字のツールチップとして表示される特殊文字の名前またはタイトルです。
++ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;Greater-Than or Equal To&quot;：これは、特殊文字の定義です。 先頭には「名前」ラベルが付きますが、このラベルは変更しないでください。 名前の後に特殊文字が続きます。 「タイトル」は、その特殊文字のツールチップとして表示される特殊文字の名前またはタイトルです。
 
 1 つのカテゴリ内で特殊文字の複数の定義を定義できます。
 
@@ -62,4 +62,3 @@ symbols.json ファイルの構造を次に示します。
 >[!MORELIKETHIS]
 >
 >+ [インストールおよび設定ガイド](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
-

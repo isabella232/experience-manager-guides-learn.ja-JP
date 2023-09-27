@@ -1,10 +1,10 @@
 ---
 title: ネイティブPDF |PDF出力生成
-description: Adobe Experience ManagerガイドでのPDF出力の生成as a Cloud Service
+description: ネイティブPDFの公開を使用する方法、PDFの出力プリセットを作成および生成する方法、ネイティブPDFの出力を生成した後に一時ファイルをダウンロードする方法、およびAEMガイドで言語変数を使用する方法について説明します。
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 85075a51d141afa451c22f7a29d21fc7ae391d49
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3229'
 ht-degree: 1%
 
 ---
@@ -120,7 +120,7 @@ PDF出力プリセットを作成または設定するには：
 例えば、 /で定義されたメタデータプロパティの 1 つ。`jcr:content/metadata` ノードが
 `dc:title`. 次を指定できます。 `${dc:title}`の場合は、最終出力で title 値が使用されます。
 
-1 つの変数または変数の組み合わせを使用して、メタデータを定義できます。 （例：`${dc:title} ${dc:docstate}`）。変数と文字列の組み合わせを使用することもできます。  例：`View ${dc:title} in ${dc:language}`
+1 つの変数または変数の組み合わせを使用して、メタデータを定義できます。 例えば `${dc:title} ${dc:docstate}` などのファイルです。変数と文字列の組み合わせを使用することもできます。  例：`View ${dc:title} in ${dc:language}`
 
 言語変数を使用して、メタデータプロパティのローカライズされた値を定義します。 選択した言語に応じて、ローカライズされた値がPDF出力で自動的に選択されます。 例えば、「Author」をメタデータ値として英語で、「Autorin」をドイツ語で印刷できます。
 

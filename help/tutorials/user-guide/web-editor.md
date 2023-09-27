@@ -1,13 +1,13 @@
 ---
 title: Web エディターの操作
-description: Web エディターの操作方法を説明します。
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: Web エディターを使用して、構造化ドキュメントを作成および編集します。 AEMガイドの DITA 標準に従って Web エディターを使用する方法について説明します。
+exl-id: 77d5daa7-4c19-448f-b10e-b52a055467ae
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
-
 
 # Web エディターの操作 {#id181OD0QE05Z}
 
@@ -17,7 +17,7 @@ AEMガイドには、構造化ドキュメントを作成および編集する�
 
 - **[Web エディターを起動します。](web-editor-launch-editor.md)**
 
-- **[Web エディタでトピックを編集](web-editor-edit-topics.md)**
+- **[Web エディターでトピックを編集](web-editor-edit-topics.md)**
 
 - **[Web エディターの機能について](web-editor-features.md)**
 
@@ -35,7 +35,7 @@ AEMガイドには、構造化ドキュメントを作成および編集する�
 
 - **[クイック生成パネルを使用して出力を生成および表示する](web-editor-quick-generate-panel.md)**
 
-- **[Web エディターからドキュメントを翻訳](translate-documents-web-editor.md)**
+- **[Web エディターからのドキュメントの翻訳](translate-documents-web-editor.md)**
 
 - **[Web エディタからのベースラインの作成と管理](web-editor-baseline.md)**
 
@@ -45,4 +45,3 @@ AEMガイドには、構造化ドキュメントを作成および編集する�
 
 
 **親トピック：**[ AEMガイドを使用したコンテンツのオーサリング](authoring-content-xml-doc.md)
-

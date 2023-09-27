@@ -1,10 +1,10 @@
 ---
 title: 基準計画を使用する
-description: ベースラインの操作方法を学ぶ
+description: AEMガイドでのベースラインの使用方法を理解します。 翻訳されたベースラインを作成、表示、編集、複製、削除、追加、および書き出す方法について説明します。
 exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
-source-git-commit: 8e2e2c60f223b3967fad10372abee3192016c4ef
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: トピックの作成とプレビュー
-description: トピックを作成およびプレビューする方法を説明します
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: AEMガイドの Assets UI から DITA トピックを作成およびプレビューする方法について説明します。
+exl-id: a33daf94-fa7b-40e7-bebe-8ae64399da48
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
-
 
 # トピックの作成とプレビュー {#id21BQE0RJ042}
 
@@ -19,4 +19,3 @@ AEMガイドには、Assets UI から DITA トピックを作成するための�
 
 
 **親トピック：**[&#x200B;コンテンツの作成](authoring-content.md)
-

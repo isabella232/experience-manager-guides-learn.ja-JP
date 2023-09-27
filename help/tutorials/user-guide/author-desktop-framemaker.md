@@ -1,17 +1,16 @@
 ---
-title: FrameMaker の操作
-description: FrameMaker の操作方法を学ぶ
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+title: FrameMakerの操作
+description: AEMガイドでのコンテンツのオーサリングと公開に対するFrameMakerのサポートについて説明します。
+exl-id: 4bf65bad-0ff4-45f7-88ac-6efa19faefab
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
+# FrameMakerの操作 {#id221BH0L03XA}
 
-# FrameMaker の操作 {#id221BH0L03XA}
-
-FrameMaker は、AEMガイドでのコンテンツのオーサリングと公開をサポートしています。 FrameMaker には、すぐに使用できるコネクタが付属し、Adobe Experience Managerに出荷されます。 また、FrameMaker は、分散および協調環境でドキュメントのバージョンを管理するための使いやすいインターフェイスも提供します。 FrameMaker でコンテンツを作成し、PDF、HTML5、EPUB、DITA など、様々な形式で公開できます。 また、チェックアウト、依存ファイルを含むチェックアウト、チェックイン、更新など、様々なファイル管理操作を実行できます。 詳しくは、 [FrameMaker ヘルプ](https://help.adobe.com/en_US/framemaker/using/index.html).
+FrameMakerは、AEMガイドでのコンテンツのオーサリングと公開をサポートしています。 FrameMakerには、すぐに使用できるAdobe Experience Managerコネクタが付属しています。 また、FrameMakerには使いやすいインターフェイスが用意されており、分散した共同作業環境でドキュメントのバージョンを管理することができます。 コンテンツをFrameMakerで作成し、PDF、HTML5、EPUB、DITA など、様々な形式で公開できます。 また、チェックアウト、依存ファイルを含むチェックアウト、チェックイン、更新など、様々なファイル管理操作を実行できます。 詳しくは、 [FrameMakerヘルプ](https://help.adobe.com/en_US/framemaker/using/index.html).
 
 **親トピック：**[&#x200B;デスクトップツールを使用したコンテンツのオーサリング](author-desktop-tools.md)
-

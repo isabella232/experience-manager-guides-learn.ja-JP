@@ -1,7 +1,7 @@
 ---
 title: データソースコネクタの設定
 description: データソースコネクタの設定方法を説明します
-source-git-commit: bb04590ccb08cde0826dcb60c664f47d7305c9d1
+source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -176,7 +176,7 @@ AEMガイドでは、ユーザーのニーズに合わせて設定ファイル�
 
 ファイルをAEM Assetsの任意の場所にアップロードします。
 
-例：`/var/dxml/konnect/jira.json`
+例：`/content/dam/jira.json`
 
 ## REST API を使用した設定の作成
 

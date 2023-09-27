@@ -1,10 +1,10 @@
 ---
 title: スマートタグ
-description: スマートタグの使い方を学ぶ
+description: スマートタグの追加方法については、AEMガイドを参照してください。 XML キーワード抽出ツールを使用して、関連するキーワードを抽出します。
 exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---

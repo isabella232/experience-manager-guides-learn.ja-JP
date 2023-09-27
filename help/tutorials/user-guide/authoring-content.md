@@ -1,13 +1,13 @@
 ---
 title: コンテンツの作成
-description: コンテンツのオーサリング方法を学ぶ
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+description: AEMガイドでコンテンツを作成します。 ドキュメントの作成、プレビュー、編集、バージョンの保存、レビュー用の共有を行う方法を説明します。
+exl-id: bba2a7a1-ffbc-4d28-9b70-a0274f03e29b
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 3%
+source-wordcount: '145'
+ht-degree: 2%
 
 ---
-
 
 # コンテンツの作成 {#id221EAJ0A047}
 
@@ -22,5 +22,3 @@ AEMガイドは、使いやすいユーザーインターフェイスを使用�
 - **[AEMガイドを使用したコンテンツのオーサリング](authoring-content-xml-doc.md)**
 
 - **[デスクトップツールを使用したコンテンツのオーサリング](author-desktop-tools.md)**
-
-

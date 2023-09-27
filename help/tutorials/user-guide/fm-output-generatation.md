@@ -1,17 +1,17 @@
 ---
-title: FrameMaker ドキュメントの出力を生成
-description: FrameMaker ドキュメントの出力を生成する方法を説明します
+title: FrameMaker文書の出力を生成
+description: AEMガイドでFrameMakerドキュメントの出力を生成し、PDF、HTML5、EPUB形式で公開する方法を説明します。
 exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '202'
 ht-degree: 1%
 
 ---
 
-# FrameMaker ドキュメントの出力を生成 {#id1645H8040HD}
+# FrameMaker文書の出力を生成 {#id1645H8040HD}
 
-AEMガイド 1.1 以降では、FrameMaker ドキュメントも公開できます\(`.book` および `.fm`\) はAEMリポジトリで使用できます。 DITA 文書と FrameMaker 文書の組み合わせがブックファイルに含まれている場合、AEMガイドを使用して、そのような文書も公開できます。 FrameMaker ドキュメントは、次の形式で公開できます。
+AEMガイド 1.1 以降では、FrameMakerドキュメントを公開できます\(`.book` および `.fm`\) はAEMリポジトリで使用できます。 DITA 文書とFrameMaker文書の組み合わせがブックファイルに含まれている場合、AEMガイドを使用して、そのような文書を公開することもできます。 FrameMakerドキュメントは、次の形式で公開できます。
 
 - PDF
 
@@ -20,9 +20,9 @@ AEMガイド 1.1 以降では、FrameMaker ドキュメントも公開できま�
 - EPUB
 
 
-作成者は、いくつかのリンクをクリックするだけで、出力が生成されます。 ブックファイル全体の出力を生成することも、個々の FrameMaker ファイルを選択的に公開することもできます。 出力を生成する前に、FrameMaker ファイルに変更を加えることもできます。 AEMリポジトリで.fm または.book ファイルを選択すると、 **FrameMaker で開く** ボタンをクリックします。 このボタンをクリックすると、FrameMaker で選択したファイルが開きます。
+作成者は、いくつかのリンクをクリックするだけで、出力が生成されます。 ブックファイル全体の出力を生成することも、個々の出力ファイルを選択してFrameMakerすることもできます。 出力を生成する前に、FrameMakerファイルを変更できます。 AEMリポジトリで.fm または.book ファイルを選択すると、 **「開く」FrameMaker** ボタンをクリックします。 このボタンをクリックすると、選択したファイルがFrameMakerで開きます。
 
-次の節に示す情報は、出力生成ワークフローを使用して FrameMaker ドキュメントを公開する発行者向けです。
+次の節の情報は、出力生成ワークフローを使用してFrameMakerドキュメントを公開する発行者向けです。
 
 - [出力プリセットの理解](fm-output-understand-presets.md#)
 

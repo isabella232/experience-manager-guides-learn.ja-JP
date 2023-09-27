@@ -1,10 +1,10 @@
 ---
 title: DITA-OT を使用してメタデータを出力に渡します。
-description: DITA-OT を使用してメタデータを出力に渡す方法を説明します。
+description: AEMガイドで DITA-OT 公開を使用して、メタデータを出力に渡す方法を説明します。
 exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITA-OT 公開を使用してメタデータを出力に渡すには、次の手順を実行します。
 
-1. 内 **Assets UI**&#x200B;に移動し、DITA-OT にメタデータを渡す DITA マップファイルをクリックします。
+1. Adobe Analytics の **Assets UI**&#x200B;に移動し、DITA-OT にメタデータを渡す DITA マップファイルをクリックします。
 1. メタデータフィールドを渡す出力プリセットを選択して編集します。 例えば、「PDF出力プリセット」を選択します。
 1. 選択 **DITA-OT** 生成の下 &lt;output> 選択した出力プリセットの「 」オプションを使用します。
 
@@ -33,7 +33,7 @@ DITA-OT 公開を使用してメタデータを出力に渡すには、次の手
 
    値を既に定義しているカスタムプロパティを渡すには、 [DITA-OTPDF出力でのAEMメタデータの使用](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
-1. 次の **プロパティ** ドロップダウンで、必要なカスタムプロパティとデフォルトプロパティを選択します。 例えば、「 `author`, `dc:title`、および `dc:description`. これらは標準です `metadata/properties` ファイルを作成すると作成されます。 選択したプロパティがドロップボックスの下に表示されます。
+1. 次から： **プロパティ** ドロップダウンで、必要なカスタムプロパティとデフォルトプロパティを選択します。 例えば、「 `author`, `dc:title`、および `dc:description`. これらは標準です `metadata/properties` ファイルを作成すると作成されます。 選択したプロパティがドロップボックスの下に表示されます。
 
    ![](images/selected-metadata-properties.png){width="300" align="left"}
 
