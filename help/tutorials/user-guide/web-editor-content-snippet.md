@@ -1,7 +1,7 @@
 ---
 title: データソースからコンテンツスニペットを挿入する
 description: AEM Guides のデータソースのデータを使用します。 データソースからコンテンツスニペットを挿入する方法を説明します。 トピックジェネレーターを使用してトピックを作成します。
-source-git-commit: 0293dc6e375d6a80bf35694a8e9784f0bb6d0384
+source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
 workflow-type: tm+mt
 source-wordcount: '2028'
 ht-degree: 0%

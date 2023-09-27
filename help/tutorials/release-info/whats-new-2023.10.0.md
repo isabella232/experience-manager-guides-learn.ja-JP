@@ -1,7 +1,7 @@
 ---
 title: リリースノート | 2023 年 10 月リリースのAdobe Experience Managerガイドの新機能
 description: 2023 年 10 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能と機能強化について説明します。
-source-git-commit: 18adbd41370d32b183cc4828d1d79b7183453f5e
+source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Experience Managerガイドで、 **データソース** データソース用の標準コネクタを設定する際に使用するツールです。 JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce およびElasticsearchの各データベース用のコネクタを簡単に作成できます。
 
-また、データソースコネクタを簡単に編集、再接続、複製、削除することもできます。 方法を学ぶ [ツールを使用したデータソースコネクタの設定](../install-guide/conf-data-source-connector.md).
+また、データソースコネクタを簡単に編集、再接続、複製、削除することもできます。 方法を学ぶ [ツールを使用したデータソースコネクタの設定](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![データソースパネルに表示されるデータソースコネクタ](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -33,7 +33,7 @@ Experience Managerガイドで、 **データソース** データソース用�
 
 これで、テンプレートガイドテンプレートの Velocity ツールをExperience Managerできます。 これらのツールを使用すると、データソースから取得するデータに様々な関数を適用できます。 コンテンツスニペットまたはトピックを作成する際に、テンプレートを使用できます。 この機能を使用すると、同じ機能を各データセットに手動で適用する際の時間と労力を節約できます。  また、正確な結果を得ることもできます。
 たとえば、 $mathTool を使用して数学関数を実行できます。
-方法の詳細 [データソーステンプレートでの Velocity ツールの使用](../user-guide/web-editor-content-snippet.md##use-velocity-tools).
+方法の詳細 [データソーステンプレートでの Velocity ツールの使用](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
 ## ネイティブPDFの強化
