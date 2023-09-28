@@ -1,9 +1,10 @@
 ---
 title: リリースノート | 2023 年 10 月リリースのAdobe Experience Managerガイドの新機能
 description: 2023 年 10 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能と機能強化について説明します。
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 0%
 アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、 [リリースノート](release-notes-2023.10.0.md).
 
 
-## ツールを使用したデータソースコネクタの設定
+## ユーザーインターフェイスからのデータソースコネクタの設定
 
 Experience Managerガイドで、 **データソース** データソース用の標準コネクタを設定する際に使用するツールです。 JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce およびElasticsearchの各データベース用のコネクタを簡単に作成できます。
 
-また、データソースコネクタを簡単に編集、再接続、複製、削除することもできます。 方法を学ぶ [ツールを使用したデータソースコネクタの設定](../cs-install-guide/conf-data-source-connector-tools.md).
+また、データソースコネクタを簡単に編集、再接続、複製、削除することもできます。 方法を学ぶ [ユーザーインターフェイスからデータソースコネクタを簡単に設定できます](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![データソースパネルに表示されるデータソースコネクタ](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -65,4 +66,3 @@ Experience Managerガイドは、目次 (TOC) にチャプター番号とチャ�
 Experience Managerガイドでは、Web エディタでファイルを選択し、Oxygen コネクタプラグインでファイルを編集することができるようになりました。 このオプションは、標準のサポートの一部として有効になっていません。
 
 詳しくは、 **ファイルのオプション** 内の機能の説明 [左パネル](../user-guide/web-editor-features.md#id2051EA0M0HS) 」セクションに入力します。
-

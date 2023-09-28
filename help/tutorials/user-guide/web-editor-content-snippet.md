@@ -1,13 +1,13 @@
 ---
 title: データソースからコンテンツスニペットを挿入する
 description: AEM Guides のデータソースのデータを使用します。 データソースからコンテンツスニペットを挿入する方法を説明します。 トピックジェネレーターを使用してトピックを作成します。
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2029'
 ht-degree: 0%
 
 ---
-
 
 # データソースのデータを使用する
 
@@ -23,7 +23,7 @@ A **データソース** は、組織のデータを保存および管理する�
 <summary> Cloud Services </summary>
 
 
-- 2023 年 10 月リリース以降を使用している場合は、以下の方法を参照してください。 [ツールを使用したデータソースコネクタの設定](../cs-install-guide/conf-data-source-connector-tools.md) (『Cloud Serviceのインストールと設定ガイド』) を参照してください。
+- 2023 年 10 月リリース以降を使用している場合は、以下の方法を参照してください。 [ユーザーインターフェイスからのデータソースコネクタの設定](../cs-install-guide/conf-data-source-connector-tools.md) (『Cloud Serviceのインストールと設定ガイド』) を参照してください。
 
 - 2023 年 7 月または 2023 年 9 月リリースを使用している場合は、以下の方法を参照してください。 [データソースコネクタの設定](../cs-install-guide/conf-data-source-connector.md) (『Cloud Serviceのインストールと設定ガイド』) を参照してください。
 
@@ -273,6 +273,3 @@ Velocity テンプレート内で次のツールを使用して、コネクタ�
 - `$renderTool`
 - `$resourceTool`
 - `$sortTool`
-
-
-

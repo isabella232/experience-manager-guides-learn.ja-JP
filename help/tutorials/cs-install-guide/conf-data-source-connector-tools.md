@@ -1,15 +1,17 @@
 ---
 title: ツールを使用したデータソースコネクタの設定
 description: ツールを使用してデータソースコネクタを設定する方法を説明します。
-source-git-commit: 87e907a1fbc27c9b3f8db5e4ab3c78143b03001e
+exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 
-# ツールを使用したデータソースコネクタの設定
+
+# ユーザーインターフェイスからのデータソースコネクタの設定
 
 Experience Managerガイドには、 **データソース** データソース用の標準コネクタを設定する際に使用するツールです。 JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce およびElasticsearchの各データベース用のコネクタを設定できます。
 
@@ -74,7 +76,3 @@ Experience Managerガイドには、 **データソース** データソース�
 
 
 データソースを設定すると、コネクタが「 **データソースパネル** をクリックします。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、 [データソースからコンテンツスニペットを挿入する](../user-guide/web-editor-content-snippet.md).
-
-
-
-

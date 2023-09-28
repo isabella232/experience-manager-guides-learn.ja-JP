@@ -1,10 +1,11 @@
 ---
 title: リリースノート | 2023 年 10 月リリースのAdobe Experience Managerガイドでのアップグレード手順と修正された問題
 description: バグ修正と、Adobe Experience Managerガイドの 2023 年 10 月リリースへのアップグレード方法について説明します。as a Cloud Service
-source-git-commit: 4ce9024579aeaa97e6e35ac777ee3c14f0061aa6
+exl-id: fb1b74d7-25f2-4a20-9248-44dfdabf553d
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 3%
+source-wordcount: '1017'
+ht-degree: 2%
 
 ---
 
@@ -159,8 +160,9 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 - 選択した既存の翻訳プロジェクトに新しいジョブを追加する代わりに、新しい翻訳プロジェクトが作成されます。  (10214)
 
+## 既知の問題
 
+Adobeは、2023 年 10 月リリースで次の既知の問題を特定しました。
 
-
-
+- コンテンツフラグメントの再公開が失敗します。
 
