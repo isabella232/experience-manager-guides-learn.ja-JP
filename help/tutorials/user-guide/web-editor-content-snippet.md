@@ -1,10 +1,10 @@
 ---
 title: データソースからコンテンツスニペットを挿入する
 description: AEM Guides のデータソースのデータを使用します。 データソースからコンテンツスニペットを挿入する方法を説明します。 トピックジェネレーターを使用してトピックを作成します。
-exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ A **データソース** は、組織のデータを保存および管理する�
 <details>    
 <summary>  オンプレミスソフトウェア </summary>
 
-方法を学ぶ [データソースコネクタの設定](../install-guide/conf-data-source-connector.md)  （『オンプレミスのインストールと設定ガイド』）を参照してください。
+- 4.3.1 リリース以降を使用している場合は、以下を実行する方法を確認してください。 [ユーザーインターフェイスからのデータソースコネクタの設定](../cs-install-guide/conf-data-source-connector-tools.md) （『オンプレミスのインストールと設定ガイド』）を参照してください。
+
+- 4.3 リリースを使用している場合は、以下を実行する方法を確認してください。 [データソースコネクタの設定](../cs-install-guide/conf-data-source-connector.md) （『オンプレミスのインストールと設定ガイド』）を参照してください。
 </details>
 
 

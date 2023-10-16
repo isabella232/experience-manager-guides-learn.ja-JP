@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
+source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1612'
 ht-degree: 7%
 
 ---
@@ -54,8 +54,10 @@ ht-degree: 7%
       + オンプレミス/Managed Services {#on-prem-release-notes}
          + 4.3.0 リリース {#43-release}
             + 新機能 {#43-whats-new}
+               + [4.3.1 新機能](./release-info/whats-new-4.3.1-release.md)
                + [4.3.0 新機能](./release-info/whats-new-4.3-release.md)
             + リリースノート {#43-release-notes}
+               + [4.3.1 リリースノート](./release-info/release-notes-4.3.1.md)
                + [4.3.0 リリースノート](./release-info/release-notes-4.3.md)
          + 4.2 リリース {#42-release}
             + 新機能 {#42-whats-new}
@@ -242,6 +244,7 @@ ht-degree: 7%
          + [クエリの LimitReads 数の設定](./install-guide/conf-query-limitreads.md)
          + [記事ベースの公開用パッケージのインストール](./install-guide/configure-article-based-publishing.md)
          + [データソースコネクタの設定](./install-guide/conf-data-source-connector.md)
+         + [ユーザーインターフェイスからのデータソースコネクタの設定](./install-guide/conf-data-source-connector-tools.md)
          + [[ 詳細マップエディタ ] を既定に設定する](./install-guide/conf-map-editor.md)
          + [デフォルトで@navtitle属性を含める](./install-guide/auto-add-navtitle.md)
          + [Oxygen で編集するオプションを設定します。](./cs-install-guide/conf-edit-in-oxygen.md)
@@ -322,7 +325,7 @@ ht-degree: 7%
          + [単一トピックのPDF生成を設定](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [Web エディターでの翻訳機能の設定](./cs-install-guide/conf-translation-web-editor.md)
          + [データソースコネクタの設定](./cs-install-guide/conf-data-source-connector.md)
-         + [ツールを使用したデータソースコネクタの設定](./cs-install-guide/conf-data-source-connector-tools.md)
+         + [ユーザーインターフェイスからのデータソースコネクタの設定](./cs-install-guide/conf-data-source-connector-tools.md)
          + [[ 詳細マップエディタ ] を既定に設定する](./cs-install-guide/conf-map-editor.md)
          + [デフォルトで@navtitle属性を含める](./cs-install-guide/auto-add-navtitle.md)
       + グローバルプロファイルとフォルダーレベルプロファイルの操作 {#global-folder-profiles-cs}

@@ -1,10 +1,10 @@
 ---
 title: Web エディターの機能について
 description: AEMガイドの Web エディターの機能について説明します。 Web エディターのインターフェイス（メインツールバー、セカンダリツールバー、左パネル、コンテンツ編集領域、右パネルなど）を把握します。
-exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '16066'
+source-wordcount: '16500'
 ht-degree: 0%
 
 ---
@@ -141,17 +141,62 @@ ht-degree: 0%
 
 - **属性リスト**：要素リストと同様に、要素の属性リストに表示される属性のリストとその表示名を制御できます。 次のスクリーンショットでは、要素の属性リストに表示する属性が 3 つだけ設定されています。
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+  ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-この設定では、要素に属性を追加しようとすると、リストに設定されている属性のリストのみが表示されます。
+  この設定では、要素に属性を追加しようとすると、リストに設定されている属性のリストのみが表示されます。
 
-![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+  ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+
+- **プロファイルを公開**：ナレッジベース出力の公開に使用できる公開プロファイルが含まれます。 選択した消費者タイプ用に新しいプロファイルを作成できます。 例： Salesforce。
+
+   - **Salesforce 公開プロファイルを作成するための要件**
+
+      - Salesforce 用接続アプリを作成します。 詳しくは、 [API 統合の OAuth 設定の有効化](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+
+      - 接続するアプリの設定時に、次の点を確認します。
+
+         - コールバックを指定します。
+
+           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+
+         - 次の OAuth 範囲を選択します。
+            - フルアクセス（フル）
+            - 「 API を使用してユーザーデータを管理する」を選択します (api)。
+
+  アプリが設定されると、Salesforce は **消費者キー** および **消費者の秘密鍵**.
+
+  これらは、Salesforce 公開プロファイルの作成に使用できます。
+  ![エディター設定のプロファイル](./images/create-profile-editor-settings.png){width="300" align="left"}
+
+
+
+- 公開プロファイルを作成するには、Salesforce などのナレッジベースを **サーバーの種類** ドロップダウン。 プロファイル名を入力します。 Adobe Analytics の **サイトの URL** 出力の公開に使用するコンシューマーサイトを入力し、 **消費者キー** および **消費者の秘密鍵** Salesforce などの消費者サイトが提供します。 次に、新しく作成されたプロファイルにログインします。
+
+  >[!NOTE]
+  >
+  >Experience Managerガイドで Salesforce のプロキシを設定するには、AEMで Apache HTTP Components Proxy Configuration を使用します。 方法を学ぶ [AEM Link Checker のプロキシの設定](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+
+
+  ログイン後、DITA Map の出力プリセットで「プロファイルを公開」を選択し、を使用して、選択した記事の出力を生成できます。 詳しくは、 [Web エディターからの記事ベースの公開](../install-guide/configure-article-based-publishing.md) 」を参照してください。
+
+- **検証**：このタブには、Web エディターでスキーマ検証を設定するオプションが含まれています。 次の機能を有効にできます。
+
+   - **ファイルを保存する前に検証チェックを実行する**：保存操作の前に、選択した Schematron ファイルを使用して Schematron 検証を実行する場合に選択します。 Schematron ファイルを追加するには、 +アイコンをクリックします。 選択した Schematron ファイルが表示されます。
+
+     >[!NOTE]
+     >選択した Schematron ファイルは、選択したフォルダープロファイルに対して保持されます。
+
+     ![エディター設定での検証](./images/editor-setting-validation.png){width="300" align="left"}
+これにより、選択した Schematron ファイルで定義された規則を壊すファイルを保存できなくなります。 これを選択しない場合、変更を保存する前にファイルが検証されません。
+
+   - **すべてのユーザが検証パネルでスキーマファイルを追加することを許可**：ユーザーが Web エディターの検証パネルで任意のスキーマファイルを追加できるようにする場合に選択します。 これにより、ユーザは Schematron ファイルを追加し、Schematron ファイルに対してトピックを検証できます。 これが選択されていない場合、 **スキーマトロンファイルを追加** ボタンが **検証パネル** 」をクリックします。
+
 
 - **属性を表示**：属性リストと同様に、要素の属性リストに表示する属性のリストを制御できます。 デフォルトでは、4 **属性を表示**  — オーディエンス、プラットフォーム、製品および prop は、要素の属性リストに表示されるように設定されています。 また、 **追加** アイコンをクリックします。 また、 **削除** アイコン。
 
-要素に対して定義された属性は、レイアウトビューとアウトラインビューに表示されます。
+  要素に対して定義された属性は、レイアウトビューとアウトラインビューに表示されます。
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+  ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
 - **翻訳**：このタブには、ソースラベルをターゲットバージョンに反映するオプションが含まれます。
 
