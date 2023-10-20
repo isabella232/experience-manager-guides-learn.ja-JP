@@ -1,22 +1,22 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.3.1 リリースの新機能
 description: Adobe Experience Managerガイドの 4.3.1 リリースの新機能および機能強化について説明します
-source-git-commit: 5c51ff7f52624c6403e5486e099d1262f324e523
+source-git-commit: a865630527045574ef5a96622537e767eacd9fc2
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Managerガイドの 4.3.1 リリース（2023 年 10 月）の新機能
 
-この記事では、Adobe Experience Managerガイド ( 後で *AEMガイド*) をクリックします。
+この記事では、Adobe Experience Managerガイド ( 後で *Experience Managerガイド*) をクリックします。
 
 アップグレードの手順、互換性マトリックス、およびこのリリースで修正された問題について詳しくは、 [リリースノート](./release-notes-4.3.1.md).
 
 ## データソースに接続してトピックを挿入する
 
-Experience Managerガイドは、既製のコネクタを提供し、AEMガイドを真のコンテンツハブにするのに役立ちます。 これにより、手動でのデータ追加やレプリケーションに費やす時間と労力を節約できるメリットが得られます。
+Experience Managerガイドは、データソースに接続し、Experience Managerガイドを真のコンテンツハブにするのに役立つ、標準搭載のコネクタを提供します。 これにより、手動でのデータ追加やレプリケーションに費やす時間と労力を節約できるメリットが得られます。
 
 管理者は、JIRA および SQL(MySQL、PostgreSQL、SQL Server、SQLite) などの既存の標準コネクタに加えて、MariaDB、H2DB、AdobeCommerce、Elasticsearchのデータベース用のコネクタも設定できます。 また、既定のインターフェイスを拡張して、他のコネクタを追加することもできます。
 
