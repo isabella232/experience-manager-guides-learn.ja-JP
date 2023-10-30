@@ -1,7 +1,7 @@
 ---
 title: ネイティブPDF公開機能 |バーコードを追加
 description: バーコードの追加方法を説明します。
-source-git-commit: 6cea7a92eed8f7b1d4a0763baae65ccccd71790e
+source-git-commit: 31225583f45337b209f325174176b9a4199db648
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 2%
@@ -38,7 +38,7 @@ DITA マップにリソース ID 要素を追加します。 リソース ID は
 
 オーサリングモードでリソース ID を編集することもできます。
 
-<img src="./assets/barcode-map.png" alt="バーコードを含むサンプル出力" width="700">
+<img src="./assets/barcode-map.png" alt="バーコードを含むサンプル出力" width="700" border="2px solid blue">
 
 
 ### テンプレートヘッダーにバーコードプレースホルダーを追加する
@@ -82,30 +82,30 @@ DITA マップにリソース ID 要素を追加します。 リソース ID は
 
 | タイプ | CSS 属性 | 追加の属性 |
 | ------------------------------- | ----------------------- | -------------------------- |
-| QR コード | qrcode |  |
-| PDF417 | pdf417 |  |
-| DataMatrix | data-matrix |  |
-| Aztec コード | aztec-code |  |
-| グリッドマトリックス | grid-matrix |  |
-| Maxicode | maxicode mode-4 |  |
-| マイクロ QR | microqr |  |
-| コード 1 | code-one |  |
-| Codablock F | codablockf |  |
-| GS1 データバー制限 | データバー制限 |  |
-| GS1 データバーの全方向 | データベース全方向 |  |
-| EAN-13 | ean-13 |  |
-| GS1-128 (EAN-128) | code128 | -ro-barcode-encoding:gs1; |
-| ITF-14 | itf14 |  |
-| UPC-A | upc-a |  |
-| コード 128 | code128 |  |
-| インターリーブ 2/5 | code2of5 interleaved |  |
-| POSTNET | postnet |  |
-| オランダの郵便番号 | kixcode |  |
-| Korea Post | 朝鮮ポスト |  |
-| Deutsche Post Litcode | dp-leitcode |  |
-| オーストラリアの投稿 | auspost |  |
-| ログマーズ | logmars |  |
-| 薬所 | 薬局 |  |
-| USPS OneCode （インテリジェントメール） | usps-onecode |  |
+| QR コード | qrcode |                            |
+| PDF417 | pdf417 |                            |
+| DataMatrix | data-matrix |                            |
+| Aztec コード | aztec-code |                            |
+| グリッドマトリックス | grid-matrix |                            |
+| Maxicode | maxicode mode-4 |                            |
+| マイクロ QR | microqr |                            |
+| コード 1 | code-one |                            |
+| Codablock F | codablockf |                            |
+| GS1 データバー制限 | データバー制限の |                            |
+| GS1 データバーの全方向 | データベース全方向 |                            |
+| EAN-13 | ean-13 |                            |
+| GS1-128 (EAN-128) | code128 | -ro-barcode-encoding: gs1; |
+| ITF-14 | itf14 |                            |
+| UPC-A | upc-a |                            |
+| コード 128 | code128 |                            |
+| インターリーブ 2/5 | code2of5 interleaved |                            |
+| POSTNET | postnet |                            |
+| Datch Post Kixcode | kixcode |                            |
+| Korea Post | 朝鮮ポスト |                            |
+| Deutsche Post Litcode | dp-leitcode |                            |
+| オーストラリアの投稿 | auspost |                            |
+| ログマーズ | logmars |                            |
+| 薬所 | 薬局 |                            |
+| USPS OneCode （インテリジェントメール） | usps-onecode |                            |
 
 
