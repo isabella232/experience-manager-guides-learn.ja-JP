@@ -2,7 +2,7 @@
 title: ネイティブPDF公開機能 |テンプレートテンプレートのPDFコンポーネント
 description: テンプレートテンプレートの様々なコンポーネントと、PDFをカスタマイズして設定する方法について説明します。
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 7fe45a2bb55e9cb72518edd3cb2aa81b99612613
 workflow-type: tm+mt
 source-wordcount: '4376'
 ht-degree: 0%
@@ -412,11 +412,11 @@ AEMガイドには、次の標準の変数が用意されています。
 追加する場合 `${lng:<variable name>}` 「段落」セクションに追加すると、出力の段落内の相互参照に、ローカライズされたテキストとページ番号が含まれます。\
 例えば、次のスクリーンショットは、ドイツ語で「View on page 1」と「Einzelheiten finden Sie auf der Seite 1」をクロスリファレンスとして示しています。
 
-<img src="./assets/english-output-corss-reference.png" alt="プラグラ内の相互参照の英語出力" width ="800">
+<img src="./assets/english-output-corss-reference.png" alt="プラグラ内の相互参照の英語出力" width ="800" border="2px solid blue">
 
 *段落内での相互参照（英語で公開される場合）。*
 
-<img src="./assets/german-output-corss-reference.png" alt="プラグラ内の相互参照のドイツ出力" width ="800">
+<img src="./assets/german-output-corss-reference.png" alt="プラグラ内の相互参照のドイツ出力" width ="800" border="2px solid blue">
 
 *段落内の相互参照（ドイツ語で公開される場合）。*
 
