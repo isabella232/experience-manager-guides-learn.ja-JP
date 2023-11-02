@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
+source-git-commit: a9772cdde6161923d28be806407931859d9918d1
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1617'
 ht-degree: 7%
 
 ---
@@ -20,27 +20,30 @@ ht-degree: 7%
       + Cloud Services {#cloud-release-notes}
          + [デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 年リリース {#2023-releases}
-            + 10 月リリース {#2310-release}
-               + [新機能](./release-info/whats-new-2023.10.0.md)
-               + [リリースノート](./release-info/release-notes-2023.10.0.md)
-            + 9 月リリース {#2309-release}
-               + [新機能](./release-info/whats-new-2023.9.0.md)
-               + [リリースノート](./release-info/release-notes-2023.9.0.md)
-            + 7 月リリース {#2307-release}
-               + [新機能](./release-info/whats-new-2023.7.0.md)
-               + [リリースノート](./release-info/release-notes-2023.7.0.md)
-            + 6 月リリース {#2306-release}
-               + [新機能](./release-info/whats-new-2023.6.0.md)
-               + [リリースノート](./release-info/release-notes-2023.6.0.md)
-            + 4 月リリース {#2304-release}
-               + [新機能](./release-info/whats-new-2023.4.0.md)
-               + [リリースノート](./release-info/release-notes-2023.4.0.md)
-            + 3 月リリース {#2303-release}
-               + [新機能](./release-info/whats-new-2023.3.0.md)
-               + [リリースノート](./release-info/release-notes-2023.3.0.md)
-            + 2 月リリース {#2302-release}
-               + [新機能](./release-info/whats-new-2023.2.0.md)
-               + [リリースノート](./release-info/release-notes-2023.2.0.md)
+         + 11 月リリース {#2311-release}
+            + [新機能](./release-info/whats-new-2023.11.0.md)
+            + [リリースノート](./release-info/release-notes-2023.11.0.md)
+         + 10 月リリース {#2310-release}
+            + [新機能](./release-info/whats-new-2023.10.0.md)
+            + [リリースノート](./release-info/release-notes-2023.10.0.md)
+         + 9 月リリース {#2309-release}
+            + [新機能](./release-info/whats-new-2023.9.0.md)
+            + [リリースノート](./release-info/release-notes-2023.9.0.md)
+         + 7 月リリース {#2307-release}
+            + [新機能](./release-info/whats-new-2023.7.0.md)
+            + [リリースノート](./release-info/release-notes-2023.7.0.md)
+         + 6 月リリース {#2306-release}
+            + [新機能](./release-info/whats-new-2023.6.0.md)
+            + [リリースノート](./release-info/release-notes-2023.6.0.md)
+         + 4 月リリース {#2304-release}
+            + [新機能](./release-info/whats-new-2023.4.0.md)
+            + [リリースノート](./release-info/release-notes-2023.4.0.md)
+         + 3 月リリース {#2303-release}
+            + [新機能](./release-info/whats-new-2023.3.0.md)
+            + [リリースノート](./release-info/release-notes-2023.3.0.md)
+         + 2 月リリース {#2302-release}
+            + [新機能](./release-info/whats-new-2023.2.0.md)
+            + [リリースノート](./release-info/release-notes-2023.2.0.md)
          + 2022 年リリース {#2022-releases}
             + [11 月のリリースノート](./release-info/release-notes-2022.11.0.md)
             + [10 月のリリースノート](./release-info/release-notes-2022.10.0.md)
@@ -267,7 +270,7 @@ ht-degree: 7%
                + [TOC エントリとトピックコンテンツにカスタムスタイルを適用](./native-pdf/custom-style-toc.md)
                + [カスタムブックマークをPDF出力に追加](./native-pdf/add-custom-bookmark.md)
                + [JavaScript を使用したコンテンツやスタイルの操作](./native-pdf/use-javascript-content-style.md)
-               + [脚注でのカスタムスタイルの使用](./native-pdf/footnote-number-style.md)
+               + [脚注へのスタイルの適用](./native-pdf/footnote-number-style.md)
          + [ネイティブPDF公開用の JVM フラグの設定](./native-pdf/configure-jvm-flags.md)
          + [トピックとコンテンツフラグメントの間のマッピングの作成](./install-guide/conf-content-fragment-mapping.md)
       + カスタムワークフローの操作 {#custom-workflow}
@@ -372,7 +375,7 @@ ht-degree: 7%
       + [ネイティブPDFパブリッシングの学習 — 第 1 部](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
       + [ネイティブPDF出版の学習 — Hands on Lab - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
    + 記事 {#kb-articles}
-      + オーサリング {#authoring}
+      + オーサリング{#authoring}
          + レポート {#reports}
             + [DITA コンテンツのメタデータの管理](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          + Web エディター {#webeditor}

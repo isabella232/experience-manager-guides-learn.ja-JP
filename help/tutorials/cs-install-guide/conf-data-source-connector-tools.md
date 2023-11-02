@@ -1,19 +1,17 @@
 ---
 title: ツールを使用したデータソースコネクタの設定
 description: ツールを使用してデータソースコネクタを設定する方法を説明します。
-exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-
-
 # ユーザーインターフェイスからのデータソースコネクタの設定
 
-Experience Managerガイドには、 **データソース** データソース用の標準コネクタを設定する際に使用するツールです。 JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce およびElasticsearchの各データベース用のコネクタを設定できます。
+Experience Managerガイドには、 **データソース** データソース用の標準コネクタを設定する際に使用するツールです。 JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce、Elasticsearch、および汎用 REST クライアントコネクタを設定できます。
 
 コネクタを設定するには、次の手順を実行します。
 

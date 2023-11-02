@@ -1,13 +1,13 @@
 ---
 title: 出力生成設定の指定
-description: 出力生成設定の設定方法を説明します
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+description: 出力生成設定の設定方法を説明します。
+exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '5252'
+source-wordcount: '5340'
 ht-degree: 1%
 
 ---
-
 
 # 出力生成設定の指定 {#id181AI0B0E30}
 
@@ -17,7 +17,7 @@ AEMガイドには、出力生成プロセスをカスタマイズするため�
 
 DITA マップダッシュボードの「ベースライン」タブを非表示にするには、次の手順を実行します。
 
-1. に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。
+1. に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。
 1. 設定ファイルで、マップダッシュボード上のベースラインタブを設定する次の\（プロパティ\）詳細を指定します。
 
 | PID | プロパティキー | プロパティの値 |
@@ -66,9 +66,7 @@ DITA コンテンツを含むAEMサイトがある場合は、DITA コンテン�
 AEMガイドでは、次の形式での出力の作成をサポートしています。
 
 - AEM Site
-
 - PDF
-
 - HTML 5
 - EPUB
 - DITA-OT によるカスタム出力
@@ -80,6 +78,7 @@ AEM Site の出力に対して、出力タスクごとに異なるデザイン�
 >[!TIP]
 >
 > 詳しくは、 *AEM Site Publishing* AEM Site 出力の作成に関するベストプラクティスに関する節を参照してください。
+
 
 ### 出力を生成するためのデザインテンプレートのカスタマイズ {#customize_xml-add-on}
 
@@ -107,7 +106,7 @@ AEMガイドに付属しているデフォルトのデザインテンプレー�
 
    | プロパティ | 説明 |
    |--------|-----------|
-   | `landingPageTemplate`、`searchPageTemplate`、`topicPageTemplate`、`shadowPageTemplate` | 次を指定： `cq:Template` ノードを使用して、これらの対応するページ（landing、search および topic）を検索できます。 デフォルトでは、 `cq:Template` ノードは、 `/libs/fmdita/templates/default/cqtemplates` ノード。 このノードは、ランディングページ、検索ページ、トピックページの構造とプロパティを定義します。<br> この `shadowPageTemplate` を使用して、まとまったコンテンツを最適化します。 このプロパティの値を次の値に設定する必要があります。 `fmdita/templates/default/cqtemplates/shadowpage` <br> **注意：** 次の項目の値を指定する必要があります： `topicPageTemplate`. この `landingPageTemplate` および `searchPageTemplate` はオプションのプロパティです。 検索およびランディングページを生成しない場合は、これらのプロパティを指定しないでください。 |
+   | `landingPageTemplate`、`searchPageTemplate`、`topicPageTemplate`、`shadowPageTemplate` | 次を指定します。 `cq:Template` ノードを使用して、これらの対応するページ（landing、search および topic）を検索できます。 デフォルトでは、 `cq:Template` ノードを次の場所に配置します。 `/libs/fmdita/templates/default/cqtemplates` ノード。 このノードは、ランディングページ、検索ページ、トピックページの構造とプロパティを定義します。<br> The `shadowPageTemplate` を使用して、まとまったコンテンツを最適化します。 このプロパティの値を次の値に設定する必要があります。 `fmdita/templates/default/cqtemplates/shadowpage` <br> **注意：** 次の項目の値を指定する必要があります： `topicPageTemplate`. The `landingPageTemplate` および `searchPageTemplate` はオプションのプロパティです。 検索およびランディングページを生成しない場合は、これらのプロパティを指定しないでください。 |
    | `title` | デザインテンプレートのわかりやすい名前。 |
    | `topicContentNode` | トピックページ内の DITA コンテンツを含むノードの場所。 パスはトピックページに対する相対パスです。 |
    | `topicHeadNode` | DITA コンテンツから派生した head 値（または metadata）を含むノードの場所。 パスはトピックページに対する相対パスです。 |
@@ -136,11 +135,11 @@ AEM Site 出力を生成する際、URL の生成方法は、コンテンツの�
 >
 > さらに、AEM Site 出力の URL 内に一連の文字のみを許可するようにルールを設定することもできます。 詳しくは、 [トピックを作成し、AEM Site 出力を公開するためのファイル名のサニタイズルールを設定する](#id2164D0KD0XA).
 
-に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、次の\（プロパティ\）の詳細を指定して、AEM Site 出力で URL の生成を設定します。
+に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。 設定ファイルで、次の\（プロパティ\）の詳細を指定して、AEM Site 出力で URL の生成を設定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | ブール値\(true/false\)。 ページタイトルを使用して出力を生成する場合は、このプロパティを true に設定します。 デフォルトでは、ファイル名を使用するように設定されています。<br> **デフォルト値**:false |
+| `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | ブール値\(true/false\)。 ページタイトルを使用して出力を生成する場合は、このプロパティを true に設定します。 デフォルトでは、ファイル名を使用するように設定されています。<br> **デフォルト値**: false |
 
 ### トピックを作成し、AEM Site 出力を公開するためのファイル名のサニタイズルールを設定する {#id2164D0KD0XA}
 
@@ -154,7 +153,7 @@ AEM Site 出力を生成する際、URL の生成方法は、コンテンツの�
 >
 > 有効な特殊文字のリストを設定しないと、ファイルの作成プロセスで予期しない結果が生じる場合があります。
 
-に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、次の\(property\) 詳細を指定して、ファイル名とAEM Site 出力で有効な特殊文字を設定します。
+に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。 設定ファイルで、次の\(property\) 詳細を指定して、ファイル名とAEM Site 出力で有効な特殊文字を設定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
@@ -164,8 +163,8 @@ AEM Site 出力を生成する際、URL の生成方法は、コンテンツの�
 
 | プロパティキー | プロパティの値 |
 |------------|--------------|
-| `nodename.uselower` | ブール値\(true/false\)。<br> **デフォルト値**:true |
-| `nodename.separator` | 任意の文字。 <br> **デフォルト値**:\_ *\（アンダースコア\）* |
+| `nodename.uselower` | ブール値\(true/false\)。<br> **デフォルト値**: true |
+| `nodename.separator` | 任意の文字。 <br> **デフォルト値**: \_ *\（アンダースコア\）* |
 | `nodename.maxlength` | 整数値。<br> **デフォルト値**:50 |
 
 ### AEM Site ノード構造の統合を設定
@@ -174,9 +173,9 @@ AEM Site 出力を生成すると、トピック内のすべての要素のノ�
 
 ![](assets/deep-nested-aem-site-node-structure.png)
 
-上記のスナップショットでは、 `p` 要素とその後続のサブ要素、および同様の構造が、トピックで使用される他のすべての要素に対して作成されます。
+上記のスナップショットでは、各 `p` 要素とその後続のサブ要素、および同様の構造が、トピックで使用される他のすべての要素に対して作成されます。
 
-AEMガイドを使用すると、AEM Site 出力のノード構造を内部で作成する方法を設定できます。 指定した要素でノード構造を統合できます。つまり、メイン要素と見なされる要素を定義し、その中のすべてのサブ要素をメイン要素と結合できます。 例えば、 `p` 要素を選択し、その中に現れる任意の要素を `p` 要素がメインと結合されます `p` 要素。 内のサブ要素に対して別のメモは作成されません。 `p` 要素。 次のスナップショットは、フラット化されたノード構造を示しています： `p` 要素：
+AEMガイドを使用すると、AEM Site 出力のノード構造を内部で作成する方法を設定できます。 指定した要素でノード構造を統合できます。つまり、メイン要素と見なされる要素を定義し、その中のすべてのサブ要素をメイン要素と結合できます。 例えば、 `p` 要素を選択し、その中に現れる任意の要素を `p` 要素がメインと結合されます `p` 要素を選択します。 内のサブ要素に対して別のメモは作成されません。 `p` 要素を選択します。 次のスナップショットは、フラット化されたノード構造を示しています： `p` 要素：
 
 ![](assets/flattened-aem-site-node-structure.png)
 
@@ -186,7 +185,7 @@ AEM Site のノード構造を統合するには、次の手順を実行しま�
 
 1. のオーバーレイ `libs` ノードを `apps` ノードに移動し、 elementmapping.xml ファイルを開きます。
 
-1. を `<flatten>true</flatten>` プロパティを含めます。 例えば、 `p` 要素を選択し、 `p` 要素を次に示します。
+1. 次を追加： `<flatten>true</flatten>` プロパティを含めます。 例えば、 `p` 要素を選択し、「flatten」属性を `p` 要素を次に示します。
 
    ```XML
    <ditaelement>
@@ -202,9 +201,9 @@ AEM Site のノード構造を統合するには、次の手順を実行しま�
 
    >[!NOTE]
    >
-   > デフォルトでは、flatten ノードのプロパティは `p` 要素。
+   > デフォルトでは、flatten ノードのプロパティは `p` 要素を選択します。
 
-1. に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。
+1. に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。
 1. 設定ファイルで、次の\(property\) 詳細を指定します。
 
    | PID | プロパティキー | プロパティの値 |
@@ -212,7 +211,7 @@ AEM Site のノード構造を統合するには、次の手順を実行しま�
    | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | ブール値\(true/false\)。<br> **デフォルト値**: `false` |
 
 
-これで、AEM Site の出力を生成する際に、 `p` 要素が統合され、 `p` 要素自体。 新しい統合プロパティは、 `p` 要素を作成します。
+これで、AEM Site の出力を生成する際に、 `p` 要素がフラット化され、 `p` 要素自体。 新しい統合プロパティは、 `p` 要素を使用します。
 
 ![](assets/flatten-aem-site-note-props-crxde.png)
 
@@ -234,24 +233,24 @@ AEM Site のノード構造を統合するには、次の手順を実行しま�
 
 >[!NOTE]
 >
-> 検索は、 `<flatten>`属性が true に設定されている。 デフォルトでは、AEMガイドには `<flatten>` 属性は、 &lt;p> &lt;ul> &lt;li>. ただし、一部のカスタム要素を作成している場合は、 `<flatten>` elementmapping.xml ファイルの属性を true に設定します。
+> 検索が機能するのは、 `<flatten>`属性が true に設定されている。 デフォルトでは、AEMガイドには `<flatten>` 属性を true に設定すると、 &lt;p> &lt;ul> &lt;li>. ただし、一部のカスタム要素を作成している場合は、 `<flatten>` elementmapping.xml ファイルの属性を true に設定します。
 
 **AEM Site ノード構造のフラット化を防ぐ**
 
-AEM Site の出力で統合するノードを指定する場合と同様に、この設定から除外する要素を指定することもできます。 例えば、 `body` 要素が必要ですが、 `table` 内の要素 `body` を統合する場合、「次を除外する」プロパティを `table` 要素の定義。
+AEM Site の出力で統合するノードを指定する場合と同様に、この設定から除外する要素を指定することもできます。 例えば、 `body` 要素が必要ですが、次の要素は不要です。 `table` 内の要素 `body` を統合する場合、「次を除外する」プロパティを `table` 要素の定義。
 
-を除外するには、 `table` 要素をフラット化から、 `table` 要素の定義：
+を除外するには、以下を実行します。 `table` 要素をフラット化から、 `table` 要素の定義：
 
 `<preventancestorflattening>true|false</preventancestorflattening>`
 
 ### AEM Site 出力で削除されたページのバージョン管理を設定します
 
-を使用してAEM Site 出力を生成する場合 **およびを削除**&#x200B;作成&#x200B;****オプションが「既存の出力ページ」設定で選択されている場合、削除するページのバージョンが作成されます。 削除する前にバージョンの作成を停止するようにシステムを設定できます。
+を使用してAEM Site 出力を生成する場合 **とを削除します。**&#x200B;作成&#x200B;****オプションが「既存の出力ページ」設定で選択されている場合、削除するページのバージョンが作成されます。 削除する前にバージョンの作成を停止するようにシステムを設定できます。
 
 削除するページのバージョンの作成を停止するには、次の手順を実行します。
 
-1. に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。
-1. 設定ファイルで、次の\(property\) 詳細を指定して **削除されたページのバージョンを作成しない** オプション：
+1. に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。
+1. 設定ファイルで、次の\(property\) 詳細を指定して、 **削除されたページのバージョンを作成しない** オプション：
 
    | PID | プロパティキー | プロパティの値 |
    |---|------------|--------------|
@@ -260,6 +259,12 @@ AEM Site の出力で統合するノードを指定する場合と同様に、�
    >[!NOTE]
    >
    > このオプションを選択すると、ユーザーはバージョンを作成せずに、任意のページを直接削除できます。 このオプションが選択されていない場合、ページが削除される前にバージョンが作成されます。
+
+### 設定ガイドを使用してカスタムリライターをExperience Managerする {#custom-rewriter}
+
+Experience Managerガイドにカスタム sling が含まれている [**書き直し**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) クロスマップ（2 つの異なるマップのトピック間のリンク）の場合に生成されるリンクを処理するためのモジュール。 このリライター設定は、次のパスにインストールされます。 <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`。
+
+コードベースに別のカスタム Sling リライターがある場合は、 `'order'` 値が 50 より大きい (Experience Managerガイド sling rewriter が使用する ) `'order'` 50.  これを上書きするには、 50 より大きい値が必要です。 詳しくは、 [出力書き換えパイプライン](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 
 ## DITA-OT を使用した出力の公開でのメタデータの使用 {#id191LF0U0TY4}
@@ -295,13 +300,13 @@ AEMガイドでは、DITA-OT を使用して出力を公開する際にカスタ
 
 1. 公開した出力で使用するカスタムメタデータを追加します。 例えば、次の手順を使用してオーディエンスメタデータを追加します。
 
-   1. 次の **フォームを作成** コンポーネントリスト、ドラッグ&amp;ドロップ **1 行のテキスト** コンポーネントをフォームに貼り付けます。
+   1. 次から： **フォームを作成** コンポーネントリスト、ドラッグ&amp;ドロップ **1 行のテキスト** コンポーネントをフォームに貼り付けます。
 
    2. 新しいフィールドを選択して、 **設定** 」と入力します。
 
-   3. 内 **フィールドラベル**、メタデータ名として「オーディエンス」を入力します。
+   3. Adobe Analytics の **フィールドラベル**、メタデータ名として「オーディエンス」を入力します。
 
-   4. 内 **プロパティにマッピング** を設定する際に、と指定します。/jcr:content/metadata/&lt;name of=&quot;&quot; the=&quot;&quot; metadata=&quot;&quot;>. この例では、をに設定します。/jcr:content/metadata/audience.
+   4. Adobe Analytics の **プロパティにマッピング** を設定する際に、と指定します。/jcr:content/metadata/&lt;name of=&quot;&quot; the=&quot;&quot; metadata=&quot;&quot;>. この例では、をに設定します。/jcr:content/metadata/audience.
 
    これらの手順を使用して、必要なすべてのメタデータパラメーターを追加します。
 
@@ -320,12 +325,12 @@ AEMガイドでは、DITA-OT を使用して出力を公開する際にカスタ
 
    >[!NOTE]
    >
-   > metadataList ファイルには、 **プロパティ** マップダッシュボードの DITA マップのドロップダウンリスト デフォルトでは、このファイルには docstate、dc:language、dc:description、dc:title の 4 つのプロパティがリストされています。
+   > metadataList ファイルには、 **プロパティ** マップダッシュボードの DITA マップのドロップダウンリスト。 デフォルトでは、このファイルには docstate、dc:language、dc:description、dc:title の 4 つのプロパティがリストされています。
 
 1. メタデータスキーマFormsページに追加したカスタムメタデータを追加します。 この例では、デフォルトリストの末尾にオーディエンスパラメーターを追加します。
 
 
-カスタムメタデータが DITA マップコンソールの **プロパティ** 」ドロップダウンリストから選択できます。
+現在は、カスタムメタデータが DITA マップコンソールの **プロパティ** 」ドロップダウンリストから選択できます。
 
 最後に、パブリッシャーは、公開済み出力にカスタムメタデータを含める必要があります。 出力の生成時にカスタムメタデータを処理するには、次の手順を実行します。
 
@@ -341,11 +346,11 @@ AEMガイドでは、DITA-OT を使用して出力を公開する際にカスタ
 
 1. DITA マップファイルをクリックして、DITA マップコンソールを開きます。
 
-1. 内 **出力プリセット** 「 」タブで、出力の生成に使用する出力プリセットを選択します。
+1. Adobe Analytics の **出力プリセット** 「 」タブで、出力の生成に使用する出力プリセットを選択します。
 
 1. クリック **編集**.
 
-1. 次の **プロパティ** ドロップダウンリストから、公開プロセスに渡すプロパティを選択します。
+1. 次から： **プロパティ** ドロップダウンリストから、公開プロセスに渡すプロパティを選択します。
 
    ![](assets/props-in-publish-output.PNG)
 
@@ -356,8 +361,8 @@ AEMガイドでは、DITA-OT を使用して出力を公開する際にカスタ
 
 DITA-OT に渡されるメタデータ値を検証するには、クラウド対応 JAR を使用したローカル環境を使用できます。 クラウド上のローカルファイルシステムにアクセスできないので、メタデータファイルを検証する方法は、cloud ready jar を使用する場合のみです。
 
-- ファイル名：metadata.xml
-- ファイルの場所：crx-quickstart/profiles/ditamaps/&lt;ditamap-1234>
+- ファイル名： metadata.xml
+- ファイルの場所： crx-quickstart/profiles/ditamaps/&lt;ditamap-1234>
 
   metadata.xml にアクセスするには：
 
@@ -388,8 +393,8 @@ DITA-OT に渡されるメタデータ値を検証するには、クラウド対
   ```
 
 
-- isArray:メタデータが複数値\(Array\) であるかどうかを定義する Boolean 属性。 値はセミコロンで区切られます。
-- パス ID :一時ディレクトリに保存されたファイルの絶対パス。
+- isArray：メタデータが複数値\(Array\) であるかどうかを定義するブール型属性。 値はセミコロンで区切られます。
+- パス ID：一時ディレクトリに保存されたファイルの絶対パス。
 
 >[!NOTE]
 >
@@ -421,7 +426,7 @@ AEMガイド内の DITA 要素は、対応するAEMコンポーネントにマ�
    </ditaelement>
    ```
 
-   上記の例では、 `substeps` DITA 要素は、 `dita/components/ditaolist` コンポーネント。
+   上記の例では、すべて `substeps` DITA 要素は、 `dita/components/ditaolist` コンポーネント。
 
 1. DITA 要素が名前に基づいて一致を見つけられない場合、 `class` が完了しました。 次に例を示します。
 
@@ -455,11 +460,11 @@ AEMガイド内の DITA 要素は、対応するAEMコンポーネントにマ�
 
    `type` は次の値を取ります。
 
-   - 複合：要素とコンポーネント *子要素のマッピングは継続されます* 同様に。
+   - COMPOSITE：要素からコンポーネントへ *子要素のマッピングは継続されます* 同様に。
 
-   - スタンドアロン：現在の要素の子要素は *これ以上マッピングされません*.
+   - STANDALONE：現在の要素の子要素は次のとおりです。 *これ以上マッピングされません*.
 
-   上記の例で、 `<title>` 要素に子要素があり、他のコンポーネントにマッピングされません。 のコンポーネント `<title>` 要素は、内のすべての子要素をレンダリングします。 `<title>` 要素。
+   上記の例で、 `<title>` 要素に子要素があり、他のコンポーネントにマッピングされません。 のコンポーネント `<title>` 要素は、内のすべての子要素をレンダリングします。 `<title>` 要素を選択します。
 
 1. 1 つの DITA 要素にマッピングされた複数のコンポーネントがある場合は、その要素に最も一致するコンポーネントが選択されます。 最適一致コンポーネントを選択するには、DITA 要素のドメインおよび構造の特殊化を考慮します。
 
@@ -495,7 +500,7 @@ AEMガイド内の DITA 要素は、対応するAEMコンポーネントにマ�
    </ditaelement>
    ```
 
-   上記の要素のマッピングは、要素の XML マークアップ全体を指定します `<svg-container>` は、 `data` を出力ノードに設定します。
+   上記の要素のマッピングは、要素の XML マークアップ全体を指定します `<svg-container>` はという名前のプロパティの値として保存されます `data` を出力ノードに設定します。
 
 1. 出力生成プロセスでパスの解決を処理するための特別な属性マッピングがあります。 次に例を示します。
 
@@ -507,20 +512,20 @@ AEMガイド内の DITA 要素は、対応するAEMコンポーネントにマ�
    </attributemap>
    ```
 
-   上記の `attributemap`、 `href` 属性が DITA 要素内の次の名前のノードプロパティにマッピングされます： `fileReference`. 今後 `ispath` が `true`出力生成プロセスはこのパスを解決し、次に `fileReference` ノードプロパティ。
+   上記の `attributemap`、 `href` 属性が DITA 要素内の次の名前のノードプロパティにマッピングされます： `fileReference`. 今後 `ispath` が `true`出力生成プロセスは、このパスを解決し、次に `fileReference` ノードプロパティ。
 
    この解決方法は、 `rel` 属性のマッピングに含まれる属性。
 
-   - If `rel=source`、の値 `href` は、現在処理中の DITA ソースファイルに関して解決されます。 の値 `href` が解決され、 `fileReference` プロパティ。
+   - 次の場合 `rel=source`、の値 `href` は、現在処理中の DITA ソースファイルに関して解決されます。 の値 `href` が解決され、 `fileReference` プロパティ。
 
-   - If `rel=target`、の値 `href` は、ルート公開の場所を基準に解決されます。 の値 `href` が解決され、 `fileReference` プロパティ。
+   - 次の場合 `rel=target`、の値 `href` は、ルート公開の場所を基準に解決されます。 の値 `href` が解決され、 `fileReference` プロパティ。
 
    パス属性で前処理や解決をおこなわない場合は、 `ispath` 属性。 値はそのままコピーされ、コンポーネントは必要な解像度を実行できます。
 
 
 ### DITA 要素スキーマ
 
-次に、 `elementmapping.xml` ファイル：
+次に、DITA 要素のスキーマの例を示します。 `elementmapping.xml` ファイル：
 
 ```XML
 <ditaelement>        
@@ -549,28 +554,28 @@ AEMガイド内の DITA 要素は、対応するAEMコンポーネントにマ�
 | `<ditaelement>` | 各マッピング要素の最上位ノード。 |
 | `<class>` | コンポーネントを書き込むターゲット DITA 要素の class 属性。<br> 例えば、DITA トピックの class 属性は次のようになります。 <br> `- topic/topic` |
 | `<componentpath>` | マッピングされたAEMコンポーネントの CRXDE パス。 |
-| `<type>` | 可能な値：<br> -   **複合**:子要素も処理します <br> -   **スタンドアロン**:子要素の処理をスキップします |
+| `<type>` | 可能な値：<br> -   **複合**：子要素も処理します <br> -   **スタンドアロン**：子要素の処理をスキップします |
 | `<attributeprop>` | シリアル化された DITA 属性および値をプロパティとしてAEMノードにマッピングするために使用されます。 例えば、 `<note type="Caution">` 要素と、この要素にマッピングされるコンポーネントには、 `<attributeprop>attr_t</ attributeprop>`に値がセットされた場合、ノードの属性と値は `attr_t` 対応するAEMノードのプロパティ\( `attr_t->type="caution"`\) です。 |
-| `<textprop>propname_t</textprop>` | 保存する `getTextContent()` 次で定義されたプロパティに出力 `propname_t.` <br> **注意：** これは最適化されたプロパティです。 |
+| `<textprop>propname_t</textprop>` | を保存します。 `getTextContent()` 次で定義されたプロパティに出力 `propname_t.` <br> **注意：** これは最適化されたプロパティです。 |
 | `<xmlprop>propname_x </xmlprop>` | このノードのシリアル化された XML を、 `propname_x.<br> `**注意：** これは最適化されたプロパティです。 |
 | `<xpath>` | 要素マッピングに XPath 要素が指定されている場合は、要素名とクラスともに XPath 条件も満たされ、コンポーネントマッピングが使用されます。 |
-| `<target>` | DITA 要素の場所を指定した場所に配置します。<br> 可能な値： <br> - **head**:head ノードの下 <br> - **テキスト**:段落ノードの下 |
+| `<target>` | DITA 要素の場所を、指定した場所の crx リポジトリに配置します。<br> 可能な値： <br> - **head**:head ノードの下 <br> - **テキスト**：段落ノードの下 |
 | `<wrapelement>` | コンテンツを折り返すHTML要素。 |
 | `<wrapclass>` | プロパティの要素の値 `wrapclass.` |
 | `<attributemap>` | 1 つ以上の `<attribute>` ノード。 |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | DITA 属性をAEMプロパティにマッピングします。 <br> -   **`from`**:DITA 属性名 <br> -   **`to`**:AEMコンポーネントのプロパティ名 <br> -   **`ispath`**:属性がパス値\( 例： *画像*\) <br> -   **`rel`**:パスがソースまたはターゲットの場合 <br> **注意：** If `attrname` 次で始まる `%`，次にマップ `attrname minus '%'` 「 」を prop に設定 `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | DITA 属性をAEMプロパティにマッピングします。 <br> -   **`from`**:DITA 属性名 <br> -   **`to`**: AEMコンポーネントのプロパティ名 <br> -   **`ispath`**：属性がパス値\( 例： *画像*\) <br> -   **`rel`**：パスがソースまたはターゲットの場合は <br> **注意：** 次の場合 `attrname` 次で始まる `%`を、次にマップ `attrname minus '%'` 「 」を prop に設定 `propname`&#39;. |
 
 **追加情報**
 
 - デフォルトの要素マッピングを上書きする予定がある場合は、デフォルトで変更を加えないことをお勧めします。 `elementmapping.xml` ファイル。 新しいマッピング XML ファイルを作成し、作成する別の場所（できれば作成するカスタムアプリフォルダー内）にファイルを配置する必要があります。
 
-- 内 `elementmapping.xml` ファイル内には、fmdita/components/dita/wrapper コンポーネントを参照するマッピングエントリが多数あります。 ラッパーは、サイトノードのプロパティを使用して比較的シンプルな DITA 構成をレンダリングし、関連するHTMLを生成する汎用コンポーネントです。 使用する `wrapelement` プロパティを使用して、含まれるタグを生成し、子レンダリングを対応するコンポーネントに委任します。 これは、コンテナコンポーネントのみが必要な場合に便利です。 のような特定のコンテナタグをレンダリングする新しいコンポーネントを作成する代わりに、 `div` または `p`を使用する場合、Wrapper コンポーネントを `wrapelement` および `wrapclass` プロパティを使用して同じ効果を得ることができます。
+- Adobe Analytics の `elementmapping.xml` ファイル内には、fmdita/components/dita/wrapper コンポーネントを参照するマッピングエントリが多数あります。 ラッパーは、サイトノードのプロパティを使用して比較的シンプルな DITA 構成をレンダリングし、関連するHTMLを生成する汎用コンポーネントです。 使用するのは `wrapelement` プロパティを使用して、含まれるタグを生成し、子レンダリングを対応するコンポーネントに委任します。 これは、コンテナコンポーネントのみが必要な場合に便利です。 のような特定のコンテナタグをレンダリングする新しいコンポーネントを作成する代わりに、 `div` または `p`を使用する場合、Wrapper コンポーネントを `wrapelement` および `wrapclass` プロパティを使用して同じ効果を得ることができます。
 
 - String JCR プロパティに大量のテキストを保存することはお勧めしません。 出力生成で最適化されたプロパティタイプの計算を使用すると、大きなテキストコンテンツが文字列タイプとして保存されなくなります。 代わりに、特定のしきい値を超えるコンテンツを保存する必要がある場合、プロパティのタイプはバイナリに変更されます。 デフォルトでは、このしきい値は 512 バイトに設定されていますが、Configuration Manager で変更できます\(*com.adobe.fmdita.config.ConfigManager*\) **バイナリしきい値として保存** 設定。
 
 - 要素マッピングの一部の\（すべてではなく）を上書きする場合は、 `elementmapping.xml` ファイル。 新しい XML マッピングファイルを作成し、上書きする要素のみを定義する必要があります。
 
-- カスタムの場所に XML ファイルを作成した後、 `Override Element Mapping` 設定 `com.adobe.fmdita.config.ConfigManager` バンドル。
+- カスタムの場所に XML ファイルを作成した後、 `Override Element Mapping` 設定を `com.adobe.fmdita.config.ConfigManager` バンドル。
 
 
 ## DITA マップコンソールのカスタマイズ {#id188HC08M0CZ}
@@ -589,13 +594,13 @@ AEMガイドでは、 `apps.fmdita.dashboard-extn` マップコンソールを�
 
 ## 出力生成時に画像レンディションを処理 {#id177BF0G0VY4}
 
-AEMには、アセットを処理するためのデフォルトのワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的な MIME タイプのアセット処理を処理するための事前定義済みのワークフローがあります。 通常、AEMは、アップロードするすべての画像に対して、同じレンディションをバイナリ形式で複数作成します。 これらのレンディションは、サイズ、解像度、透かしの追加、その他の変更された特性を持つレンディションです。 AEMでのアセットの処理方法について詳しくは、 [メディアハンドラーとワークフローを使用したアセットの処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja) (AEMドキュメント )
+AEMには、アセットを処理するためのデフォルトのワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的な MIME タイプのアセット処理を処理するための事前定義済みのワークフローがあります。 通常、AEMは、アップロードするすべての画像に対して、同じレンディションをバイナリ形式で複数作成します。 これらのレンディションは、サイズ、解像度、透かしの追加、その他の変更された特性を持つレンディションです。 AEMでのアセットの処理方法について詳しくは、 [メディアハンドラーとワークフローを使用したアセットの処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja) (AEMドキュメント )。
 
 AEMガイドを使用すると、ドキュメントの出力を生成する際に使用する画像レンディションを設定できます。 例えば、デフォルトの画像レンディションの 1 つを選択するか、作成して同じレンディションを使用してドキュメントを公開することができます。 ドキュメントを公開するための画像レンディションマッピングは、 `/libs/fmdita/config/ **renditionmap.xml**` ファイル。 のスニペット `renditionmap.xml` ファイルの内容は次のとおりです。
 
 >[!NOTE]
 >
-> この場合、 `renditionmap.xml` ファイルを `apps` すべてのカスタマイズ用フォルダー。
+> この場合は、 `renditionmap.xml` ファイルを `apps` すべてのカスタマイズ用のフォルダー。
 
 ```XML
 <renditionmap>
@@ -611,7 +616,7 @@ AEMガイドを使用すると、ドキュメントの出力を生成する際�
 </renditionmap>
 ```
 
-この `mimetype` element は、ファイル形式の MIME タイプを指定します。 この `rendition output` element 出力形式のタイプとレンディション名を指定します\( 例： `cq5dam.web.1280.1280.jpeg`\) 指定した出力の公開に使用する必要がある。 サポートされるすべての出力形式 (AEMSITE、PDF、HTML5、EPUB、カスタム ) で使用する画像レンディションを指定できます。
+The `mimetype` element は、ファイル形式の MIME タイプを指定します。 The `rendition output` element 出力形式のタイプとレンディション名を指定します\( 例： `cq5dam.web.1280.1280.jpeg`\) 指定した出力の公開に使用する必要がある。 サポートされるすべての出力形式 (AEMSITE、PDF、HTML5、EPUB、カスタム ) で使用する画像レンディションを指定できます。
 
 指定したレンディションが存在しない場合、AEM Guides の公開プロセスはまず、指定された画像の Web レンディションを探します。 Web レンディションが見つからない場合は、画像の元のレンディションが使用されます。
 
@@ -637,24 +642,23 @@ AEMガイドを使用すると、ドキュメントの出力を生成する際�
 >
 > ログファイルと出力生成履歴を削除しても、生成される出力には影響しません。
 
-に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、次の\（プロパティ\）詳細を指定して、出力履歴とログをパージする日時を設定します。
+に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。 設定ファイルで、次の\（プロパティ\）詳細を指定して、出力履歴とログをパージする日時を設定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | 出力ログと共に出力履歴がパージされるまでの日数を指定します。 この機能を無効にする場合は、指定した時間にこのプロパティを 0.Everyday に設定します。このプロパティで指定した日数より前に生成された出力に対して、パージプロセスが実行されます。 <br> **デフォルト値**:5 |
-| `output.history.purgetime` | パージ処理が開始される時間を指定します。 <br> **デフォルト値**:0:00 \（または 12:00 midnight\） |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | 出力ログと共に出力履歴がパージされるまでの日数を指定します。 この機能を無効にする場合は、指定した時間にこのプロパティを 0.Everyday に設定します。このプロパティで指定した日数より前に生成された出力に対して、パージプロセスが実行されます。 <br> **デフォルト値**: 5 |
+| `output.history.purgetime` | パージ処理が開始される時間を指定します。 <br> **デフォルト値**: 0:00 \（または 12:00 midnight\） |
 
 ## 最近生成した出力リストの制限を変更 {#id1679JH0H0O2}
 
 DITA マップの「出力」タブに表示される、生成された出力の最大数を変更できます。
 
-に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、次の\（プロパティ\）詳細を指定して、リストに表示する出力の数を変更します。
+に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。 設定ファイルで、次の\（プロパティ\）詳細を指定して、リストに表示する出力の数を変更します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.historylimit` | 整数値。<br> **デフォルト値**:25 |
+| `com.adobe.fmdita.config.ConfigManager` | `output.historylimit` | 整数値。<br> **デフォルト値**: 25 |
 
 >[!TIP]
 >
 > 詳しくは、 *出力履歴* 出力履歴の操作に関するベストプラクティスについては、ベストプラクティスガイドの節を参照してください。
-
