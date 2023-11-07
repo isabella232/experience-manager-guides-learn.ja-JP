@@ -1,9 +1,10 @@
 ---
 title: ネイティブPDF出版「Hands on lab - BYOS」 — インタラクティブラーニング
 description: この「実践ラボ — BYOS」セッションは、ネイティブPDFの公開を詳しく調査しています。 様々な使用例を調べ、主な機能を活用し、Adobeの専門家と直接関わり合い、特定の問題文や要件に対処します。
-source-git-commit: 03da00daf0118b66ef5653dfb80918c33bc8f76b
+exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
+source-git-commit: befe892ce4c9a6643593469bdc7fdd808ceb0c31
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -61,8 +62,8 @@ ht-degree: 1%
 
 ## 次のエキスパートセッション
 
-- **トピック**  — 未定
-- **スケジュール日**  — 未定
+- **トピック** - Guides Extension Framework
+- **スケジュール日** - 2023 年 11 月 02 日
 
 ## お問い合わせ
 
