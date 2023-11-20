@@ -1,8 +1,8 @@
 ---
 title: Schematron ファイルのサポート
 description: DITA トピックを読み込んで検証する方法、assert レポートステートメントを使用してルールを確認する方法、正規表現式を使用する方法、およびAEMガイドの Schematron ファイルで抽象パターンを定義する方法を説明します。
-exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
+source-git-commit: 05a7b46b0c6ec056f85a82759400717fce9a845c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -105,7 +105,7 @@ No one word titles.
 
 ## 抽象パターンの定義{#schematron-abstract-patterns}
 
-AEM Guides は、Schematron の抽象パターンもサポートしています。 汎用の抽象パターンを定義して、これらの抽象パターンを再利用できます。  実際のパターンを指定するプレースホルダパラメータを作成できます。
+AEMガイドは、Schematron の抽象パターンもサポートしています。 汎用の抽象パターンを定義して、これらの抽象パターンを再利用できます。  実際のパターンを指定するプレースホルダパラメータを作成できます。
 
 
 抽象パターンを使用すると、ルールの重複を減らし、検証ロジックの管理と更新を容易にすることで、Schematron スキーマを簡略化できます。 また、複雑な検証ロジックを単一の抽象パターンで定義し、スキーマ全体で再利用できるので、スキーマを理解しやすくすることもできます。
