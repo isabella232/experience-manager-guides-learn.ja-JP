@@ -1,7 +1,8 @@
 ---
 title: リリースノート | 2023 年 11 月リリースのAdobe Experience Managerガイドでのアップグレード手順と修正された問題
 description: バグ修正と、2023 年 11 月リリースのAdobe Experience Managerガイドas a Cloud Serviceのアップグレード方法について説明します。
-source-git-commit: 1d8f00a82e92e1648615c409d4652b6ce3da7a1f
+exl-id: 80839890-075f-4187-a167-444c73215496
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 3%
@@ -12,7 +13,7 @@ ht-degree: 3%
 
 このリリースノートでは、アップグレードの手順、互換性マトリックス、および 2023 年 11 月のバージョンのAdobe Experience Managerガイドas a Cloud Service( 後で *Experience Managerガイドas a Cloud Service*) をクリックします。
 
-新機能および機能強化について詳しくは、 [2023 年 11 月リリースのExperience Managerガイドas a Cloud Service](whats-new-2023.11.0.md).
+新機能および機能強化の詳細については、「 [2023 年 11 月リリースのExperience Managerガイドas a Cloud Service](whats-new-2023.11.0.md).
 
 ## 2023 年 11 月リリースにアップグレード
 
@@ -88,11 +89,11 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 既存のコンテンツのインデックス作成に関する次の手順を実行し、「レポート」タブのマップレベルおよびトピックリストで新しい検索と置換テキストを使用します。
 
-1. POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. （オプション）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. サーバーに対してPOSTリクエストを実行します（正しい認証を使用） - `http://<server:port>/bin/guides/map-find/indexing`. ( オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。 ||例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例えば `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` などのファイルです。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
+1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例：`http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
 
-1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`)
 
 
 1. ジョブが完了すると、前のGETリクエストが成功と応答し、マップに失敗した場合はメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。

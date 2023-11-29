@@ -1,10 +1,10 @@
 ---
 title: 出力プリセットの理解
 description: 『AEMガイド』の出力プリセットについて説明します。 AEMサイト、PDF、HTML5、EPUB、カスタム、JSON 形式用の出力プリセットを Web エディターとマップダッシュボードから作成します。
-exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '208'
 ht-degree: 2%
 
 ---
@@ -34,5 +34,6 @@ AEMガイドは、AEM Site、PDF、HTML5、EPUB、JSON、DITA-OT、ネイティ�
 
 - **[JSON](generate-output-json.md)**
 
+管理者は、Experience Managerガイドを使用して、グローバルプロファイルおよびフォルダープロファイルの出力プリセットを作成および管理できます。 詳しくは、 [グローバルおよびフォルダープロファイルの出力プリセットの管理](./web-editor-manage-output-presets.md).
 
 **親トピック：**[&#x200B;出力の生成](generate-output.md)

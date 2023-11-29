@@ -2,9 +2,9 @@
 title: ネイティブPDF公開機能 |テンプレートテンプレートのPDFコンポーネント
 description: テンプレートテンプレートの様々なコンポーネントと、PDFをカスタマイズして設定する方法について説明します。
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '4859'
+source-wordcount: '4947'
 ht-degree: 0%
 
 ---
@@ -418,6 +418,10 @@ PDF内の以下のセクションの表示/非表示を切り替えたり、最�
 
 以下を使用します。 **相互参照** 「 」タブを使用して、クロスリファレンスの公開方法をPDFします。 トピックタイトル、表、図などの相互参照を書式設定できます。
 
+>[!NOTE]
+>
+> 相互参照を挿入する際にリンクテキストを定義した場合は、ネイティブPDFテンプレートで定義されている相互参照形式よりも優先されます。
+
 また、変数を使用して相互参照を定義することもできます。  変数を使用する場合、その値がプロパティから選択されます。 1 つの変数または変数の組み合わせを使用して、相互参照を定義できます。 文字列と変数の組み合わせを使用することもできます。
 
 例えば、 `View details on {chapter}`. チャプター名が「一般設定」の場合、出力内の相互参照は「一般設定の詳細を参照」になります。
@@ -439,6 +443,22 @@ AEMガイドには、次の標準の変数が用意されています。
   >
   >キャプションとフィグキャプションタグに対して、自動番号スタイルを作成できます。
 
+#### デフォルトの相互参照形式
+
+テキストフィールドを空白のままにし、相互参照の挿入時にリンクテキストを定義していない場合、Experience Managerガイドは各相互参照用に次の変数を追加します。
+
+* **タイトル**: `{title}`
+* **説明**: `{description}`
+* **段落**: `{bookmarkText}`
+* **ブックマーク**: `{bookmarkText}`
+* **図**: `{captionText}`
+* **テーブル**: `{captionText}`
+
+相互参照の優先順位は次のとおりです。
+* 相互参照に追加されたリンクテキスト
+* ネイティブテンプレートで定義された相互参照PDF形式
+* デフォルトの相互参照形式
+
 
 #### クロスリファレンスの言語変数
 
@@ -453,11 +473,12 @@ AEMガイドには、次の標準の変数が用意されています。
 追加する場合 `${lng:<variable name>}` 「段落」セクションに追加すると、出力の段落内の相互参照に、ローカライズされたテキストとページ番号が含まれます。\
 例えば、次のスクリーンショットは、ドイツ語で「View on page 1」と「Einzelheiten finden Sie auf der Seite 1」をクロスリファレンスとして示しています。
 
-<img src="./assets/english-output-corss-reference.png" alt="プラグラ内の相互参照の英語出力" width ="800" border="2px solid blue">
+<img src="./assets/english-output-corss-reference.png" alt="プラグラ内の相互参照の英語出力" width ="800" border="2px">
 
 *段落内での相互参照（英語で公開される場合）。*
 
-<img src="./assets/german-output-corss-reference.png" alt="プラグラ内の相互参照のドイツ出力" width ="800" border="2px solid blue">
+<img src="./assets/german-output-corss-reference.png" alt="プラグラ内の相互参照のドイツ出力" width ="800" border="2px">
+
 
 *段落内の相互参照（ドイツ語で公開される場合）。*
 

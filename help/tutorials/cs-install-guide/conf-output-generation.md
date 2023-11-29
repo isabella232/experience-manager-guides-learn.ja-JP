@@ -2,9 +2,9 @@
 title: 出力生成設定の指定
 description: 出力生成設定の設定方法を説明します。
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '5340'
+source-wordcount: '5496'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,23 @@ AEM Site 出力を生成する際、URL の生成方法は、コンテンツの�
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | ブール値\(true/false\)。 ページタイトルを使用して出力を生成する場合は、このプロパティを true に設定します。 デフォルトでは、ファイル名を使用するように設定されています。<br> **デフォルト値**: false |
+
+### ドキュメントのタイトルを使用するAEM Site 出力の URL を設定
+
+AEM Site 出力の URL にドキュメントタイトルを使用できます。 ファイル名が存在しない場合や、すべての特殊文字が含まれている場合は、AEM Site 出力の URL で特殊文字を区切り文字に置き換えるようにシステムを設定できます。 また、最初の子トピックの名前に置き換えるように設定することもできます。
+
+
+ページ名を設定するには、次の手順を実行します。
+
+1. に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。
+1. 設定ファイルで、次の（プロパティ）詳細を指定して、トピックのページ名を設定します。
+
+| PID | プロパティキー | プロパティの値 |
+|---|------------|--------------|
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Boolean (`true/false`). **デフォルト値**: `false` |
+
+例えば、 *@navtitle* in `<topichead>` にはすべての特殊文字が含まれ、 `aemsite.pagetitle` プロパティが true に設定されている場合、デフォルトでは区切り文字が使用されます。 次の場合、 `nodename.systemDefinedPageName` プロパティを true に設定した場合、最初の子トピックの名前が表示されます。
+
 
 ### トピックを作成し、AEM Site 出力を公開するためのファイル名のサニタイズルールを設定する {#id2164D0KD0XA}
 

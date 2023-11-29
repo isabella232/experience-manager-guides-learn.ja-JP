@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides のチュートリアル
 user-guide-description: Adobe Experience Manager Guides のチュートリアルコレクションをお読みください。
 breadcrumb-title: AEM Guides チュートリアル
-source-git-commit: 3da096cd419b63a5a68e4ee8dc39ceaa5f58d7de
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1633'
 ht-degree: 7%
 
 ---
@@ -20,30 +20,33 @@ ht-degree: 7%
       + Cloud Services {#cloud-release-notes}
          + [デプロイメント手順](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 年リリース {#2023-releases}
-         + 11 月リリース {#2311-release}
-            + [新機能](./release-info/whats-new-2023.11.0.md)
-            + [リリースノート](./release-info/release-notes-2023.11.0.md)
-         + 10 月リリース {#2310-release}
-            + [新機能](./release-info/whats-new-2023.10.0.md)
-            + [リリースノート](./release-info/release-notes-2023.10.0.md)
-         + 9 月リリース {#2309-release}
-            + [新機能](./release-info/whats-new-2023.9.0.md)
-            + [リリースノート](./release-info/release-notes-2023.9.0.md)
-         + 7 月リリース {#2307-release}
-            + [新機能](./release-info/whats-new-2023.7.0.md)
-            + [リリースノート](./release-info/release-notes-2023.7.0.md)
-         + 6 月リリース {#2306-release}
-            + [新機能](./release-info/whats-new-2023.6.0.md)
-            + [リリースノート](./release-info/release-notes-2023.6.0.md)
-         + 4 月リリース {#2304-release}
-            + [新機能](./release-info/whats-new-2023.4.0.md)
-            + [リリースノート](./release-info/release-notes-2023.4.0.md)
-         + 3 月リリース {#2303-release}
-            + [新機能](./release-info/whats-new-2023.3.0.md)
-            + [リリースノート](./release-info/release-notes-2023.3.0.md)
-         + 2 月リリース {#2302-release}
-            + [新機能](./release-info/whats-new-2023.2.0.md)
-            + [リリースノート](./release-info/release-notes-2023.2.0.md)
+            + 12 月リリース {#2312-release}
+               + [新機能](./release-info/whats-new-2023.12.0.md)
+               + [リリースノート](./release-info/release-notes-2023.12.0.md)
+            + 11 月リリース {#2311-release}
+               + [新機能](./release-info/whats-new-2023.11.0.md)
+               + [リリースノート](./release-info/release-notes-2023.11.0.md)
+            + 10 月リリース {#2310-release}
+               + [新機能](./release-info/whats-new-2023.10.0.md)
+               + [リリースノート](./release-info/release-notes-2023.10.0.md)
+            + 9 月リリース {#2309-release}
+               + [新機能](./release-info/whats-new-2023.9.0.md)
+               + [リリースノート](./release-info/release-notes-2023.9.0.md)
+            + 7 月リリース {#2307-release}
+               + [新機能](./release-info/whats-new-2023.7.0.md)
+               + [リリースノート](./release-info/release-notes-2023.7.0.md)
+            + 6 月リリース {#2306-release}
+               + [新機能](./release-info/whats-new-2023.6.0.md)
+               + [リリースノート](./release-info/release-notes-2023.6.0.md)
+            + 4 月リリース {#2304-release}
+               + [新機能](./release-info/whats-new-2023.4.0.md)
+               + [リリースノート](./release-info/release-notes-2023.4.0.md)
+            + 3 月リリース {#2303-release}
+               + [新機能](./release-info/whats-new-2023.3.0.md)
+               + [リリースノート](./release-info/release-notes-2023.3.0.md)
+            + 2 月リリース {#2302-release}
+               + [新機能](./release-info/whats-new-2023.2.0.md)
+               + [リリースノート](./release-info/release-notes-2023.2.0.md)
          + 2022 年リリース {#2022-releases}
             + [11 月のリリースノート](./release-info/release-notes-2022.11.0.md)
             + [10 月のリリースノート](./release-info/release-notes-2022.10.0.md)
@@ -362,7 +365,9 @@ ht-degree: 7%
    + [フォルダープロファイルを操作する Java ベースの API](./api-reference/folder-profile-java.md)
    + [パッケージを作成およびアクティベートするための Java ベースの API](./api-reference/create-activate-package-java.md)
    + [イベントハンドラーの後処理](./api-reference/post-process-event.md)
+   + [一括アクティベーション完了イベントハンドラー](./api-reference/bulk-activation-complete-event.md)
    + [コンバージョンプロセスのイベントハンドラー](./api-reference/conversion-complete-event.md)
+
 + ナレッジベース {#knowledge-base}
    + エキスパートセッション {#expert-session}
       + [エキスパートセッションの概要](./knowledge-base/expert-sessions/expert-session.md)

@@ -1,10 +1,10 @@
 ---
 title: グローバルおよびフォルダープロファイルの出力プリセットの管理
 description: AEMガイドで、グローバルおよびフォルダープロファイル出力プリセットを作成、編集、名前変更、複製および削除する方法について説明します。管理者ユーザー向けのプリセットです。
-exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
    - 名前
    - Target \（ナレッジベースプリセット用）
 1. を選択します。 **フォルダープロファイルに追加** 関連するフォルダープロファイルの出力プリセットを作成するには、「 」チェックボックスをオンにし、 **追加**. プリセットが作成され、 **出力** 」タブに表示されます。 \( ![](images/global-preset-icon.svg)\) アイコンは、フォルダープロファイルレベルのプリセットを示します。
-1. 設定の詳細を入力します。
+1. 設定の詳細を入力します。 出力プリセットの詳細については、 [出力プリセットの理解](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >
