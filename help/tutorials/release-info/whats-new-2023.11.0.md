@@ -1,9 +1,10 @@
 ---
 title: リリースノート | 2023 年 11 月リリースのAdobe Experience Managerガイドの新機能
 description: 2023 年 11 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能および機能強化について説明します。
-source-git-commit: 6cc5299f8f4566e38c5a8c96e17fadd915f6e206
+exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
+source-git-commit: 57ff1a3b6ceb9debc8e29065fd37cab21adc1b96
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -43,6 +44,7 @@ Experience Managerガイドには、すぐに使用できるテンプレート�
 ### ネイティブリソーステンプレートのリソース管理をPDFしました。
 
 Experience Managerガイドで、ネイティブリソーステンプレートのPDF管理が改善されました。 画像、CSS ファイル、フォントファイルなどのリソースを、複数のネイティブテンプレート間で共有および再利用できるようになりましたPDF。 この改善により、多数のテンプレートのリソースを管理する作業がより簡単になりました。 各テンプレートに重複リソースを作成する必要はなく、共有フォルダーに保存して、すべてのネイティブPDFテンプレートで使用することもできます。
+詳しくは、 [PDFテンプレート](../native-pdf/pdf-template.md).
 
 ## Web エディターの機能強化
 
@@ -64,6 +66,8 @@ DITA トピックで条件属性を定義できます。 次に、条件プリ�
 
 ![Web エディターの「管理」タブからの条件プリセット ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
+詳しくは、 [条件プリセットの使用](../user-guide/generate-output-use-condition-presets.md).
+
 ### ブラウザーの更新時にファイルのタブを復元
 
 Experience Managerガイドは、ブラウザを更新したときに、Web エディタで開かれたファイルタブの状態を復元します。 詳しくは、 **ファイルの編集中にブラウザーを更新** の下のセクション [Web エディターでトピックを編集](../user-guide/web-editor-edit-topics.md).
@@ -78,4 +82,3 @@ Web エディターで要素のコンテキストメニューの「 」オプシ
 Experience Managerガイドで、Web エディターでカーソルを移動する際に、キーボードショートカットを使用できるようになりました。 キーボードショートカットを使用して、1 単語を左右にすばやく移動できます。 キーボードショートカットを使用して、行の先頭または末尾に移動することもできます。
 これで、キーボードショートカットを使用して、カーソルを次の要素の先頭または前の要素の末尾に移動することもできます。
 詳しくは、 [Web エディターのキーボードショートカット](../user-guide/web-editor-keyboard-shortcuts.md).
-

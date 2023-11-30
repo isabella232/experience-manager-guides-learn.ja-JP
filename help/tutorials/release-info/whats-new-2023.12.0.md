@@ -1,9 +1,9 @@
 ---
 title: リリースノート | 2023 年 12 月リリースのAdobe Experience Managerガイドの新機能
 description: 2023 年 12 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能と機能強化について説明します。
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: 8d24048af5f5583988da50927e31f2643d844e68
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ Experience Managerガイドは、強化されたマップコレクションダ�
 ![コレクションダッシュボードをマッピング](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *マップコレクションダッシュボードで出力を表示、編集、生成します。*
+
+方法を学ぶ [出力生成にマップコレクションを使用](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 ## マップビューでキー属性を表示する
 
