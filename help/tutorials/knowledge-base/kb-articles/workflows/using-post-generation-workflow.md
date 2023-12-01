@@ -1,13 +1,13 @@
 ---
 title: 生成後のワークフロー
 description: 例を含む、生成後のワークフローの概要
-source-git-commit: 447cd512d1b6cdce3bd1ddded1575dab87daa04a
+exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
+source-git-commit: b8fed051e235146cd797af2524a68d8d2d0f16c6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 2%
 
 ---
-
 
 # AEM Guides の公開 — 生成後のワークフロー
 
@@ -15,13 +15,13 @@ AEMガイドでは、出力後の生成ワークフローを柔軟に指定で�
 例えば、PDF出力に特定のプロパティを設定したり、出力が生成された後に一連のユーザーに電子メールを送信したりできます。
 
 
-## 投稿生成ワークフローを利用するための手順
+## 投稿生成ワークフローを利用するために必要な手順
 
 ### ワークフロープロセスの作成
 
 生成された出力に対して操作を実行する Java または ECMA ベースのワークフロープロセスを作成します。 例えば、ソースから生成されたコンテンツにメタデータをコピーしたり、生成された出力のメタデータを操作したりします。
 - ECMA スクリプトを使用してこのようなプロセスを作成する例を取り上げます（添付されたパッケージを参照できます）。
-- Java ベースのワークフロープロセスについては、*出力後の生成ワークフローのカスタマイズ*」 [インストールおよび設定ガイド](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+- Java ベースのワークフロープロセスについては、*出力後の生成ワークフローのカスタマイズ*」/ [インストールおよび設定ガイド](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/custom-workflow/customize-workflows.html?lang=en#id17A6GI004Y4)
 
 
 ### ワークフローモデルの作成
