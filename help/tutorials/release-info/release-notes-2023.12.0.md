@@ -1,10 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド（2023 年 12 月リリース）のアップグレード手順と修正された問題
 description: バグ修正と、Adobe Experience Managerガイドas a Cloud Serviceの 2023 年 12 月リリースへのアップグレード方法について説明します。
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: b4bbed1de8fc2d8ef81332445a5c96161be508d4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 3%
+source-wordcount: '1319'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 次の手順を実行して、現在のExperience Managerガイドのas a Cloud Service設定をアップグレードします。
 
 1. Cloud Serviceの Git コードを確認し、アップグレードする環境に対応するCloud Serviceパイプラインで設定されたブランチに切り替えます。
-2. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServiceGit コードを2023.12.0.15に保存します。
+2. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServiceGit コードを2023.12.0.16に保存します。
 3. 変更をコミットし、Cloud Serviceパイプラインを実行して、2023 年 12 月リリースのExperience Managerガイドas a Cloud Serviceにアップグレードします。
 
 ## サーブレットを介したスクリプトのトリガーを有効にする手順
@@ -34,7 +34,7 @@ POST:
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-応答:
+応答：
 
 ```
 {
