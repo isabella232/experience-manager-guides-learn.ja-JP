@@ -1,8 +1,7 @@
 ---
 title: 条件付き属性プロファイル
 description: 条件付き属性を作成する方法については、AEMガイドを参照してください。 フォルダー内の条件付き属性とグローバルプロファイルを使用して、コンテンツに条件を付けます。
-exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%

@@ -1,16 +1,15 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 3 月リリース
 description: Adobe Experience Manager Guides の 3 月リリースas a Cloud Service
-exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
 
-# 2023 年 3 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能
+# 2023 年 3 月リリースのAdobe Experience Managerガイドの新機能as a Cloud Service
 
 この記事では、Adobe Experience Managerガイド ( 後で *AEMガイドas a Cloud Service*) をクリックします。
 

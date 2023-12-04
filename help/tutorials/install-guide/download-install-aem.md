@@ -1,13 +1,12 @@
 ---
 title: Adobe Experience Managerのインストール
 description: Adobe Experience Managerのインストール方法
-source-git-commit: 6a8df1d3fe3fc095f1b18aed4546dc723898f0e6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 4%
+source-wordcount: '172'
+ht-degree: 0%
 
 ---
-
 
 # Adobe Experience Managerのインストール {#id213BCI020E8}
 
@@ -35,4 +34,3 @@ AEMインスタンスをアップグレードする予定がある場合は、�
 > システムパフォーマンスの向上を検討できる、パフォーマンス最適化に関する推奨事項が多数あります。 詳しくは、 [Recommendations （パフォーマンス最適化）](download-install-recommend-perf-optimiz.md#) 」を参照してください。
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
-

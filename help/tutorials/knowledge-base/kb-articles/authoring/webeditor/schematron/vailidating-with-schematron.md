@@ -1,10 +1,9 @@
 ---
 title: Webeditor での Schematron のサポート
-description: Webeditor でのスキーマトロンの操作
-exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
-source-git-commit: f3c8ec973d3a6369d6135a33f61584c8bf7d083d
+description: ウェブディタでのスキーマトロンの操作
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -18,7 +17,7 @@ DITA ルールのサポートの他に、Web エディターは、「*Schematron
 
 &quot;*Schematron*「 」は、XML ファイルのテストを定義する際に使用される、ルールベースの検証言語を指します。 Schematron ファイルをインポートし、Web エディタで編集することもできます。 &quot;Schematron&quot;ファイルを使用すると、特定のルールを定義し、DITA トピックまたはマップに対して検証できます。 スキーマトロンルールを使用すると、ルールとして定義された制限を課すことで、XML 構造の一貫性を確保できます。 これらの制限は、コンテンツの品質と一貫性を所有する中小企業によって推進されている。
 
-    注意：Web エディタは、ISO スキーマトロンをサポートしています。
+    注： Web エディタは、ISO スキーマをサポートしています。
 
 
 ## Web エディタでの「Schematron」の動作の理解
@@ -52,49 +51,49 @@ Webeditor 設定を使用すると、ユーザーがコンテンツを更新す�
 
 ### Schematron ルールのサンプルおよびその他のヘルプ
 
-#### サンプルのユースケース
+#### 使用例
 
 - リンクが外部かどうか、およびリンクのスコープが「外部」かどうかを確認します。
 
-   ```
-   <sch:pattern>
-       <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
-           <sch:assert test="@scope = 'external' and @format = 'html'">
-               All external xref links must be with scope='external' and format='html'
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="xref[contains(@href, 'http') or contains(@href, 'https')]">
+          <sch:assert test="@scope = 'external' and @format = 'html'">
+              All external xref links must be with scope='external' and format='html'
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 - マップ内に少なくとも 1 つの「topicref」があるか、「ul」の下に少なくとも 1 つの「li」があるかを確認します。
 
-   ```
-   <sch:pattern>
-       <sch:rule context="map">
-           <sch:assert test="count(topicref) > 0">
-               There should be atleast one topicref in map
-           </sch:assert>
-       </sch:rule>
-   
-       <sch:rule context="ul">
-           <sch:assert test="count(li) > 1" >
-               A list must have more than one item.
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="map">
+          <sch:assert test="count(topicref) > 0">
+              There should be atleast one topicref in map
+          </sch:assert>
+      </sch:rule>
+  
+      <sch:rule context="ul">
+          <sch:assert test="count(li) > 1" >
+              A list must have more than one item.
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
-- 「indexterm」要素は、常に「prolog」に存在する必要があります
+- 「indexterm」要素は、常に「prolog」に存在する必要があります。
 
-   ```
-   <sch:pattern>
-       <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
-           <sch:assert test="ancestor::node()/local-name() = 'prolog'">
-               The indexterm element should be in a prolog.
-           </sch:assert>
-       </sch:rule>
-   </sch:pattern>
-   ```
+  ```
+  <sch:pattern>
+      <sch:rule context="*[contains(@class, ' topic/indexterm ')]">
+          <sch:assert test="ancestor::node()/local-name() = 'prolog'">
+              The indexterm element should be in a prolog.
+          </sch:assert>
+      </sch:rule>
+  </sch:pattern>
+  ```
 
 #### リソース
 

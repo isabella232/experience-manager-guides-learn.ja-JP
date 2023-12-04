@@ -1,13 +1,12 @@
 ---
 title: DITA マップを操作する REST API
 description: DITA マップを使用する REST API について説明します。
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # DITA マップを操作する REST API {#id175UB30E05Z}
 
@@ -43,4 +42,3 @@ DITA マップの書き出しステータスを取得し、そのすべての依
 |名前|型|必須|説明| |—|—|—|—| |`jobId`|String|はい|書き出しジョブの開始時に取得されたジョブ ID。|
 
 **応答値**: |要素|説明| |—|—| |`status`|書き出しジョブのステータス。 選択可能なオプションは、開始、失敗、進行中、成功、見つからない、削除です| |`jobId`|ジョブの一意の ID。 後で使用して、ステータスをクエリできます。| |`errorMessage`|失敗時のジョブのエラーメッセージ\（ステータスが FAILED、MISSING、DELETED の場合）。| |`filePath`|ZIP のファイルパス。 ジョブが完了し、ステータスが SUCCEED の場合にのみ表示されます。 これは ZIP ファイルのダウンロードに使用できます。|
-

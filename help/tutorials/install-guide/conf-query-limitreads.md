@@ -1,13 +1,12 @@
 ---
 title: クエリの LimitReads 数の設定
-description: クエリの LimitReads 数の設定方法を説明します
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+description: クエリの LimitReads の数を設定する方法を説明します
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
 
 ---
-
 
 # クエリの LimitReads 数の設定 {#id231RC0HL0ID}
 
@@ -31,4 +30,3 @@ ht-degree: 2%
 この属性値を増やすと、大きな DITA マップ用のレポートを生成できます。
 
 **親トピック：**[ Web エディタのカスタマイズ](conf-web-editor.md)
-

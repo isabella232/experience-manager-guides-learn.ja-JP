@@ -1,8 +1,7 @@
 ---
 title: レポート
 description: AEMガイドで DITA マップレポートを作成する方法を説明します。
-exl-id: baf3bc11-0725-418e-afef-fe9aa55327fe
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%

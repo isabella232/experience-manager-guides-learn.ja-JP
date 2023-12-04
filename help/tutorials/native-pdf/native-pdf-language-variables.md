@@ -1,13 +1,12 @@
 ---
 title: ネイティブPDF |言語変数のサポート
 description: 言語の出力および出力PDFでの言語変数の使用
-source-git-commit: 6de4b4666d804c678674faa6fe1a54ef9b9dbbe0
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
-
 
 # 言語変数のサポート
 
@@ -96,7 +95,7 @@ Experience Managerガイドは、選択した言語で存在する言語変数�
 
 >[!NOTE]
 > 
->言語変数に未保存の変更がある場合は、それらをエクスポートできません。 変更を保存して、有効な **書き出し** <img src="./assets/language-variable-export-icon.svg" alt="インポートアイコン" width="25"> icon.
+>言語変数に未保存の変更がある場合は、それらをエクスポートできません。 変更を保存して、有効な **書き出し** <img src="./assets/language-variable-export-icon.svg" alt="インポートアイコン" width="25"> アイコン。
 
 ### 言語変数のインポート
 
@@ -233,6 +232,3 @@ CSS スタイルを使用して、プレフィックスの形式を設定する�
 color: red;
 } 
 ```
-
-
-

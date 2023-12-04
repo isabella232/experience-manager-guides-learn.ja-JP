@@ -1,10 +1,9 @@
 ---
 title: マップダッシュボードからの DITA マップレポート
 description: AEMガイドのマップダッシュボードから DITA マップレポートを生成します。 DITA マップレポートの CSV を生成する方法を説明します。
-exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ AEMガイドは、管理者にレポート機能を提供し、ドキュメン�
 
      選択したマップファイルの概要が表示されます。 概要を見ると、マップ内のトピックの総数、見つからないトピック、見つからない要素を持つトピックの数、トピックの状態（下書き、レビュー中、またはレビュー中）をすばやく把握できます。
 
-   - **詳細:**
+   - **詳細：**
 
      トピックをクリックすると、選択したトピックの詳細レポートが表示されます。
 

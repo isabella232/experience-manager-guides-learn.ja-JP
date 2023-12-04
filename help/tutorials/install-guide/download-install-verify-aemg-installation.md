@@ -1,13 +1,12 @@
 ---
 title: AEM Guide のインストールの確認
-description: AEM Guide のインストールを確認する方法を説明します
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: AEM Guide のインストールを確認する方法を説明します。
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # AEM Guide のインストールの確認 {#id213BD030FBE}
 
@@ -33,4 +32,3 @@ AEMガイドをインストールしたら、インストールが成功した�
 > システムパフォーマンスの向上を検討できる、パフォーマンス最適化に関する推奨事項が多数あります。 詳しくは、 [Recommendations （パフォーマンス最適化）](download-install-recommend-perf-optimiz.md#) 」を参照してください。
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
-

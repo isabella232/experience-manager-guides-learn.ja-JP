@@ -1,11 +1,10 @@
 ---
 title: ネイティブPDFの公開の基本事項
-description: AEMガイドでネイティブの PDF エンジンを使用してPDFを公開する方法を説明します。
-exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
+description: AEMガイドでネイティブの PDF エンジンを使用してPDFを公開する方法について説明します。
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 1%
+source-wordcount: '204'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +27,7 @@ AEMガイドは、組み込みのPDF発行エンジンを備えており、ユ�
 - **期間** - 60 分
 - **対象ユーザ** ・お客様、パートナー、Adobe従業員
 
-## 重要な留意点
+## 重要ポイント
 
 このセッションでは、次の事項について学習します。
 - PDF公開の基本事項
@@ -49,8 +48,7 @@ AEMガイドは、組み込みのPDF発行エンジンを備えており、ユ�
 >
 > このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
 > - オンプレミス 4.2 以降
-> - Cloud Services2211 以降
-
+> - Cloud Service2211 以降
 
 ## お問い合わせ
 

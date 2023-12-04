@@ -1,17 +1,16 @@
 ---
 title: Dispatcher の設定
 description: Dispatcher の設定方法について説明します。
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 9%
+source-wordcount: '302'
+ht-degree: 6%
 
 ---
 
-
 # Dispatcher の設定 {#id213BCM0M05U}
 
-AEMガイドと共に AEM オーサーインスタンス上で Dispatcher を使用する予定がある場合は、次の追加設定を実行して、設定を完了する必要があります。
+AEMオーサーインスタンス上でAEMガイドと共に Dispatcher を使用する予定がある場合は、次の追加設定を実行して、設定を完了する必要があります。
 
 >[!NOTE]
 >
@@ -61,7 +60,7 @@ mime.types ファイルを更新するには、次の手順を実行します。
 
 ## ユーザーの環境設定のリクエスト URL を許可
 
-AEMガイドと共に Dispatcher を使用する場合、オーサーインスタンスの前に Dispatcher がある場合は、次の 2 つの変更をおこないます。
+AEMガイドと共に Dispatcher を使用する場合、オーサーインスタンスの前に Dispatcher がある場合は、次の 2 つの変更を行います。
 
 - POSTリクエスト URL をホワイトリストに登録します。 サンプル&quot; `/filters`「 」ルールは以下のとおりです — このルールを Dispatcher 設定ファイルに追加します。
 
@@ -79,4 +78,3 @@ AEMガイドと共に Dispatcher を使用する場合、オーサーインス�
 ```
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
-

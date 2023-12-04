@@ -1,10 +1,9 @@
 ---
 title: 公開済みコンテンツの一括アクティベーション
 description: 公開済みコンテンツの一括アクティベーションについて説明します。 AEMガイドの一括アクティベーション機能のメリットについて説明します。
-exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---

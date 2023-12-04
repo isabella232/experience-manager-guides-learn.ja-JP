@@ -1,13 +1,12 @@
 ---
 title: '[ 詳細マップエディタ ] を既定に設定する'
-description: '[ 高度なマップエディタを既定に設定する ] の方法を説明します'
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+description: '[ 高度なマップエディタを既定に設定する ] の方法を説明します。'
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # [ 詳細マップエディタ ] を既定に設定する {#id181AI0003PN}
 
@@ -15,15 +14,14 @@ AEMガイドには、基本マップエディタと高度なマップエディ�
 
 既定では、新しいマップファイルが作成されると、そのファイルは基本マップエディタで開きます。 この動作を変更するには、既定で [ 詳細マップエディタ ] を開くように設定を有効にします。
 
-に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、次の\(property\) 詳細を指定して基本マップエディタを有効にします。
+に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。 設定ファイルで、次の\(property\) 詳細を指定して基本マップエディタを有効にします。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | ``fmdita.hide.oldmapeditor`` | ブール値\(true/false\)。 既定で [ 高度なマップエディタ ] を使用する場合は、このプロパティを true に設定します。<br> **デフォルト値**:false |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | ``fmdita.hide.oldmapeditor`` | ブール値\(true/false\)。 既定で [ 高度なマップエディタ ] を使用する場合は、このプロパティを true に設定します。<br> **デフォルト値**: false |
 
 >[!NOTE]
 >
-> 既定では、作成者がマップファイルを作成し、編集用に開くと、基本マップエディタが起動します。 Assets UI からマップファイルに対して「編集」オプションが選択されている場合は、基本マップエディターでも開きます。
+> 既定では、作成者がマップファイルを作成し、編集用に開く場合は、[ 基本マップエディタ ] が起動します。 Assets UI からマップファイルに対して「編集」オプションが選択されている場合は、基本マップエディターでも開きます。
 
 **親トピック：**[ Web エディタのカスタマイズ](conf-web-editor.md)
-

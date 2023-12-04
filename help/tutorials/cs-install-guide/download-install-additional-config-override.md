@@ -1,13 +1,12 @@
 ---
 title: 設定の上書き
 description: 設定の上書きの方法を説明します
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
-
 
 # 設定の上書き {#id216IFC003XA}
 
@@ -19,7 +18,7 @@ ht-degree: 0%
 
    src/main/content/jcr\_root/apps/fmditaCustom/config/
 
-1. ファイルに次の形式で名前を付けます。
+1. ファイルに次の形式の名前を付けます。
 
    $\{PID\}.cfg.json
 
@@ -39,4 +38,3 @@ ht-degree: 0%
 
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
-

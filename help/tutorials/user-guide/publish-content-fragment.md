@@ -1,13 +1,12 @@
 ---
 title: トピックをコンテンツフラグメントに公開する
 description: AEMガイドで、トピックまたはトピック内の要素をコンテンツフラグメントに公開します。  トピック用に存在するコンテンツフラグメントを表示し、再公開する方法を説明します。
-source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 1%
+source-wordcount: '605'
+ht-degree: 0%
 
 ---
-
 
 # コンテンツフラグメントに公開
 
@@ -65,4 +64,3 @@ AEMガイドを使用すると、トピックまたはトピック内の要素�
 
 
 コンテンツフラグメントを公開したら、任意のAEMサイトでも使用できます。
-

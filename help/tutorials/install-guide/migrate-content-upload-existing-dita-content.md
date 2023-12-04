@@ -1,13 +1,12 @@
 ---
 title: 既存の DITA コンテンツのアップロード
-description: 既存の DITA コンテンツのアップロード方法を説明します
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: 既存の DITA コンテンツのアップロード方法を説明します。
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
-
 
 # 既存の DITA コンテンツのアップロード {#id176FF000JUI}
 
@@ -29,7 +28,7 @@ WinSCP を使用してファイルをアップロードするには、次の手�
 
    - AEMサーバーがホストされている URL
 
-   - ポート番号（デフォルトは 4502）
+   - ポート番号（デフォルトは 4502）、
 
    - AEMサーバーにアクセスするためのユーザー名とパスワード。
 
@@ -38,13 +37,13 @@ WinSCP を使用してファイルをアップロードするには、次の手�
    接続が成功すると、AEM Assetsの内容が WinSCP ユーザーインターフェイスに表示されます。 WinSCP ファイルエクスプローラを使用すると、コンテンツを簡単に参照、作成、更新、または削除できます。
 
 
-## FrameMaker を使用
+## 使用FrameMaker
 
-Adobe FrameMakerには、既存の DITA およびその他の FrameMaker ドキュメント（.book および.fm\）をAEMに簡単にアップロードできる強力なAEMコネクタが付属しています。 1 つのファイルのアップロード、依存関係の有無に関わらず\（コンテンツ参照、相互参照、グラフィックなど）完全なフォルダーのアップロードなど、様々なファイルアップロード機能を使用できます。
+Adobe FrameMakerには、既存の DITA およびその他のFrameMakerドキュメント（.book および.fm）をAEMに簡単にアップロードできる強力なAEMコネクタが付属しています。 1 つのファイルのアップロード、依存関係の有無に関わらず\（コンテンツ参照、相互参照、グラフィックなど）完全なフォルダーのアップロードなど、様々なファイルアップロード機能を使用できます。
 
-FrameMaker のAEM Connector を使用してコンテンツをアップロードするには、次の手順を実行します。
+FrameMakerのAEMコネクタを使用してコンテンツをアップロードするには、次の手順を実行します。
 
-1. FrameMaker を起動します。
+1. 起動FrameMaker。
 
 1. を開きます。 **接続マネージャ** ダイアログ。
 
@@ -57,7 +56,7 @@ FrameMaker のAEM Connector を使用してコンテンツをアップロード�
 
    - **ユーザー名**/**パスワード**:AEMサーバーにアクセスするためのユーザー名とパスワードを入力します。
 
-1. 「**接続**」をクリックします。
+1. クリック **接続**.
 
    接続が正常に確立されると、AEMリポジトリのアセットがリポジトリマネージャーウィンドウに表示されます。
 
@@ -82,7 +81,7 @@ FrameMaker のAEM Connector を使用してコンテンツをアップロード�
 
 1. を検索して、 *com.adobe.fmdita.config.ConfigManager* バンドル。
 
-1. 内 **UUID ファイル名パターン** プロパティを指定し、読み込んだファイルの名前を確認するパターンを指定します。
+1. Adobe Analytics の **UUID ファイル名パターン** プロパティを指定し、読み込んだファイルの名前を確認するパターンを指定します。
 
    ファイルが指定されたパターンに従わない場合、UUID がファイルのプロパティに追加され、ファイルへの参照はすべて、ファイルに割り当てられた UUID で更新されます。
 
@@ -94,10 +93,10 @@ FrameMaker のAEM Connector を使用してコンテンツをアップロード�
 次のいずれかの方法を使用して、UUID を使用してコンテンツをアップロードできます。
 
 - ローカルシステムからコンテンツをドラッグ&amp;ドロップします。
-- 以下を使用： **作成** \> **ファイル** AEM Assets UI からのワークフロー
+- 以下を使用します。 **作成** \> **ファイル** AEM Assets UI からのワークフロー。
 - WinSCP のようなツールを使用します。
 
-WinSCP のようなツールを使用する場合は、 **同じ UUID を持つ古いファイルを新しいフォルダーに移動** オプションを使用して、 このオプションでは、AEMリポジトリの他の場所で使用可能なファイルに対して実行されるアクションを定義します。 この設定は、 *com.adobe.fmdita.config.ConfigManager* バンドルを設定します。
+WinSCP のようなツールを使用する場合は、 **同じ UUID を持つ古いファイルを新しいフォルダーに移動** オプションを使用して、設定されます。 このオプションでは、AEMリポジトリの他の場所で使用可能なファイルに対して実行されるアクションを定義します。 この設定は、 *com.adobe.fmdita.config.ConfigManager* バンドルを設定します。
 
 デフォルトでは、 **同じ UUID を持つ古いファイルを新しいフォルダーに移動** オプションがオンになっている。 つまり、アップロード中のファイルがリポジトリ内の別のフォルダに存在する場合、既存のファイルは現在の場所に移動され、アップロード中のファイルで上書きされます。 このオプションを選択しない場合、ファイルは既存の場所で上書きされます。
 
@@ -123,7 +122,7 @@ AEMリポジトリ内のコンテンツを移動またはコピーする際は�
 
 curl コマンドを使用して、DAM でフォルダーを作成したり、ファイルをアップロードしたり、アップロードされたコンテンツにメタデータを追加したりすることもできます。
 
-**フォルダー** を作成します
+**フォルダーの作成**
 
 次のコマンドを実行して、AEMリポジトリにフォルダーを作成します。
 
@@ -135,9 +134,9 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 - `<username>:<passowrd>`:AEMリポジトリにアクセスするためのユーザー名とパスワードを指定します。 このユーザーは、フォルダーの作成権限を持っている必要があります。
 
-- `jcr:primaryType=sling:Folder`:このパラメーターを指定 *現状* フォルダータイプのリソースを作成する場合。
+- `jcr:primaryType=sling:Folder`：このパラメーターを指定します。 *現状* フォルダータイプのリソースを作成する場合。
 
-- `<server folder path>`:AEMリポジトリで作成する新しいフォルダーの名前を含む完全なフォルダーパス。 例えば、次のようにパスを指定した場合、 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`、次にフォルダー `AEM-Guides` が `projects` フォルダーを DAM に追加します。
+- `<server folder path>`:AEMリポジトリで作成する新しいフォルダーの名前を含む完全なフォルダーパス。 例えば、次のようにパスを指定した場合、 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`を選択し、次にフォルダー `AEM-Guides` が `projects` フォルダーを DAM に追加します。
 
 
 **ファイルのアップロード**
@@ -152,9 +151,9 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 - `<username>:<passowrd>`:AEMリポジトリにアクセスするためのユーザー名とパスワードを指定します。 このユーザーは、 `server folder path`.
 
-- ``local file path``:アップロードするローカルシステム上の完全なファイルパス。
+- ``local file path``：アップロードするローカルシステム上の完全なファイルパス。
 
-- `<server folder path>`:ファイルをアップロードするAEMサーバー上の完全なフォルダーパス。
+- `<server folder path>`：ファイルをアップロードするAEMサーバー上の完全なフォルダーパス。
 
 
 **メタデータを追加**
@@ -169,10 +168,9 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 - `<username>:<passowrd>`:AEMリポジトリにアクセスするためのユーザー名とパスワードを指定します。 このユーザーは、 ``metadata node path``.
 
-- ``-F<attribute name>=<value>``:この `<attribute name>` はメタデータ属性の名前です。例えば、 `audience` そして `<value>` は、 `internal`. 複数の属性の名前と値のペアをスペースで区切って指定できます。
+- ``-F<attribute name>=<value>``: `<attribute name>` は、メタデータ属性の名前です。例えば、 `audience` そして `<value>` は、 `internal`. 複数の属性の名前と値のペアをスペースで区切って指定できます。
 
-- `<metadata node path>`:ファイル名とそのメタデータノードを含む完全なフォルダーパス。 例えば、次のようにパスを指定した場合、 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`を指定した場合、指定したメタデータ情報が `intro.xml` ファイル。
+- `<metadata node path>`：ファイル名とそのメタデータノードを含む完全なフォルダーパス。 例えば、次のようにパスを指定した場合、 `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`を指定した場合、指定したメタデータ情報が `intro.xml` ファイル。
 
 
 **親トピック：**[&#x200B;既存のコンテンツを移行](migrate-content.md)
-

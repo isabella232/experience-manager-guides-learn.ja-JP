@@ -1,13 +1,12 @@
 ---
 title: 変換ワークフロー用の REST API
 description: 変換ワークフロー用の REST API について説明します。
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
-
 
 # 変換ワークフロー用の REST API {#id175UB30E05Z}
 
@@ -42,4 +41,3 @@ GET文書を DITA 形式にInDesignする変換メソッド。
 **パラメーター**: |名前|型|必須|説明| |—|—|—|—| |``operation``|String|はい|呼び出される操作の名前。 このパラメーターの値は、 ``idml2dita``. <br> **注意：** 値では大文字と小文字が区別されません。| |`inputFile`|String|はい|AEMリポジトリ内のソースInDesignファイルの絶対パス。| |`destPath`|String|はい|変換された DITA ファイルが保存される保存先の絶対パス。| |`createRev`|Boolean|はい|ファイルのリビジョンを作成するかどうかを指定します\( `true`\) 指定された宛先でのみ\( `false`\) です。 これは、変換先の場所に、変換されたファイルの既存のバージョンが含まれている場合にのみ考慮されます。|
 
 **応答値**:HTTP 200 \(Successful\) 応答を戻します。
-

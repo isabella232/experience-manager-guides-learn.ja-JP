@@ -1,10 +1,9 @@
 ---
 title: ネイティブAEM公開用のPDF環境の設定
 description: ネイティブAEM公開用のPDF環境の設定
-exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 45dfe6078039001327e91ae85ea2a5beeacb2d59
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -41,7 +40,7 @@ AEMガイドでこのネイティブPDFを設定する手順は、オペレー�
 6. 変数名に「JAVA_HOME」と入力します。
 7. 「値」フィールドで、Java インストールパスを入力し、「OK」をクリックします。
 
-   例：
+   次に例を示します。
 
    JAVA 11:
 
@@ -55,7 +54,7 @@ AEMガイドでこのネイティブPDFを設定する手順は、オペレー�
 
 9. これで、Path 変数内で Server path の値を指定し、「OK」をクリックします。
 
-   例：
+   次に例を示します。
 
    JAVA 11:
 
@@ -77,7 +76,7 @@ AEMガイドでこのネイティブPDFを設定する手順は、オペレー�
 3. JAVA_HOME 変数が設定されていない場合は、手順 4 に従います。 それ以外の場合は、手順 5 に直接進みます。
 4. インストールされている Java バージョンに基づく次のコマンドを使用して、JAVA_HOME 変数を設定します。
 
-   例：
+   次に例を示します。
 
    JAVA 11:
 
@@ -124,7 +123,7 @@ Linux オペレーティングシステム用にダウンロードしたノー�
 
 4. インストールされている Java バージョンに基づく次のコマンドを使用して、JAVA_HOME 変数を設定します。
 
-   例：
+   次に例を示します。
 
    JAVA 11:
 

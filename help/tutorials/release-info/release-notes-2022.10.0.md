@@ -1,11 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2022 年 10 月リリース
 description: 10 月リリースのAdobe Experience Manager Guides as a Cloud Service
-exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 4%
+source-wordcount: '491'
+ht-degree: 1%
 
 ---
 
@@ -14,20 +13,20 @@ ht-degree: 4%
 ## 10 月リリースへのアップグレード
 
 現在のAdobe Experience Managerガイドをas a Cloud Service的にアップグレード ( 後で *AEMガイドas a Cloud Service*) を設定する必要があります。
-1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
-1. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを2022.10.183に保存します。
-1. 変更をコミットし、Cloud Servicesパイプラインを実行して、AEM Guides as a Cloud Serviceの 10 月リリースにアップグレードします。
+1. Cloud Serviceの Git コードを確認し、アップグレードする環境に対応するCloud Serviceパイプラインで設定されたブランチに切り替えます。
+1. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServiceGit コードを2022.10.183に保存します。
+1. 変更をコミットし、Cloud Serviceパイプラインを実行して、AEM Guides as a Cloud Serviceの 10 月リリースにアップグレードします。
 
 ## 互換性マトリックス
 
 この節では、2022 年 10 月のリリースにas a Cloud ServiceしたAEMガイドでサポートされているソフトウェアアプリケーションの互換性マトリックスを示します。
 
-### FrameMaker と FrameMaker Publishing Server
+### FrameMakerとFrameMaker Publishing Server
 
 | FMPS | FrameMaker |
 | --- | --- |
 | 互換性がありません | 2020 Update 4 以降 |
-|  |  |
+| | |
 
 * AEMで作成されたベースラインと条件は、2020.2 以降の FMPS リリースでサポートされています。
 
@@ -50,7 +49,7 @@ AEMガイドで **クイック生成** DITA マップ用に作成されたプリ
 
 ![クイック生成アイコン](assets/quick-generate-icon.png)
 
-内 **クイック生成** パネルに、DITA マップ用に作成されたすべての出力プリセットのリストを表示できます。
+Adobe Analytics の **クイック生成** パネルに、DITA マップ用に作成されたすべての出力プリセットのリストを表示できます。
 
 ![クイック生成パネル](assets/quick-generate-panel.png)
 
@@ -63,7 +62,7 @@ AEMガイドで **クイック生成** DITA マップ用に作成されたプリ
 
 * ネイティブPDF |リソースのみのトピックをPDF出力から削除するとエラーが発生します。 (10554)
 * ネイティブPDF |空の Keyref がPDF出力に表示されます。 (10553)
-* ネイティブPDF | `navtitle` 対象 `topichead` は受け入れられません。 (10509)
+* ネイティブPDF | `navtitle` 対象： `topichead` は受け入れられません。 (10509)
 * ネイティブPDF | amd64 JDK フレーバーに必要なサポート。 (10465)
 * ネイティブPDF |目次から最前面のトピックを非表示にできません。 (10355)
 * ネイティブPDF |チャプターレイアウトでページ番号を再開すると、前のチャプターの末尾からランダムにページ番号が開始されます。 (10154)

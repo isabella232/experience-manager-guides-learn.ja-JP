@@ -1,11 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド（2023 年 6 月リリース）のアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 2023 年 6 月リリースへのアップグレード方法について説明します。as a Cloud Service
-exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: 4359d857f3662ae29a55420c0fafc4a244258389
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 3%
+source-wordcount: '1170'
+ht-degree: 1%
 
 ---
 
@@ -19,9 +18,9 @@ ht-degree: 3%
 
 次の手順に従って、現在のAEM Guidesas a Cloud Service設定をアップグレードします。
 
-1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
-2. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2023.6.297 に変更します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、2023 年 6 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
+1. Cloud Serviceの Git コードを確認し、アップグレードする環境に対応するCloud Serviceパイプラインで設定されたブランチに切り替えます。
+2. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServiceGit コードを 2023.6.297 に変更します。
+3. 変更をコミットし、Cloud Serviceパイプラインを実行して、2023 年 6 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
 
 ## サーブレットを介したスクリプトのトリガーを有効にする手順
 
@@ -33,7 +32,7 @@ POST:
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-応答:
+応答：
 
 ```
 {
@@ -88,7 +87,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. （オプション）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 （例：`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`）。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
+1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例：`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
 
 1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -150,7 +149,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - JSON 出力 |同じファイル名のマップとトピックが存在する場合、マップの JSON は削除されます。 (11524)
 - ネイティブPDF |外部参照は、外部参照ラベルの代わりに href トピックタイトルの内容を印刷しています。 (11322)
 - ネイティブPDF |テンプレート設定を保存できません。PDFテンプレート設定を保存できません。 (10751)
-- ネイティブPDF |複数の外部参照を含めると、列幅を超えてテキストが拡張されます。 (10876)
+- ネイティブPDF |複数の外部参照を含めると、列幅を超えた文字列が表示されます。 (10876)
 - ネイティブPDF | `<note>``</note>` 要素は、そのタイプの余分な span タイトルを生成しません。 (10549)
 - ネイティブPDF | WCAG 2.0 に準拠するために、生成されたPDFに言語メタデータを設定することはできません。 (12296)
 

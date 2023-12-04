@@ -1,13 +1,12 @@
 ---
 title: アップグレードAEMガイド
 description: AEMガイドのアップグレード方法を説明します
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # アップグレードAEMガイド {#id213BD050YPH}
 
@@ -29,4 +28,3 @@ ht-degree: 0%
 アップグレードプロセスが完了したら、アップグレードバージョンのAEMガイドを使用する前に、すべてのユーザーがブラウザーのキャッシュをクリアする必要があります。
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
-

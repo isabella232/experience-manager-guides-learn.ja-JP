@@ -1,11 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 2 月リリース
 description: Adobe Experience Managerガイドの 2 月リリースas a Cloud Service
-exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 4%
+source-wordcount: '870'
+ht-degree: 1%
 
 ---
 
@@ -18,20 +17,19 @@ ht-degree: 4%
 ## 2023 年 2 月リリースにアップグレード
 
 次の手順に従って、現在のAEM Guidesas a Cloud Service設定をアップグレードします。
-1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
-2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2023.2.235 に変更します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、2023 年 2 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
+1. Cloud Serviceの Git コードを確認し、アップグレードする環境に対応するCloud Serviceパイプラインで設定されたブランチに切り替えます。
+2. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServiceGit コードを 2023.2.235 に変更します。
+3. 変更をコミットし、Cloud Serviceパイプラインを実行して、2023 年 2 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
 
 ## 既存のコンテンツのインデックスを作成する手順 (AEMガイドas a Cloud Serviceの 9 月リリースより前のバージョンを使用している場合のみ )
 
 既存のコンテンツのインデックスを作成し、マップレベルで新しい検索と置換テキストを使用するには、次の手順を実行します。
 
 * サーバーに対してPOSTリクエストを実行します（正しい認証を使用） - `http://<server:port>/bin/guides/map-find/indexing`.
-( オプション：マップの特定のパスを渡してインデックスを作成できます。既定では、すべてのマップにインデックスが作成されます ||例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+( オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。 ||例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-( 例：http://&lt;
-_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+( 例： http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * ジョブが完了すると、上記のGETリクエストは成功と共に応答し、マップが失敗した場合はメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。
 
@@ -39,12 +37,12 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 この節では、2023 年 2 月のリリースでas a Cloud ServiceするAEMガイドでサポートされているソフトウェアアプリケーションの互換性マトリックスを示します。
 
-### FrameMaker と FrameMaker Publishing Server
+### FrameMakerとFrameMaker Publishing Server
 
 | AEM Guides as a Cloud リリース | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.02.0 | 互換性がありません | 2022 以降 |
-|  |  |  |
+| | | |
 
 * AEMで作成されたベースラインと条件は、2020.2 以降の FMPS リリースでサポートされています。
 
@@ -94,7 +92,7 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 * ネイティブPDF |テーブルヘッダーを回転すると問題が発生します。 (10555)
 * ネイティブPDF |入れ子 `<indexterm>` は、ネイティブPDF書き出しでネストされません。 (10521)
 * ネイティブPDF |付録内のネストされた topicref は、すべて一時HTMLの h1 に変換されます。 (10454)
-* FrameMaker Publishing Server 2020 を使用して生成されたPDFに対して、ベースラインパブリッシングが失敗する。 (10551)
+* FrameMaker Publishing Server2020 で生成されたPDFのベースライン公開が失敗しました。 (10551)
 * ネイティブPDF |追加中 `xref` を画像に設定すると、生成された画像上で画像がレンダリングされません。PDF (11346)
 * ネイティブPDF |画像タグは、すべての画像に display-inline 属性を追加します。 (10653)
 * ネイティブPDF |下書きコメントは、生成された出力ではデフォルトで非表示になっています。 (10560)

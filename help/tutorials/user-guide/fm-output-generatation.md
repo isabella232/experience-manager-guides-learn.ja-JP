@@ -1,10 +1,9 @@
 ---
 title: FrameMaker文書の出力を生成
 description: AEMガイドでFrameMakerドキュメントの出力を生成し、PDF、HTML5、EPUB形式で公開する方法を説明します。
-exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
@@ -15,7 +14,7 @@ AEMガイド 1.1 以降では、FrameMakerドキュメントを公開できま�
 
 - PDF
 
-- HTML 5
+- HTML5
 
 - EPUB
 
@@ -31,4 +30,3 @@ AEMガイド 1.1 以降では、FrameMakerドキュメントを公開できま�
 >[!IMPORTANT]
 >
 > このトピックで説明する機能は、発行者または管理者権限を持つユーザーのみが使用できます。
-

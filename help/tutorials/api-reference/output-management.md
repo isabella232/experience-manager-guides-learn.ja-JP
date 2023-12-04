@@ -1,13 +1,12 @@
 ---
 title: 出力管理用の REST API
 description: 出力管理用の REST API について説明します。
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
-
 
 # 出力管理用の REST API {#id175UB30E05Z}
 
@@ -134,4 +133,3 @@ DITA マップの新しい出力プリセットを作成するPOSTメソッド�
 **パラメーター**: |名前|型|必須|説明| |—|—|—|—| |`:operation`|String|はい|呼び出される操作の名前。 このパラメーターの値は、 `deleteoutput`.<br> **注意：** 値では大文字と小文字が区別されません。| |`sourcePath`|String|はい|DITA マップファイルの絶対パス。| |`outputName`|String|はい|削除する出力プリセットの名前。|
 
 **応答値**:HTTP 200 \(Successful\) 応答を戻します。
-

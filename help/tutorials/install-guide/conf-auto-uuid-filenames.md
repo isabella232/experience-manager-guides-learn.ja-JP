@@ -1,13 +1,12 @@
 ---
 title: UUID に基づく自動ファイル名の設定
 description: UUID に基づいて自動ファイル名を設定する方法を説明します
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
 
 ---
-
 
 # UUID に基づく自動ファイル名の設定 {#id205QG070D5Z}
 
@@ -35,4 +34,3 @@ ht-degree: 0%
 > デフォルトでは、このオプションはオフになっています。 このオプションをオンにすると、作成者は新しいトピックまたはマップファイルの作成時にファイル名を指定するオプションを表示できません。 新しいトピックまたはマップファイルは、Assets UI と Web エディターから作成できます。
 
 **親トピック：**[&#x200B;ファイル名を設定](conf-file-names.md)
-

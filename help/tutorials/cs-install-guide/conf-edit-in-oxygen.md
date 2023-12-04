@@ -1,13 +1,12 @@
 ---
 title: Oxygen で編集するオプションを設定します。
 description: Oxygen コネクタプラグインで編集するオプションを設定する方法を説明します。
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
 
 ---
-
 
 # Oxygen で編集するオプションを設定します。
 
@@ -26,4 +25,3 @@ ht-degree: 1%
 > この設定はデフォルトで無効になっており、Web エディターではこのオプションを使用できません。
 
 **親トピック：**[ Web エディタのカスタマイズ](conf-web-editor.md)
-

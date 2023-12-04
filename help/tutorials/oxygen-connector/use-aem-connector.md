@@ -3,14 +3,12 @@ title: Oxygen Plugin for Adobe Experience Manager Guides
 description: Oxygen Plugin を使用して、Adobe Experience Managerガイドのコンテンツを作成および管理する方法を説明します。
 hide: true
 hidefromtoc: true
-exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '6120'
-ht-degree: 1%
+source-wordcount: '6101'
+ht-degree: 0%
 
 ---
-
 
 # Oxygen Plugin for Adobe Experience Manager Guides {#id1645H6010Q5}
 
@@ -36,14 +34,14 @@ AEM Guides 用 Oxygen Plugin は、Adobeソフトウェア配布ポータルか�
 
 - Oxygen XML Author バージョン 25.1 でサポートされているオペレーティングシステム
 
-- Java Development Kit
+- Java 開発キット
    - OracleSE 8 JRE 1.8
 
 ### Windows でのプラグインのインストール
 
 >[!IMPORTANT]
 >
->古いバージョンのプラグインがシステムにインストールされている場合は、インストールプロセスを開始する前に、必ずアンインストールしてください。 詳しくは、 **パッケージのアンインストール** セクション内 [パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/package-manager.html) アンインストール手順に関する記事です。
+>古いバージョンのプラグインがシステムにインストールされている場合は、インストールプロセスを開始する前に、必ずアンインストールしてください。 詳しくは、 **パッケージのアンインストール** セクション内 [パッケージの操作方法](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) アンインストール手順に関する記事です。
 
 Oxygen XML Author がインストールされているシステムで、次の手順を実行します。
 
@@ -77,7 +75,7 @@ Oxygen XML Author がインストールされているシステムで、次の�
 
 >[!IMPORTANT]
 >
->古いバージョンのプラグインがシステムにインストールされている場合は、インストールプロセスを開始する前に、必ずアンインストールしてください。 詳しくは、 **パッケージのアンインストール** セクション内 [パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/package-manager.html) 記事のアンインストール手順。
+>古いバージョンのプラグインがシステムにインストールされている場合は、インストールプロセスを開始する前に、必ずアンインストールしてください。 詳しくは、 **パッケージのアンインストール** セクション内 [パッケージの操作方法](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) 記事のアンインストール手順。
 
 Oxygen XML Author がインストールされているシステムで、次の手順を実行します。
 
@@ -253,7 +251,8 @@ AEMリポジトリ内の DITA トピックに関連付けられたプロファ�
 
 1. Adobe Analytics の **拡張機能** 「 」タブで、次の変更をおこないます。
    - クリック **選択** の横 **オーサー拡張機能の状態リスナー** under **個々の拡張機能** で「 CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn 」を選択します。 **クラス** リスト。 「**OK**」をクリックします。
-   - クリック **選択** の横 **作成者のカスタム属性値エディタ** under **個々の拡張機能** 「 CustomValueEditor - com.adobe.o2.framework.extn 」を選択し、 **クラス** リスト。 「**OK**」をクリックします。次のスクリーンショットは、設定済みの **拡張** DITA トピックのタブ：
+   - クリック **選択** の横 **作成者のカスタム属性値エディタ** under **個々の拡張機能** 「 CustomValueEditor - com.adobe.o2.framework.extn 」を選択し、 **クラス** リスト。 クリック **OK**.
+次のスクリーンショットは、設定済みの **拡張** DITA トピックのタブ：
 
      ![DITA トピック用に設定された拡張機能](images/dita-topic-extension-tab.png){width="650" align="left"}
 
@@ -729,7 +728,7 @@ AEMガイドを使用すると、関連する DITA 属性を使用して条件�
 1. ファイルを閉じます。 これにより、Xygen ログが有効になり、次のパスで利用できます。 `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. を開きます。 `oxygenAuthor.bat` ファイルを編集します。
 1. パラメーターを追加して、JxBrowser 関連のログを設定します。
-   `-Denable.aem.jx.log=true` で使用される様々なキャッシュに分散されます。これにより、JxBrowser 関連のログが有効になります。このログは次のパスで表示できます。 `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
+   `-Denable.aem.jx.log=true`。これにより、JxBrowser 関連のログが有効になります。このログは次のパスで表示できます。 `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
 
 
 
@@ -748,5 +747,3 @@ AEMガイドを使用すると、関連する DITA 属性を使用して条件�
 
 
 前の手順では、ログが有効になり、ログを使用して問題をデバッグできます。
-
-

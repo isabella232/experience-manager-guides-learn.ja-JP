@@ -1,8 +1,7 @@
 ---
 title: 元に戻したファイルのバージョン履歴レポート
 description: 元に戻されたファイルのバージョン履歴レポートをAEMガイドで表示します。 Assets UI、トピックプレビューおよびAEMツールの選択から、元に戻したバージョンログにアクセスする方法を説明します。
-exl-id: fa90b373-742a-4102-b00f-07e4113fef98
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

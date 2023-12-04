@@ -1,15 +1,12 @@
 ---
 title: UUID 以外のコンテンツをバージョン付きで UUID コンテンツに変換
 description: UUID 以外のコンテンツをバージョンで移行する方法を説明します。
-source-git-commit: 33cdc1b14db0d123c01bbc719c2833ce0df4c9d9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 3%
+source-wordcount: '1287'
+ht-degree: 2%
 
 ---
-
-
-
 
 # UUID 以外のコンテンツのバージョンでの移行
 

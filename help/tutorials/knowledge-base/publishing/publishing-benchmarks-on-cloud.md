@@ -1,10 +1,9 @@
 ---
 title: AEMaaCS でのベンチマークの公開に関するガイド
 description: AEM Cloud での公開に関するシステム制限について理解します。
-exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
-source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 8%
 
 ---
@@ -20,21 +19,21 @@ AEMクラウド環境用に新しいパブリッシュサービスを設定す�
 
 ## 実行環境
 
-    AEMリリース：2023.5.11983.20230511T173830Z
-    Guide Add On Release:2023.6.0
-    AEM Site Template:AEM Guides OOTB テンプレート
-    DITA-OT バージョン：3.5.4
-    公開ワークフローの種類：公開ワークフローを分割
+    AEMリリース： 2023.5.11983.20230511T173830Z
+    Guide Add On リリース： 2023.6.0
+    AEM Site Template: AEM Guides OOTB テンプレート
+    DITA-OT バージョン： 3.5.4
+    公開ワークフローの種類：分割公開ワークフロー
     マイクロサービスでサポートされる出力：ネイティブPDF、PDF(Dita-OT)
 
 ## 出力生成番号
 
-| 出力タイプ | マップサイズ（トピック参照） | 実行時間（秒） | 公開マイクロサービス |
+| 出力タイプ | マップサイズ（トピック参照） | 実行時間（秒） | Microservice の公開 |
 |---------------|------------------------------|----------------------------|-----------------------|
 | AEM Site | 3500 | 5220 | いいえ |
 | ネイティブPDF | 3500 | 780 | はい |
 | PDF(DITA-OT) | 11000 | 960 | はい |
-| HTML 5 | 3500 | 240 | いいえ |
+| HTML5 | 3500 | 240 | いいえ |
 | カスタム | 300 | 300 | いいえ |
 
 ## 覚えておくべき重要なポイント

@@ -1,8 +1,7 @@
 ---
 title: 出力の生成
 description: AEMガイドの DITA-OT プラグイン、ネイティブPDF公開、FMPS を使用して、AEMサイト、PDF、HTML5、EPUB、カスタム、JSON で出力を生成します。
-exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -43,4 +42,3 @@ AEMガイドには、様々な業界標準の形式で出力を生成する組�
 >[!IMPORTANT]
 >
 > このトピックで説明する機能は、発行者または管理者権限を持つユーザーのみが使用できます。
-

@@ -1,9 +1,9 @@
 ---
 title: Guides Webeditor にカスタムスタイルを追加する
 description: カスタムスタイルを追加して、ガイドウェブエディターの外観と操作性を変更する方法を説明します。
-source-git-commit: 9e7d5bb4c8f6c6ebe21bfcebdd7d2e13971b8df2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 ![カスタムスタイルを使用した WebDetior のプレビュー](../../../assets/authoring/webeditor-customstyles-preview.png)
 
 
-## 実装
+## この実装
 
 
 ### フォルダープロファイルへのカスタム CSS の追加
@@ -34,7 +34,7 @@ ht-degree: 0%
 [このリンクを使用して、フォルダープロファイルと CSS テンプレートレイアウトの設定について詳しく知る](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 以下を使用して、上記のスタイルをウェブエディターで設定します。
-- 用途 [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) 選択したフォルダープロファイルにアップロードします。
+- 用途 [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) を選択し、選択したフォルダープロファイルにアップロードします。
 - 添付のパッケージをインストールします。 [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) AEMパッケージマネージャーを使用した上記の CSS ファイルで使用するリソースのインストール
 
 ```

@@ -1,11 +1,10 @@
 ---
 title: コンテンツの翻訳
 description: コンテンツを複数の言語に翻訳する方法を説明します。
-exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 3%
+source-wordcount: '166'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +27,7 @@ AEMガイドは、堅牢な翻訳機能を備えた多言語コンテンツ作�
 - **期間** - 60 分
 - **対象ユーザ** ・お客様、パートナー、Adobe従業員
 
-## 重要な留意点
+## 重要ポイント
 
 このセッションでは、次の事項について学習します。
 - 企業が翻訳に投資してビジネスを改善する理由
@@ -48,8 +47,7 @@ AEMガイドは、堅牢な翻訳機能を備えた多言語コンテンツ作�
 >
 > このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
 > - オンプレミス 4.1 以降
-> - Cloud Services2207 以降
-
+> - Cloud Service2207 以降
 
 ## お問い合わせ
 

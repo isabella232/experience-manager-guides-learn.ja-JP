@@ -1,10 +1,9 @@
 ---
 title: DITA コンテンツの一括タグ付け
 description: AEMガイドのコンテンツの一括タグ付けを使用して、DITA コンテンツの検出性を向上させます。 1 つまたは複数のトピックに対して一括タグを適用、削除、表示または非表示にする方法を説明します。
-exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---

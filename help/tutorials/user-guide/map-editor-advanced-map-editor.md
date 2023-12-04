@@ -1,10 +1,9 @@
 ---
 title: '[ 高度なマップエディタ ] を使用する'
 description: AEMガイドの高度なマップエディターの操作方法について説明します。 高度なマップエディタの機能を理解する。 DITA マップを使用してトピックを編集し、レイアウトビュー、作成者ビュー、プレビューモードを使用します。
-exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3695'
 ht-degree: 0%
 
 ---
@@ -156,7 +155,7 @@ Web エディタから直接マップファイルを編集する以外に、マ�
 >
 > また、参照をドラッグ&amp;ドロップしてマップ内で移動することもできます。
 
-**ロック／ロック解除** - ![](images/LockClosed_icon.svg) / ![](images/LockOpen_icon.svg)
+**ロック/ロック解除** - ![](images/LockClosed_icon.svg) / ![](images/LockOpen_icon.svg)
 
 マップファイルのロックを取得し、ロックを解除します。 マップファイルに未保存の変更がある場合は、ロックを解除する際に、マップファイルを保存するよう求めるプロンプトが表示されます。 変更内容は、現在のバージョンのマップファイルに保存されます。
 

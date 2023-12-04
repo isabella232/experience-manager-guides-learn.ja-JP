@@ -1,19 +1,18 @@
 ---
 title: デフォルトで@navtitle属性を含める
 description: デフォルトで@navtitle属性を含める方法を説明します。
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
 
 ---
 
-
 # デフォルトで@navtitle属性を含める {#id2115BC0J0XA}
 
 マップには、トピック、参照、タスク、\(sub\) マップなど、様々なタイプの参照ファイルを追加できます。 これらのファイルの大部分は `@navtitle` 属性。 ただし、一貫して使用する作者は多くありません。 の使用を強制する場合は、 `@navtitle` 属性をマップ内のすべての参照ファイルに含めると、簡単な設定でこれを行うことができます。
 
-有効にすると、マップに追加するすべての参照ファイルが自動的に `@navtitle` 属性がプロパティに追加されました。 この `@navtitle` また、 `title` 参照先コンテンツの要素。
+有効にすると、マップに追加するすべての参照ファイルが自動的に `@navtitle` 属性がプロパティに追加されました。 The `@navtitle` また、 `title` 参照先コンテンツの要素。
 
 含める `@navtitle` 属性は、デフォルトでは参照ファイルのプロパティで次の手順を実行します。
 
@@ -33,7 +32,7 @@ ht-degree: 1%
    },
    ```
 
-1. を `required` パラメーター：
+1. 次を変更： `required` パラメーター：
 
    ```json
    "required": {"navtitle": true}
@@ -45,4 +44,3 @@ ht-degree: 1%
 
 
 この設定を使用すると、マップに追加するすべての参照ファイルに、 `@navtitle` 属性のデフォルト値です。
-

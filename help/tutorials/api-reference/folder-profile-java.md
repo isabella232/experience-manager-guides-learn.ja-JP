@@ -1,13 +1,12 @@
 ---
 title: フォルダープロファイルを操作する Java ベースの API
 description: フォルダープロファイルを操作する Java ベースの API について説明します。
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # フォルダープロファイルを操作する Java ベースの API {#id175UB30E05Z}
 
@@ -62,4 +61,3 @@ Session session) throws GuidesApiException
 - API が、許可されていないユーザーセッション（特定のフォルダープロファイルの管理者でないユーザーなど）によって呼び出された場合。
 
 [1](#fnsrc_1) The `attributeNames`, `values`、および `labels` 配列リスト内の同じインデックスが同じエントリに対応している必要があります。
-

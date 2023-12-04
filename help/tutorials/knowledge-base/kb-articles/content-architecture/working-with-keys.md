@@ -2,10 +2,9 @@
 title: キーの操作
 description: 組織コンテンツ全体で使用するキーの作成方法
 role: Admin
-exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 製品名や製品のピッチなど、多くの場所で使用されているが変更しやすい結果的で一般的なテキストが含まれる場合は、キーを使用する必要があります。 このような再利用可能なテキストにキーを使用すると、キー値などの 1 か所で変更を行うことで、複数の場所で更新をプッシュできます。
 
-## 手順 1:キーを保存するグローバルマップを作成します
+## 手順 1：キーを保存するためのグローバルマップを作成する
 
 マップを作成し、 [!UICONTROL keyref] 要素を追加します。
 
@@ -36,9 +35,9 @@ ht-degree: 0%
 </map>
 ```
 
-ここでは、上に示すように、次の 2 つの定義を定義しました。 [!UICONTROL keyref] as _AEM_ の _Adobe Experience Manager_ テキスト。
+ここでは、上に示すように、次の 2 つの定義を定義しました。 [!UICONTROL keyref] as _AEM_ （の） _Adobe Experience Manager_ テキスト。
 
-## 手順 2:このマップをパブリケーションマップに追加
+## 手順 2：このマップをパブリッシュマップに追加する
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -52,12 +51,12 @@ ht-degree: 0%
 </map>
 ```
 
-## 手順 3:キーを使用して、グローバルキーマップで定義された変数を参照します
+## 手順 3：キーを使用して、グローバルキーマップで定義された変数を参照する
 
 + トピックを編集し、 [!UICONTROL keyref].
 + スクリーンショットに示すように、小さなウィンドウが表示され、そこからキーワードを選択できます。 これは、「keyword」要素を追加する際に表示されます。
-   ![要素を挿入](assets/insert_element.png)
-   ![キー参照](assets/key_ref.png)
+  ![要素を挿入](assets/insert_element.png)
+  ![キー参照](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

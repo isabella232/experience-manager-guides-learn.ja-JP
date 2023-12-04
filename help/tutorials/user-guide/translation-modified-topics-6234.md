@@ -1,8 +1,7 @@
 ---
 title: 変更したトピックを翻訳
 description: 変更したトピックを再翻訳する方法については、AEMガイドを参照してください。
-exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%

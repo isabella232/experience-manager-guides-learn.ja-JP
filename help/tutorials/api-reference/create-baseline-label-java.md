@@ -1,13 +1,12 @@
 ---
 title: ベースラインとラベルを操作する Java ベースの API
 description: ベースラインとラベルを操作する Java ベースの API について説明します。
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
-
 
 # ベースラインとラベルを操作する Java ベースの API {#id175UB30E05Z}
 
@@ -109,4 +108,3 @@ String label) throws GuidesApiException
 **戻り値**：を使用したマップ *key:value* 一対の `path:deletedlabels` ベースライン内のすべてのファイルに対して。
 
 **例外**：スロー ``RepositoryException`, `VersionException`, `Exception``.
-

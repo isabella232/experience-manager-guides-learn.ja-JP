@@ -1,13 +1,12 @@
 ---
 title: データソースコネクタの設定
 description: データソースコネクタの設定方法を説明します
-source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '454'
+ht-degree: 0%
 
 ---
-
 
 # データソースコネクタの設定
 
@@ -274,11 +273,10 @@ AEMガイドでは、ユーザーのニーズに合わせて設定ファイル�
 
 ファイルをAEM Assetsの任意の場所にアップロードします。
 
-例：`/content/dam/jira.json`
+例：  `/content/dam/jira.json`
 
 ## REST API を使用した設定の作成
 
 設定は、REST API を使用して登録できます。 詳しくは、 *データソースコネクタを登録する REST API* 『 Adobe Experience Managerガイド』の API リファレンスの節を参照してください。
 
 データソースを設定すると、Web エディターのデータソースパネルにコネクタが表示されます。 その後、データソースに接続し、トピックにコンテンツスニペットを挿入できます。 詳しくは、 [データソースからコンテンツスニペットを挿入する](../user-guide/web-editor-content-snippet.md).
-

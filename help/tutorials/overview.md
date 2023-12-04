@@ -1,10 +1,9 @@
 ---
 title: TutorialsガイドのExperience Manager
 description: Experience Managerガイド ( 旧称XML Documentation for Adobe Experience Manager) のチュートリアルビデオを見つけます。 ネイティブの DITA サポートと、構造化されたオーサリングのExperience Manager。
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '303'
 ht-degree: 2%
 
 ---
@@ -25,16 +24,16 @@ ht-degree: 2%
 
 * **[[!DNL AEM Guides] 入門コース](../courses/course-1/overview.md)**
 
-   _でコンテンツを作成、整理、オーサリングおよび公開する方法について説明します。 [!DNL Adobe Experience Manager Guides]._
+  _でコンテンツを作成、整理、オーサリングおよび公開する方法について説明します。 [!DNL Adobe Experience Manager Guides]._
 
 
 * **[[!DNL AEM Guides] 組み込み Web エディターでのオーサリング](../courses/course-3/overview.md)**
 
-   _ネイティブの Web エディターを使用してコンテンツを作成する方法について説明します。  [!DNL Adobe Experience Manager Guides]. ユーザーの環境設定、エディターの設定、設定、ツールバーなどを完全に理解できます。_
+  _ネイティブの Web エディターを使用してコンテンツを作成する方法について説明します。  [!DNL Adobe Experience Manager Guides]. ユーザーの環境設定、エディターの設定、設定、ツールバーなどを完全に理解できます。_
 
 * **[次を使用した出力の生成 [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
-   _を使用して出力を生成する方法を説明します。 [!DNL Adobe Experience Manager Guides]. レポート、ベースライン、条件、トラブルシューティング、一括公開、アクティベーションなど、出力生成に使用できる様々な機能について説明します。_
+  _を使用して出力を生成する方法を説明します。 [!DNL Adobe Experience Manager Guides]. レポート、ベースライン、条件、トラブルシューティング、一括公開、アクティベーションなど、出力生成に使用できる様々な機能について説明します。_
 
 
 <!--
@@ -94,4 +93,4 @@ Dummy links cause validation to fail
 
 * [[!DNL AEM Guides] オンラインユーザガイド](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] PDFガイド](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League- AEMを参照](https://experienceleague.adobe.com/?lang=ja#recommended/solutions/experience-manager)
+* [Experience League - AEM に関する情報](https://experienceleague.adobe.com/?lang=ja#recommended/solutions/experience-manager)

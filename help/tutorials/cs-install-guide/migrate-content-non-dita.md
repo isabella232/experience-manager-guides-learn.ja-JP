@@ -1,13 +1,12 @@
 ---
 title: DITA 以外のコンテンツの移行
 description: DITA 以外のコンテンツを移行する方法を説明します
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
-
 
 # DITA 以外のコンテンツの移行 {#id181AH0R02HT}
 
@@ -36,7 +35,7 @@ Word 文書を正しく変換するには、文書の構造が正しく設定さ
 >
 > デフォルトのスタイルとタグのマッピング設定ファイルに変更を加えた場合は、更新後のスタイルマッピングに対して確認ガイドラインを更新して使用する必要があります。
 
-- ドキュメントの先頭にタイトルが付いていることを確認します。このタイトルは DITA マップタイトルにマッピングされます。 また、「タイトル」の後には、一部の通常のコンテンツが続く必要があります。
+- 文書がタイトルで始まっていることを確認します。このタイトルは DITA マップのタイトルにマッピングされます。 また、「タイトル」の後には、一部の通常のコンテンツが続く必要があります。
 
 - 「タイトル」の後には、「見出し 1」、「見出し 2」などが表示されます。 各見出しには、コンテンツが含まれている必要があります。 見出しは、新しい概念タイプのトピックに変換されます。 生成されるトピックの階層は、ドキュメント内の見出しレベルに従っています。例えば、見出し 1 は見出し 2 の前、見出し 2 は見出し 3 のコンテンツの前に配置されます。
 
@@ -48,7 +47,7 @@ Word 文書を正しく変換するには、文書の構造が正しく設定さ
 
 - 太字、斜体、下線などのインラインスタイルは、 `b`, `i`、および `u` 要素。
 
-- 並べ替えられたリストと並べ替えられていないリストは、すべて `ol` および `ul` 要素。 これは、入れ子になったリスト、テーブル内のリスト、メモ、または脚注にも適用されます。
+- 並べ替え済みリストと並べ替えられていないリストは、 `ol` および `ul` 要素。 これは、入れ子になったリスト、テーブル内のリスト、メモ、または脚注にも当てはまります。
 
 - すべてのハイパーリンクは `xref`.
 
@@ -65,15 +64,15 @@ Word 文書を正しく変換するには、文書の構造が正しく設定さ
 
    /apps/fmdita/config/w2d\_io.xml
 
-   この `w2d_io.xml` ファイルには、次の設定可能なパラメーターが含まれています。
+   The `w2d_io.xml` ファイルには、次の設定可能なパラメーターが含まれています。
 
-   - 内 `inputDir` 要素を指定する場合は、ソース Word ドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、Word ドキュメントが `wordtodita` in `projects` フォルダーを開き、場所を次のように指定します。 `/content/dam/projects/wordtodita/`
+   - Adobe Analytics の `inputDir` 要素を指定する場合は、ソース Word ドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、Word ドキュメントが `wordtodita` in `projects` フォルダーを開き、場所を次のように指定します。 `/content/dam/projects/wordtodita/`
 
-   - 内`outputDir` 要素を指定する場合は、出力フォルダーの場所を指定するか、デフォルトの出力場所をそのまま使用して変換後の DITA 文書を保存します。 指定した出力フォルダーが DAM 上に存在しない場合は、変換ワークフローによって出力フォルダーが作成されます。
+   - Adobe Analytics の`outputDir` 要素を指定する場合は、出力フォルダーの場所を指定するか、デフォルトの出力場所をそのまま使用して変換後の DITA 文書を保存します。 指定した出力フォルダーが DAM 上に存在しない場合は、変換ワークフローによって出力フォルダーが作成されます。
 
    - の `createRev` 要素を使用する場合は、変換後の DITA トピックの新しいバージョンを作成するかどうかを指定します\(`true`\) または\(`false`\) です。
 
-   - 内 `s2tMap` 要素を指定します。Word 文書スタイルの DITA 要素へのマッピングを含むマップファイルの場所を指定します。 デフォルトのマッピングは、次の場所にあるファイルに保存されます。
+   - Adobe Analytics の `s2tMap` 要素を指定します。Word 文書スタイルの DITA 要素へのマッピングを含むマップファイルの場所を指定します。 デフォルトのマッピングは、次の場所にあるファイルに保存されます。
 
      ```
      /libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xml
@@ -81,7 +80,7 @@ Word 文書を正しく変換するには、文書の構造が正しく設定さ
 
      >[!NOTE]
      >
-     > の構造の詳細 `word-builtin-styles-style2tagmap.xml` ファイルとそのカスタマイズ方法については、 [スタイルとタグのマッピング](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) in *DITA For Publishers ユーザーガイド*.
+     > の構造に関する詳細 `word-builtin-styles-style2tagmap.xml` ファイルとそのカスタマイズ方法については、 [スタイルとタグのマッピング](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) in *DITA For Publishers ユーザーガイド*.
 
    - props2Propagate 要素で、DITA マップに渡すプロパティを指定します。 このプロパティは、dc:title,dc:subject,dam:keywords,dam:category などのデフォルトのメタデータをドキュメントメタデータから変換後の DITA アセットに渡すために必要です。
 
@@ -94,7 +93,7 @@ Word 文書を正しく変換するには、文書の構造が正しく設定さ
 1. ソース Word ドキュメントをこのフォルダにアップロードします。 DAM でのコンテンツのアップロードについて詳しくは、 [既存の DITA コンテンツのアップロード](migrate-content-upload-existing-dita-content.md#).
 
 
-の使用 `config` `/config` ブロックを使用する場合は、変換する設定のブロックを 1 つ以上定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が `outputDir` 要素。
+の使用 `config` `/config` ブロックを使用すると、変換する設定のブロックを 1 つ以上定義できます。 変換ワークフローが実行され、DITA トピックの形式での最終出力が `outputDir` 要素を選択します。
 
 **既存ユーザーのカスタマイズの更新**
 
@@ -104,19 +103,19 @@ AEMガイドをas a Cloud Serviceの既存ユーザーで、2021 年 8 月のリ
 >
 > この更新は、既にMicrosoft Word から DITA への変換ワークフローを使用している場合にのみ適用されます。
 
-- ファイルパス：/apps/fmdita/config/w2d\_io.xml
-- の値を変更 `<s2tMap>` /apps/dxml/word2dita/word-builtin-styles-style2tagmap.xmlから/libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xmlへ
+- ファイルパス： /apps/fmdita/config/w2d\_io.xml
+- 次の値を変更： `<s2tMap>` /apps/dxml/word2dita/word-builtin-styles-style2tagmap.xmlから/libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xmlへ
 - Cloud Service の場合、/apps 内のすべてのファイルが Cloud Manager Git を通じてオーバーレイされるので、Cloud Manager Git リポジトリで必要な変更をおこないます。
 
 ## Adobe InDesignドキュメントの移行 {#id195AD0B0K5Z}
 
-AEMガイドを使用すると、InDesignドキュメントを変換できます。 FrameMaker と同様に、InDesignでは、非構造化ドキュメントや構造化ドキュメントを作成することもできます。 非構造化ドキュメントでは、段落スタイルと文字スタイルを使用してコンテンツを書式設定します。 構造化ドキュメントでは、要素とそれに対応する属性を使用します。
+AEMガイドを使用すると、InDesignドキュメントを変換できます。 FrameMakerと同様に、InDesignでも、非構造化ドキュメントや構造化ドキュメントを作成できます。 非構造化ドキュメントでは、段落スタイルと文字スタイルを使用してコンテンツの書式を設定します。 構造化ドキュメントでは、要素とそれに対応する属性を使用します。
 
 変換プロセスでは、段落スタイル形式と文字スタイル形式を関連する DITA 要素にマッピングする必要があります。 同様に、構造化文書の場合、マッピングファイルには、DITA 要素および属性を持つInDesign要素および属性の 1 対 1 のマッピングが含まれます。
 
 変換プロセスでは、バックエンドで次のアクションが実行されます。
 
-- この *InDesignマークアップ言語* \(IDML\) ファイルは作業ディレクトリに展開されています。
+- The *InDesignマークアップ言語* \(IDML\) ファイルは作業ディレクトリに展開されています。
 - designmap.xml ファイルが読み込まれ、個々のストーリーを検索するInDesignが表示されます。
 - すべてのストーリーが 1 つの XML インスタンスに結合され、「空の」ストーリーは破棄されます。
 - 埋め込まれたすべてのグラフィックが書き出されます。
@@ -127,7 +126,7 @@ AEMガイドを使用すると、InDesignドキュメントを変換できます
 
 幅広く、変換プロセスでは次のことが必要になります。 [変換用のInDesignファイルを準備する](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) および [DITA への移行のInDesign用のマッピングファイルの準備](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)変換処理を実行するには、上記の手順に従う必要があります。
 
-既存のトピック文書を DITA トピックタイプの文書にInDesignするには、次の手順を実行します。
+既存のトピック文書を DITAInDesignタイプの文書に変換するには、次の手順を実行します。
 
 1. AEMにログインし、CRXDE Liteモードを開きます。
 
@@ -135,7 +134,7 @@ AEMガイドを使用すると、InDesignドキュメントを変換できます
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. オーバーレイノード `config` フォルダー内の `apps` ノード。
+1. オーバーレイノードの `config` フォルダー内の `apps` ノード。
 
 1. 次の場所にある設定ファイルに移動します。 `apps` ノード：
 
@@ -143,11 +142,11 @@ AEMガイドを使用すると、InDesignドキュメントを変換できます
 
    次のパラメーターを `idml2dita_io.xml` ファイル：
 
-   - 内 `inputDir` 要素：ソースフォルダードキュメントを使用できる入力InDesignーの場所を指定します。 例えば、InDesignドキュメントが `indesigntodita` in `projects` フォルダーを開き、場所を次のように指定します。 `/content/dam/idmlfiles/indesigntodita/`
+   - Adobe Analytics の `inputDir` 要素：ソースフォルダードキュメントを使用できる入力InDesignーの場所を指定します。 例えば、InDesignドキュメントが `indesigntodita` in `projects` フォルダーを開き、場所を次のように指定します。 `/content/dam/idmlfiles/indesigntodita/`
 
-   - 内`outputDir` 要素を指定する場合は、出力フォルダーの場所を指定するか、デフォルトの出力場所をそのまま使用して変換後の DITA 文書を保存します。 指定した出力フォルダーが DAM 上に存在しない場合は、変換ワークフローによって出力フォルダーが作成されます。
+   - Adobe Analytics の`outputDir` 要素を指定する場合は、出力フォルダーの場所を指定するか、デフォルトの出力場所をそのまま使用して変換後の DITA 文書を保存します。 指定した出力フォルダーが DAM 上に存在しない場合は、変換ワークフローによって出力フォルダーが作成されます。
 
-   - 内 `mapStyle` 要素：DITA 要素へのInDesign文書スタイルのマッピングを含むマップファイルの場所を指定します。 デフォルトのマッピングは、次の場所にあるファイルに保存されます。
+   - Adobe Analytics の `mapStyle` 要素：DITA 要素へのInDesign文書スタイルのマッピングを含むマップファイルの場所を指定します。 デフォルトのマッピングは、次の場所にあるファイルに保存されます。
 
      ```
      /stmap.adobeidml.xml
@@ -155,7 +154,7 @@ AEMガイドを使用すると、InDesignドキュメントを変換できます
 
      >[!NOTE]
      >
-     > の構造の詳細 `stmap.adobeidml.xml` ファイルとそのカスタマイズ方法については、「 [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) 付録の
+     > の構造に関する詳細 `stmap.adobeidml.xml` ファイルとそのカスタマイズ方法については、「 [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) 付録の
 
 1. `idml2dita_io.xml` ファイルを保存します。
 
@@ -233,11 +232,11 @@ ZIP ファイルの作成に関する考慮事項以外に、XHTML ドキュメ�
 
    /apps/fmdita/config/h2d\_io.xml
 
-   この `h2d_io.xml` ファイルには、次の設定可能なパラメーターが含まれています。
+   The `h2d_io.xml` ファイルには、次の設定可能なパラメーターが含まれています。
 
-   - 内 `inputDir` 要素を使用する場合は、入力フォルダーの場所を指定します。この場所で、ソース XHTML ドキュメントを使用できます。 例えば、XHTML ドキュメントが `xhtmltodita` in `projects` フォルダーを開き、場所を次のように指定します。 `/content/dam/projects/xhtmltodita/`
+   - Adobe Analytics の `inputDir` 要素を使用する場合は、入力フォルダーの場所を指定します。この場所で、ソース XHTML ドキュメントを使用できます。 例えば、XHTML ドキュメントが `xhtmltodita` in `projects` フォルダーを開き、場所を次のように指定します。 `/content/dam/projects/xhtmltodita/`
 
-   - 内`outputDir` 要素を指定する場合は、出力フォルダーの場所を指定するか、デフォルトの出力場所をそのまま使用します。 指定した出力フォルダーが DAM 上に存在しない場合は、変換ワークフローによって出力フォルダーが作成されます。
+   - Adobe Analytics の`outputDir` 要素を指定する場合は、出力フォルダーの場所を指定するか、デフォルトの出力場所をそのまま使用します。 指定した出力フォルダーが DAM 上に存在しない場合は、変換ワークフローによって出力フォルダーが作成されます。
 
    - の `createRev` 要素を使用する場合は、変換後の DITA トピックの新しいバージョンを作成するかどうかを指定します\(`true`\) または\(`false`\) です。
 
@@ -270,17 +269,17 @@ ZIP ファイルの作成に関する考慮事項以外に、XHTML ドキュメ�
 1. このフォルダーにソース XHTML ドキュメントをアップロードします。 DAM でのコンテンツのアップロードについて詳しくは、 [既存の DITA コンテンツのアップロード](migrate-content-upload-existing-dita-content.md#).
 
 
-の使用 `<config> </config>` ブロックを使用する場合は、変換する設定のブロックを 1 つ以上定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が `outputDir` 要素。
+の使用 `<config> </config>` ブロックを使用すると、変換する設定のブロックを 1 つ以上定義できます。 変換ワークフローが実行され、DITA トピックの形式での最終出力が `outputDir` 要素を選択します。
 
-## 非構造化 FrameMaker ドキュメントの移行 {#id1949B050VUI}
+## 非構造化FrameMaker・ドキュメントの移行 {#id1949B050VUI}
 
-AEMガイドを使用すると、既存の非構造化 FrameMaker を変換できます\(`.fm` および `.book`\) ドキュメントを DITA ドキュメントに変換します。 最初の手順は、FrameMakerを使用してスタイルマッピングを作成し、それらの設定を.sts ファイルに保存することです。 次に、カスタム DITA を使用している場合、カスタム要素を `ditaElems.xml` ファイル。 例えば、 `impnote` すべての重要なメモを処理するには、このカスタム要素を `ditaElems.xml` ファイル。 このカスタム要素を定義すると、AEMガイドは、を含むFrameMakerドキュメントの変換中にエラーを発生させませんでした `impnote` 要素。
+AEMガイドを使用すると、既存の非構造化FrameMakerを変換できます\(`.fm` および `.book`\) ドキュメントを DITA ドキュメントに変換します。 最初の手順は、FrameMakerを使用してスタイルマッピングを作成し、それらの設定を.sts ファイルに保存することです。 次に、カスタム DITA を使用している場合は、カスタム要素を、 `ditaElems.xml` ファイル。 例えば、 `impnote` すべての重要なメモを処理するには、このカスタム要素を `ditaElems.xml` ファイル。 このカスタム要素を定義すると、AEMガイドは、を含むFrameMakerドキュメントの変換中にエラーを発生させませんでした。 `impnote` 要素を選択します。
 
-また、カスタムまたは有効な DITA 要素で追加の属性を指定する場合は、style2attrMap.xml ファイルで定義できます。 例えば、 `type` 属性は `important` 人に付き合う `impnote` 要素。 この追加情報は、style2attrMap.xml ファイルで指定できます。
+また、カスタムまたは有効な DITA 要素で追加の属性を指定する場合は、style2attrMap.xml ファイルで定義できます。 例えば、 `type` 属性は `important` 人に付き合う `impnote` 要素を選択します。 この追加情報は、style2attrMap.xml ファイルで指定できます。
 
 次を指定する以外に、
 
-既存の非構造化 FrameMaker 文書を DITA 形式に変換するには、次の手順を実行します。
+既存の非構造化FrameMaker文書を DITA 形式に変換するには、次の手順を実行します。
 
 1. FrameMakerでスタイルマッピングを作成し、それらの設定を.sts ファイルに保存します。
 
@@ -298,27 +297,27 @@ AEMガイドを使用すると、既存の非構造化 FrameMaker を変換で�
 
    `/apps/fmdita/config/ditaElems.xml`
 
-   この `ditaElems.xml` ファイルには、次の設定可能なパラメータが 1 つ含まれています。
+   The `ditaElems.xml` ファイルには、次の設定可能なパラメータが 1 つ含まれています。
 
-   - 内 `elem` パラメーターに、変換後の DITA 文書で使用するカスタム要素の名前を指定します。 この要素は、生成された DITA 文書と同様に渡されます。
+   - Adobe Analytics の `elem` パラメーターに、変換後の DITA 文書で使用するカスタム要素の名前を指定します。 この要素は、生成された DITA 文書と同様に渡されます。
 
 1. 追加の属性を指定する場合は、 `style2attrMap.xml` ファイルは次の場所にあります。
 
    `/libs/fmdita/config/style2attrMap.xml`
 
-1. オーバーレイノード `config` フォルダー内の `apps` ノード。
+1. オーバーレイノードの `config` フォルダー内の `apps` ノード。
 
 1. 次の場所にある設定ファイルに移動します。 `apps` ノード：
 
    `/apps/fmdita/config/style2attrMap.xml`
 
-   この `style2attrMap.xml` ファイルには、次の設定可能なパラメーターが含まれています。
+   The `style2attrMap.xml` ファイルには、次の設定可能なパラメーターが含まれています。
 
-   - 内 `fmStyle` パラメータを指定し、マップするFrameMakerドキュメントで使用するソース形式を指定します。
+   - Adobe Analytics の `fmStyle` パラメータを指定し、マッピングするFrameMakerドキュメントで使用するソース形式を指定します。
 
-   - 内`ditaAttr` 要素を選択し、ソース形式にマッピングする DITA 属性を指定します。
+   - Adobe Analytics の`ditaAttr` 要素を選択し、ソース形式にマッピングする DITA 属性を指定します。
 
-   - 内 `ditaVal` 要素にマッピングされた属性の値を指定します。 値がない場合は、このエントリを空白のままにできます。
+   - Adobe Analytics の `ditaVal` 要素にマッピングされた属性の値を指定します。 値がない場合は、このエントリを空白のままにできます。
 
 1. `style2attrMap.xml` ファイルを保存します。
 
@@ -337,7 +336,7 @@ AEMガイドを使用すると、既存の非構造化 FrameMaker を変換で�
 1. 次をクリック： **生成** アイコンをクリックして、出力生成プロセスを開始します。
 
 
-の使用 `<attrMap> </attrMap>` ブロックを使用する場合は、変換する設定のブロックを 1 つ以上定義できます。 内容に応じて、変換後のファイルとして.dita ファイルと.ditamap ファイルを使用できます。
+の使用 `<attrMap> </attrMap>` ブロックを使用すると、変換する設定のブロックを 1 つ以上定義できます。 内容に応じて、変換後のファイルとして.dita ファイルと.ditamap ファイルを使用できます。
 
 ## その他の構造化ドキュメントを移行する {#id1949B0590YK}
 
@@ -351,17 +350,17 @@ AEMガイドを使用すると、既存の構造化文書を有効な DITA 文�
 
    `/apps/fmdita/config/XSLConfig.xml`
 
-   この `XSLConfig.xml` ファイルには、次の設定可能なパラメーターが含まれています。
+   The `XSLConfig.xml` ファイルには、次の設定可能なパラメーターが含まれています。
 
-   - 内 `inputDir` 要素を選択し、ソース構造化ドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、構造化ドキュメントが `xsltodita` in `projects` フォルダーを開き、場所を次のように指定します。 `/content/dam/projects/xsltodita/`
+   - Adobe Analytics の `inputDir` 要素を選択し、ソース構造化ドキュメントを使用できる入力フォルダーの場所を指定します。 例えば、構造化ドキュメントが `xsltodita` in `projects` フォルダーを開き、場所を次のように指定します。 `/content/dam/projects/xsltodita/`
 
-   - 内`outputDir` 要素を指定する場合は、出力フォルダーの場所を指定するか、デフォルトの出力場所をそのまま使用します。 指定した出力フォルダーが DAM 上に存在しない場合は、変換ワークフローによって出力フォルダーが作成されます。
+   - Adobe Analytics の`outputDir` 要素を指定する場合は、出力フォルダーの場所を指定するか、デフォルトの出力場所をそのまま使用します。 指定した出力フォルダーが DAM 上に存在しない場合は、変換ワークフローによって出力フォルダーが作成されます。
 
-   - 内 `xslFolder` 要素には、XSL 変換ファイルを格納するフォルダーの場所を指定します。
+   - Adobe Analytics の `xslFolder` 要素には、XSL 変換ファイルを格納するフォルダーの場所を指定します。
 
-   - 内 ``xslPath`` 要素に関しては、変換処理の開始に使用するプライマリ.XSL ファイルの場所を指定します。
+   - Adobe Analytics の ``xslPath`` 要素に関しては、変換処理の開始に使用するプライマリ.XSL ファイルの場所を指定します。
 
-   - 内 ``outputExt`` 要素には、変換ストリームから作成される最終出力ファイルのファイル拡張子を指定します。
+   - Adobe Analytics の ``outputExt`` 要素には、変換ストリームから作成される最終出力ファイルのファイル拡張子を指定します。
 
    - の `createRev` 要素を使用する場合は、変換後の DITA トピックの新しいバージョンを作成するかどうかを指定します\(`true`\) または\(`false`\) です。
 
@@ -374,7 +373,6 @@ AEMガイドを使用すると、既存の構造化文書を有効な DITA 文�
 1. ソース構造化ドキュメントをこのフォルダーにアップロードします。 DAM でのコンテンツのアップロードについて詳しくは、 [既存の DITA コンテンツのアップロード](migrate-content-upload-existing-dita-content.md#).
 
 
-の使用 `<config> </config>` ブロックを使用する場合は、変換する設定のブロックを 1 つ以上定義できます。 変換ワークフローが実行され、DITA トピック形式の最終出力が `outputDir` 要素。
+の使用 `<config> </config>` ブロックを使用すると、変換する設定のブロックを 1 つ以上定義できます。 変換ワークフローが実行され、DITA トピックの形式での最終出力が `outputDir` 要素を選択します。
 
 **親トピック：**[&#x200B;既存のコンテンツを移行](migrate-content.md)
-

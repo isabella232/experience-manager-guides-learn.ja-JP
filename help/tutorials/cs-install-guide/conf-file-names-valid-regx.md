@@ -1,15 +1,14 @@
 ---
-title: 有効なファイル名文字の正規表現を設定する
-description: 有効なファイル名文字の正規表現を設定する方法を説明します
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+title: 有効なファイル名文字に対して Regx を設定します
+description: 有効なファイル名文字の正規表現を設定する方法を説明します。
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-
-# 有効なファイル名文字の正規表現を設定する {#id214BD0550E8}
+# 有効なファイル名文字に対して Regx を設定します {#id214BD0550E8}
 
 AEM Guides 3.8 リリース以降、管理者として、ファイル名に使用できる有効な特殊文字のリストを定義できます。 以前のリリースでは、ユーザーは、次のような特殊文字を含むファイル名を定義できました。 `@`, `$`, `>`など。 これらの特殊文字は、DITA マップダッシュボードからトピックを開くとき、または目次のトピックのリンクをクリックするときに問題を引き起こし、URL に特殊文字が含まれているので、ページが開かないことが多くありました。
 
@@ -19,15 +18,14 @@ AEM Guides 3.8 リリース以降、管理者として、ファイル名に使�
 
 有効な特殊文字のリストを設定しないと、ファイルの作成プロセスで予期しない結果が生じる場合があります。 このようなエラーを回避するには、この設定を変更することを強くお勧めします。
 
-に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) 設定ファイルを作成します。 設定ファイルで、次の\(property\) 詳細を指定して、有効なファイル名文字の正規表現を設定します。
+に示す手順を使用します。 [設定の上書き](download-install-additional-config-override.md#) をクリックして、設定ファイルを作成します。 設定ファイルで、次の\(property\) 詳細を指定して、有効なファイル名文字の正規表現を設定します。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `valid.characters` | 値は正規表現パターンです。 3 つの基本的な文字が必要で、リストはハイフン\(-\) で始まる必要があります。<br> **デフォルト値**:\[-a-zA-Z0-9\_\] |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `valid.characters` | 値は正規表現パターンです。 3 つの基本的な文字が必要で、リストはハイフン\(-\) で始まる必要があります。<br> **デフォルト値**: \[-a-zA-Z0-9\_\] |
 
 >[!NOTE]
 >
 > 有効なファイル名文字のリストと同様に、AEM Site 出力の有効なファイル名文字のリストを指定することもできます。 詳しくは、 [AEM Site 出力用の有効なファイル名の設定](conf-file-names-valid-regx-aem-site-output.md#).
 
 **親トピック：**[&#x200B;ファイル名を設定](conf-file-names.md)
-

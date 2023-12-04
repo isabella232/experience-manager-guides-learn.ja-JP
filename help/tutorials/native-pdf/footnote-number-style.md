@@ -1,10 +1,9 @@
 ---
 title: ネイティブPDF公開機能 |脚注のカスタムスタイルを使用する
 description: 脚注の番号にスタイルを適用する方法を説明します。
-exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
-source-git-commit: cb2aa028330c1e1b8b71e9e928d724cc0d87bf44
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---

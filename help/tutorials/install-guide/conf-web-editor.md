@@ -1,13 +1,12 @@
 ---
 title: Web エディタのカスタマイズ
-description: Web エディターのカスタマイズ方法を説明します
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: Web エディターをカスタマイズする方法を説明します
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
 
 ---
-
 
 # Web エディタのカスタマイズ {#id181AI0003PN}
 
@@ -40,5 +39,3 @@ AEMガイドは、作成者が DITA ドキュメントを作成および編集�
 - [クエリの LimitReads 数の設定](conf-query-limitreads.md)
 
 - [記事ベースの公開用パッケージのインストール](configure-article-based-publishing.md)
-
-

@@ -1,15 +1,14 @@
 ---
 title: HTML5 を使用
 description: Web エディターからHTML5 プリセットを作成し、ダッシュボードをマッピングする方法を説明します。 AEMガイドでHTML5 の出力プリセットを設定します。
-exl-id: c484289b-92aa-4790-b62b-650ecbe1b86b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1153'
 ht-degree: 1%
 
 ---
 
-# HTML 5 {#id205BE700XO1}
+# HTML5 {#id205BE700XO1}
 
 HTML5 の出力は、フラットフォルダー階層で生成されます。 つまり、リポジトリ内のコンテンツで使用されるフォルダー構造は、HTML5 の出力にレプリケートされません。 コンテンツ全体がHTML5 出力形式で公開され、単一のフォルダーに保存されます。 また、ファイル名は、生成される出力内のファイルの UUID に置き換えられます。 UUID ベースのファイル名を持たないファイルは、index.html ファイルのみです。
 

@@ -1,13 +1,12 @@
 ---
 title: データソースコネクタを登録する REST API
 description: データソースコネクタを登録する REST API について説明します。
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
-
 
 # データソースコネクタを登録する REST API {#id236LG0Y0CXA}
 
@@ -24,4 +23,3 @@ GETソースコネクタを登録するデータメソッド。
 
 **例**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`
-

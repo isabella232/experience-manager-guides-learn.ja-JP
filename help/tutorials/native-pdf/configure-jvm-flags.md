@@ -1,13 +1,12 @@
 ---
 title: ネイティブPDF |ネイティブPDF公開用の JVM フラグの設定
 description: ネイティブPDF公開用の JVM フラグの設定
-source-git-commit: cfb1197d0aad7ea3771bc6e1a73c02f540cef0c9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 1%
 
 ---
-
 
 # ネイティブPDF公開用の JVM フラグの設定
 

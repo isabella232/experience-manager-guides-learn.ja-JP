@@ -1,15 +1,14 @@
 ---
 title: リリースノート | 2023 年 6 月リリースのAdobe Experience Managerガイドの新機能
 description: 2023 年 6 月リリースのAdobe Experience Managerガイドの新機能と拡張機能をas a Cloud Service
-exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
-source-git-commit: f1292c94d77b724467d9eede59687bf0041cbce5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
-# 2023 年 6 月リリースのAdobe Experience Managerガイドas a Cloud Serviceの新機能
+# 2023 年 6 月リリースのAdobe Experience Managerガイドの新機能as a Cloud Service
 
 この記事では、Adobe Experience Managerガイド ( 後で *AEMガイドas a Cloud Service*) をクリックします。
 
@@ -22,11 +21,11 @@ AEMガイドを使用すると、技術ドキュメントが完全に完全で�
 
 リンクを修正すると、壊れたリンクのリストには表示されません。
 
-詳しくは、 [壊れたリンクを表示および修正](../user-guide/reports-web-editor.md#report-broken-links).
+詳しくは、 [壊れたリンクを表示および修正する](../user-guide/reports-web-editor.md#report-broken-links).
 
 ## リポジトリビュー内でのファイルの名前変更と移動
 
-また、リポジトリパネルからファイルの名前を変更したり、移動したりできるようになりました。 この機能は便利で、リポジトリパネルから簡単にファイルを管理できます。 ファイルを選択し、 **オプション** 選択したファイルのメニュー。 AEMガイドは、ファイルの移動または名前変更時に成功メッセージを表示します。
+また、リポジトリパネルからファイルの名前を変更したり、移動したりできるようになりました。 この機能は便利で、リポジトリパネルから簡単にファイルを管理できます。 ファイルを選択し、 **オプション** 選択したファイルのメニュー。 AEMガイドは、ファイルの移動または名前変更時に、成功メッセージを表示します。
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
@@ -79,7 +78,7 @@ AEMガイドは、言語変数をサポートしています。 PDF変数を使�
 
 ## Schematron の機能強化
 
-### レポート文を使用して、Schematron 内のルールを確認します
+### レポート文を使用して、Schematron 内のルールを確認します。
 
 AEMガイドで、Schematron のレポート文もサポートされるようになりました。 テストステートメントが true と評価されると、レポートステートメントはメッセージを生成します。 例えば、短い説明を 150 文字以下にしたい場合、レポート文を定義して、短い説明が 150 文字を超えるトピックを確認できます。
 
@@ -119,7 +118,7 @@ AEMガイドには、分類の件名や制御値を定義する DITA マップ�
 
 ## 翻訳での XLIFF 形式のサポート
 
-AEMガイドでは、翻訳時の XML Localization Interchange File Format(XLIFF) 形式のサポートも提供しています。 現在は、 **新しい XLIFF 翻訳プロジェクトの作成** をクリックして、XML コンテンツを XLIFF 形式に変換します。
+AEMガイドでは、翻訳時の XML Localization Interchange File Format(XLIFF) 形式のサポートも提供しています。 現在は、次の項目も選択できます。 **新しい XLIFF 翻訳プロジェクトの作成** をクリックして、XML コンテンツを XLIFF 形式に変換します。
 この形式を使用して、コンテンツを業界標準の XLIFF 形式に書き出し、翻訳ベンダーに提供できます。 詳しくは、 [翻訳プロジェクトを作成](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
 ![](assets/translation-project-types.png){width="350" align="left"}
@@ -128,15 +127,15 @@ AEMガイドでは、翻訳時の XML Localization Interchange File Format(XLIFF
 
 ## お気に入りパネルの改善
 
-AEMガイドは、ファイルやフォルダーのコレクションやお気に入りのリストを作成し、それらを簡単に使用するのに役立ちます。 今すぐ **オプション** メニューは **お気に入り** パネル。 選択したコレクションの名前を変更したり、 **オプション** メニュー 次の項目を選択できます。 **更新** 」オプションを使用して、リポジトリからファイルまたはフォルダーの新しいリストを取得できます。 Assets UI でフォルダーのコンテンツを表示することもできます。
+AEMガイドは、ファイルやフォルダーのコレクションやお気に入りのリストを作成し、それらを簡単に使用するのに役立ちます。 今すぐ **オプション** メニューは、 **お気に入力** パネル。 選択したコレクションの名前を変更したり、 **オプション** メニュー。 次の項目を選択できます。 **更新** 」オプションを使用して、リポジトリからファイルまたはフォルダーの新しいリストを取得できます。 Assets UI でフォルダーのコンテンツを表示することもできます。
 
 ![](assets/favorites-options.png){width="650" align="left"}
 
 >[!NOTE]
 >
-> また、 **更新** アイコンをクリックします。
+> リストを更新するには、 **更新** アイコンをクリックします。
 
-詳しくは、 **オプション** [ お気に入り ] コレクションのメニュー ( **お気に入り** 機能の説明 [左パネル](../user-guide/web-editor-features.md#id2051EA0M0HS) 」セクションに入力します。
+詳しくは、 **オプション** [ お気に入り ] コレクションのメニュー (「 **お気に入力** 機能の説明 [左パネル](../user-guide/web-editor-features.md#id2051EA0M0HS) 」セクションに入力します。
 
 ## システムテーマに切り替え
 

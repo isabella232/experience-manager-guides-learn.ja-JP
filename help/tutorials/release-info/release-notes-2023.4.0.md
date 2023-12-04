@@ -1,11 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2023 年 4 月リリース
 description: 2023 年 4 月リリースのAdobe Experience Manager Guides as a Cloud Service
-exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 2%
+source-wordcount: '598'
+ht-degree: 0%
 
 ---
 
@@ -19,20 +18,19 @@ ht-degree: 2%
 
 次の手順に従って、現在のAEM Guidesas a Cloud Service設定をアップグレードします。
 
-1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
-2. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2023.4.249 に変更します。
-3. 変更をコミットし、Cloud Servicesパイプラインを実行して、2023 年 4 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
+1. Cloud Serviceの Git コードを確認し、アップグレードする環境に対応するCloud Serviceパイプラインで設定されたブランチに切り替えます。
+2. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServiceGit コードを 2023.4.249 に変更します。
+3. 変更をコミットし、Cloud Serviceパイプラインを実行して、2023 年 4 月リリースのAEM Guides as a Cloud Serviceにアップグレードします。
 
 ## 既存のコンテンツのインデックスを作成する手順 (AEMガイドas a Cloud Serviceの 9 月リリースより前のバージョンを使用している場合のみ )
 
 既存のコンテンツのインデックスを作成し、マップレベルで新しい検索と置換テキストを使用するには、次の手順を実行します。
 
 * サーバーに対してPOSTリクエストを実行します（正しい認証を使用） - `http://<server:port>/bin/guides/map-find/indexing`.
-( オプション：マップの特定のパスを渡してインデックスを作成できます。既定では、すべてのマップにインデックスが作成されます ||例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+( オプション：マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。 ||例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-( 例：http://&lt;
-_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+( 例： http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * ジョブが完了すると、上記のGETリクエストは成功と共に応答し、マップが失敗した場合はメンションします。 正常にインデックス付けされたマップは、サーバーログから確認できます。
 
@@ -40,12 +38,12 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 この節では、2023 年 4 月のリリースにas a Cloud ServiceするAEMガイドでサポートされているソフトウェアアプリケーションの互換性マトリックスを示します。
 
-### FrameMaker と FrameMaker Publishing Server
+### FrameMakerとFrameMaker Publishing Server
 
 | AEM Guides as a Cloud リリース | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.04.0 | 互換性がありません | 2022 以降 |
-|  |  |  |
+| | | |
 
 
 ### 酸素コネクタ

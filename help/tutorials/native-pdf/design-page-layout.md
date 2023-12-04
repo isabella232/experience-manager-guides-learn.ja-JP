@@ -1,10 +1,9 @@
 ---
 title: ネイティブPDF公開機能 |ページレイアウトのデザイン
 description: PDF出力の様々なセクションに情報を表示するためのページレイアウトのデザイン方法を説明します。
-exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4807'
+source-wordcount: '4825'
 ht-degree: 0%
 
 ---
@@ -416,7 +415,7 @@ CSS とHTMLコードを直接操作する場合は、次のコードスニペッ
 
    1. パンくずリストのフィールド要素をクリックして、「チャプタータイトル」フィールドを選択します。
 
-   1. 右側のパネルで、 **コンテンツのプロパティ** (<img src="./assets/content-properties-icon.png" width="25">) icon.
+   1. 右側のパネルで、 **コンテンツのプロパティ** (<img src="./assets/content-properties-icon.png" width="25">) アイコンをクリックします。
 
    1. を展開します。 **レイアウト** properties セクションを選択し、 **浮動小数** プロパティの値 **右**.
       <img src="./assets/float-prop-html-content.png" width="400">
@@ -468,7 +467,7 @@ CSS とHTMLコードを直接操作する場合は、ページレイアウトの
 
 1. ページレイアウトのコンテンツ領域にカーソルを置きます。
 
-1. チャプター目次 (<img src="./assets/chapter-toc-icon.svg">) icon.
+1. チャプター目次 (<img src="./assets/chapter-toc-icon.svg">) アイコンをクリックします。
 
    初期設定のチャプター目次がコンテンツ領域に挿入されます。
 

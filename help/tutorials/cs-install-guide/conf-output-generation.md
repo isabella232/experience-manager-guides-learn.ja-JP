@@ -1,10 +1,9 @@
 ---
 title: 出力生成設定の指定
 description: 出力生成設定の設定方法を説明します。
-exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5496'
+source-wordcount: '5470'
 ht-degree: 1%
 
 ---
@@ -22,7 +21,7 @@ DITA マップダッシュボードの「ベースライン」タブを非表示
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Boolean\(`true/false`\).**デフォルト値**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Boolean\(`true/false`\) です。**デフォルト値**: `true` |
 
 >[!NOTE]
 >
@@ -67,7 +66,7 @@ AEMガイドでは、次の形式での出力の作成をサポートしてい�
 
 - AEM Site
 - PDF
-- HTML 5
+- HTML5
 - EPUB
 - DITA-OT によるカスタム出力
 
@@ -153,7 +152,7 @@ AEM Site 出力の URL にドキュメントタイトルを使用できます。
 
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
-| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Boolean (`true/false`). **デフォルト値**: `false` |
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Boolean (`true/false`) をクリックします。 **デフォルト値**: `false` |
 
 例えば、 *@navtitle* in `<topichead>` にはすべての特殊文字が含まれ、 `aemsite.pagetitle` プロパティが true に設定されている場合、デフォルトでは区切り文字が使用されます。 次の場合、 `nodename.systemDefinedPageName` プロパティを true に設定した場合、最初の子トピックの名前が表示されます。
 
@@ -244,7 +243,7 @@ AEM Site のノード構造を統合するには、次の手順を実行しま�
 
 検索を有効にするには、AEM Site ノード構造の統合を設定する必要があります。
 
-注意：:
+注意 :
 
 最大 1 MB の統合されたコンテンツを検索できます。 例えば、前のスクリーンショットでは、以下のコンテンツを検索できます。 &lt;p> タグが &lt;= 1 MB の場合。
 
@@ -305,7 +304,7 @@ AEMガイドでは、DITA-OT を使用して出力を公開する際にカスタ
 
 1. をクリックします。 **メタデータスキーマ** タイル。
 
-   メタデータスキーマフォームページが表示されます。
+   メタデータスキーマFormsページが表示されます。
 
 1. を選択します。 **デフォルト** フォームをリストから削除します。
 
@@ -607,11 +606,11 @@ AEMガイドでは、 `apps.fmdita.dashboard-extn` マップコンソールを�
 
 >[!NOTE]
 >
-> AEMクライアントライブラリの作成について詳しくは、 [クライアント側ライブラリの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=ja).
+> AEMクライアントライブラリの作成について詳しくは、 [クライアント側ライブラリの使用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## 出力生成時に画像レンディションを処理 {#id177BF0G0VY4}
 
-AEMには、アセットを処理するためのデフォルトのワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的な MIME タイプのアセット処理を処理するための事前定義済みのワークフローがあります。 通常、AEMは、アップロードするすべての画像に対して、同じレンディションをバイナリ形式で複数作成します。 これらのレンディションは、サイズ、解像度、透かしの追加、その他の変更された特性を持つレンディションです。 AEMでのアセットの処理方法について詳しくは、 [メディアハンドラーとワークフローを使用したアセットの処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja) (AEMドキュメント )。
+AEMには、アセットを処理するためのデフォルトのワークフローとメディアハンドルのセットが付属しています。 AEMには、最も一般的な MIME タイプのアセット処理を処理するための事前定義済みのワークフローがあります。 通常、AEMは、アップロードするすべての画像に対して、同じレンディションをバイナリ形式で複数作成します。 これらのレンディションは、サイズ、解像度、透かしの追加、その他の変更された特性を持つレンディションです。 AEMでのアセットの処理方法について詳しくは、 [メディアハンドラーとワークフローを使用したアセットの処理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) (AEMドキュメント )。
 
 AEMガイドを使用すると、ドキュメントの出力を生成する際に使用する画像レンディションを設定できます。 例えば、デフォルトの画像レンディションの 1 つを選択するか、作成して同じレンディションを使用してドキュメントを公開することができます。 ドキュメントを公開するための画像レンディションマッピングは、 `/libs/fmdita/config/ **renditionmap.xml**` ファイル。 のスニペット `renditionmap.xml` ファイルの内容は次のとおりです。
 

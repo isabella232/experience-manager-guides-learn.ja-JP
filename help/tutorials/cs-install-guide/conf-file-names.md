@@ -1,13 +1,12 @@
 ---
 title: ファイル名を設定
-description: ファイル名の設定方法を説明します
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+description: ファイル名を設定する方法を学ぶ
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
 
 ---
-
 
 # ファイル名を設定 {#id214BD010GXA}
 
@@ -15,8 +14,6 @@ ht-degree: 0%
 
 - **[UUID に基づく自動ファイル名の設定](conf-auto-uuid-filenames.md)**
 
-- **[有効なファイル名文字の正規表現を設定する](conf-file-names-valid-regx.md)**
+- **[有効なファイル名文字に対して Regx を設定します](conf-file-names-valid-regx.md)**
 
 - **[AEM Site 出力用の有効なファイル名の設定](conf-file-names-valid-regx-aem-site-output.md)**
-
-

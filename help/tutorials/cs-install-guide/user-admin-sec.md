@@ -1,13 +1,12 @@
 ---
 title: ユーザー管理とセキュリティ
 description: ユーザー管理とセキュリティの仕組みを説明します
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 13%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
-
 
 # ユーザー管理とセキュリティ {#id181AED00G5Z}
 
@@ -15,7 +14,7 @@ AEMガイドの機能にアクセスして設定するには、ユーザーを�
 
 AEMドキュメントの次のトピックは、ユーザー管理、セキュリティに関する概念および機能を理解するのに役立ちます。
 
-- [AEM ユーザー、グループ、権限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
+- [AEMユーザー、グループ、権限](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
 - [ユーザー管理とセキュリティ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ja)
 
@@ -76,17 +75,17 @@ AEMガイドには、DITA プロジェクトの様々なタスクを管理する
 
 - ユーザーは、作業する必要のあるソースおよびターゲット言語フォルダーに対する読み取り、作成、削除、変更の権限を持っている必要があります。
 
-- プロジェクトを作成する場合、そのプロジェクトの所有者は *発行者* 権限。 プロジェクト内の他のユーザーがチームメンバーを表示したり、タスクを作成したり、ワークフローを作成したりするには、ユーザーが `/home/users` および `/home/groups` ノード。 に対する読み取りアクセス権を付与する 1 つの方法 `/home/users` および `/home/groups` ノードは、 `projects-users` グループ化します。
+- プロジェクトを作成する場合、そのプロジェクトの所有者は *発行者* 権限。 プロジェクト内の他のユーザーがチームメンバーを表示したり、タスクを作成したり、ワークフローを作成したりするには、での読み取りアクセス権が必要です。 `/home/users` および `/home/groups` ノード。 に対する読み取りアクセス権を付与する方法の 1 つ `/home/users` および `/home/groups` ノードは、 `projects-users` グループ化します。
 
 - *レビュー担当者* プロジェクトコンソールまたはインボックス通知リンクから、「レビュー」の下のトピックに対するレビューコメントにアクセスして追加できます。 また、このアクセス権はレビュータスクが開かれるまで有効です。
 
 - デフォルトでは、 *発行者* は、DAM 内の次のフォルダーに対するアクセス権と権限を付与されます。
 
-   - `/content/fmdita` –\> 読み取りおよび書き込み
+   - `/content/fmdita` -\> 読み取りと書き込み
 
-   - `/content/dam/fmdita-outputs` –\> 読み取りおよび書き込み
+   - `/content/dam/fmdita-outputs` -\> 読み取りと書き込み
 
-   - `/content/output/sites` –\> 読み取りおよび書き込み
+   - `/content/output/sites` -\> 読み取りと書き込み
 
   上記のデフォルトの公開場所以外の他の場所を使用している場合は、公開者に対して明示的な読み取りおよび書き込み権限を付与する必要があります。
 
@@ -100,5 +99,4 @@ AEMガイドには、DITA プロジェクトの様々なタスクを管理する
 
 - ユーザーにドキュメント状態の変更権限を与えるには、必ずドキュメント状態プロファイルの状態遷移セクションにユーザーを追加してください。
 
-[1](#fnsrc_1) If *発言者* および *発行者* をレビュー用に招待します。[2](#fnsrc_2) ドキュメントステートプロファイルでユーザーに付与された権限に応じて異なります。
-
+[1](#fnsrc_1) 次の場合 *発言者* および *発行者* をレビュー用に招待します。[2](#fnsrc_2) ドキュメントステートプロファイルでユーザーに付与された権限に応じて異なります。

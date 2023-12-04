@@ -1,13 +1,12 @@
 ---
 title: トピックとコンテンツフラグメントモデルの間の JSON ベースのマッピングを設定します。
 description: トピックとコンテンツフラグメントモデルの間の JSON ベースのマッピングを設定する方法を説明します。
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # トピックとコンテンツフラグメントの間のマッピングの作成
 

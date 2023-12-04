@@ -1,10 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド（2023 年 9 月）リリースのアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 2023 年 9 月リリースへのアップグレード方法について説明します。as a Cloud Service
-source-git-commit: 3f79dfbc747b3d2efc05608d05df6ba45e53d877
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 3%
+source-wordcount: '1486'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ POST:
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-応答:
+応答：
 
 ```
 {
@@ -89,7 +89,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. （オプション）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 （例：`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`）。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
+1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例：`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
 
 1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -132,7 +132,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - チェックイン前に変更を破棄する NO オプションを選択したにもかかわらず、Web エディタでファイルをチェックアウトできません。 (12557)
 - Web エディター内のメインツールバーの「ファイルをロック/ロック解除」アイコンのツールチップが、リポジトリビューに表示されるアイコンと一致しない。(12555)
 - マップビューでチェックアウトされていない Web エディタのファイルに対して、[ チェックアウトをキャンセル ] および [ ロック解除 ] オプションが表示されます。 (12556)
-- 既存の「topicref」リンクでPDFアセットを選択できません。 (12477).
+- 既存の「topicref」リンクでPDFアセットを選択できません。 (12477)。
 - リポジトリ表示では、検索/フィルタ機能を使用した後にトピックまたは画像をドラッグすることはできません。 (12396)
 - 検索したファイルを 1 つ開くと、[ 検索と置換 ] パネルで検索結果が無効になります。 (12142)
 - AEM Guides エディターで、サイドキーボードの「8」番号キーが機能しない。 (12106)
@@ -176,7 +176,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 - 翻訳の名前が変更されたベースラインを書き出すプロセスは失敗します。 (12993)
 - ソースファイルのタイトルの代わりに、翻訳済みファイルのタイトルが表示されます。 (11630)
-
-
-
-

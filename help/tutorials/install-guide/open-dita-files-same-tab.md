@@ -1,13 +1,12 @@
 ---
 title: 同じタブで DITA トピックまたはマップファイルを開く
 description: 同じタブで DITA トピックまたはマップファイルを開く方法を説明します
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
 
 ---
-
 
 # 同じタブで DITA トピックまたはマップファイルを開く {#id223HI0P202H}
 
@@ -30,7 +29,7 @@ ht-degree: 0%
 
 この設定は、トピックまたはマップファイルにアクセスできる次の場所に影響します。
 
-- DITA トピック\( ワークフローの最後で、 **トピックを開く** ボタン\)
+- DITA トピックを作成\( ワークフローの最後で、 **トピックを開く** ボタン\)
 
 - DITA マップを作成\( ワークフローの最後で、 **マップを開く** ボタン\)
 
@@ -42,4 +41,3 @@ ht-degree: 0%
 
 
 **親トピック：**[ Web エディタのカスタマイズ](conf-web-editor.md)
-

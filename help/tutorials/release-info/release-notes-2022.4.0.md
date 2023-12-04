@@ -1,11 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Managerガイドas a Cloud Service、2022 年 4 月リリース
 description: Adobe Experience Manager Guides の 4 月リリースas a Cloud Service
-exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 3%
+source-wordcount: '809'
+ht-degree: 0%
 
 ---
 
@@ -13,21 +12,21 @@ ht-degree: 3%
 
 ## 4 月リリースへのアップグレード
 
-現在の [!DNL Adobe Experience Manager Guides] as a Cloud Service *[!DNL AEM Guides]as a Cloud Service*) を設定する必要があります。
-1. Cloud Servicesの Git コードを確認し、アップグレードする環境に対応するCloud Servicesパイプラインで設定されたブランチに切り替えます。
-1. 更新 `<dox.version>` プロパティ `/dox/dox.installer/pom.xml` ファイルのCloud ServicesGit コードを 2022.4.133 に設定します。
-1. 変更をコミットし、Cloud Servicesパイプラインを実行して、の 4 月リリースにアップグレードします。 [!DNL AEM Guides] as a Cloud Service。
+現在の [!DNL Adobe Experience Manager Guides] AS A CLOUD SERVICE( *[!DNL AEM Guides]as a Cloud Service*) を設定する必要があります。
+1. Cloud Serviceの Git コードを確認し、アップグレードする環境に対応するCloud Serviceパイプラインで設定されたブランチに切り替えます。
+1. 更新 `<dox.version>` プロパティ： `/dox/dox.installer/pom.xml` ファイルのCloud ServiceGit コードを 2022.4.133 に設定します。
+1. 変更をコミットし、Cloud Serviceパイプラインを実行して、の 4 月リリースにアップグレードします。 [!DNL AEM Guides] as a Cloud Service。
 
 ## 互換性マトリックス
 
-このセクションでは、でサポートされるソフトウェアアプリケーションの互換表を示します。 [!DNL AEM Guides] as a Cloud Service 2022 年 4 月リリース。
+このセクションでは、でサポートされるソフトウェアアプリケーションの互換表を示します。 [!DNL AEM Guides] As a Cloud Service 2022 年 4 月リリース。
 
-### FrameMaker と FrameMaker Publishing Server
+### FrameMakerとFrameMaker Publishing Server
 
 | FMPS | FrameMaker |
 | --- | --- |
 | 互換性がありません | 2020 Update 4 以降 |
-|  |  |
+| | |
 
 
 ### 酸素コネクタ
@@ -52,7 +51,7 @@ DITA コンテンツキー参照は、あるトピックのコンテンツの一
 これで、キー参照は、次の優先順位で設定されたルートマップに基づいて解決されます。
 
 1. ユーザーの環境設定
-1. マップビューパネル
+1. [ マップビュー ] パネル
 1. フォルダープロファイル
 
 詳しくは、 *キー参照の解決* 」の節を参照してください。
@@ -63,7 +62,7 @@ DITA コンテンツキー参照は、あるトピックのコンテンツの一
 
 ### DITA マップでトピックのドキュメント状態を変更する機能
 
-DITA マップ内で、選択したトピックのドキュメント状態を簡単に変更できるようになりました。 また、DITA マップで選択したトピックのプロパティを開いて編集する場合は、 **その他のオプション** [ マップビュー ] パネルの下部にあるメニュー
+DITA マップ内で、選択したトピックのドキュメント状態を簡単に変更できるようになりました。 また、DITA マップで選択したトピックのプロパティを開いて編集する場合は、 **その他のオプション** [ マップビュー ] パネルの下部にあるメニュー。
 
 ![選択したトピックプロパティ](assets/map-view-properties.png)
 
@@ -85,7 +84,7 @@ Web エディターは、バージョンの管理に役立ちます。 トピッ
 * 問題は、「 」タブのタイトルで任意のキーワードが使用された場合に発生します。 (9318)
 * スペースを含むラベルを追加すると、ベースラインが失敗する。 (9362)
 * AEMサイトの出力で、glossusage 要素が正しく表示されません。 (8936)
-* コンソールエラーが **出力** 」タブをクリックします。 (8715)
+* コンソールエラーは、 **出力** 」タブをクリックします。 (8715)
 * Salesforce を使用して手動レコードタイプを公開する際に表示されるエラーメッセージは直観的ではありません。 (8952)
 * 条件属性を使用して検証設定をすぐに開かず、代わりに、ユーザーがファイルを再度開いて検証を確認する必要があります。 (9300)
 * メタデータを使用して DITA マップを公開すると、メタデータを削除できなくなります。  (9178)

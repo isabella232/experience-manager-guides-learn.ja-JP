@@ -1,11 +1,10 @@
 ---
 title: リリースノート | 2023 年 10 月リリースのAdobe Experience Managerガイドでのアップグレード手順と修正された問題
 description: バグ修正と、Adobe Experience Managerガイドの 2023 年 10 月リリースへのアップグレード方法について説明します。as a Cloud Service
-exl-id: fb1b74d7-25f2-4a20-9248-44dfdabf553d
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 2%
+source-wordcount: '1045'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +34,7 @@ POST:
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-応答:
+応答：
 
 ```
 {
@@ -90,7 +89,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 1. POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. （オプション）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例えば `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` などのファイルです。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
+1. また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例：`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
 
 1. API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -165,4 +164,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 Adobeは、2023 年 10 月リリースで次の既知の問題を特定しました。
 
 - コンテンツフラグメントの再公開が失敗します。
-

@@ -1,13 +1,12 @@
 ---
 title: DITA マップを操作する Java ベースの API
 description: DITA マップを操作する Java ベースの API について説明します。
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
-
 
 # DITA マップを操作する Java ベースの API {#id175UB30E05Z}
 
@@ -154,4 +153,3 @@ public static List
 **パラメーター**: |名前|型|説明| |—|—|—| |`rootNode`|javax.jcr.Node|すべての依存関係を取得するルートノード。|
 
 **戻り値**：ルートノードのすべての依存関係を含むノードリスト。
-

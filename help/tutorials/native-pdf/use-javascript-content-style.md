@@ -1,11 +1,10 @@
 ---
-title: ネイティブPDF公開機能 | JavaScript を使用してコンテンツやスタイルを操作
+title: ネイティブPDF公開機能 | JavaScript を使用してコンテンツやスタイルを操作する
 description: スタイルシートを作成し、コンテンツのスタイルを作成する方法を説明します。
-exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 0%
 ネイティブPDF公開機能を使用すると、JavaScript を実行して、最終PDFが生成される前に、コンテンツに適用されたコンテンツやスタイルを操作できます。 この機能を使用すると、最終的な出力の生成方法を完全に制御できます。 例えば、別のPDFにあるPDF出力に法的通知情報を追加する場合があります。 JavaScript を使用すると、基本コンテンツ用のPDFが作成された後、ただし最終PDFが生成される前に、法的通知情報を追加できます。\
 JavaScript の実行をサポートするために、ネイティブPDF公開機能では、次のコールバック関数を使用できます。
 
-* `window.pdfLayout.onBeforeCreateTOC(callback)`:このコールバック関数は、TOC が生成される前に実行されます。
-* `window.pdfLayout.onBeforePagination(callback)`:このコールバック関数は、TOC の生成後、ページが改行される前にPDFされます。
-* `window.pdfLayout.onAfterPagination(callback)`:このコールバック関数は、TOC と改ページがPDFに追加された後に実行されます。
+* `window.pdfLayout.onBeforeCreateTOC(callback)`：このコールバック関数は、TOC が生成される前に実行されます。
+* `window.pdfLayout.onBeforePagination(callback)`：このコールバック関数は、TOC の生成後、ただしPDF内に改ページが追加される前に実行されます。
+* `window.pdfLayout.onAfterPagination(callback)`：このコールバック関数は、TOC と改ページがPDFに追加された後に実行されます。
 
 >[!NOTE]
 >
@@ -24,7 +23,7 @@ JavaScript の実行をサポートするために、ネイティブPDF公開機
 
 実行するコンテンツのタイプまたはスタイルの変更に基づいて、使用するコールバック関数を選択できます。 例えば、コンテンツを追加する場合は、目次が生成される前にコンテンツを追加することをお勧めします。 同様に、スタイル設定を更新する場合は、ページネーションの前または後に更新を行うことができます。
 
-次の例では、図タイトルの位置が、画像の上から下に変更されます。 この場合は、プリセットで「 JavaScript 実行」オプションを有効にする必要があります。 これをおこなうには、次の手順を実行します。
+次の例では、図タイトルの位置が、画像の上から下に変更されます。 この場合は、プリセットで「 JavaScript 実行」オプションを有効にする必要があります。 これを行うには、次の手順を実行します。
 
 1. 編集するプリセットを開きます。
 1. 次に移動： **詳細** タブをクリックします。
@@ -60,9 +59,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
 >[!NOTE]
 >
->この `window.addEventListener('DOMContentLoaded', function ()` 関数は、コールバック関数を使用する前に呼び出す必要があります。
+>The `window.addEventListener('DOMContentLoaded', function ()` 関数は、コールバック関数を使用する前に呼び出す必要があります。
 
-次に、このスクリプトは、テンプレート出力の生成に使用されるテンプレートファイルから呼び出す必要がありますPDF。 この例では、TOC テンプレートに追加します。 次を確認します。 `<script>` タグが事前定義の `<div>` タグを `<body>` タグを使用します。 これを `<head>` タグまたはタグの外側 `<body>` タグを使用する場合、スクリプトは実行されません。
+次に、このスクリプトは、テンプレート出力の生成に使用されるテンプレートファイルから呼び出す必要がありますPDF。 この例では、TOC テンプレートに追加します。 次の点を確認します。 `<script>` タグが事前定義の `<div>` タグを `<body>` タグを使用します。 これを `<head>` タグまたはタグの外側 `<body>` タグを使用する場合、スクリプトは実行されません。
 
 <img src="./assets/js-added-resources-template.png" width="500">
 

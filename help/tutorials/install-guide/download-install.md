@@ -1,13 +1,12 @@
 ---
 title: ダウンロードとインストール
 description: ダウンロードとインストールの方法を説明します
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # ダウンロードとインストール {#id1645E0O04MK}
 
@@ -30,5 +29,3 @@ AEMガイドは、Adobeソフトウェア配布ポータルから入手できま
 - **[AEM Guides のアンインストール](download-install-unistall-aemg.md)**
 
 - **[Recommendations （パフォーマンス最適化）](download-install-recommend-perf-optimiz.md)**
-
-

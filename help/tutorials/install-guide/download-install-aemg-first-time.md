@@ -1,13 +1,12 @@
 ---
 title: AEMガイドを初めてダウンロードしてインストールする
-description: AEMガイドを初めてダウンロードしてインストールする方法を説明します
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: AEMガイドを初めてダウンロードしてインストールする方法を説明します。
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 2%
+source-wordcount: '232'
+ht-degree: 0%
 
 ---
-
 
 # AEMガイドを初めてダウンロードしてインストールする {#id213BCL00KEV}
 
@@ -25,7 +24,7 @@ ht-degree: 2%
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   パッケージマネージャーは、ローカルのAEMインストール上のパッケージを管理します。 パッケージマネージャーの使用について詳しくは、 [パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html) (AEMドキュメント )
+   パッケージマネージャーは、ローカルのAEMインストール上のパッケージを管理します。 パッケージマネージャーの使用について詳しくは、 [パッケージの操作方法](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html) (AEMドキュメント )。
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -41,7 +40,7 @@ ht-degree: 2%
 
 1. パッケージをインストールダイアログで、 **インストール**.
 
-1. AEMガイドの使用を開始するには、「ホーム」ボタンをクリックします ![](assets/home-button.png) をクリックします。
+1. AEMガイドの使用を開始するには、「ホーム」ボタンをクリックします ![](assets/home-button.png) CRX パッケージマネージャーの左上隅。
 
 
 >[!NOTE]
@@ -49,4 +48,3 @@ ht-degree: 2%
 > 設定内のAEMサーバーのすべてのインスタンスで、インストール手順を実行します。
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
-

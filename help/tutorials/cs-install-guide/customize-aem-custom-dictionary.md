@@ -1,13 +1,12 @@
 ---
 title: AEMのデフォルト辞書をカスタマイズ
 description: AEMのデフォルト辞書をカスタマイズする方法を説明します
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 1%
 
 ---
-
 
 # AEMのデフォルト辞書をカスタマイズ {#id209SD8000WU}
 
@@ -33,4 +32,3 @@ Web エディターは、AEMスペルチェッカーまたはブラウザーの�
 作成者は、AEM辞書で更新されたカスタム単語リストを取得するには、Web エディターセッションを再起動する必要があります。
 
 **親トピック：**[ Web エディタのカスタマイズ](conf-web-editor.md)
-

@@ -1,9 +1,9 @@
 ---
 title: WebEditor ツールバーにアクションにつながる新しいカスタムボタンを追加する
 description: 新しいカスタムボタンを webeditor ツールバーに追加し、javascript を呼び出してカスタム操作する方法を説明します。
-source-git-commit: 26a6acde54953eab1d751f165d0f7769c7e790fe
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 実用的なボタンを Webeditor に追加するには、次の手順に従います。
 - ボタンを *ui_config.json* 必要な位置に
-- クリック時にユーザーがアクションを実行できるように、ボタンのオンクリックイベントを Webeditor に登録する
+- クリック時にユーザーがアクションを実行できるように、ボタンのオンクリックイベントを Webeditor に登録する。
 
 
 ## 例を見て実装する
@@ -27,7 +27,7 @@ JIRA ID を含む「change-request-id」要素は、API から取得する必要
 
 ![Prolog セクション — JIRA 参照を追加](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
 
-ユーザーがボタンをクリックすると、次のようなオプションを取り込み、ユーザーが目的の JIRA ID を選択できるダイアログが表示されます。
+ユーザーがボタンをクリックすると、次のようなオプションを取り込み、ユーザーが目的の JIRA ID を選択できるようにするダイアログが表示されます。
 
 ![「Prolog」セクションの「JIRA ID を追加」ダイアログ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
 
@@ -37,10 +37,10 @@ JIRA ID を含む「change-request-id」要素は、API から取得する必要
 
 
 
-## 実装
+## この実装
 
 
-### ボタンを *ui_config.json*
+### ボタンをで設定して、Webeditor に追加します。 *ui_config.json*
 
 フォルダープロファイルを使用して、 *ui_config.json* 「XML Editor Configuration」タブの下で、ボタン設定 JSON を「toolbar」グループの目的のセクションに追加します。
 
@@ -59,11 +59,11 @@ JIRA ID を含む「change-request-id」要素は、API から取得する必要
 
 ### 新しいボタンのクリック時イベントを処理します
 
-    注意：以下の手順は、この投稿に添付されたパッケージとして利用できます
+    注意：以下に示す手順は、この投稿に添付されたパッケージとして利用できます
 
 
 - フォルダープロファイルを保存した後、プロジェクトディレクトリ（の下）に「cq:ClientLibraryFolder」を作成します。 */apps*) をクリックし、以下のスクリーンショットに示すように、プロパティを追加します。
-   ![webeditor のクライアントライブラリ設定](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+  ![webeditor のクライアントライブラリ設定](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.
@@ -71,8 +71,8 @@ You may use different library of your choice.
 ```
 
 - このクライアントライブラリフォルダーの下に、以下に示すように 2 つのファイルを作成します。
-   - *overrides.js*:これには、「insertJIRARef」のオンクリックイベントを処理する javascript コードが含まれます（この javascript のコンテンツを取得するには、添付のパッケージを使用します）。
-   - *js.txt*:これにより、この javascript を有効にする「overrides.js」が含まれます。
+   - *overrides.js*:「insertJIRARef」のオンクリックイベントを処理する javascript コードを持つ（この javascript のコンテンツを取得するには添付のパッケージを使用）
+   - *js.txt*：この javascript を有効にする「overrides.js」を含みます。
 
 - 変更を保存すると、テストの準備が整います。
 

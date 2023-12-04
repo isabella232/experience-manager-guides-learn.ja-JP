@@ -1,11 +1,10 @@
 ---
 title: Adobe Experience Managerガイドのアップグレード
 description: Adobe Experience Managerガイドのアップグレード方法を説明します。
-exl-id: f058b39f-7408-4874-942b-693e133886cf
-source-git-commit: 6078cb1856ba45524e46165d546daf4109e9b2b2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4349'
-ht-degree: 1%
+source-wordcount: '4470'
+ht-degree: 0%
 
 ---
 
@@ -339,7 +338,7 @@ POST:
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-応答:
+応答：
 
 ```
 {
@@ -457,7 +456,7 @@ Experience Managerガイドをインストールした後、新しくインス�
 
 - POSTリクエストをサーバーに対して実行します\（正しい認証で） - `http://<server:port\>/bin/guides/map-find/indexing`. （オプション）マップの特定のパスを渡してインデックスを作成できます。デフォルトでは、すべてのマップにインデックスが作成されます。例： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例えば `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` などのファイルです。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
+- また、ルートフォルダーを渡して、特定のフォルダー（およびそのサブフォルダー）の DITA マップのインデックスを作成することもできます。 例：`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。paths パラメーターと root パラメーターの両方が渡される場合は、paths パラメーターのみが考慮されます。
 
 - API は jobId を返します。 ジョブのステータスを確認するには、ジョブ ID を持つGETリクエストを同じエンドポイントに送信します。 `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\( 例： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -571,7 +570,7 @@ POST:
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-応答:
+応答：
 
 ```
 {

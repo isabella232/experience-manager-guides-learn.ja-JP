@@ -1,10 +1,9 @@
 ---
 title: 基準計画を使用する
 description: AEMガイドでのベースラインの使用方法を理解します。 翻訳されたベースラインを作成、表示、編集、複製、削除、追加、および書き出す方法について説明します。
-exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
@@ -145,7 +144,8 @@ DITA マップで複数のトピックおよび参照コンテンツにラベル
 
 1. サブマップから参照されるトピックにラベルを適用する場合は、「 **子マップと扶養家族にラベルを適用** オプション。
 
-   - 「**追加**」をクリックします。指定したラベルが DITA マップ、参照されているトピックおよびコンテンツに追加されます。
+   - クリック **追加**.
+指定したラベルが DITA マップ、参照されているトピックおよびコンテンツに追加されます。
 
      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 

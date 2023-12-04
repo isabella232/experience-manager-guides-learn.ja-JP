@@ -1,8 +1,7 @@
 ---
 title: レビューダッシュボードを使用したレビュータスクの管理
 description: 「AEM Guides」の「Review Dashboard」でレビュータスクを管理します。 タスク、コンテンツ、レビュー担当者タブでのアクションの実行について説明し、レビュータスクのステータスを確認します。
-exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%

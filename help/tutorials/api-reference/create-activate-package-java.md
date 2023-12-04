@@ -1,13 +1,12 @@
 ---
 title: パッケージを作成およびアクティベートするための Java ベースの API
 description: パッケージを作成およびアクティブ化するための Java ベースの API について説明します。
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
-
 
 # パッケージを作成およびアクティベートするための Java ベースの API {#id175UB30E05Z}
 
@@ -90,4 +89,3 @@ JSON クエリの例は、次のルールで構成されています。
 - /content/dam/nested パスの下の.png、.jpg および.gif 画像のみがパッケージに含まれます。
 - /content/output/sites/hierarchy\_ditamap の下のすべてのノードがパッケージに含まれます。
 - 次に存在するパス： `fileReference` /content/output/sites/hierarchy\_ditamap の下のノードのプロパティがパッケージに含まれます。
-

@@ -1,10 +1,10 @@
 ---
 title: リリースノート | Adobe Experience Managerガイド 4.3.1 リリースのアップグレード手順と修正された問題
 description: バグ修正とAdobe Experience Managerガイドの 4.3.1 リリースにアップグレードする方法について説明します
-source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 5%
+source-wordcount: '1306'
+ht-degree: 1%
 
 ---
 

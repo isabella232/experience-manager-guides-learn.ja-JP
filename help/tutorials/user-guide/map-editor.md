@@ -1,8 +1,7 @@
 ---
 title: マップエディタを使用する
 description: AEMガイドのマップエディタを使用する。 AEMマップエディターでマップファイルを作成および編集する方法を説明します。
-exl-id: 19f40bc2-0f44-43fc-bc9f-1e2692eb11d6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

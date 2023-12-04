@@ -1,8 +1,7 @@
 ---
 title: .book または.fm ファイルの出力を生成
 description: AEMガイドで.book または.fm ファイルの出力を生成する方法を説明します。
-exl-id: 578cff9f-cb27-4df3-8571-277f81b930d7
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%

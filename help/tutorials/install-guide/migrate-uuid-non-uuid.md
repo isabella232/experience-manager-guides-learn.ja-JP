@@ -1,10 +1,9 @@
 ---
 title: 非 UUID から UUID へのコンテンツの移行
 description: 非 UUID を UUID コンテンツに移行する方法を説明します
-exl-id: 093b380e-9a8b-4e60-aeaa-3458e8c257f2
-source-git-commit: 4c7ab9800b8a42f947aaae560457a3f6022c2976
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -22,6 +21,3 @@ UUID 以外のコンテンツを UUID に移行できます。
 
 * [**バージョンを使用したコンテンツの移行**](./migrate-non-uuid-uuid-with-versions.md)
 * [**バージョンを使用しないコンテンツの移行**](./migrate-non-uuid-uuid-without-versions.md)
-
-
-

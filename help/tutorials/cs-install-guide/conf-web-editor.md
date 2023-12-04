@@ -1,13 +1,12 @@
 ---
 title: Web エディタのカスタマイズ
-description: Web エディターのカスタマイズ方法を説明します
-source-git-commit: 419cb49fb122d8cf05f82ed4588fc28eac1b81bd
+description: Web エディターをカスタマイズする方法を説明します
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # Web エディタのカスタマイズ {#id181AI0003PN}
 
@@ -56,5 +55,3 @@ AEMガイドは、作成者が DITA ドキュメントを作成および編集�
 - **[[ 詳細マップエディタ ] を既定に設定する](conf-map-editor.md)**
 
 - **[デフォルトで@navtitle属性を含める](auto-add-navtitle.md)**
-
-

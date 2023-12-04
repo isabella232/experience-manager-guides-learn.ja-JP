@@ -1,8 +1,7 @@
 ---
 title: レビュー用にトピックを送信
 description: レビュータスクを作成し、レビュー用のトピックをAEMガイドで送信する方法について説明します。 DITA マップ内の 1 つ以上のトピックをレビュー用に送信します。
-exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%

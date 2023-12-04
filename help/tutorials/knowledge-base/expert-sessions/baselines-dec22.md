@@ -1,11 +1,10 @@
 ---
 title: ベースラインを使用したコンテンツの管理
 description: ベースラインを使用してコンテンツを効果的に管理する方法を説明します。
-exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '183'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +27,7 @@ AEMガイドのリリース管理は、トピックとアセットのバージ�
 - **期間** - 60 分
 - **対象ユーザ** ・お客様、パートナー、Adobe従業員
 
-## 重要な留意点
+## 重要ポイント
 
 このセッションでは、次の事項について学習します。
 - AEMガイドの様々なベースライン操作
@@ -48,8 +47,7 @@ AEMガイドのリリース管理は、トピックとアセットのバージ�
 >
 >このセッションで示す機能は、次のバージョンのAEMガイドで利用できます。
 > - オンプレミス 4.1 以降
-> - Cloud Services2211 以降
-
+> - Cloud Service2211 以降
 
 ## お問い合わせ
 

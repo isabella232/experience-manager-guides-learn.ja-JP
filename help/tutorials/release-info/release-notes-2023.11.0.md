@@ -1,11 +1,10 @@
 ---
 title: リリースノート | 2023 年 11 月リリースのAdobe Experience Managerガイドでのアップグレード手順と修正された問題
 description: バグ修正と、2023 年 11 月リリースのAdobe Experience Managerガイドas a Cloud Serviceのアップグレード方法について説明します。
-exl-id: 80839890-075f-4187-a167-444c73215496
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 3%
+source-wordcount: '1673'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +34,7 @@ POST:
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-応答:
+応答：
 
 ```
 {

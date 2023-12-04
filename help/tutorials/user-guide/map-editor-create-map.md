@@ -1,10 +1,9 @@
 ---
 title: マップを作成する
 description: AEM Guides の [ マップエディタ ] でマップを作成します。 マップテンプレートに基づいてマップファイルを作成する手順を探します。
-exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---

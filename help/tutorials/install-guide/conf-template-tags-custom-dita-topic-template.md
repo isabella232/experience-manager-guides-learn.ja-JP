@@ -1,8 +1,7 @@
 ---
 title: カスタム DITA トピックテンプレートの設定
 description: カスタム DITA トピックテンプレートの設定方法を説明します。
-exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
-source-git-commit: ecd5c315da5d450f29ee5d44cb19bc3546a19d1c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%

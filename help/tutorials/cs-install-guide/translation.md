@@ -1,17 +1,16 @@
 ---
 title: コンテンツの翻訳
 description: コンテンツの翻訳方法を学ぶ
-source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 10%
+source-wordcount: '651'
+ht-degree: 9%
 
 ---
 
-
 # コンテンツの翻訳 {#id181GB0400UI}
 
-ページコンテンツ、アセット、ユーザー生成コンテンツの翻訳を自動化して、多言語の Web サイトを作成および管理します。 翻訳ワークフローを自動化するには、翻訳サービスプロバイダーをAEMと統合し、コンテンツを複数の言語に翻訳するためのプロジェクトを作成します。 AEMは、人間による翻訳ワークフローと機械翻訳ワークフローをサポートしています。
+ページコンテンツ、アセット、ユーザー生成コンテンツの翻訳を自動化して、多言語の Web サイトを作成および管理します。 翻訳ワークフローを自動化するには、翻訳サービスプロバイダーと AEM とを統合して、コンテンツを複数の言語に翻訳するためのプロジェクトを作成します。AEM では人間による翻訳と機械翻訳のワークフローがサポートされます。
 
 - 人間による翻訳：コンテンツは翻訳プロバイダーに送信され、専門の翻訳者によって翻訳されます。完了すると、翻訳されたコンテンツが返され、AEMに読み込まれます。 翻訳プロバイダーがAEMと統合されると、AEMと翻訳プロバイダーの間でコンテンツが自動的に交換されます
 
@@ -22,15 +21,15 @@ ht-degree: 10%
 
 1. AEMを [翻訳サービスプロバイダー](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) 翻訳統合フレームワーク設定を作成します。
 
-1. 翻訳サービスとフレームワークの設定に言語マスターのページを関連付けます。
+1. 言語マスターのページを翻訳サービスとフレームワークの設定に関連付けます。
 
 1. 次のタイプを特定： [翻訳するコンテンツ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
 1. [翻訳するコンテンツを準備](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)します。そのためには、言語マスターをオーサリングして、言語コピーのルートページを作成します。
 
-1. 作成 [翻訳プロジェクト](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) 翻訳するコンテンツを収集し、翻訳プロセスを準備する場合。
+1. 作成 [翻訳プロジェクト](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) 翻訳するコンテンツを収集し、翻訳プロセスを準備する場合。
 
-1. 翻訳プロジェクトを使用して、 [コンテンツ翻訳を管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=ja) プロセス。
+1. 翻訳プロジェクトを使用して、 [コンテンツ翻訳を管理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) プロセス。
 
 
 翻訳サービスプロバイダーがAEMとの統合にコネクタを提供しない場合、AEMは XML 形式での翻訳コンテンツの手動での書き出しと読み込みをサポートします。
@@ -82,4 +81,3 @@ DITA マップダッシュボードで「翻訳」タブを非表示にするに
 | PID | プロパティキー | プロパティの値 |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | ブール値： <br>  — 一時ファイルに対して後処理操作を実行しない場合は、 *無効にする* \( false\) **後処理の言語コピー** オプション。<br>  — 一時ファイルに対して後処理操作を実行する場合は、 *有効にする* \(true\) **後処理の言語コピー** オプション。<br> **デフォルト値**: false |
-

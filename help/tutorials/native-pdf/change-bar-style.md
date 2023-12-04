@@ -1,14 +1,14 @@
 ---
 title: ネイティブPDF公開機能 |カスタムの変更バースタイルを使用する
 description: 変更バーにスタイルを適用する方法を説明します。
-source-git-commit: b6fd82fd09c04a3deefab51b1064a3b6aea73e47
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# カスタムの変更バースタイルの使用
+# カスタムの変更バースタイルを使用する
 
 変更バーは、新しいコンテンツや改訂されたコンテンツを視覚的に識別する縦線です。 AEMガイドでは、トピック内の変更されたコンテンツの左側に変更バーを表示し、PDF出力の目次に変更されたトピックも表示できます。
 

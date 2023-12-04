@@ -1,13 +1,12 @@
 ---
 title: コンバージョンプロセスのイベントハンドラー
 description: コンバージョンプロセスのイベントハンドラーについて説明します。
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # コンバージョンプロセスのイベントハンドラー {#id175UB30E05Z}
 
@@ -25,4 +24,3 @@ com/adobe/fmdita/conversion/complete
 
 **パラメーター**:\
 |名前|型|説明| |—|—|—| |`status`|String|実行された操作の戻り値のステータス。 - SUCCESS：変換処理が正常に完了した。 <br> - COMPLETED WITH ERRORS：変換プロセスは完了しましたが、エラーが発生しました。 <br> — 失敗：致命的なエラーが原因で、変換プロセスが失敗しました。| |`filePath`|String|AEMリポジトリ内のソースファイル（変換する）の絶対パス。| |`outputPath`|String|変換された DITA ファイルを保存する宛先の場所の絶対パス。| |`logPath`|String|変換ログを保存するノードの絶対パス。|
-

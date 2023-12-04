@@ -1,13 +1,12 @@
 ---
 title: AEM Guides のアンインストール
 description: AEMガイドのアンインストール方法の詳細
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # AEM Guides のアンインストール {#id21BHG0C0SXA}
 
@@ -23,7 +22,7 @@ CRX パッケージマネージャーを使用してAEM Guides をアンイン�
 
 1. com.adobe.fmdita パッケージを検索します。
 1. パッケージをクリックして展開します。
-1. クリック **詳細** をクリックしてドロップダウンを開きます。
+1. クリック **その他** をクリックしてドロップダウンを開きます。
 1. クリック **アンインストール** アンインストールが完了するまで待ちます。
 1. このパッケージが不要になった場合は、 **削除** パッケージのアンインストール後。
 
@@ -47,4 +46,3 @@ CRX パッケージマネージャーを使用してAEM Guides をアンイン�
 1. ブラウザーのキャッシュをクリーンアップします。
 
 **親トピック：**[&#x200B;ダウンロードとインストール](download-install.md)
-

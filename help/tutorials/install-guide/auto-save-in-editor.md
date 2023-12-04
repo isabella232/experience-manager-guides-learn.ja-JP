@@ -1,13 +1,12 @@
 ---
 title: Web エディターでのファイルの自動保存の設定
-description: Web エディターでファイルを自動保存する設定方法を説明します
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+description: Web エディターでファイルを自動保存する設定方法を説明します。
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%
 
 ---
-
 
 # Web エディターでのファイルの自動保存の設定 {#id199CC0J0M5Z}
 
@@ -25,12 +24,11 @@ ht-degree: 1%
 
 1. を検索して、 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** バンドル。
 
-1. 内 *XmlEditorConfig* 設定で、 **自動保存** オプション。
+1. Adobe Analytics の *XmlEditorConfig* 設定で、 **自動保存** オプション。
 
-1. 内 **自動保存間隔** 「 」フィールドで、自動保存機能のトリガー間隔を秒単位で指定します。
+1. Adobe Analytics の **自動保存間隔** 「 」フィールドで、自動保存機能のトリガー間隔を秒単位で指定します。
 
 1. 「**保存**」をクリックします。
 
 
 **親トピック：**[ Web エディタのカスタマイズ](conf-web-editor.md)
-

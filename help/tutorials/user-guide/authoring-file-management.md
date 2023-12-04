@@ -1,10 +1,9 @@
 ---
 title: ファイルとフォルダーの管理
 description: AEMガイドでファイルとフォルダーを管理する方法について説明します。 ファイルおよびフォルダーを一括でコピー&ペースト、ドラッグ&ドロップ、削除、移動、DITA コンテンツの検索を行います。
-exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---

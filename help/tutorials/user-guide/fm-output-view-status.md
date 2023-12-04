@@ -1,8 +1,7 @@
 ---
 title: 出力生成タスクのステータスの表示
 description: 出力生成キューのFrameMaker文書を表示します。 出力生成タスクのステータスを表示する方法を説明します。
-exl-id: 6fdaa547-8446-4ce5-95c3-a63d9c1f27d2
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
