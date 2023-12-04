@@ -1,20 +1,20 @@
 ---
-user-guide-title: Adobe Experience Manager Guides ビデオ
+user-guide-title: Adobe Experience Manager Guides チュートリアル
 user-guide-description: Adobe Experience Manager Guides のビデオコレクションです。
 breadcrumb-title: AEM Guides ビデオ
-source-git-commit: 7d5e4616c0f36c696549e9e08a1b5c137f36a66c
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 17%
+source-wordcount: '125'
+ht-degree: 13%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides] {#videos}
+# [!DNL Adobe Experience Manager Guides] チュートリアル {#videos}
 
 + [[!DNL AEM Guides] ビデオ](overview.md)
-+ 使用の手引き [!DNL AEM Guides] {#getting-started}
-   + [コースの概要](./course-1/overview.md)
++ の概要 [!DNL AEM Guides] {#getting-started}
+   + [はじめにの概要](./course-1/overview.md)
    + [AEMユーザーインターフェイスについて](./course-1/understanding-the-aem-user-interface.md)
    + [コンテンツの作成と構造化](./course-1/creating-and-structuring-content.md)
    + [画像の操作](./course-1/working-with-images.md)
@@ -25,7 +25,7 @@ ht-degree: 17%
    + [デフォルト出力を公開](./course-1/publishing-default-output.md)
    + [まとめ](./course-1/recap.md)
 + 次を使用した出力の生成 [!DNL AEM Guides] {#output-generation}
-   + [概要](./course-2/overview.md)
+   + [出力生成の概要](./course-2/overview.md)
    + [マップダッシュボードについて](./course-2/introduction-to-the-map-dashboard.md)
    + [レポートの操作](./course-2/working-with-reports.md)
    + [ベースラインを使用した作成および公開](./course-2/creating-and-publishing-with-baselines.md)
@@ -35,7 +35,7 @@ ht-degree: 17%
    + [一括公開](./course-2/bulk-publishing.md)
    + [まとめ](./course-2/recap.md)
 + を使用したオーサリング [!DNL AEM Guides] 編集者 {#advanced-user-guide}
-   + [概要/概要](./course-3/overview.md)
+   + [オーサリングの概要](./course-3/overview.md)
    + [[ ユーザの環境設定 ]、[ エディタの設定 ]、[ エディタのツールバー ]](./course-3/user-settings-preferences-toolbars.md)
    + [フォルダープロファイル](./course-3/folder-profiles.md)
    + [エディター設定](./course-3/editor-configuration.md)
