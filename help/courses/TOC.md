@@ -1,16 +1,16 @@
 ---
 user-guide-title: Adobe Experience Manager Guides チュートリアル
 user-guide-description: Adobe Experience Manager Guides のビデオコレクションです。
-breadcrumb-title: AEM Guides ビデオ
-source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
+breadcrumb-title: AEM Guides のチュートリアル
+source-git-commit: b78894069aa2b1279365d716332b5f6e2e3be865
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 13%
+source-wordcount: '127'
+ht-degree: 18%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides] チュートリアル {#videos}
+# Tutorials [!DNL Adobe Experience Manager Guides] {#videos}
 
 + [[!DNL AEM Guides] ビデオ](overview.md)
 + の概要 [!DNL AEM Guides] {#getting-started}
